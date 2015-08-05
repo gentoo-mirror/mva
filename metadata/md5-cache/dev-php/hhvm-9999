@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	user	f54e098dd38ba1c0847a13e685b87747	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=c535abfa5f22431636a60eac1d60fba1
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup test unpack
+EAPI=5
+DEPEND=>=dev-libs/boost-1.49 sys-devel/flex sys-devel/bison dev-util/re2c virtual/mysql dev-libs/libxml2 dev-libs/libmcrypt dev-libs/icu dev-libs/openssl sys-libs/libcap media-libs/gd sys-libs/zlib dev-cpp/tbb dev-libs/oniguruma dev-libs/libpcre dev-libs/expat || ( sys-libs/readline dev-libs/libedit ) sys-libs/ncurses dev-libs/libmemcached net-nds/openldap net-libs/c-client[kerberos] dev-util/google-perftools dev-libs/cloog dev-libs/elfutils =dev-libs/libdwarf-20120410 app-arch/bzip2 sys-devel/binutils >=sys-devel/gcc-4.7 dev-cpp/glog jemalloc? ( >=dev-libs/jemalloc-3.0.0[stats] ) dev-libs/libxslt media-gfx/imagemagick >=dev-util/cmake-2.8.7 >=dev-vcs/git-1.8.2.1 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Virtual Machine, Runtime, and JIT for PHP
+LICENSE=PHP-3
+IUSE=+jemalloc devel debug
+SRC_URI=http://curl.haxx.se/download/curl-7.31.0.tar.bz2 https://github.com/downloads/libevent/libevent/libevent-1.4.14b-stable.tar.gz
+KEYWORDS=~amd64
+HOMEPAGE=https://github.com/facebook/hhvm
+RDEPEND=>=dev-libs/boost-1.49 sys-devel/flex sys-devel/bison dev-util/re2c virtual/mysql dev-libs/libxml2 dev-libs/libmcrypt dev-libs/icu dev-libs/openssl sys-libs/libcap media-libs/gd sys-libs/zlib dev-cpp/tbb dev-libs/oniguruma dev-libs/libpcre dev-libs/expat || ( sys-libs/readline dev-libs/libedit ) sys-libs/ncurses dev-libs/libmemcached net-nds/openldap net-libs/c-client[kerberos] dev-util/google-perftools dev-libs/cloog dev-libs/elfutils =dev-libs/libdwarf-20120410 app-arch/bzip2 sys-devel/binutils >=sys-devel/gcc-4.7 dev-cpp/glog jemalloc? ( >=dev-libs/jemalloc-3.0.0[stats] ) dev-libs/libxslt media-gfx/imagemagick

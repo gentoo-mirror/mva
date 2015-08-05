@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=ce24a5ffcce8950b0ab7e1cd3481f83e
+SLOT=0
+DEFINED_PHASES=install
+EAPI=5
+DEPEND=app-arch/unzip media-gfx/imagemagick[png] media-gfx/icoutils
+DESCRIPTION=Proprietary freeware multimedia map of several Russian and Ukrainian towns
+LICENSE=2Gis-ru
+IUSE=+data
+SRC_URI=http://download.2gis.ru/arhives/2GISShell-3.14.12.0.orig.zip
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=http://2gis.ru
+RDEPEND=app-emulation/wine data? ( app-misc/2gis-data )

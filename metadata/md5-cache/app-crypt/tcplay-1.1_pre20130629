@@ -1,0 +1,15 @@
+_eclasses_=ruby-ng	a1c75617b3482d513ad41d1aea8dbf8f	toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	ruby-utils	a74e21a353442acf697b6c82e7df6df8	cmake-utils	430c386d85cec959d72640afd63ea91	vcs-snapshot	58b766562c9fbfb3268b04e33cdf2f66	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=62b9f2f1710939d22e878392c3332307
+SLOT=0
+DEFINED_PHASES=compile configure install prepare setup test unpack
+EAPI=5
+DEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( test? ( dev-ruby/json[ruby_targets_ruby19] dev-util/cucumber[ruby_targets_ruby19] dev-ruby/rspec[ruby_targets_ruby19] dev-ruby/ffi[ruby_targets_ruby19] ) ) ruby_targets_ruby19? ( dev-lang/ruby:1.9 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Free and simple TrueCrypt Implementation based on dm-crypt
+LICENSE=BSD-2
+IUSE=static-libs test elibc_FreeBSD ruby_targets_ruby19
+REQUIRED_USE=|| ( ruby_targets_ruby19 )
+RESTRICT=test
+SRC_URI=https://github.com/bwalex/tc-play/tarball/b44b1fad854c726dda3ec7bfc96fe2d437d4343f -> tcplay-1.1_pre20130629.tar.gz
+KEYWORDS=~x86 ~amd64
+HOMEPAGE=https://github.com/bwalex/tc-play
+RDEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( dev-lang/ruby:1.9 )

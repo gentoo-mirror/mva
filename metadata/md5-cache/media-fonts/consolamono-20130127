@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	font	b3239d2dc442d1717b9725e2be7cb5d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9aac0800413a141a27565957182fe0d1
+SLOT=0
+DEFINED_PHASES=install postinst postrm setup
+EAPI=5
+DEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings )
+LICENSE=OFL
+IUSE=X
+RESTRICT=strip binchecks
+SRC_URI=http://openfontlibrary.org/assets/downloads/consolamono/61cc2afcc4eca96efe7c6ebf178d39df/consolamono.zip -> consolamono-20130127.zip
+KEYWORDS=amd64 arm ppc ppc64 x86
+HOMEPAGE=http://openfontlibrary.org/font/consolamono

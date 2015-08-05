@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	linux-info	8cbc678e083c23e4ad546ca6509cf304	linux-mod	101302d4b7b694ea9622bbffb187d0de	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=2c1e86330af1dd64e579200c4f39eab3
+SLOT=0
+DEFINED_PHASES=compile install postinst postrm preinst setup
+EAPI=5
+DEPEND=dev-lang/perl kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources )
+DESCRIPTION=A litte data acquisition tool for the V&A VA18B (and others, e.g. PeakTech 3375) multimeter.
+LICENSE=GPL-2
+IUSE=kernel_linux
+SRC_URI=http://multimeter.schewe.com/multimeter-0.2.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://multimeter.schewe.com/
+RDEPEND=dev-lang/perl kernel_linux? ( virtual/modutils )

@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	git-r3	727a612b4c6247766904e3f74a326e2b	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	kde4-functions	99e770658f27aaf2c8a5850af7598b18	cmake-utils	430c386d85cec959d72640afd63ea91	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4f539e031b7656afe7f34650a3a1fac
+SLOT=4
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+EAPI=5
+DEPEND=>=kde-base/libkonq-4.7:4[aqua=] >=dev-vcs/git-1.8.2.1 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=Provides Dropbox integration in Dolphin.
+LICENSE=GPL-3
+IUSE=aqua
+HOMEPAGE=http://gitweb.kde.org/scratch/trichard/dolphin-box-plugin.git
+RDEPEND=>=kde-base/libkonq-4.7:4[aqua=]

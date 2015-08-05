@@ -1,0 +1,10 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=5692b437b71de9b30b7c60438673a971
+SLOT=0
+DEFINED_PHASES=install prepare unpack
+EAPI=5
+DEPEND=virtual/libusb:1 virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
+LICENSE=GPL-2
+HOMEPAGE=http://wiki.openmoko.org/wiki/Dfu-util
+RDEPEND=virtual/libusb:1

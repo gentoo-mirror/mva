@@ -1,0 +1,15 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	bash-completion	f913ed18b57a2d3372c4291680454db4	gnome2-utils	5cdfd22a2163c9d3a891648bd19453a7	rpm	b94b54b44f14d6bee3e966c8f5c86fba	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4cde1db3f9c50c8cd9bfc48a44cec9c1
+SLOT=0
+DEFINED_PHASES=install postinst postrm preinst prerm setup unpack
+EAPI=5
+DEPEND=>=sys-apps/sed-4 >=app-arch/rpm2targz-9.0.0.3g
+DESCRIPTION=Antivirus and antispyware scanner for both UNIX-based and Windows-based partitions
+LICENSE=BitDefender-ASU-EUSLA
+IUSE=bash-completion examples gtk bash-completion
+RESTRICT=fetch
+PDEPEND=bash-completion? ( app-shells/bash-completion )
+SRC_URI=amd64? ( BitDefender-Antivirus-Scanner-7.6-4.linux-gcc4x.amd64.rpm.run ) x86? ( BitDefender-Antivirus-Scanner-7.6-4.linux-gcc4x.i586.rpm.run )
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.bitdefender.com/PRODUCT-80-en--BitDefender-Antivirus-Scanner-for-Unices.html
+RDEPEND=!app-antivirus/bitdefender-console gtk? ( >=dev-libs/atk-1.22.0 >=dev-libs/glib-2.18.4-r1 >=media-libs/fontconfig-2.5.0-r1 >=x11-libs/gtk+-2.12.11 >=x11-libs/libSM-1.1.0 >=x11-libs/libX11-1.1.2-r1 >=x11-libs/libXcursor-1.1.8 >=x11-libs/libXext-1.0.3 >=x11-libs/libXfixes-4.0.3 >=x11-libs/libXi-1.1.2 >=x11-libs/libXinerama-1.0.2 >=x11-libs/libXrender-0.9.2 >=x11-libs/pango-1.24.2 ) >=sys-devel/gcc-4.1.2 >=sys-libs/glibc-2.3.1 bash-completion? ( app-admin/eselect )

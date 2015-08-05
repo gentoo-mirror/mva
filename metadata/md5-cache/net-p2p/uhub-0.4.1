@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	cmake-utils	430c386d85cec959d72640afd63ea91	flag-o-matic	c9602887773166fe300444712fc7ff98
+_md5_=f8025f695cc5794e1990be828032a0ad
+SLOT=0
+DEFINED_PHASES=compile configure install postinst prepare test
+EAPI=5
+DEPEND=>=dev-util/cmake-2.8.3 ssl? ( >=dev-libs/openssl-0.9.8 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DESCRIPTION=High performance peer-to-peer hub for the ADC network
+LICENSE=GPL-3
+IUSE=debug +ssl systemd
+SRC_URI=http://www.extatic.org/downloads/uhub/uhub-0.4.1-src.tar.bz2
+HOMEPAGE=https://uhub.org/
+RDEPEND=>=dev-util/cmake-2.8.3 ssl? ( >=dev-libs/openssl-0.9.8 )

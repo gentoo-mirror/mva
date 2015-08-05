@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=82ede94c78af65679648730344af8033
+SLOT=0
+DEFINED_PHASES=install prepare unpack
+EAPI=5
+DESCRIPTION=A free software package for using multi-locus genotype data to investigate population structure
+LICENSE=GPL-2
+IUSE=java doc
+RESTRICT=mirror
+SRC_URI=http://pritch.bsd.uchicago.edu/structure_software/release_versions/v2.3.3/structure_kernel_source.tar.gz java? ( http://pritch.bsd.uchicago.edu/structure_software/release_versions/v2.3.3/structure_frontend_source.tar.gz ) doc? ( http://pritch.bsd.uchicago.edu/structure_software/release_versions/v2.3.3/structure_doc.pdf )
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://pritch.bsd.uchicago.edu/structure.html
+RDEPEND=java? ( virtual/jre )

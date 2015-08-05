@@ -1,0 +1,12 @@
+_eclasses_=systemd	90342761f573a8280dd5aa6b0345f3b	toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=7fe45cd6dd72843b826c7d3b5cbdedef
+SLOT=0
+DEFINED_PHASES=configure install prepare unpack
+EAPI=5
+DEPEND=dev-libs/glib:2 >=virtual/udev-172 x11-libs/libxkbcommon sys-apps/libtsm sys-kernel/linux-headers dbus? ( sys-apps/dbus ) drm? ( x11-libs/libdrm >=media-libs/mesa-8.0.3[egl,gbm] ) gles2? ( >=media-libs/mesa-8.0.3[gles2] ) pango? ( x11-libs/pango ) systemd? ( sys-apps/systemd ) udev? ( virtual/udev ) pixman? ( x11-libs/pixman ) wayland? ( dev-libs/wayland ) virtual/pkgconfig x11-proto/xproto doc? ( dev-util/gtk-doc ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DESCRIPTION=KMS/DRM based virtual Console Emulator
+LICENSE=MIT LGPL-2.1 BSD-2
+IUSE=dbus debug doc +drm +fbdev +gles2 multiseat +optimizations +pango pixman static-libs systemd udev +unicode wayland
+REQUIRED_USE=gles2? ( drm ) multiseat? ( systemd )
+HOMEPAGE=http://www.freedesktop.org/wiki/Software/kmscon
+RDEPEND=dev-libs/glib:2 >=virtual/udev-172 x11-libs/libxkbcommon sys-apps/libtsm sys-kernel/linux-headers dbus? ( sys-apps/dbus ) drm? ( x11-libs/libdrm >=media-libs/mesa-8.0.3[egl,gbm] ) gles2? ( >=media-libs/mesa-8.0.3[gles2] ) pango? ( x11-libs/pango ) systemd? ( sys-apps/systemd ) udev? ( virtual/udev ) pixman? ( x11-libs/pixman ) wayland? ( dev-libs/wayland ) x11-misc/xkeyboard-config

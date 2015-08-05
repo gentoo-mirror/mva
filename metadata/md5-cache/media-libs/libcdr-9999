@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	git-2	e28f0d8a9b321431b1e699782851b827	base	87f7447ccfc06fd0729ff4684e11e0d6	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=e454b844d2a324e854e573d9b153a5ac
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=app-text/libwpd:0.9 app-text/libwpg:0.2 dev-libs/icu:= media-libs/lcms:2 sys-libs/zlib dev-libs/librevenge dev-libs/boost sys-devel/libtool virtual/pkgconfig doc? ( app-doc/doxygen ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-vcs/git
+DESCRIPTION=Library parsing the Corel cdr documents
+LICENSE=LGPL-2.1
+IUSE=doc static-libs
+HOMEPAGE=http://www.freedesktop.org/wiki/Software/libcdr
+RDEPEND=app-text/libwpd:0.9 app-text/libwpg:0.2 dev-libs/icu:= media-libs/lcms:2 sys-libs/zlib dev-libs/librevenge

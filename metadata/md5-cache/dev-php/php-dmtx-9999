@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	flag-o-matic	c9602887773166fe300444712fc7ff98	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	php-ext-source-r2	b4d5827d04ab9f22f094e1ecab1df639	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=8e7b75d9c05216e9cca18fe845b2ec52
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=dev-lang/php media-libs/libdmtx !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=sys-devel/m4-1.4.3 >=sys-devel/libtool-1.5.18 php_targets_php5-3? ( dev-lang/php:5.3 ) php_targets_php5-4? ( dev-lang/php:5.4 ) php_targets_php5-5? ( dev-lang/php:5.5 ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=PHP bindings for the dmtx library
+LICENSE=PHP-3.01
+IUSE=php_targets_php5-3 php_targets_php5-4 php_targets_php5-5
+REQUIRED_USE=|| ( php_targets_php5-3 php_targets_php5-4 php_targets_php5-5 )
+HOMEPAGE=https://github.com/dmtx/php-dmtx
+RDEPEND=dev-lang/php media-libs/libdmtx php_targets_php5-3? ( dev-lang/php:5.3 ) php_targets_php5-4? ( dev-lang/php:5.4 ) php_targets_php5-5? ( dev-lang/php:5.5 )

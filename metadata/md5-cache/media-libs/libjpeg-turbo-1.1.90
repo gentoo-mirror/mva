@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	java-utils-2	240e3f28c6b42b9f36d3c36b8b27fbb2	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	java-pkg-opt-2	f9bbbe5092225a2059aa9e6a3a2b52f1	libtool	52d0e17251d04645ffaa61bfdd858944	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=93448f79baef7114331f85b901191fb4
+SLOT=0
+DEFINED_PHASES=compile configure install preinst prepare setup test
+EAPI=5
+DEPEND=!media-libs/jpeg:0 amd64? ( || ( dev-lang/nasm dev-lang/yasm ) ) x86? ( || ( dev-lang/nasm dev-lang/yasm ) ) amd64-linux? ( || ( dev-lang/nasm dev-lang/yasm ) ) x86-linux? ( || ( dev-lang/nasm dev-lang/yasm ) ) java? ( >=virtual/jdk-1.5 ) java? ( >=dev-java/java-config-2.2.0 )
+DESCRIPTION=MMX, SSE, and SSE2 SIMD accelerated JPEG library
+LICENSE=BSD
+IUSE=java static-libs pic elibc_FreeBSD java
+SRC_URI=mirror://sourceforge/libjpeg-turbo/libjpeg-turbo-1.1.90.tar.gz mirror://debian/pool/main/libj/libjpeg8/libjpeg8_8c-2.debian.tar.gz
+KEYWORDS=~amd64 ~arm ~hppa ~x86 ~amd64-linux ~x86-linux
+HOMEPAGE=http://libjpeg-turbo.virtualgl.org/ http://sourceforge.net/projects/libjpeg-turbo/
+RDEPEND=!media-libs/jpeg:0 java? ( >=virtual/jre-1.5 ) java? ( >=dev-java/java-config-2.2.0 )

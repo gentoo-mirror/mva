@@ -1,0 +1,14 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	unpacker	f300a7ca9131b1024a79762e8edd3c52	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=56678e22b83cdff058163197e64202f7
+SLOT=0
+DEFINED_PHASES=install prepare unpack
+EAPI=5
+DEPEND=>=sys-apps/pcsc-lite-1.7 >=app-crypt/asedriveiiie-usb-3.7 dev-libs/libusb:0
+DESCRIPTION=Mozilla-совместимый бруазерный плагин-криптопровайдер для авторизации на портале http://gosuslugi.ru/
+LICENSE=EULA
+IUSE=multilib
+REQUIRED_USE=amd64? ( multilib )
+SRC_URI=amd64? ( https://ds-plugin.gosuslugi.ru/plugin/htdocs/plugin/IFCPlugin-x86_64.deb ) x86? ( https://ds-plugin.gosuslugi.ru/plugin/htdocs/plugin/IFCPlugin-i386.deb ) x86-macos? ( https://ds-plugin.gosuslugi.ru/plugin/htdocs/plugin/IFCPlugin-2.0.6.0.pkg ) x64-macos? ( https://ds-plugin.gosuslugi.ru/plugin/htdocs/plugin/IFCPlugin-2.0.6.0.pkg )
+KEYWORDS=-* ~x86 ~amd64 x86-macos x64-macos
+HOMEPAGE=http://gosuslugi.ru/
+RDEPEND=>=sys-apps/pcsc-lite-1.7 >=app-crypt/asedriveiiie-usb-3.7 dev-libs/libusb:0

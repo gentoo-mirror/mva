@@ -1,0 +1,12 @@
+_eclasses_=qmake-utils	4ce40e37ef0e28425a7159b0353be026	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=767bd603243288ae3d65de022785f2f5
+SLOT=0
+DEFINED_PHASES=configure install postinst
+EAPI=5
+DEPEND=>=dev-qt/qtcore-5.4.0:5 >=dev-qt/qtsvg-5.4.0:5
+DESCRIPTION=Qt5 configuration utility
+LICENSE=BSD
+SRC_URI=mirror://sourceforge/qt5ct/qt5ct-0.12.tar.bz2
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://qt-apps.org/content/show.php/Qt5+Configuration+Tool?content=168066
+RDEPEND=>=dev-qt/qtcore-5.4.0:5 >=dev-qt/qtsvg-5.4.0:5

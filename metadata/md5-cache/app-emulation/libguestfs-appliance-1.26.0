@@ -1,0 +1,10 @@
+_eclasses_=multilib	62927b3db3a589b0806255f3a002d5d3	toolchain-funcs	42408102d713fbad60ca21349865edb4	check-reqs	a7f404bfb16e0a996700c5d3ac4edad3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=cfa9f026be98c493d7c39717a60c3000
+SLOT=0
+DEFINED_PHASES=install postinst pretend setup
+EAPI=5
+DESCRIPTION=VM applance disk image used in libguestfs package
+LICENSE=GPL-2 LGPL-2
+SRC_URI=http://libguestfs.org/download/binaries/appliance/appliance-1.26.0.tar.xz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://libguestfs.org/

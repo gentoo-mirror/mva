@@ -1,0 +1,11 @@
+_eclasses_=git-2	e28f0d8a9b321431b1e699782851b827
+_md5_=4063139f89cb4497bf97caf5edd8f66
+SLOT=0
+DEFINED_PHASES=install unpack
+EAPI=5
+DEPEND=dev-lang/php[cli,simplexml] dev-php/pear dev-vcs/git
+DESCRIPTION=Drush is a command line shell and scripting interface for Drupal
+LICENSE=GPL-2
+IUSE=examples
+HOMEPAGE=http://drupal.org/project/drush
+RDEPEND=dev-lang/php[cli,simplexml] dev-php/pear

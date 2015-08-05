@@ -1,0 +1,9 @@
+_eclasses_=subversion	c12bdf4fcc82f86ad89b14c8f76c4026	toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=88b137f90abce8de94152f75b2f0bb1f
+SLOT=0
+DEFINED_PHASES=compile install preinst prepare unpack
+EAPI=5
+DEPEND=|| ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DESCRIPTION=Limits the CPU usage of a process
+LICENSE=GPL-2
+HOMEPAGE=http://cpulimit.sourceforge.net

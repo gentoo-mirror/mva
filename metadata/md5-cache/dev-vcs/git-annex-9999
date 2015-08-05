@@ -1,0 +1,13 @@
+_eclasses_=git-2	e28f0d8a9b321431b1e699782851b827	toolchain-funcs	42408102d713fbad60ca21349865edb4	versionator	cd0bcdb170807e4a1984115e9d53a26f	multilib	62927b3db3a589b0806255f3a002d5d3	ghc-package	48ae4e0fd75e1c8047c4b7f507d5debc	haskell-cabal	7ef7b3e7548c8c61352984737b22d3e3	multiprocessing	d7f2985a2c76c365ee20269db5261414	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=47c7a719851a0cebf0c8ad2d5048fe35
+SLOT=0
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+EAPI=5
+DEPEND=>=dev-vcs/git-1.7.7 test? ( dev-haskell/extensible-exceptions dev-haskell/hunit dev-haskell/testpack ) dev-haskell/bloomfilter >=dev-haskell/cabal-1.8 dev-haskell/dataenc dev-haskell/edit-distance dev-haskell/hs3 dev-haskell/hslogger dev-haskell/http dev-haskell/ifelse dev-haskell/json dev-haskell/lifted-base dev-haskell/missingh dev-haskell/monad-control dev-haskell/mtl dev-haskell/network dev-haskell/pcre-light >=dev-haskell/quickcheck-2.1 dev-haskell/sha dev-haskell/text dev-haskell/time dev-haskell/transformers-base dev-haskell/utf8-string >=dev-lang/ghc-6.12.3 dev-lang/perl doc? ( www-apps/ikiwiki net-misc/rsync ) dev-vcs/git >=dev-haskell/cabal-1.1.4
+DESCRIPTION=manage files with git, without checking their contents into git
+LICENSE=GPL-2
+IUSE=doc test
+RESTRICT=test
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://git-annex.branchable.com/
+RDEPEND=>=dev-vcs/git-1.7.7

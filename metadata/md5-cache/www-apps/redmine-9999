@@ -1,0 +1,11 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	user	f54e098dd38ba1c0847a13e685b87747	confutils	2ab69b52fa6ea0c0669a47fb94b354b4	depend.apache	1a38534d3f755d1ab1d92ce120bd7dbd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=cdb9c3f793df13b3cf430204c1905205
+SLOT=0
+DEFINED_PHASES=install postinst prepare setup unpack
+EAPI=5
+DEPEND=>=dev-ruby/rails-2.3.4:2.3 dev-ruby/activerecord:2.3[mysql?,postgres?,sqlite3?] imagemagick? ( dev-ruby/rmagick ) fastcgi? ( dev-ruby/ruby-fcgi-ng ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Redmine is a flexible project management web application written using Ruby on Rails framework
+LICENSE=GPL-2
+IUSE=cvs darcs git imagemagick mercurial mysql passenger postgres sqlite3 subversion mongrel fastcgi
+HOMEPAGE=http://www.redmine.org/
+RDEPEND=>=dev-ruby/rails-2.3.4:2.3 dev-ruby/activerecord:2.3[mysql?,postgres?,sqlite3?] imagemagick? ( dev-ruby/rmagick ) fastcgi? ( dev-ruby/ruby-fcgi-ng ) >=dev-ruby/ruby-net-ldap-0.0.4 >=dev-ruby/coderay-0.7.6.227 cvs? ( >=dev-vcs/cvs-1.12 ) darcs? ( dev-vcs/darcs ) git? ( dev-vcs/git ) mercurial? ( dev-vcs/mercurial ) subversion? ( >=dev-vcs/subversion-1.3 ) mongrel? ( www-servers/mongrel_cluster www-servers/apache[apache2_modules_proxy,apache2_modules_proxy_http,apache2_modules_proxy_balancer] ) passenger? ( || ( www-apache/passenger www-servers/nginx[nginx_modules_http_passenger] ) )

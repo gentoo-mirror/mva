@@ -1,0 +1,14 @@
+_eclasses_=qmake-utils	4ce40e37ef0e28425a7159b0353be026	toolchain-funcs	42408102d713fbad60ca21349865edb4	base	87f7447ccfc06fd0729ff4684e11e0d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=4222f91d5dfc385b9c5a6d1d08b81ab5
+SLOT=0
+DEFINED_PHASES=compile configure install prepare unpack
+EAPI=5
+DEPEND=dev-qt/qtcore dev-qt/qtdeclarative !icu? ( dev-libs/uchardet ) icu? ( dev-libs/icu ) test? ( dev-qt/qttest )
+DESCRIPTION=A cross-platform IRC framework written with Qt
+LICENSE=LGPL-2.1
+IUSE=icu test examples qt4 qt5
+REQUIRED_USE=^^ ( qt4 qt5 )
+SRC_URI=https://github.com/communi/libcommuni/archive/v3.0.3.tar.gz -> communi-3.0.3.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=https://github.com/communi/libcommuni
+RDEPEND=dev-qt/qtcore dev-qt/qtdeclarative !icu? ( dev-libs/uchardet ) icu? ( dev-libs/icu )

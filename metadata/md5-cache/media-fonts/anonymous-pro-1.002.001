@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	font	b3239d2dc442d1717b9725e2be7cb5d6	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9b7496ac1f920f817dff5b394ccbd6d
+SLOT=0
+DEFINED_PHASES=install postinst postrm setup
+EAPI=5
+DEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings )
+DESCRIPTION=A monospace font that is ideal for use in terminals, text editors, and programming environments.
+LICENSE=OFL
+IUSE=X
+RESTRICT=strip binchecks
+SRC_URI=http://openfontlibrary.org/assets/downloads/anonymous-pro/bb5141b20b9d69b3190be03e5706c8b7/anonymous-pro.zip -> anonymous-pro-1.002.001.zip
+KEYWORDS=amd64 arm ppc ppc64 x86
+HOMEPAGE=http://openfontlibrary.org/font/anonymous-pro
