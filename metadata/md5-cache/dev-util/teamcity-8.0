@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	eutils	351a78113be5b393c09a2c948701ad36
+_md5_=a02442b110747e5e582ef74665b81631
+SLOT=0
+DEFINED_PHASES=install prepare setup
+EAPI=5
+DESCRIPTION=Extensible continuous integration server
+LICENSE=MIT
+RESTRICT=mirror
+SRC_URI=http://download.jetbrains.com/teamcity/TeamCity-8.0.tar.gz
+KEYWORDS=x86 amd64
+HOMEPAGE=http://www.jetbrains.com/teamcity/
+RDEPEND=>=virtual/jdk-1.5

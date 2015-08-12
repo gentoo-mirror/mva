@@ -1,0 +1,13 @@
+_eclasses_=confutils	18995f74ac4ffafb7ad853dfe133f209	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	wxwidgets	6712758caa92e836a735c1281b34e70e	eutils	351a78113be5b393c09a2c948701ad36
+_md5_=12e96b219eebbb65542e099b853cdca3
+SLOT=0
+DEFINED_PHASES=install setup unpack
+EAPI=5
+DEPEND=app-arch/deb2targz
+DESCRIPTION=Free proprietary cross-platform VoIP-client with SIP and IAX support.
+LICENSE=EULA
+IUSE=alsa oss
+RESTRICT=strip
+SRC_URI=x86? ( alsa? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-alsa_1.0-1ubuntu16_i386.deb ) oss? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-oss_1.0-1ubuntu16_i386.deb ) http://rion-overlay.googlecode.com/files/libavutil_x86.tbz2 ) amd64? ( alsa? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-alsa_1.0-1ubuntu12_amd64.deb ) oss? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-oss_1.0-1ubuntu12_amd64.deb ) http://rion-overlay.googlecode.com/files/libavutil_amd64.tbz2 )
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.zoiper.com/

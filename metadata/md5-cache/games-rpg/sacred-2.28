@@ -1,0 +1,13 @@
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	check-reqs	b27570870865543b1c55261abb19533a	eutils	351a78113be5b393c09a2c948701ad36
+_md5_=b3f5246784db68fe7ca317e287c056fa
+SLOT=0
+DEFINED_PHASES=install postinst pretend setup
+EAPI=5
+DESCRIPTION=Linux port of famous RPG-game.
+LICENSE=EULA
+IUSE=iampirate linguas_ru
+RESTRICT=mirror strip test
+SRC_URI=sacred.tar.bz2 iampirate? ( sacred_pirate.tar.bz2 ) linguas_ru? ( sacred_rus.tar.bz2 )
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://www.linuxgamepublishing.com/
+RDEPEND=x11-base/xorg-server >=x11-libs/gtk+-2.0.0 amd64? ( app-emulation/emul-linux-x86-baselibs app-emulation/emul-linux-x86-compat app-emulation/emul-linux-x86-gtklibs app-emulation/emul-linux-x86-medialibs app-emulation/emul-linux-x86-sdl app-emulation/emul-linux-x86-soundlibs app-emulation/emul-linux-x86-xlibs )

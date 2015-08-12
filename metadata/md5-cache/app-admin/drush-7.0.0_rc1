@@ -1,0 +1,13 @@
+_eclasses_=
+_md5_=387e9abf1577fa9d1412b9ccadeed65a
+SLOT=0
+DEFINED_PHASES=install
+EAPI=5
+DEPEND=dev-lang/php[cli,simplexml] dev-php/pear
+DESCRIPTION=Drush is a command line shell and scripting interface for Drupal
+LICENSE=GPL-2
+IUSE=examples
+SRC_URI=https://github.com/drush-ops/drush/archive/7.0.0-rc1.tar.gz -> drush-7.0.0_rc1.tar.gz
+KEYWORDS=~amd64 ~x86
+HOMEPAGE=http://drupal.org/project/drush
+RDEPEND=dev-lang/php[cli,simplexml] dev-php/pear

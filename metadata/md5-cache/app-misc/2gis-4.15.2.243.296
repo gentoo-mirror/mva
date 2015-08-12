@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	unpacker	1ca344bd9b922a7f8084a3fa02933b79	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	eutils	351a78113be5b393c09a2c948701ad36
+_md5_=4bda4b778e0af4cb63d236efd403133
+SLOT=0
+DEFINED_PHASES=install prepare unpack
+EAPI=5
+DEPEND=!!<=app-misc/2gis-4.0 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 media-libs/mesa sys-devel/gcc data? ( app-misc/2gis-data )
+DESCRIPTION=Proprietary freeware multimedia map of several Russian and Ukrainian towns
+LICENSE=2Gis-ru
+IUSE=+data
+SRC_URI=http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv243+r296_amd64.deb
+KEYWORDS=-* ~amd64
+HOMEPAGE=http://2gis.ru
+RDEPEND=!!<=app-misc/2gis-4.0 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 media-libs/mesa sys-devel/gcc data? ( app-misc/2gis-data )
