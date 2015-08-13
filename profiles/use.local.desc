@@ -1,19 +1,18 @@
 # This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
 # your descriptions to your package's metadata.xml ONLY.
-# * generated automatically using egencache *
+# * generated automatically using pmaint *
 
 app-antivirus/bitdefender-scanner:gtk - Enable the graphical user interface based on x11-libs/gtk+
-app-arch/rpm:dmalloc - 
-app-arch/rpm:efence - 
-app-arch/rpm:keyutils - 
-app-arch/rpm:magic - 
-app-arch/rpm:xar - 
-app-arch/rpm:xz - 
 app-crypt/gnupg:idea - Add support for the IDEA algorithm
 app-crypt/gnupg:openct - Bring in dev-libs/openct as a dependency; enable scdaemon.
 app-crypt/gnupg:pcsc-lite - Bring in sys-apps/pcsc-lite as a dependency; enable scdaemon.
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
+app-emulation/libguestfs:erlang - Build Erlang bindings
+app-emulation/libguestfs:fuse - Enable image mount support via fuse
+app-emulation/libguestfs:inspect-icons - Use media-gfx/icoutilsfor acces icon file in image and inspect it
+app-emulation/libguestfs:introspection - Use dev-libs/gobject-introspection for introspection
+app-emulation/libguestfs:systemtap - Use dev-util/systemtap to inspect VM via "probes" way
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-data:arkh - 
 app-misc/2gis-data:astr - The map of Astrakhan for app-misc/2gis
@@ -71,26 +70,69 @@ app-misc/2gis-data:volg - The map of Volgograd for app-misc/2gis
 app-misc/2gis-data:vrnz - The map of Voronezh for app-misc/2gis
 app-misc/2gis-data:yak - 
 app-misc/2gis-data:yar - The map of Yaroslavl for app-misc/2gis
+dev-db/redis:jemalloc - Use dev-libs/jemalloc for allocations.
+dev-db/redis:tcmalloc - Use tcmalloc from dev-util/google-perftools for allocations.
+dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
+dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
-dev-ruby/rails:asset-pipeline - Also install the default components for the asset pipeline. These are not required but they are activated automatically in new Rails projects by default.
+dev-libs/librevenge:tools - Build miscellaneous tools
+dev-libs/libsodium:asm - Enables assembly implementations
+dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
+dev-libs/sregex:asm - Enables assembly implementations
+dev-libs/sregex:urandom - Use /dev/urandom instead of /dev/random
+dev-util/android-ndk:legacy-toolchains - Install legacy toolchains
+dev-util/android-ndk:target-32 - Support for 32-bit targets
+dev-util/android-ndk:target-64 - Support for 64-bit targets
 games-rpg/sacred:iampirate - 
 media-libs/libjpeg-turbo:pic - 
-media-sound/asterisk-sounds-ru:alaw - 
-media-sound/asterisk-sounds-ru:wav - 
-net-analyzer/nmap:ncat - Install the ncat utility
-net-analyzer/nmap:ndiff - Install the ndiff utility
-net-analyzer/nmap:nmap-update - Install nmap-update, which uses dev-vcs/subversion to update nmap scripts in your home directory
-net-analyzer/nmap:nping - Install the nping utility
 net-analyzer/rrdtool:rrdcgi - Build rrdcgi support
 net-dns/dnsmasq:dhcp - Enable support for reading ISC DHCPd lease files
 net-dns/dnsmasq:tftp - Enables built in TFTP server for netbooting
+net-misc/ofono:atmodem - ETSI AT modem support.
+net-misc/ofono:bluetooth - Enable Bluetooth modem support using net-wireless/bluez.
+net-misc/ofono:cdmamodem - Enable CDMA modem support.
+net-misc/ofono:isimodem - Enable PhoNet/ISI modem support.
+net-misc/ofono:phonesim - Enable phone Simulator support
+net-misc/ofono:tools - Enable testing tools
 net-voip/sflphone:doxygen - Support for building documentation with doxygen
 net-voip/sflphone:iax - Support for IAX (Inter Asterisk eXchange)
+sys-apps/kmscon:drm - Enable Linux DRM for backend
+sys-apps/kmscon:fbdev - Enable Linux FBDev for backend
+sys-apps/kmscon:gles2 - Enable GLES2 for backend
+sys-apps/kmscon:multiseat - Enable multiseat support via systemd
+sys-apps/kmscon:optimizations - Enable optimizations
+sys-apps/kmscon:pango - Enable pango font rendering
+sys-apps/kmscon:pixman - Enable pixman font rendering
+sys-apps/libtsm:drm - Enable Linux DRM for backend
+sys-apps/libtsm:fbdev - Enable Linux FBDev for backend
+sys-apps/libtsm:gles2 - Enable GLES2 for backend
+sys-apps/libtsm:multiseat - Enable multiseat support via systemd
+sys-apps/libtsm:optimizations - Enable optimizations
+sys-apps/libtsm:pango - Enable pango font rendering
+sys-apps/libtsm:pixman - Enable pixman font rendering
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
 www-apps/ctpp2:md5 - 
 www-apps/redmine:openid - Enable support for OpenID
 www-apps/redmine:passenger - Enable support for Phusion Passenger (aka mod_rails)
+www-servers/apache-headers:apache2_modules_access_compat - Group authorizations based on host (name or IP address). Available as a compatibility module with previous versions.
+www-servers/apache-headers:apache2_modules_authn_core - Provides core authentication capabilities common to all authentication providers (functionality provided by authn_alias in previous versions).
+www-servers/apache-headers:apache2_modules_authz_core - Provides core authorization capabilities to various authorization/authorization modules, such as authn_file and authz_user.
+www-servers/apache-headers:apache2_modules_authz_dbd - Provides authorization capabilities via SQL database so that authenticated users can be allowed or denied access to portions of the web site by group membership.
+www-servers/apache-headers:apache2_modules_cache_disk - Disk based storage module for the HTTP caching filter (similar to mem_cache in previous versions).
+www-servers/apache-headers:apache2_modules_lbmethod_bybusyness - Pending request counting load balancer scheduler algorithm for proxy_balancer.
+www-servers/apache-headers:apache2_modules_lbmethod_byrequests - Request counting load balancer scheduler algorithm for proxy_balancer.
+www-servers/apache-headers:apache2_modules_lbmethod_bytraffic - Weighted traffic counting load balancer scheduler algorithm for proxy_balancer.
+www-servers/apache-headers:apache2_modules_lbmethod_heartbeat - Heartbeat traffic counting load balancer scheduler algorithm for proxy_balancer.
+www-servers/apache-headers:apache2_modules_proxy_fcgi - FCGI support module for mod_proxy.
+www-servers/apache-headers:apache2_modules_proxy_wstunnel - Provides support for the tunnelling of web socket connections to a backend websockets server.
+www-servers/apache-headers:apache2_modules_ratelimit - Ratelimit module for transfer rate management
+www-servers/apache-headers:apache2_modules_remoteip - Remotip module for logging
+www-servers/apache-headers:apache2_modules_slotmem_shm - Slot-based shared memory provider.
+www-servers/apache-headers:apache2_modules_socache_shmcb - A shared object cache provider using a high-performance cyclic buffer inside a shared memory segment.
+www-servers/apache-headers:apache2_modules_unixd - Basic (required) security for Unix-family platforms.
+www-servers/apache-headers:static - Link in apache2 modules statically rather then plugins
+www-servers/apache-headers:suexec - Install suexec with apache
 www-servers/nginx:aio - Enable aio support
 www-servers/nginx:chunk - Enadle 3rd party chunk module
 www-servers/nginx:debug - Enable the debugging logging
@@ -121,3 +163,16 @@ www-servers/nginx:nginx_modules_http_xss -
 www-servers/nginx:pcre-jit - 
 www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
+www-servers/uwsgi:carbon - Enable support for sending statistics to a carbon server (see http://projects.unbit.it/uwsgi/wiki/Carbon).
+www-servers/uwsgi:erlang - Let the uWSGI server as as an Erlang C-Node and exchange messages and rpc with Erlang nodes. Together with the USE=python this enables erlang support in python (see the mappings table in http://projects.unbit.it/uwsgi/wiki/ErlangIntegration).
+www-servers/uwsgi:gevent - Use dev-python/gevent for async request dispatching and as LoopEngine (see http://projects.unbit.it/uwsgi/wiki/Gevent).
+www-servers/uwsgi:graylog2 - Enable logging to graylog2 (see http://graylog2.org/).
+www-servers/uwsgi:json - Support json as a configuration file format.
+www-servers/uwsgi:nagios - Add nagios-friendly logging output (see http://projects.unbit.it/uwsgi/wiki/Nagios).
+www-servers/uwsgi:pam - Add the pam plugin.
+www-servers/uwsgi:probepg - Add the PostgreSQL probe plugin (see http://projects.unbit.it/uwsgi/wiki/DjangoDBHA).
+www-servers/uwsgi:rrdtool - Enable support for writing requests data in RRD files.
+www-servers/uwsgi:rsyslog - Support direct logging to a app-admin/rsyslog socket (without going through the syslog interface).
+www-servers/uwsgi:spooler - Build a plugin which gives a network spooler (see http://projects.unbit.it/uwsgi/wiki/Spooler).
+www-servers/uwsgi:yaml - Support yaml as a configuration file format.
+www-servers/uwsgi:zeromq - Enable logging and deployment via ZeroMQ. Together with json-support this turns uwsgi into a Mongrel2 handler (see http://projects.unbit.it/uwsgi/wiki/Mongrel2).
