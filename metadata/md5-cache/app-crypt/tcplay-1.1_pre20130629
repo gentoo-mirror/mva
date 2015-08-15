@@ -1,15 +1,15 @@
-_eclasses_=ruby-ng	497a8201c1d4a4129a8ac57a2bf2abb5	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	flag-o-matic	2090c5a622458303e6bf68837ac6b96	java-utils-2	7c8af272d218f7b7df22fd16bb0bfb63	versionator	99ae9d758cbe7cfed19170e7d48f5a9c	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	ruby-utils	97c910cb6b087c64260df641a9b3de0c	cmake-utils	f474224ef49d530640a43a04ae94928e	vcs-snapshot	2ecbc36efd3f6b8486f63fcf8530c1bd	eutils	351a78113be5b393c09a2c948701ad36
-_md5_=62b9f2f1710939d22e878392c3332307
-SLOT=0
 DEFINED_PHASES=compile configure install prepare setup test unpack
-EAPI=5
 DEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( test? ( dev-ruby/json[ruby_targets_ruby19] dev-util/cucumber[ruby_targets_ruby19] dev-ruby/rspec[ruby_targets_ruby19] dev-ruby/ffi[ruby_targets_ruby19] ) ) ruby_targets_ruby19? ( dev-lang/ruby:1.9 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
 DESCRIPTION=Free and simple TrueCrypt Implementation based on dm-crypt
-LICENSE=BSD-2
+EAPI=5
+HOMEPAGE=https://github.com/bwalex/tc-play
 IUSE=static-libs test elibc_FreeBSD ruby_targets_ruby19
+KEYWORDS=~x86 ~amd64
+LICENSE=BSD-2
+RDEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
 REQUIRED_USE=|| ( ruby_targets_ruby19 )
 RESTRICT=test
+SLOT=0
 SRC_URI=https://github.com/bwalex/tc-play/tarball/b44b1fad854c726dda3ec7bfc96fe2d437d4343f -> tcplay-1.1_pre20130629.tar.gz
-KEYWORDS=~x86 ~amd64
-HOMEPAGE=https://github.com/bwalex/tc-play
-RDEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	02090c5a622458303e6bf68837ac6b96	java-utils-2	7c8af272d218f7b7df22fd16bb0bfb63	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	ruby-ng	497a8201c1d4a4129a8ac57a2bf2abb5	ruby-utils	97c910cb6b087c64260df641a9b3de0c	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	vcs-snapshot	2ecbc36efd3f6b8486f63fcf8530c1bd	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=62b9f2f1710939d22e878392c3332307

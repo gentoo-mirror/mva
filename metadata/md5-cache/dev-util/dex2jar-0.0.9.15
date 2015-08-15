@@ -1,11 +1,10 @@
-_eclasses_=
-_md5_=eec19bf32005bc73363c7aac6045cc30
-SLOT=0
 DEFINED_PHASES=install prepare
-EAPI=5
 DESCRIPTION=Tools to work with android .dex and java .class files
-LICENSE=Apache-2.0
-SRC_URI=http://dex2jar.googlecode.com/files/dex2jar-0.0.9.15.zip
-KEYWORDS=~x86 ~amd64
+EAPI=5
 HOMEPAGE=http://code.google.com/p/dex2jar/
+KEYWORDS=~x86 ~amd64
+LICENSE=Apache-2.0
 RDEPEND=|| ( virtual/jre virtual/jdk )
+SLOT=0
+SRC_URI=http://dex2jar.googlecode.com/files/dex2jar-0.0.9.15.zip
+_md5_=eec19bf32005bc73363c7aac6045cc30

@@ -1,13 +1,13 @@
-_eclasses_=toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	flag-o-matic	2090c5a622458303e6bf68837ac6b96	git-r3	1502b9838d043db47700b8120083e637	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	user	906f3c8eb3a2350a4f1191a89baa3e46	cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	351a78113be5b393c09a2c948701ad36
-_md5_=d35ed4249bf00fde46c5420395db24
-SLOT=0
 DEFINED_PHASES=compile configure install prepare setup test unpack
-EAPI=5
 DEPEND=>=dev-libs/boost-1.49 sys-devel/flex sys-devel/bison dev-util/re2c virtual/mysql dev-libs/libxml2 dev-libs/libmcrypt dev-libs/icu dev-libs/openssl sys-libs/libcap media-libs/gd sys-libs/zlib dev-cpp/tbb dev-libs/oniguruma dev-libs/libpcre dev-libs/expat || ( sys-libs/readline dev-libs/libedit ) net-misc/curl dev-libs/libevent sys-libs/ncurses dev-libs/libmemcached net-nds/openldap net-libs/c-client[kerberos] dev-util/google-perftools dev-libs/cloog dev-libs/elfutils =dev-libs/libdwarf-20120410 app-arch/bzip2 sys-devel/binutils >=sys-devel/gcc-4.7 dev-cpp/glog jemalloc? ( >=dev-libs/jemalloc-3.0.0[stats] ) dev-libs/libxslt media-gfx/imagemagick >=dev-util/cmake-2.8.7 >=dev-vcs/git-1.8.2.1 sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
 DESCRIPTION=Virtual Machine, Runtime, and JIT for PHP
-LICENSE=PHP-3
-IUSE=+jemalloc devel debug
-SRC_URI=http://curl.haxx.se/download/curl-7.35.0.tar.bz2 https://github.com/downloads/libevent/libevent/libevent-1.4.14b-stable.tar.gz
-KEYWORDS=~amd64
+EAPI=5
 HOMEPAGE=https://github.com/facebook/hhvm
+IUSE=+jemalloc devel debug
+KEYWORDS=~amd64
+LICENSE=PHP-3
 RDEPEND=>=dev-libs/boost-1.49 sys-devel/flex sys-devel/bison dev-util/re2c virtual/mysql dev-libs/libxml2 dev-libs/libmcrypt dev-libs/icu dev-libs/openssl sys-libs/libcap media-libs/gd sys-libs/zlib dev-cpp/tbb dev-libs/oniguruma dev-libs/libpcre dev-libs/expat || ( sys-libs/readline dev-libs/libedit ) net-misc/curl dev-libs/libevent sys-libs/ncurses dev-libs/libmemcached net-nds/openldap net-libs/c-client[kerberos] dev-util/google-perftools dev-libs/cloog dev-libs/elfutils =dev-libs/libdwarf-20120410 app-arch/bzip2 sys-devel/binutils >=sys-devel/gcc-4.7 dev-cpp/glog jemalloc? ( >=dev-libs/jemalloc-3.0.0[stats] ) dev-libs/libxslt media-gfx/imagemagick
+SLOT=0
+SRC_URI=http://curl.haxx.se/download/curl-7.35.0.tar.bz2 https://github.com/downloads/libevent/libevent/libevent-1.4.14b-stable.tar.gz
+_eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	02090c5a622458303e6bf68837ac6b96	git-r3	1502b9838d043db47700b8120083e637	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	user	906f3c8eb3a2350a4f1191a89baa3e46
+_md5_=00d35ed4249bf00fde46c5420395db24

@@ -1,15 +1,15 @@
-_eclasses_=rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	eutils	351a78113be5b393c09a2c948701ad36
-_md5_=3966eee7cf7c9bb8bd8199cc0ebac0ff
-SLOT=0
 DEFINED_PHASES=postinst prepare unpack
-EAPI=5
 DEPEND=>=sys-apps/pcsc-lite-1.4.99 || ( dev-libs/libusb-compat dev-libs/libusb:0 ) sys-apps/dbus media-libs/libpng:1.2 media-libs/fontconfig ssl? ( dev-libs/engine_pkcs11 ) >=app-arch/rpm2targz-9.0.0.3g
 DESCRIPTION=SafeNet (Aladdin) eToken Middleware for eTokenPRO, eTokenNG OTP, eTokenNG Flash, eToken Pro (Java)
-LICENSE=EULA
+EAPI=5
+HOMEPAGE=http://aladdin-rd.ru
 IUSE=ssl multilib minimal
+KEYWORDS=-* ~x86 ~amd64
+LICENSE=EULA
+RDEPEND=>=sys-apps/pcsc-lite-1.4.99 || ( dev-libs/libusb-compat dev-libs/libusb:0 ) sys-apps/dbus media-libs/libpng:1.2 media-libs/fontconfig ssl? ( dev-libs/engine_pkcs11 )
 REQUIRED_USE=amd64? ( multilib )
 RESTRICT=mirror
+SLOT=0
 SRC_URI=http://online.payment.ru/drivers/SAC_8.3_Linux_10.12.2013.zip
-KEYWORDS=-* ~x86 ~amd64
-HOMEPAGE=http://aladdin-rd.ru
-RDEPEND=>=sys-apps/pcsc-lite-1.4.99 || ( dev-libs/libusb-compat dev-libs/libusb:0 ) sys-apps/dbus media-libs/libpng:1.2 media-libs/fontconfig ssl? ( dev-libs/engine_pkcs11 )
+_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	rpm	514a1840ee796656311a029ea952faa9	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=3966eee7cf7c9bb8bd8199cc0ebac0ff
