@@ -125,4 +125,5 @@ www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.9.3: Robust, small and high performance http and reverse proxy server
 www-servers/uwsgi 2.0.8-r3: uWSGI server for Python web applications
+x11-misc/rackman 9999: A tool measure distances on the screen
 x11-themes/smplayer-themes-nonfree 0.1.0 0.1.1: Icon themes for smplayer
