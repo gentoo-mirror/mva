@@ -58,9 +58,9 @@ dev-ruby/bundler 1.9.4: An easy way to vendor gem dependencies
 dev-ruby/fastthread 1.0.7-r2: Optimized replacement for thread.rb primitives
 dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
 dev-ruby/rack 1.5.2: A modular Ruby webserver interface
-dev-util/android-ndk 10d: Open Handset Alliance's Android NDK (Native Dev Kit)
-dev-util/android-sdk-update-manager 24.0.2: Open Handset Alliance's Android SDK
-dev-util/android-studio 135.1641136: A new Android development environment based on IntelliJ IDEA
+dev-util/android-ndk 10e: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-sdk-update-manager 24.3.3: Open Handset Alliance's Android SDK
+dev-util/android-studio 141.2135290: A new Android development environment based on IntelliJ IDEA
 dev-util/apktool 2.0.0: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/aruba 0.5.3: Cucumber steps for driving out command line applications.
 dev-util/dex2jar 0.0.9.13 0.0.9.15: Tools to work with android .dex and java .class files
@@ -91,10 +91,6 @@ net-analyzer/rrdtool 1.5.3-r1: A system to store and display time-series data
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-dns/dnsmasq 2.72-r1: Small forwarding DNS server
 net-firewall/xtables-addons 2.5: extensions not yet accepted in the main kernel/iptables (patch-o-matic(-ng) successor)
-net-im/communi 3.0.3 9999: A cross-platform IRC framework written with Qt
-net-im/mdc 9999: Multi-protocol instant messenger
-net-im/qipmsg 1.0.0: An open-source Qt4 implementation of IP Messenger for linux.
-net-im/qutecom 2.2.1 9999: Multi-protocol instant messenger and VoIP client
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
