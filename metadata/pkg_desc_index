@@ -13,7 +13,7 @@ app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
 app-crypt/tcplay 1.1_pre20130629: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-editors/sublime-text 2.0.2: Sublime Text is a sophisticated text editor for code, html and prose
-app-editors/vim 7.4.712: Vim, an improved vi-style text editor
+app-editors/vim 7.4.769: Vim, an improved vi-style text editor
 app-emulation/libguestfs 1.29.33: Tools for accessing, inspect and modifying virtual machine (VM) disk images
 app-emulation/libguestfs-appliance 1.26.0: VM applance disk image used in libguestfs package
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
