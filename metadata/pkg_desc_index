@@ -97,7 +97,7 @@ net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
 net-misc/ofono 1.12: Open Source mobile telephony (GSM/UMTS) daemon.
 net-misc/phonesim 1.19: Phone Simulator for modem testing (oFono)
-net-misc/subnetcalc 2.4.1: An IPv4/IPv6 Subnet Calculator
+net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-p2p/i2p 0.9.11: I2P is an anonymous network.
 net-p2p/syncthing 0.11.1 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
