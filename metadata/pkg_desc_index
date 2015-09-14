@@ -115,7 +115,6 @@ sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-kernel/zen-sources 9999-r1: The Zen Kernel Live Sources
 sys-process/htop 9999: interactive process viewer
 virtual/gradle 0: Virtual for gradle
-virtual/lua 5: Virtual for Lua programming language
 www-apps/ctpp2 2.7.1 2.8: CTPP is a tool separating data processing (business logic) from data presentation.
 www-apps/joomla 2.5.7: Joomla is a powerful Open Source Content Management System.
 www-apps/nanoc 3.1.6: nanoc is a simple but very flexible static site generator written in Ruby.
