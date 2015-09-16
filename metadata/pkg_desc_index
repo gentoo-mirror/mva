@@ -34,8 +34,7 @@ dev-db/pinba-engine 1.0.0 9999: Pinba is a MySQL storage engine that acts as a r
 dev-db/redis 3.0.2-r1: A persistent caching system, key-value and data structures database
 dev-db/sqlworkbench 9999: 
 dev-db/squirrel-sql 9999: 
-dev-java/gradle 2.4: A project automation and build tool similar to Apache Ant and Apache Maven with a Groovy based DSL
-dev-java/gradle-bin 2.4: A project automation and build tool similar to Apache Ant and Apache Maven with a Groovy based DSL
+dev-java/gradle 2.7: A project automation and build tool similar to Apache Ant and Apache Maven with a Groovy based DSL
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41: Tools and libraries to configure and manage kernel control groups
 dev-libs/libdwarf 20120410 20140208: Library to deal with DWARF Debugging Information Format
