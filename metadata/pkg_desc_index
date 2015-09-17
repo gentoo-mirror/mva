@@ -102,7 +102,6 @@ net-p2p/syncthing 0.11.1 9999: Open, trustworthy and decentralized syncing engin
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
 net-p2p/syncthing-inotify 0.6 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
 net-p2p/uhub 0.4.1 9999: High performance peer-to-peer hub for the ADC network
-net-voip/sflphone 9999: SFLphone is a robust standards-compliant enterprise softphone, for desktop and embedded systems.
 net-voip/zoiper-communicator 1.0: Free proprietary cross-platform VoIP-client with SIP and IAX support.
 sci-biology/structure 2.3.3: A free software package for using multi-locus genotype data to investigate population structure
 sci-electronics/qsapec-ng 1.2.2 9999: Qt based GUI for sapec-ng (electric circuit analizys program)
