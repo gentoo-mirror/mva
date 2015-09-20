@@ -52,7 +52,7 @@ dev-php/hhvm 2.4.2 9999: Virtual Machine, Runtime, and JIT for PHP
 dev-php/php-dmtx 9999: PHP bindings for the dmtx library
 dev-php/phpsh 0.0.1: An interactive shell for php
 dev-php/pinba-extension 9999: Pinba is a realtime monitoring/statistics server for PHP using MySQL as a read-only interface.
-dev-qt/qt5ct 0.10 0.12: Qt5 configuration utility
+dev-qt/qt5ct 0.17: Qt5 configuration utility
 dev-ruby/bundler 1.9.4: An easy way to vendor gem dependencies
 dev-ruby/fastthread 1.0.7-r2: Optimized replacement for thread.rb primitives
 dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
