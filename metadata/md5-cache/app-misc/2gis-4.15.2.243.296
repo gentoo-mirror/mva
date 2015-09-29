@@ -9,5 +9,5 @@ LICENSE=2Gis-ru
 RDEPEND=!!<=app-misc/2gis-4.0 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 media-libs/mesa sys-devel/gcc data? ( app-misc/2gis-data )
 SLOT=0
 SRC_URI=http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv243+r296_amd64.deb
-_eclasses_=eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	unpacker	1d149d9bda7723e740cfd28118f27813	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d	unpacker	1d149d9bda7723e740cfd28118f27813	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
 _md5_=04bda4b778e0af4cb63d236efd403133
