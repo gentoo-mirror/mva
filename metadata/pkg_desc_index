@@ -86,7 +86,7 @@ media-libs/libquvi-scripts 0.4.21-r1 0.9.20131130: Embedded lua scripts for libq
 media-libs/openslide 3.2.3 3.2.4 3.2.5: A C library that provides a simple interface to read whole-slide images, aka virtual slides.
 media-libs/quvi 0.4.2 0.9.5: A command line tool for parsing video download links
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
-net-analyzer/rrdtool 1.5.3-r1: A system to store and display time-series data
+net-analyzer/rrdtool 1.5.4: A system to store and display time-series data
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-dns/dnsmasq 2.72-r1: Small forwarding DNS server
 net-firewall/xtables-addons 2.5: extensions not yet accepted in the main kernel/iptables (patch-o-matic(-ng) successor)
