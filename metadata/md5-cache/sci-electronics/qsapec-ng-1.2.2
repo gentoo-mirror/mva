@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=x11-libs/qt-gui:4 sci-electronics/sapec-ng >=x11-libs/qwt-5.1.2 >=dev-libs/boost-1.41.0 >=dev-util/cmake-2.6 doc? ( app-doc/doxygen ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DEPEND=dev-qt/qtgui:4 sci-electronics/sapec-ng x11-libs/qwt:5 >=dev-libs/boost-1.41.0 >=dev-util/cmake-2.6 doc? ( app-doc/doxygen ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
 DESCRIPTION=Qt based GUI for sapec-ng (electric circuit analizys program)
 EAPI=5
 HOMEPAGE=http://qsapecng.sourceforge.net/
 IUSE=doc
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=x11-libs/qt-gui:4 sci-electronics/sapec-ng >=x11-libs/qwt-5.1.2
+RDEPEND=dev-qt/qtgui:4 sci-electronics/sapec-ng x11-libs/qwt:5
 SLOT=0
 SRC_URI=mirror://sourceforge/qsapecng/files/QSapecNG-1.2.2-source.tar.gz
 _eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	cmake-utils	ed6fe5316459777893d5a8b929faec18	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	qmake-utils	05b63bb5c708c5903a9de5c58c8e43c8	qt4-r2	cb2cb5856695b300266b425da70e82d8	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=bd0699ab9b94161ff269862b07756896
+_md5_=74538ad0e1ff702a8d5679b1425dc954

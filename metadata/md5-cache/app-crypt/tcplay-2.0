@@ -1,15 +1,15 @@
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( test? ( dev-ruby/json[ruby_targets_ruby19] dev-util/cucumber[ruby_targets_ruby19] dev-ruby/rspec[ruby_targets_ruby19] dev-ruby/ffi[ruby_targets_ruby19] ) ) ruby_targets_ruby19? ( dev-lang/ruby:1.9 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0:0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( test? ( dev-ruby/json[ruby_targets_ruby19] dev-util/cucumber[ruby_targets_ruby19] dev-ruby/rspec[ruby_targets_ruby19] dev-ruby/ffi[ruby_targets_ruby19] ) ) ruby_targets_ruby19? ( dev-lang/ruby:1.9 ) sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
 DESCRIPTION=Free and simple TrueCrypt Implementation based on dm-crypt
 EAPI=5
 HOMEPAGE=https://github.com/bwalex/tc-play
 IUSE=static-libs test elibc_FreeBSD ruby_targets_ruby19
 KEYWORDS=~x86 ~amd64
 LICENSE=BSD-2
-RDEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
+RDEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0:0 sys-apps/util-linux sys-fs/lvm2 ruby_targets_ruby19? ( dev-lang/ruby:1.9 )
 REQUIRED_USE=|| ( ruby_targets_ruby19 )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/bwalex/tc-play/tarball/b44b1fad854c726dda3ec7bfc96fe2d437d4343f -> tcplay-1.1_pre20130629.tar.gz
+SRC_URI=https://github.com/bwalex/tc-play/tarball/b44b1fad854c726dda3ec7bfc96fe2d437d4343f -> tcplay-2.0.tar.gz
 _eclasses_=cmake-utils	ed6fe5316459777893d5a8b929faec18	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	java-utils-2	c059b30d6a4df7cf32e2c98c1da1c9b5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	ruby-ng	12af15f9116c054425934f3eec054899	ruby-utils	97c910cb6b087c64260df641a9b3de0c	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	vcs-snapshot	2ecbc36efd3f6b8486f63fcf8530c1bd	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=62b9f2f1710939d22e878392c3332307
+_md5_=cc2900dc1088e06e96fe63f2047e4e93

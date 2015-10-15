@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=colorgcc? ( dev-util/colorgcc ) geoip? ( dev-libs/geoip ) >=dev-vcs/git-1.8.2.1 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=colorgcc? ( dev-util/colorgcc ) geoip? ( dev-libs/geoip ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=An IPv4/IPv6 Subnet Calculator
 EAPI=5
 HOMEPAGE=https://www.uni-due.de/~be0001/subnetcalc/
@@ -9,4 +9,4 @@ LICENSE=GPL-3
 RDEPEND=colorgcc? ( dev-util/colorgcc ) geoip? ( dev-libs/geoip )
 SLOT=0
 _eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	autotools-utils	0bf099a6e3dfeaf20a7a94504d8dd896	eutils	43da5163ba106e87d22d2e7d6d67537f	git-r3	1502b9838d043db47700b8120083e637	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=d8f5e0c0fd925b4c47432ce9ba201b9b
+_md5_=fe5db8330523234a973a0c7c0190d2a1

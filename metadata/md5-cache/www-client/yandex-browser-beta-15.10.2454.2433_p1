@@ -1,6 +1,6 @@
 DEFINED_PHASES=install postinst postrm preinst prepare setup unpack
 DEPEND=>=sys-apps/sed-4
-DESCRIPTION=Yandex Browser is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+DESCRIPTION=Browser that combines a minimal design with sophisticated technology.
 EAPI=5
 HOMEPAGE=http://browser.yandex.ru/beta/
 IUSE=+linguas_cs +linguas_de +linguas_en_US +linguas_es +linguas_fr +linguas_it +linguas_ja +linguas_kk +linguas_pt_BR +linguas_pt_PT +linguas_ru +linguas_tr +linguas_uk +linguas_zh_CN +linguas_zh_TW
@@ -10,4 +10,4 @@ RDEPEND=dev-libs/expat dev-libs/glib:2 dev-libs/nspr dev-libs/nss >=dev-libs/ope
 SLOT=0
 SRC_URI=amd64? ( http://repo.yandex.ru/yandex-browser/deb/pool/main/y/yandex-browser-beta/yandex-browser-beta_15.10.2454.2433-1_amd64.deb -> yandex-browser-beta-15.10.2454.2433_p1.deb )
 _eclasses_=chromium	f828dac97fd266c59459737299f9659d	eutils	43da5163ba106e87d22d2e7d6d67537f	fdo-mime	92d07846ea8ea54172f8c0112a47ae3d	gnome2-utils	588052cacdf74572e68bdfeaece20534	linux-info	8f92e5ac1a1da684c5450b1b21a1f56a	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	unpacker	1d149d9bda7723e740cfd28118f27813	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=9d592a0c336c3fef5cda0808fcaffaab
+_md5_=1c4e956b2d0dfc93f72a0a76e10587ef

@@ -7,4 +7,4 @@ LICENSE=GPL-3
 RDEPEND=net-misc/asterisk
 SLOT=0
 _eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=4a7dfece261b42d5a8e16d66f6000849
+_md5_=19384f671abb4fa1a8cc644c538eceb2

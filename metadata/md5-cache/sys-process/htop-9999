@@ -1,11 +1,11 @@
 DEFINED_PHASES=configure preinst prepare setup unpack
-DEPEND=sys-libs/ncurses[unicode?] || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=sys-libs/ncurses:0[unicode?] || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=interactive process viewer
 EAPI=5
 HOMEPAGE=http://htop.sourceforge.net
 IUSE=elibc_FreeBSD kernel_linux openvz unicode vserver
 LICENSE=BSD GPL-2
-RDEPEND=sys-libs/ncurses[unicode?]
+RDEPEND=sys-libs/ncurses:0[unicode?]
 SLOT=0
 _eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	subversion	4fee0a764150bb4dda27ed4d2c4ed7ce	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=56f0776f1388ddc191d98c6152f8cee7
+_md5_=f254bfb9a685b4171feb42069378d69b

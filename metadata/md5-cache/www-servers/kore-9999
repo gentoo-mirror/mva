@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=dev-libs/openssl sys-libs/zlib dev-vcs/git
+DEPEND=dev-libs/openssl:* sys-libs/zlib dev-vcs/git
 DESCRIPTION=A fast SPDY capable webserver for web development in C
 EAPI=5
 HOMEPAGE=https://kore.io/
 LICENSE=ISC
-RDEPEND=dev-libs/openssl sys-libs/zlib
+RDEPEND=dev-libs/openssl:* sys-libs/zlib
 SLOT=0
 _eclasses_=git-2	1bb87192831f668cd20d93ffb1689c94	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	vcs-snapshot	2ecbc36efd3f6b8486f63fcf8530c1bd
-_md5_=572c42ec672e94b6a5fe8b65826bdecb
+_md5_=9fdb5891b1edb07d47744772988015c5

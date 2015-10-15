@@ -7,4 +7,4 @@ IUSE=static-libs
 LICENSE=LGPL-2.1
 SLOT=0
 _eclasses_=git-2	1bb87192831f668cd20d93ffb1689c94
-_md5_=0d03201bd89b8cf1e0eaba7951691f69
+_md5_=4cfa61d665b8ec44a9b333e8af723b39

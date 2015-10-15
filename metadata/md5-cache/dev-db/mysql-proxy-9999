@@ -1,13 +1,13 @@
 DEFINED_PHASES=configure install postinst prepare unpack
-DEPEND=>=dev-libs/libevent-1.4 >=dev-libs/glib-2.16 >=dev-lang/lua-5.1 >=virtual/mysql-5.0 virtual/pkgconfig >=dev-vcs/bzr-2.0.1
+DEPEND=>=dev-libs/libevent-1.4 >=dev-libs/glib-2.16 || ( dev-lang/lua:0 virtual/lua ) >=virtual/mysql-5.0 virtual/pkgconfig >=dev-vcs/bzr-2.0.1
 DESCRIPTION=A Proxy for the MySQL Client/Server protocol
 EAPI=5
 HOMEPAGE=http://forge.mysql.com/wiki/MySQL_Proxy
 IUSE=examples
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=dev-libs/libevent-1.4 >=dev-libs/glib-2.16 >=dev-lang/lua-5.1
+RDEPEND=>=dev-libs/libevent-1.4 >=dev-libs/glib-2.16 || ( dev-lang/lua:0 virtual/lua )
 RESTRICT=test
 SLOT=0
 _eclasses_=bzr	745bed5705ae699c707ba26ca9e8929a	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=1c95830ac68548cc40ca1e0cb73cf7f9
+_md5_=95364b736b847318c933c2d52b2e2a77

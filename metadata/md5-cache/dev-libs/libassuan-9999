@@ -8,4 +8,4 @@ LICENSE=GPL-3 LGPL-2.1
 RDEPEND=>=dev-libs/libgpg-error-1.8
 SLOT=0
 _eclasses_=autotools	542bf3f83917668f3893f4da1ca238ff	eutils	43da5163ba106e87d22d2e7d6d67537f	git-2	1bb87192831f668cd20d93ffb1689c94	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=b517b4fec8f04b75bea556d3c42dee12
+_md5_=338d2105b0d48a7b6fb7d29c314f89c3
