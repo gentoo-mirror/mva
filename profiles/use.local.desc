@@ -116,7 +116,6 @@ app-misc/2gis-plugins:goto -
 app-misc/2gis-plugins:mapnotes - 
 dev-db/dbeaver:informix - 
 dev-db/redis:jemalloc - Use dev-libs/jemalloc for allocations.
-dev-db/redis:luajit - 
 dev-db/redis:tcmalloc - Use tcmalloc from dev-util/google-perftools for allocations.
 dev-db/sqlworkbench:informix - 
 dev-db/squirrel-sql:informix - 

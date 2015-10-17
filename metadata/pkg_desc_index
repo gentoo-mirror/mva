@@ -20,7 +20,7 @@ app-text/highlight 3.23: converts source code to formatted text ((X)HTML, RTF, (
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
-dev-db/redis 3.0.2-r1: A persistent caching system, key-value and data structures database
+dev-db/redis 3.0.4: A persistent caching system, key-value and data structures database
 dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
 dev-go/godep 9999: dependency tool for go
@@ -35,14 +35,13 @@ dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
 dev-libs/librevenge 9999: A helper library for REVerses ENGineered formats filters
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
-dev-libs/sregex 9999: A non-backtracking regex engine matching on data streams
+dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-libs/uchardet 0.0.1 9999: C port of Mozilla's Automatic Charset Detection algorithm
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
 dev-perl/Device-Modem 1.56: Perl extension to talk to modem devices connected via serial port
 dev-php/php-dmtx 9999: PHP bindings for the dmtx library
 dev-qt/qt5ct 0.17: Qt5 configuration utility
 dev-ruby/bundler 1.9.4: An easy way to vendor gem dependencies
-dev-ruby/fastthread 1.0.7-r2: Optimized replacement for thread.rb primitives
 dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
 dev-ruby/rack 1.5.2: A modular Ruby webserver interface
 dev-util/android-ndk 10e: Open Handset Alliance's Android NDK (Native Dev Kit)
