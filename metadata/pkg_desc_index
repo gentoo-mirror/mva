@@ -97,5 +97,5 @@ www-apps/redmine 3.1.0 9999: Redmine is a flexible project management web applic
 www-client/yandex-browser-beta 15.10.2454.2433_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.9.6: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.9.7: Robust, small and high performance http and reverse proxy server
 x11-misc/rackman 9999: A tool measure distances on the screen
