@@ -1,0 +1,11 @@
+DEFINED_PHASES=unpack
+DEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0 virtual/pkgconfig dev-vcs/git
+DESCRIPTION=Tools for reading and writing Data Matrix barcodes
+EAPI=5
+HOMEPAGE=http://www.libdmtx.org/
+LICENSE=LGPL-2.1
+RDEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2
+_eclasses_=git-2	df00117322129fb906bb0a53c3d6a020
+_md5_=f071fd193c83d31c83527aee85070fc3
