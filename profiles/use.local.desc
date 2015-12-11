@@ -144,8 +144,8 @@ dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
 media-libs/libjpeg-turbo:pic - 
-net-misc/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
-net-misc/i2pd:library - Build the libi2pd library
+net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
+net-misc/i2pd:daemon - Compile I²P daemon
 net-misc/ofono:atmodem - ETSI AT modem support.
 net-misc/ofono:bluetooth - Enable Bluetooth modem support using net-wireless/bluez.
 net-misc/ofono:cdmamodem - Enable CDMA modem support.
