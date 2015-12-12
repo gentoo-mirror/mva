@@ -71,6 +71,7 @@ media-libs/openslide 3.4.1: A C library that provides a simple interface to read
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/xtables-addons 2.5: extensions not yet accepted in the main kernel/iptables (patch-o-matic(-ng) successor)
+net-im/slack 1.2.6: A messaging app for teams
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
