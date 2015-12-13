@@ -199,6 +199,7 @@ www-servers/nginx:nginx_modules_http_rds_json -
 www-servers/nginx:nginx_modules_http_redis - 
 www-servers/nginx:nginx_modules_http_replace_filter - 
 www-servers/nginx:nginx_modules_http_set_misc - 
+www-servers/nginx:nginx_modules_http_slice - 
 www-servers/nginx:nginx_modules_http_slowfs_cache - This module adds the ability to cache static files
 www-servers/nginx:nginx_modules_http_srcache - 
 www-servers/nginx:nginx_modules_http_supervisord - 
@@ -210,6 +211,7 @@ www-servers/nginx:nginx_modules_http_upstream_zone -
 www-servers/nginx:nginx_modules_http_v2 - 
 www-servers/nginx:nginx_modules_http_xss - 
 www-servers/nginx:nginx_modules_stream_access - 
+www-servers/nginx:nginx_modules_stream_limit_conn - 
 www-servers/nginx:nginx_modules_stream_upstream_hash - 
 www-servers/nginx:nginx_modules_stream_upstream_least_conn - 
 www-servers/nginx:nginx_modules_stream_upstream_zone - 
