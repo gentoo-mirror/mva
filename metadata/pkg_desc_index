@@ -8,7 +8,11 @@ app-crypt/etoken-sac 8.3.34_p0: SafeNet (Aladdin) eToken Middleware for eTokenPR
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
+app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
+app-emulation/firejail 0.9.36_rc1 9999: a SUID sandbox program using linux namespaces
+app-emulation/firetools 0.9.30: Graphical user interface of app-emulation/firejail
+app-emulation/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-misc/2gis 3.15.10.0 4.15.2.280: Proprietary freeware multimedia map of several Russian and Ukrainian towns
 app-misc/2gis-data 20151009: Proprietary freeware multimedia map of several Russian and Ukrainian towns (data)
@@ -72,6 +76,7 @@ media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara"
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/xtables-addons 2.5: extensions not yet accepted in the main kernel/iptables (patch-o-matic(-ng) successor)
 net-im/slack 1.2.6: A messaging app for teams
+net-libs/nodejs 5.3.0: Evented IO for V8 Javascript
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.

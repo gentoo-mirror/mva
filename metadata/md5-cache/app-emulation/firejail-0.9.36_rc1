@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure prepare
+DESCRIPTION=a SUID sandbox program using linux namespaces
+EAPI=5
+HOMEPAGE=https://l3net.wordpress.com/projects/firejail/
+IUSE=+bind +chroot +seccomp
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://github.com/netblue30/firejail/archive/0.9.36-rc1.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:-
+_md5_=a8278fdc1a10e0d85d7a5c611b0ff1e2
