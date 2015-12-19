@@ -108,3 +108,6 @@ www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.9.9: Robust, small and high performance http and reverse proxy server
 x11-misc/rackman 9999: A tool measure distances on the screen
+x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
+x11-plugins/telegram-purple 9999: Libpurple (Pidgin) plugin for using a Telegram account
+x11-plugins/whatsapp-purple 9999: Whatsapp plugin for libpurple (Pidgin)
