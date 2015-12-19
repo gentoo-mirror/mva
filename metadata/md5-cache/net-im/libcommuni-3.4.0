@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure prepare
+DEPEND=qt4? ( dev-qt/qtcore:4 dev-qt/qtdeclarative:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 ) icu? ( dev-libs/icu ) uchardet? ( dev-libs/uchardet ) test? ( qt4? ( dev-qt/qttest:4 ) qt5? ( dev-qt/qttest:5 ) )
+DESCRIPTION=A cross-platform IRC framework written with Qt
+EAPI=5
+HOMEPAGE=http://communi.github.io/
+IUSE=icu qt4 qt5 test examples +uchardet
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=qt4? ( dev-qt/qtcore:4 dev-qt/qtdeclarative:4 ) qt5? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 ) icu? ( dev-libs/icu ) uchardet? ( dev-libs/uchardet )
+REQUIRED_USE=^^ ( qt4 qt5 )
+SLOT=0
+SRC_URI=https://github.com/communi/libcommuni/archive/v3.4.0.tar.gz -> libcommuni-3.4.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:-
+_eclasses_=eutils	d9bd2ddd85a58e470b49ca997e255a4c	multilib	3972ca401cf7dbb430df9995f5d8d580	qmake-utils	bd69cb386c63df4642cf1392b50c8d81	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=5baed60ea6a302c381a990e8f1a245d6

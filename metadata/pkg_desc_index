@@ -49,7 +49,7 @@ dev-ruby/bundler 1.9.4: An easy way to vendor gem dependencies
 dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
 dev-ruby/rack 1.5.2: A modular Ruby webserver interface
 dev-util/android-ndk 10e: Open Handset Alliance's Android NDK (Native Dev Kit)
-dev-util/android-sdk-update-manager 24.3.4: Open Handset Alliance's Android SDK
+dev-util/android-sdk-update-manager 24.4.1: Open Handset Alliance's Android SDK
 dev-util/android-studio 141.2135290: A new Android development environment based on IntelliJ IDEA
 dev-util/apktool 2.0.0: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/dex2jar 0.0.9.13 0.0.9.15: Tools to work with android .dex and java .class files
@@ -75,7 +75,10 @@ media-libs/openslide 3.4.1: A C library that provides a simple interface to read
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/xtables-addons 2.5: extensions not yet accepted in the main kernel/iptables (patch-o-matic(-ng) successor)
+net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 1.2.6: A messaging app for teams
+net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
+net-im/swiften 9999: Just a perfect C++ XMPP library
 net-libs/nodejs 5.3.0: Evented IO for V8 Javascript
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
