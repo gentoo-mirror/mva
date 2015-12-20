@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI="5"
 
@@ -33,7 +33,7 @@ RDEPEND="
 	dev-libs/boost
 	net-im/swiften
 	dev-libs/popt
-	dev-libs/openssl
+	dev-libs/openssl:0
 	dev-libs/log4cxx
 	mysql? ( virtual/mysql )
 	postgres? ( dev-libs/libpqxx )
