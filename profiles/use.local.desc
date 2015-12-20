@@ -4,6 +4,10 @@
 
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
+app-emulation/firejail:bind - 
+app-emulation/firejail:chroot - 
+app-emulation/firetools: - 
+app-emulation/fjinit: - 
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-data:abakan - Install GeoInformational data (incl. maps) for Abakan
 app-misc/2gis-data:almaty - Install GeoInformational data (incl. maps) for Almaty
@@ -144,6 +148,18 @@ dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
 media-libs/libjpeg-turbo:pic - 
+net-im/libcommuni:qml - 
+net-im/libcommuni:uchardet - 
+net-im/spectrum:frotz - 
+net-im/spectrum:irc - 
+net-im/spectrum:libev - 
+net-im/spectrum:purple - 
+net-im/spectrum:skype - 
+net-im/spectrum:smstools - 
+net-im/spectrum:staticport - 
+net-im/spectrum:symlinks - 
+net-im/spectrum:tools - 
+net-im/spectrum:twitter - 
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
@@ -222,3 +238,10 @@ www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuni
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:rtmp - 
 www-servers/nginx:stream - 
+x11-plugins/purple-facebook: - 
+x11-plugins/purple-vk-plugin: - 
+x11-plugins/skype4pidgin:dbus - 
+x11-plugins/skype4pidgin:nls - 
+x11-plugins/skype4pidgin:skypeapi - 
+x11-plugins/telegram-purple:libwebp - 
+x11-plugins/whatsapp-purple: - 

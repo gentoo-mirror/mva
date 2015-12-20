@@ -8,4 +8,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=https://github.com/netblue30/firejail/archive/0.9.36-rc1.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:-
-_md5_=a8278fdc1a10e0d85d7a5c611b0ff1e2
+_md5_=c2e359f026039064564324d11f1cd3fd
