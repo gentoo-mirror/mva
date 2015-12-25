@@ -160,6 +160,7 @@ net-im/spectrum:staticport -
 net-im/spectrum:symlinks - 
 net-im/spectrum:tools - 
 net-im/spectrum:twitter - 
+net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
