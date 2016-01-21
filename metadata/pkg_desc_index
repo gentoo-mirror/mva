@@ -82,6 +82,7 @@ net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 1.2.6: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 9999: Just a perfect C++ XMPP library
+net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
 net-libs/nodejs 5.3.0: Evented IO for V8 Javascript

@@ -192,6 +192,7 @@ www-servers/nginx:aio - Enable aio support
 www-servers/nginx:debug - Enable the debugging logging
 www-servers/nginx:http - 
 www-servers/nginx:http-cache - 
+www-servers/nginx:http2 - 
 www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
 www-servers/nginx:luajit - 
 www-servers/nginx:mail - 
@@ -209,6 +210,7 @@ www-servers/nginx:nginx_modules_http_iconv -
 www-servers/nginx:nginx_modules_http_lua - 
 www-servers/nginx:nginx_modules_http_lua_upstream - 
 www-servers/nginx:nginx_modules_http_memc - 
+www-servers/nginx:nginx_modules_http_nchan - 
 www-servers/nginx:nginx_modules_http_ndk - 
 www-servers/nginx:nginx_modules_http_njs - 
 www-servers/nginx:nginx_modules_http_pagespeed - 
