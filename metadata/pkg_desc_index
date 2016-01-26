@@ -93,9 +93,9 @@ net-misc/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
 net-misc/ofono 1.12: Open Source mobile telephony (GSM/UMTS) daemon.
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
-net-p2p/syncthing 0.11.1 0.12.11 0.12.12 0.12.14 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
+net-p2p/syncthing 0.12.16 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
-net-p2p/syncthing-inotify 0.6 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
+net-p2p/syncthing-inotify 0.6.8 9999: Open, trustworthy and decentralized syncing engine (some kind of analog of DropBox and BTSync)
 net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
 net-voip/zoiper-communicator 1.0: Free proprietary cross-platform VoIP-client with SIP and IAX support.
 sci-biology/structure 2.3.3: A free software package for using multi-locus genotype data to investigate population structure
