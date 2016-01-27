@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-crypt/asedriveiiie-serial: - 
+app-crypt/asedriveiiie-usb: - 
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
 app-emulation/firejail:bind - 
@@ -160,6 +162,9 @@ net-im/spectrum:staticport -
 net-im/spectrum:symlinks - 
 net-im/spectrum:tools - 
 net-im/spectrum:twitter - 
+net-im/telegram-cli:json - Enable JSON support
+net-im/telegram-cli:lua - Enable Lua scripting
+net-im/telegram-cli:python - Enable Python support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
