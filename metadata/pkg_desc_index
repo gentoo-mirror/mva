@@ -8,7 +8,6 @@ app-crypt/etoken-sac 8.3.34_p0: SafeNet (Aladdin) eToken Middleware for eTokenPR
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
-app-editors/ZeroBraneStudio 9999: 
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-emulation/firejail 0.9.36_rc1 9999: a SUID sandbox program using linux namespaces
