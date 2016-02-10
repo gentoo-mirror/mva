@@ -8,6 +8,7 @@ app-crypt/etoken-sac 8.3.34_p0: SafeNet (Aladdin) eToken Middleware for eTokenPR
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
+app-editors/ZeroBraneStudio 9999: 
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-emulation/firejail 0.9.36_rc1 9999: a SUID sandbox program using linux namespaces
@@ -112,7 +113,7 @@ www-apps/redmine 3.1.0 9999: Redmine is a flexible project management web applic
 www-client/yandex-browser-beta 16.2.0.1818_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.9.10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.9.11: Robust, small and high performance http and reverse proxy server
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)
 x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
