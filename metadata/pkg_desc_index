@@ -109,7 +109,7 @@ sys-kernel/zen-sources 9999-r1: The Zen Kernel Live Sources
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: CTPP is a tool separating data processing (business logic) from data presentation.
 www-apps/redmine 3.1.0 9999: Redmine is a flexible project management web application written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.2.0.1818_p1: Browser that combines a minimal design with sophisticated technology.
+www-client/yandex-browser-beta 16.3.0.4716_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.9.11: Robust, small and high performance http and reverse proxy server
