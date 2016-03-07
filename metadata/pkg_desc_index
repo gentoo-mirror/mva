@@ -85,6 +85,7 @@ net-im/swiften 9999: Just a perfect C++ XMPP library
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
+net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/nodejs 5.3.0: Evented IO for V8 Javascript
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
@@ -104,6 +105,7 @@ sci-electronics/sapec-ng 1.8.2: Sapec-NG is a symbolic analysis program for line
 sci-misc/multimeter 0.2: A litte data acquisition tool for the V&A VA18B (and others, e.g. PeakTech 3375) multimeter.
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
+sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-kernel/zen-sources 9999-r1: The Zen Kernel Live Sources
 sys-process/htop 9999: interactive process viewer
@@ -112,7 +114,7 @@ www-apps/redmine 3.1.0 9999: Redmine is a flexible project management web applic
 www-client/yandex-browser-beta 16.3.0.4716_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.9.11: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.9.12: Robust, small and high performance http and reverse proxy server
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)
 x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
