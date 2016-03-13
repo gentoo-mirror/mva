@@ -185,6 +185,7 @@ sys-apps/kmscon:optimizations - Enable optimizations
 sys-apps/kmscon:pango - Enable pango font rendering
 sys-apps/kmscon:pixman - Enable pixman font rendering
 sys-apps/libtsm:optimizations - Enable optimizations
+sys-kernel/ath10k-firmware:savedconfig - Allows individual selection of firmware files
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
 www-apps/ctpp2:md5 - 

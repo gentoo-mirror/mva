@@ -107,7 +107,7 @@ sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
-sys-kernel/zen-sources 9999-r1: The Zen Kernel Live Sources
+sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: CTPP is a tool separating data processing (business logic) from data presentation.
 www-apps/redmine 3.1.0 9999: Redmine is a flexible project management web application written using Ruby on Rails framework
