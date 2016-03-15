@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test unpack
-DEPEND=net-im/jabber-base dev-libs/boost net-im/swiften dev-libs/popt dev-libs/openssl:0 dev-libs/log4cxx mysql? ( virtual/mysql ) postgres? ( dev-libs/libpqxx ) sqlite? ( dev-db/sqlite:3 ) frotz? ( dev-libs/protobuf ) irc? ( net-im/libcommuni[qt4] dev-libs/protobuf ) purple? ( >=net-im/pidgin-2.6.0 dev-libs/protobuf ) skype? ( dev-libs/dbus-glib x11-base/xorg-server[xvfb] dev-libs/protobuf ) libev? ( dev-libs/libev dev-libs/protobuf ) sys-devel/gettext dev-util/cmake doc? ( app-doc/doxygen ) test? ( dev-util/cppunit ) sys-devel/make >=dev-util/cmake-2.8.12 >=dev-vcs/git-1.8.2.1
+DEPEND=net-im/jabber-base dev-libs/boost:* net-im/swiften dev-libs/popt dev-libs/openssl:0 dev-libs/log4cxx mysql? ( virtual/mysql ) postgres? ( dev-libs/libpqxx ) sqlite? ( dev-db/sqlite:3 ) frotz? ( dev-libs/protobuf ) irc? ( net-im/libcommuni[qt4] dev-libs/protobuf ) purple? ( >=net-im/pidgin-2.6.0 dev-libs/protobuf ) skype? ( dev-libs/dbus-glib x11-base/xorg-server[xvfb] dev-libs/protobuf ) libev? ( dev-libs/libev dev-libs/protobuf ) sys-devel/gettext dev-util/cmake doc? ( app-doc/doxygen ) test? ( dev-util/cppunit ) sys-devel/make >=dev-util/cmake-2.8.12 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Spectrum is an XMPP transport/gateway
 EAPI=5
 HOMEPAGE=http://spectrum.im
 IUSE=debug doc libev mysql postgres sqlite staticport symlinks test tools frotz irc purple skype smstools twitter
 LICENSE=GPL-2
-RDEPEND=net-im/jabber-base dev-libs/boost net-im/swiften dev-libs/popt dev-libs/openssl:0 dev-libs/log4cxx mysql? ( virtual/mysql ) postgres? ( dev-libs/libpqxx ) sqlite? ( dev-db/sqlite:3 ) frotz? ( dev-libs/protobuf ) irc? ( net-im/libcommuni[qt4] dev-libs/protobuf ) purple? ( >=net-im/pidgin-2.6.0 dev-libs/protobuf ) skype? ( dev-libs/dbus-glib x11-base/xorg-server[xvfb] dev-libs/protobuf ) libev? ( dev-libs/libev dev-libs/protobuf )
+RDEPEND=net-im/jabber-base dev-libs/boost:* net-im/swiften dev-libs/popt dev-libs/openssl:0 dev-libs/log4cxx mysql? ( virtual/mysql ) postgres? ( dev-libs/libpqxx ) sqlite? ( dev-db/sqlite:3 ) frotz? ( dev-libs/protobuf ) irc? ( net-im/libcommuni[qt4] dev-libs/protobuf ) purple? ( >=net-im/pidgin-2.6.0 dev-libs/protobuf ) skype? ( dev-libs/dbus-glib x11-base/xorg-server[xvfb] dev-libs/protobuf ) libev? ( dev-libs/libev dev-libs/protobuf )
 REQUIRED_USE=|| ( sqlite mysql postgres )
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:git-r3 src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:-
 _eclasses_=cmake-utils	fa44804882ff16943e9f71b544f56bc9	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	git-r3	ef66dfc3db09f327af21cf32f140fb2b	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=36d9d82394710c9d4ed33f2a060f8568
+_md5_=969a9093ffce0e9aee2d30f6879ac7e5

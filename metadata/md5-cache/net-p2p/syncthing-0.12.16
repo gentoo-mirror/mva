@@ -9,4 +9,4 @@ RDEPEND=>=dev-lang/go-1.5.1 dev-go/godep
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:git-r3 src_prepare:base src_configure:base src_compile:- src_install:-
 _eclasses_=base	3fe4f8980633fd7bc69e9887209ba2fe	eutils	9d81603248f2ba3ec59124320d123e5e	git-r3	ef66dfc3db09f327af21cf32f140fb2b	multilib	3972ca401cf7dbb430df9995f5d8d580	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=a0d56f64e361af94a8426996fa551af6
+_md5_=7bb9f7cd2e8d170d44d3be75dc6c19b6

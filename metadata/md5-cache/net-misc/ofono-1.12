@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=mirror://kernel/linux/network/ofono/ofono-1.12.tar.bz2
 _eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=e3a4cc2ea74be90c2219410133f5afd5
+_md5_=890380431fb06d02db0d39e0dd477617

@@ -2,14 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-crypt/asedriveiiie-serial: - 
-app-crypt/asedriveiiie-usb: - 
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
 app-emulation/firejail:bind - 
 app-emulation/firejail:chroot - 
-app-emulation/firetools: - 
-app-emulation/fjinit: - 
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-data:abakan - Install GeoInformational data (incl. maps) for Abakan
 app-misc/2gis-data:almaty - Install GeoInformational data (incl. maps) for Almaty
@@ -166,6 +162,7 @@ net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
+net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
@@ -185,6 +182,8 @@ sys-apps/kmscon:optimizations - Enable optimizations
 sys-apps/kmscon:pango - Enable pango font rendering
 sys-apps/kmscon:pixman - Enable pixman font rendering
 sys-apps/libtsm:optimizations - Enable optimizations
+sys-fs/diod:luajit - Force build against LuaJIT
+sys-fs/diod:rdma - RDMA support
 sys-kernel/ath10k-firmware:savedconfig - Allows individual selection of firmware files
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
@@ -247,10 +246,7 @@ www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuni
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:rtmp - 
 www-servers/nginx:stream - 
-x11-plugins/purple-facebook: - 
-x11-plugins/purple-vk-plugin: - 
 x11-plugins/skype4pidgin:dbus - 
 x11-plugins/skype4pidgin:nls - 
 x11-plugins/skype4pidgin:skypeapi - 
 x11-plugins/telegram-purple:libwebp - 
-x11-plugins/whatsapp-purple: - 

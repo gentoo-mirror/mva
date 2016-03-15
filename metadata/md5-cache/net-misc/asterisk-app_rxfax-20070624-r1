@@ -8,4 +8,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=http://www.soft-switch.org/downloads/snapshots/spandsp/test-apps-asterisk-1.4/app_rxfax.c
 _eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
-_md5_=ada2361ab7c406467e64fda896464a7b
+_md5_=2c9967f551b300544059dd1947cc4090

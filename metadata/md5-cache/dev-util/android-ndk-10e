@@ -9,4 +9,4 @@ RESTRICT=mirror strip installsources test
 SLOT=0
 SRC_URI=x86? ( http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin -> android-ndk-10e-x86.7z ) amd64? ( http://dl.google.com/android/ndk/android-ndk-r10e-linux-x86_64.bin -> android-ndk-10e-x86_64.7z )
 _eclass_exported_funcs=src_configure:- src_compile:- src_install:-
-_md5_=fa32b8b4eb49d3038972f055cd6f37ab
+_md5_=86aae2c5f77a1f83f762ac6b80b93071
