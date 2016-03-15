@@ -1,13 +1,13 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
 EAPI="5"
 inherit eutils
 
-MAGIC_PV="1.3.1.0"
+MAGIC_PV="1.5.1.0"
 
-RESTRICT="strip"
+RESTRICT="strip mirror"
 QA_TEXTRELS="opt/${P}/bin/libbreakgen.so"
 
 DESCRIPTION="A new Android development environment based on IntelliJ IDEA"
