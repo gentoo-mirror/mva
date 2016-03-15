@@ -106,6 +106,7 @@ sci-misc/multimeter 0.2: A litte data acquisition tool for the V&A VA18B (and ot
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
+sys-fs/enchanceio 9999: SSD caching software, based on Facebook's open source Flashcache project
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
