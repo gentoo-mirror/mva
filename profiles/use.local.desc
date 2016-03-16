@@ -246,6 +246,10 @@ www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuni
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:rtmp - 
 www-servers/nginx:stream - 
+x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
+x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
+x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
+x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
 x11-plugins/skype4pidgin:dbus - 
 x11-plugins/skype4pidgin:nls - 
 x11-plugins/skype4pidgin:skypeapi - 
