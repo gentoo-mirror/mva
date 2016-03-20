@@ -4,8 +4,6 @@
 
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
-app-emulation/firejail:bind - 
-app-emulation/firejail:chroot - 
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-data:abakan - Install GeoInformational data (incl. maps) for Abakan
 app-misc/2gis-data:almaty - Install GeoInformational data (incl. maps) for Almaty

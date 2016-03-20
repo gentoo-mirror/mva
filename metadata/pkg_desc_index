@@ -10,9 +10,6 @@ app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
-app-emulation/firejail 0.9.36_rc1 9999: a SUID sandbox program using linux namespaces
-app-emulation/firetools 0.9.30: Graphical user interface of app-emulation/firejail
-app-emulation/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-misc/2gis 3.15.10.0 4.15.2.280: Proprietary freeware multimedia map of several Russian and Ukrainian towns
 app-misc/2gis-data 20151009: Proprietary freeware multimedia map of several Russian and Ukrainian towns (data)
@@ -110,7 +107,7 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: CTPP is a tool separating data processing (business logic) from data presentation.
 www-apps/redmine 3.1.0 9999: Redmine is a flexible project management web application written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.3.0.4716_p1: Browser that combines a minimal design with sophisticated technology.
+www-client/yandex-browser-beta 16.3.0.6931_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.9.12: Robust, small and high performance http and reverse proxy server
