@@ -74,14 +74,16 @@ media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara"
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/xtables-addons 2.5: extensions not yet accepted in the main kernel/iptables (patch-o-matic(-ng) successor)
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
-net-im/slack 1.2.6: A messaging app for teams
+net-im/slack 2.0.1: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 9999: Just a perfect C++ XMPP library
 net-im/telegram-cli 9999: Command line interface client for Telegram
+net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
 net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/nodejs 5.3.0: Evented IO for V8 Javascript
+net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
@@ -102,6 +104,7 @@ sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
 sys-fs/enchanceio 9999: SSD caching software, based on Facebook's open source Flashcache project
+sys-fs/exfat-nofuse 9999: Non-fuse kernel driver for exFat and VFat file systems
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer

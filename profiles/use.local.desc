@@ -159,10 +159,12 @@ net-im/spectrum:twitter -
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
+net-im/telepathy-morse: - 
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
 net-libs/nodejs:npm - Enable NPM package manager
 net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
+net-libs/telegram-qt: - 
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
 net-misc/i2pd:daemon - Compile I²P daemon
 net-misc/ofono:atmodem - ETSI AT modem support.
