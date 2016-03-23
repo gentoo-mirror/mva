@@ -1,6 +1,6 @@
 DEFINED_PHASES=postinst prepare unpack
 DEPEND=>=sys-apps/pcsc-lite-1.4.99 virtual/libusb:0 sys-apps/dbus media-libs/libpng:1.2 media-libs/fontconfig ssl? ( dev-libs/engine_pkcs11 ) media-libs/hal-flash >=app-arch/rpm2targz-9.0.0.3g
-DESCRIPTION=SafeNet (Aladdin) eToken Middleware for eTokenPRO, eTokenNG OTP, eTokenNG Flash, eToken Pro (Java)
+DESCRIPTION=SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 EAPI=5
 HOMEPAGE=http://aladdin-rd.ru
 IUSE=ssl multilib minimal
@@ -13,4 +13,4 @@ SLOT=0
 SRC_URI=http://online.payment.ru/drivers/SAC_8.3_Linux_10.12.2013.zip
 _eclass_exported_funcs=pkg_postinst:- src_unpack:- src_prepare:-
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	3e120fdd74b358f9fb42b825a6558f61	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=4bff3a15d1aa2fa2377c0871c11de56f
+_md5_=1e20252d6d98b17565d9bee87e14db5b
