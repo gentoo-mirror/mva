@@ -79,6 +79,7 @@ net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
+net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes

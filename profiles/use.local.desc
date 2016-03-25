@@ -161,6 +161,16 @@ net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
+net-irc/weechat:alias - Enable LuaJIT support.
+net-irc/weechat:charset - Enable encoding conversions.
+net-irc/weechat:exec - Enable exec plugin.
+net-irc/weechat:fifo - Enable FIFO support (sh pipes).
+net-irc/weechat:irc - Enable IRC protocol support.
+net-irc/weechat:logger - Enable support for logging.
+net-irc/weechat:relay - Enable relay plugin (experimental)
+net-irc/weechat:scripts - Build infrastructure for scripting.
+net-irc/weechat:trigger - Enable trigger plugin.
+net-irc/weechat:xfer - Enable xfer plugin support.
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
 net-misc/i2pd:daemon - Compile I²P daemon
