@@ -10,5 +10,5 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=x86? ( alsa? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-alsa_1.0-1ubuntu16_i386.deb ) oss? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-oss_1.0-1ubuntu16_i386.deb ) http://rion-overlay.googlecode.com/files/libavutil_x86.tbz2 ) amd64? ( alsa? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-alsa_1.0-1ubuntu12_amd64.deb ) oss? ( http://www.zoiper.com/downloads/free/linux/communicator/karmic/zoiper-communicator-free-oss_1.0-1ubuntu12_amd64.deb ) http://rion-overlay.googlecode.com/files/libavutil_amd64.tbz2 )
 _eclass_exported_funcs=pkg_setup:- src_unpack:- src_install:-
-_eclasses_=confutils	18995f74ac4ffafb7ad853dfe133f209	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	wxwidgets	cf6a488b00cd81e258206bc14b4167d9
+_eclasses_=confutils	18995f74ac4ffafb7ad853dfe133f209	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	wxwidgets	cf6a488b00cd81e258206bc14b4167d9
 _md5_=2e46efa119f71056216b59e0e473e1a4

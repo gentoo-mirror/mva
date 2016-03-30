@@ -12,5 +12,5 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=http://online.payment.ru/drivers/SAC_8.3_Linux_10.12.2013.zip
 _eclass_exported_funcs=pkg_postinst:- src_unpack:- src_prepare:-
-_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	3e120fdd74b358f9fb42b825a6558f61	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	rpm	3e120fdd74b358f9fb42b825a6558f61	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
 _md5_=1e20252d6d98b17565d9bee87e14db5b
