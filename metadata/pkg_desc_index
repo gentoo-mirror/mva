@@ -89,9 +89,11 @@ net-misc/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
 net-misc/ofono 1.12: Open Source mobile telephony (GSM/UMTS) daemon.
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
+net-misc/tinc 1.1.9999: tinc is an easy to configure VPN implementation
 net-p2p/syncthing 0.12.16 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-inotify 0.6.8 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
+net-p2p/transmission-cli 2.92: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
 net-voip/zoiper-communicator 1.0: Free proprietary cross-platform VoIP-client with SIP and IAX support.
 sci-biology/structure 2.3.3: Package for using multi-locus genotype data to investigate population structure
@@ -111,7 +113,7 @@ www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ru
 www-client/yandex-browser-beta 16.3.0.6931_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.9.12: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.9.13: Robust, small and high performance http and reverse proxy server
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)

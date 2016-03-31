@@ -182,6 +182,12 @@ net-misc/ofono:isimodem - Enable PhoNet/ISI modem support.
 net-misc/ofono:phonesim - Enable phone Simulator support
 net-misc/ofono:tools - Enable testing tools
 net-misc/subnetcalc:colorgcc - 
+net-misc/tinc:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
+net-misc/tinc:gui - Add GUI support, using dev-python/wxpython
+net-misc/tinc:jumboframes - Enable jumboframes
+net-misc/tinc:openssl - Using dev-libs/openssl for cryptography-related functions
+net-misc/tinc:uml - Enable support for User Mode Linux Sockets
+net-misc/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 sys-apps/kmscon:drm - Enable Linux DRM for backend
 sys-apps/kmscon:fbdev - Enable Linux FBDev for backend
 sys-apps/kmscon:gles2 - Enable GLES2 for backend
