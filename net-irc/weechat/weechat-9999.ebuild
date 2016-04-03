@@ -78,6 +78,12 @@ src_prepare() {
 
 	epatch "${PATCHES[@]}"
 
+	use luajit && (
+		sed -i \
+			-e 's@\(pkg_search_module(LUA\) \(.*\)@\1 luajit-2.1 luajit-2.0 luajit \2@' \
+			cmake/FindLua.cmake
+	)
+
 	# fix libdir placement
 	sed -i \
 		-e "s:lib/:$(get_libdir)/:g" \
@@ -123,6 +129,7 @@ src_configure() {
 		$(cmake-utils_use_enable irc)
 		$(cmake-utils_use_enable logger)
 		$(cmake-utils_use_enable lua)
+		$(cmake-utils_use_enable luajit lua)
 		$(cmake-utils_use_enable nls)
 		$(cmake-utils_use_enable perl)
 		$(cmake-utils_use_enable python)
