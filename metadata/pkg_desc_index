@@ -70,6 +70,7 @@ media-libs/libjpeg-turbo 1.1.90: MMX, SSE, and SSE2 SIMD accelerated JPEG librar
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
+net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-firewall/xtables-addons 2.10: extensions not yet accepted in the main kernel/iptables
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 2.0.1: A messaging app for teams
@@ -81,6 +82,7 @@ net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
+net-libs/miniupnpc 1.9.20160209: UPnP client library and a simple UPnP client
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.

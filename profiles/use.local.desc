@@ -144,6 +144,11 @@ dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
 media-libs/libjpeg-turbo:pic - 
+net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
+net-firewall/iptables:ipq - Support for IPQ
+net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
+net-firewall/iptables:nftables - Support nftables kernel interface
+net-firewall/iptables:pcap - Build against net-libs/libpcap which enables the nfbpf_compile util
 net-im/libcommuni:qml - 
 net-im/libcommuni:uchardet - 
 net-im/spectrum:frotz - 
@@ -184,7 +189,6 @@ net-misc/ofono:tools - Enable testing tools
 net-misc/subnetcalc:colorgcc - 
 net-misc/tinc:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
 net-misc/tinc:gui - Add GUI support, using dev-python/wxpython
-net-misc/tinc:jumboframes - Enable jumboframes
 net-misc/tinc:openssl - Using dev-libs/openssl for cryptography-related functions
 net-misc/tinc:uml - Enable support for User Mode Linux Sockets
 net-misc/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
