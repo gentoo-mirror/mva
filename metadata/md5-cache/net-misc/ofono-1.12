@@ -10,5 +10,5 @@ RDEPEND=>=sys-apps/dbus-1.4 >=dev-libs/glib-2.28 net-misc/mobile-broadband-provi
 SLOT=0
 SRC_URI=mirror://kernel/linux/network/ofono/ofono-1.12.tar.bz2
 _eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
-_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_eclasses_=multilib	23ae8c186171e6476af098d2a50d0ee0	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
 _md5_=890380431fb06d02db0d39e0dd477617
