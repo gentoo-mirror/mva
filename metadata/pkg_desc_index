@@ -110,10 +110,10 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.4.0.6115_p1: Browser that combines a minimal design with sophisticated technology.
+www-client/yandex-browser-beta 16.4.1.7986_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.9.14: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.9.15: Robust, small and high performance http and reverse proxy server
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)
