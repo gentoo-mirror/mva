@@ -224,6 +224,7 @@ www-servers/nginx:nginx_modules_http_array_var -
 www-servers/nginx:nginx_modules_http_auth_request - 
 www-servers/nginx:nginx_modules_http_coolkit - 
 www-servers/nginx:nginx_modules_http_ctpp - 
+www-servers/nginx:nginx_modules_http_drizzle - 
 www-servers/nginx:nginx_modules_http_echo - 
 www-servers/nginx:nginx_modules_http_encrypted_session - 
 www-servers/nginx:nginx_modules_http_enmemcache - 
