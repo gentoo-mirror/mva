@@ -178,6 +178,7 @@ net-irc/weechat:scripts - Build infrastructure for scripting.
 net-irc/weechat:trigger - Enable trigger plugin.
 net-irc/weechat:xfer - Enable xfer plugin support.
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
+net-libs/libnftnl:json - Supports parsing of JSON
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
 net-misc/i2pd:daemon - Compile I²P daemon
 net-misc/ofono:atmodem - ETSI AT modem support.

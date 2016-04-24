@@ -28,6 +28,7 @@ dev-java/gradle 2.12: A project automation and build tool with a Groovy based DS
 dev-libs/crypto++ 5.6.2-r2: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r2: Tools and libraries to configure and manage kernel control groups
+dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
 dev-libs/libdwarf 20120410 20140208: Library to deal with DWARF Debugging Information Format
 dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
 dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG software
@@ -68,6 +69,7 @@ media-libs/openslide 3.4.1: C library with simple interface to read virtual slid
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
+net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 net-firewall/xtables-addons 2.10: extensions not yet accepted in the main kernel/iptables
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 2.0.1: A messaging app for teams
@@ -79,6 +81,7 @@ net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
+net-libs/libnftnl 9999: Netlink API to the in-kernel nf_tables subsystem
 net-libs/miniupnpc 1.9.20160209: UPnP client library and a simple UPnP client
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
@@ -111,7 +114,7 @@ sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-client/yandex-browser-beta 16.4.1.7986_p1: Browser that combines a minimal design with sophisticated technology.
-www-servers/apache-headers 2.4.12: Header files from the Apache Web Server
+www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.9.15: Robust, small and high performance http and reverse proxy server
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
