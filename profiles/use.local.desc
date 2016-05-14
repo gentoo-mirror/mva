@@ -167,9 +167,8 @@ net-im/spectrum:whatsapp -
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
-net-im/tgl:json - Enable JSON support
-net-im/tgl:lua - Enable Lua scripting
-net-im/tgl:python - Enable Python support
+net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
+net-im/tgl:libevent - Enable LibEvent support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-irc/weechat:alias - Enable plugin for alias control.
 net-irc/weechat:charset - Enable encoding conversions.

@@ -79,7 +79,7 @@ net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 9999: Just a perfect C++ XMPP library
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
-net-im/tgl 9999: Command line interface client for Telegram
+net-im/tgl 9999: Telegram library
 net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
 net-irc/weechat 9999: Portable and multi-interface IRC client
