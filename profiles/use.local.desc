@@ -144,6 +144,8 @@ dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
 media-libs/libjpeg-turbo:pic - 
+media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
+media-sound/mumble:speech - Enable text-to-speech support in Mumble.
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:ipq - Support for IPQ
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
@@ -165,6 +167,9 @@ net-im/spectrum:whatsapp -
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
+net-im/tgl:json - Enable JSON support
+net-im/tgl:lua - Enable Lua scripting
+net-im/tgl:python - Enable Python support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-irc/weechat:alias - Enable plugin for alias control.
 net-irc/weechat:charset - Enable encoding conversions.
