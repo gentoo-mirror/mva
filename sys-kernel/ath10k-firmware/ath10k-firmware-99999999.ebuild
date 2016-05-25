@@ -1,8 +1,7 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI="5"
+EAPI=5
 inherit savedconfig git-r3
 
 SRC_URI=""
@@ -19,6 +18,12 @@ IUSE="savedconfig"
 DEPEND=""
 RDEPEND=""
 
+LF_COLLISION=()
+LF_COLLISION+=("QCA6174/hw3.0/board-2.bin")
+LF_COLLISION+=("QCA6174/hw2.1/board-2.bin")
+LF_COLLISION+=("QCA9377/hw1.0/board-2.bin")
+LF_COLLISION+=("QCA9377/hw1.0/board.bin")
+
 src_prepare() {
 	echo "# Remove files that shall not be installed from this list." > ${PN}.conf
 	find * \( \! -type d -and \! -name ${PN}.conf \) >> ${PN}.conf
@@ -32,6 +37,10 @@ src_prepare() {
 		eend $? || die
 		# remove empty directories, bug #396073
 		find -type d -empty -delete || die
+	else
+		for f in ${LF_COLLISION[@]}; do
+			rm -f ${f};
+		done
 	fi
 
 	rm Makefile LICENSE.qca_firmware README.md

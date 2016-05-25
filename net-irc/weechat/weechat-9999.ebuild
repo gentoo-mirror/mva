@@ -1,6 +1,5 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 PYTHON_COMPAT=( python{2_7,3_3,3_4,3_5} )
@@ -62,7 +61,7 @@ DEPEND="${RDEPEND}
 	test? ( dev-util/cpputest )
 "
 
-DOCS="AUTHORS.asciidoc ChangeLog.asciidoc ReleaseNotes.asciidoc README.asciidoc"
+DOCS=("AUTHORS.adoc" "ChangeLog.adoc" "Contributing.adoc" "ReleaseNotes.adoc" "README.adoc")
 
 # tests need to be fixed to not use system plugins if weechat is already installed
 RESTRICT="test"

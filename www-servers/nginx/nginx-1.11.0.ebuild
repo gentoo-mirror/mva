@@ -1,8 +1,7 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI="5"
+EAPI=5
 # ^ ruby eclasses doesn't support EAPI6
 
 # Maintainer notes:
@@ -39,7 +38,7 @@ HTTP_TCPPROXY_MODULE_WD="${WORKDIR}/${HTTP_TCPPROXY_MODULE_P}"
 # http_passenger (https://github.com/phusion/passenger/tags, MIT)
 HTTP_PASSENGER_MODULE_A="phusion"
 HTTP_PASSENGER_MODULE_PN="passenger"
-HTTP_PASSENGER_MODULE_PV="5.0.27"
+HTTP_PASSENGER_MODULE_PV="5.0.28"
 #HTTP_PASSENGER_MODULE_SHA=""
 HTTP_PASSENGER_MODULE_P="${HTTP_PASSENGER_MODULE_PN}-${HTTP_PASSENGER_MODULE_SHA:-release-${HTTP_PASSENGER_MODULE_PV}}"
 HTTP_PASSENGER_MODULE_URI="https://github.com/${HTTP_PASSENGER_MODULE_A}/${HTTP_PASSENGER_MODULE_PN}/archive/${HTTP_PASSENGER_MODULE_SHA:-release-${HTTP_PASSENGER_MODULE_PV}}.tar.gz"
@@ -68,7 +67,7 @@ HTTP_PASSENGER_UNION_STATION_HOOKS_RAILS_WD="${WORKDIR}/${HTTP_PASSENGER_UNION_S
 # http_pagespeed (https://github.com/pagespeed/ngx_pagespeed/tags, BSD-2)
 HTTP_PAGESPEED_MODULE_A="pagespeed"
 HTTP_PAGESPEED_MODULE_PN="ngx_pagespeed"
-HTTP_PAGESPEED_MODULE_PV="1.11.33.0-beta"
+HTTP_PAGESPEED_MODULE_PV="1.11.33.2-beta"
 #HTTP_PAGESPEED_MODULE_SHA="1c5b61679cc47716930399516e188e1e896060dd"
 HTTP_PAGESPEED_MODULE_P="${HTTP_PAGESPEED_MODULE_PN}-${HTTP_PAGESPEED_MODULE_SHA:-${HTTP_PAGESPEED_MODULE_PV}}"
 HTTP_PAGESPEED_MODULE_URI="https://github.com/${HTTP_PAGESPEED_MODULE_A}/${HTTP_PAGESPEED_MODULE_PN}/archive/${HTTP_PAGESPEED_MODULE_SHA:-v${HTTP_PAGESPEED_MODULE_PV}}.tar.gz"
@@ -84,7 +83,7 @@ HTTP_PAGESPEED_PSOL_WD="${WORKDIR}/${HTTP_PAGESPEED_PSOL_PN}"
 HTTP_HLS_AUDIO_MODULE_A="flavioribeiro"
 HTTP_HLS_AUDIO_MODULE_PN="nginx-audio-track-for-hls-module"
 HTTP_HLS_AUDIO_MODULE_PV="0.2"
-HTTP_HLS_AUDIO_MODULE_SHA="1e8f2208e243971427154392b855fd973bfedbed"
+HTTP_HLS_AUDIO_MODULE_SHA="84f79f70ac9752deb263d777308e9d667ae34e57"
 HTTP_HLS_AUDIO_MODULE_P="${HTTP_HLS_AUDIO_MODULE_PN}-${HTTP_HLS_AUDIO_MODULE_SHA:-${HTTP_HLS_AUDIO_MODULE_PV}}"
 HTTP_HLS_AUDIO_MODULE_URI="https://github.com/${HTTP_HLS_AUDIO_MODULE_A}/${HTTP_HLS_AUDIO_MODULE_PN}/archive/${HTTP_HLS_AUDIO_MODULE_SHA:-${HTTP_HLS_AUDIO_MODULE_PV}}.tar.gz"
 HTTP_HLS_AUDIO_MODULE_WD="${WORKDIR}/${HTTP_HLS_AUDIO_MODULE_P}"
@@ -100,7 +99,7 @@ HTTP_UPLOAD_PROGRESS_MODULE_WD="${WORKDIR}/${HTTP_UPLOAD_PROGRESS_MODULE_P}"
 # http_nchan (https://github.com/slact/nchan/tags, BSD-2)
 HTTP_NCHAN_MODULE_A="slact"
 HTTP_NCHAN_MODULE_PN="nchan"
-HTTP_NCHAN_MODULE_PV="0.99.13"
+HTTP_NCHAN_MODULE_PV="0.99.14"
 HTTP_NCHAN_MODULE_P="${HTTP_NCHAN_MODULE_PN}-${HTTP_NCHAN_MODULE_SHA:-${HTTP_NCHAN_MODULE_PV}}"
 HTTP_NCHAN_MODULE_URI="https://github.com/${HTTP_NCHAN_MODULE_A}/${HTTP_NCHAN_MODULE_PN}/archive/${HTTP_NCHAN_MODULE_SHA:-v${HTTP_NCHAN_MODULE_PV}}.tar.gz"
 HTTP_NCHAN_MODULE_WD="${WORKDIR}/${HTTP_NCHAN_MODULE_P}"
@@ -108,8 +107,8 @@ HTTP_NCHAN_MODULE_WD="${WORKDIR}/${HTTP_NCHAN_MODULE_P}"
 # http_headers_more (https://github.com/openresty/headers-more-nginx-module/tags, BSD)
 HTTP_HEADERS_MORE_MODULE_A="openresty"
 HTTP_HEADERS_MORE_MODULE_PN="headers-more-nginx-module"
-HTTP_HEADERS_MORE_MODULE_PV="0.30rc1"
-HTTP_HEADERS_MORE_MODULE_SHA="a744defdfac1d6874152a51e3a8a604a85354a2c"
+HTTP_HEADERS_MORE_MODULE_PV="0.30"
+#HTTP_HEADERS_MORE_MODULE_SHA="a744defdfac1d6874152a51e3a8a604a85354a2c"
 HTTP_HEADERS_MORE_MODULE_P="${HTTP_HEADERS_MORE_MODULE_PN}-${HTTP_HEADERS_MORE_MODULE_SHA:-${HTTP_HEADERS_MORE_MODULE_PV}}"
 HTTP_HEADERS_MORE_MODULE_URI="https://github.com/${HTTP_HEADERS_MORE_MODULE_A}/${HTTP_HEADERS_MORE_MODULE_PN}/archive/${HTTP_HEADERS_MORE_MODULE_SHA:-v${HTTP_HEADERS_MORE_MODULE_PV}}.tar.gz"
 HTTP_HEADERS_MORE_MODULE_WD="${WORKDIR}/${HTTP_HEADERS_MORE_MODULE_P}"
@@ -117,7 +116,7 @@ HTTP_HEADERS_MORE_MODULE_WD="${WORKDIR}/${HTTP_HEADERS_MORE_MODULE_P}"
 # http_encrypted_session (https://github.com/openresty/encrypted-session-nginx-module/tags, BSD)
 HTTP_ENCRYPTED_SESSION_MODULE_A="openresty"
 HTTP_ENCRYPTED_SESSION_MODULE_PN="encrypted-session-nginx-module"
-HTTP_ENCRYPTED_SESSION_MODULE_PV="0.04"
+HTTP_ENCRYPTED_SESSION_MODULE_PV="0.05"
 HTTP_ENCRYPTED_SESSION_MODULE_P="${HTTP_ENCRYPTED_SESSION_MODULE_PN}-${HTTP_ENCRYPTED_SESSION_MODULE_SHA:-${HTTP_ENCRYPTED_SESSION_MODULE_PV}}"
 HTTP_ENCRYPTED_SESSION_MODULE_URI="https://github.com/${HTTP_ENCRYPTED_SESSION_MODULE_A}/${HTTP_ENCRYPTED_SESSION_MODULE_PN}/archive/${HTTP_ENCRYPTED_SESSION_MODULE_SHA:-v${HTTP_ENCRYPTED_SESSION_MODULE_PV}}.tar.gz"
 HTTP_ENCRYPTED_SESSION_MODULE_WD="${WORKDIR}/${HTTP_ENCRYPTED_SESSION_MODULE_P}"
@@ -155,7 +154,7 @@ HTTP_EY_BALANCER_MODULE_WD="${WORKDIR}/${HTTP_EY_BALANCER_MODULE_P}"
 # http_ndk, NginX DevKit module (https://github.com/simpl/ngx_devel_kit/tags, BSD)
 HTTP_NDK_MODULE_A="simpl"
 HTTP_NDK_MODULE_PN="ngx_devel_kit"
-HTTP_NDK_MODULE_PV="0.3.0rc1"
+HTTP_NDK_MODULE_PV="0.3.0"
 HTTP_NDK_MODULE_P="${HTTP_NDK_MODULE_PN}-${HTTP_NDK_MODULE_SHA:-${HTTP_NDK_MODULE_PV}}"
 HTTP_NDK_MODULE_URI="https://github.com/${HTTP_NDK_MODULE_A}/${HTTP_NDK_MODULE_PN}/archive/${HTTP_NDK_MODULE_SHA:-v${HTTP_NDK_MODULE_PV}}.tar.gz"
 HTTP_NDK_MODULE_WD="${WORKDIR}/${HTTP_NDK_MODULE_P}"
@@ -163,7 +162,7 @@ HTTP_NDK_MODULE_WD="${WORKDIR}/${HTTP_NDK_MODULE_P}"
 # http_redis, NginX Redis 2.0 module (https://github.com/openresty/redis2-nginx-module/tags, BSD)
 HTTP_REDIS_MODULE_A="openresty"
 HTTP_REDIS_MODULE_PN="redis2-nginx-module"
-HTTP_REDIS_MODULE_PV="0.12"
+HTTP_REDIS_MODULE_PV="0.13"
 #HTTP_REDIS_MODULE_SHA=""
 HTTP_REDIS_MODULE_P="${HTTP_REDIS_MODULE_PN}-${HTTP_REDIS_MODULE_SHA:-${HTTP_REDIS_MODULE_PV}}"
 HTTP_REDIS_MODULE_URI="https://github.com/${HTTP_REDIS_MODULE_A}/${HTTP_REDIS_MODULE_PN}/archive/${HTTP_REDIS_MODULE_SHA:-v${HTTP_REDIS_MODULE_PV}}.tar.gz"
@@ -172,8 +171,8 @@ HTTP_REDIS_MODULE_WD="${WORKDIR}/${HTTP_REDIS_MODULE_P}"
 # http_lua, NginX Lua module (https://github.com/openresty/lua-nginx-module/tags, BSD)
 HTTP_LUA_MODULE_A="openresty"
 HTTP_LUA_MODULE_PN="lua-nginx-module"
-HTTP_LUA_MODULE_PV="0.10.3"
-HTTP_LUA_MODULE_SHA="d44f8e04db2f6e3d08b9ac6a8aac863c1bd603e8"
+HTTP_LUA_MODULE_PV="0.10.4"
+#HTTP_LUA_MODULE_SHA="d44f8e04db2f6e3d08b9ac6a8aac863c1bd603e8"
 HTTP_LUA_MODULE_P="${HTTP_LUA_MODULE_PN}-${HTTP_LUA_MODULE_SHA:-${HTTP_LUA_MODULE_PV}}"
 HTTP_LUA_MODULE_URI="https://github.com/${HTTP_LUA_MODULE_A}/${HTTP_LUA_MODULE_PN}/archive/${HTTP_LUA_MODULE_SHA:-v${HTTP_LUA_MODULE_PV}}.tar.gz"
 HTTP_LUA_MODULE_WD="${WORKDIR}/${HTTP_LUA_MODULE_P}"
@@ -182,7 +181,7 @@ HTTP_LUA_MODULE_WD="${WORKDIR}/${HTTP_LUA_MODULE_P}"
 HTTP_DRIZZLE_MODULE_A="openresty"
 HTTP_DRIZZLE_MODULE_PN="drizzle-nginx-module"
 HTTP_DRIZZLE_MODULE_PV="0.1.9"
-HTTP_DRIZZLE_MODULE_SHA="1d7aa7ed8a56fb1ce32c3968700f5ed18aa2a780"
+HTTP_DRIZZLE_MODULE_SHA="5ef6a16bbae1a921b45ae89ae66f8e82271ea834"
 HTTP_DRIZZLE_MODULE_P="${HTTP_DRIZZLE_MODULE_PN}-${HTTP_DRIZZLE_MODULE_SHA:-${HTTP_DRIZZLE_MODULE_PV}}"
 HTTP_DRIZZLE_MODULE_URI="https://github.com/${HTTP_DRIZZLE_MODULE_A}/${HTTP_DRIZZLE_MODULE_PN}/archive/${HTTP_DRIZZLE_MODULE_SHA:-v${HTTP_DRIZZLE_MODULE_PV}}.tar.gz"
 HTTP_DRIZZLE_MODULE_WD="${WORKDIR}/${HTTP_DRIZZLE_MODULE_P}"
@@ -190,7 +189,7 @@ HTTP_DRIZZLE_MODULE_WD="${WORKDIR}/${HTTP_DRIZZLE_MODULE_P}"
 # NginX form-input module (https://github.com/calio/form-input-nginx-module/tags, BSD)
 HTTP_FORM_INPUT_MODULE_A="calio"
 HTTP_FORM_INPUT_MODULE_PN="form-input-nginx-module"
-HTTP_FORM_INPUT_MODULE_PV="0.11"
+HTTP_FORM_INPUT_MODULE_PV="0.12"
 HTTP_FORM_INPUT_MODULE_P="${HTTP_FORM_INPUT_MODULE_PN}-${HTTP_FORM_INPUT_MODULE_SHA:-${HTTP_FORM_INPUT_MODULE_PV}}"
 HTTP_FORM_INPUT_MODULE_URI="https://github.com/${HTTP_FORM_INPUT_MODULE_A}/${HTTP_FORM_INPUT_MODULE_PN}/archive/${HTTP_FORM_INPUT_MODULE_SHA:-v${HTTP_FORM_INPUT_MODULE_PV}}.tar.gz"
 HTTP_FORM_INPUT_MODULE_WD="${WORKDIR}/${HTTP_FORM_INPUT_MODULE_P}"
@@ -198,7 +197,7 @@ HTTP_FORM_INPUT_MODULE_WD="${WORKDIR}/${HTTP_FORM_INPUT_MODULE_P}"
 # NginX echo module (https://github.com/openresty/echo-nginx-module/tags, BSD)
 HTTP_ECHO_MODULE_A="openresty"
 HTTP_ECHO_MODULE_PN="echo-nginx-module"
-HTTP_ECHO_MODULE_PV="0.59rc1"
+HTTP_ECHO_MODULE_PV="0.59"
 HTTP_ECHO_MODULE_P="${HTTP_ECHO_MODULE_PN}-${HTTP_ECHO_MODULE_SHA:-${HTTP_ECHO_MODULE_PV}}"
 HTTP_ECHO_MODULE_URI="https://github.com/${HTTP_ECHO_MODULE_A}/${HTTP_ECHO_MODULE_PN}/archive/${HTTP_ECHO_MODULE_SHA:-v${HTTP_ECHO_MODULE_PV}}.tar.gz"
 HTTP_ECHO_MODULE_WD="${WORKDIR}/${HTTP_ECHO_MODULE_P}"
@@ -206,7 +205,7 @@ HTTP_ECHO_MODULE_WD="${WORKDIR}/${HTTP_ECHO_MODULE_P}"
 # NginX Featured mecached module (https://github.com/openresty/memc-nginx-module/tags, BSD)
 HTTP_MEMC_MODULE_A="openresty"
 HTTP_MEMC_MODULE_PN="memc-nginx-module"
-HTTP_MEMC_MODULE_PV="0.16"
+HTTP_MEMC_MODULE_PV="0.17"
 HTTP_MEMC_MODULE_P="${HTTP_MEMC_MODULE_PN}-${HTTP_MEMC_MODULE_SHA:-${HTTP_MEMC_MODULE_PV}}"
 HTTP_MEMC_MODULE_URI="https://github.com/${HTTP_MEMC_MODULE_A}/${HTTP_MEMC_MODULE_PN}/archive/${HTTP_MEMC_MODULE_SHA:-v${HTTP_MEMC_MODULE_PV}}.tar.gz"
 HTTP_MEMC_MODULE_WD="${WORKDIR}/${HTTP_MEMC_MODULE_P}"
@@ -230,7 +229,7 @@ HTTP_RDS_CSV_MODULE_WD="${WORKDIR}/${HTTP_RDS_CSV_MODULE_P}"
 # NginX SRCache module (https://github.com/openresty/srcache-nginx-module/tags, BSD)
 HTTP_SRCACHE_MODULE_A="openresty"
 HTTP_SRCACHE_MODULE_PN="srcache-nginx-module"
-HTTP_SRCACHE_MODULE_PV="0.30"
+HTTP_SRCACHE_MODULE_PV="0.31"
 HTTP_SRCACHE_MODULE_P="${HTTP_SRCACHE_MODULE_PN}-${HTTP_SRCACHE_MODULE_SHA:-${HTTP_SRCACHE_MODULE_PV}}"
 HTTP_SRCACHE_MODULE_URI="https://github.com/${HTTP_SRCACHE_MODULE_A}/${HTTP_SRCACHE_MODULE_PN}/archive/${HTTP_SRCACHE_MODULE_SHA:-v${HTTP_SRCACHE_MODULE_PV}}.tar.gz"
 HTTP_SRCACHE_MODULE_WD="${WORKDIR}/${HTTP_SRCACHE_MODULE_P}"
@@ -278,7 +277,7 @@ HTTP_REPLACE_FILTER_MODULE_WD="${WORKDIR}/${HTTP_REPLACE_FILTER_MODULE_P}"
 # NginX Iconv module (https://github.com/calio/iconv-nginx-module/tags, BSD)
 HTTP_ICONV_MODULE_A="calio"
 HTTP_ICONV_MODULE_PN="iconv-nginx-module"
-HTTP_ICONV_MODULE_PV="0.13"
+HTTP_ICONV_MODULE_PV="0.14"
 HTTP_ICONV_MODULE_P="${HTTP_ICONV_MODULE_PN}-${HTTP_ICONV_MODULE_SHA:-${HTTP_ICONV_MODULE_PV}}"
 HTTP_ICONV_MODULE_URI="https://github.com/${HTTP_ICONV_MODULE_A}/${HTTP_ICONV_MODULE_PN}/archive/${HTTP_ICONV_MODULE_SHA:-v${HTTP_ICONV_MODULE_PV}}.tar.gz"
 HTTP_ICONV_MODULE_WD="${WORKDIR}/${HTTP_ICONV_MODULE_P}"
@@ -344,10 +343,10 @@ HTTP_METRICS_MODULE_WD="${WORKDIR}/${HTTP_METRICS_MODULE_P}"
 # naxsi-core (https://github.com/nbs-system/naxsi/tags, GPLv2+)
 HTTP_NAXSI_MODULE_A="nbs-system"
 HTTP_NAXSI_MODULE_PN="naxsi"
-HTTP_NAXSI_MODULE_PV="0.55rc1"
-HTTP_NAXSI_MODULE_SHA="bf6c9cba178225d5ff5cf3de2ebda9b0a2f06a66"
+HTTP_NAXSI_MODULE_PV="0.55rc2"
+#HTTP_NAXSI_MODULE_SHA="bf6c9cba178225d5ff5cf3de2ebda9b0a2f06a66"
 HTTP_NAXSI_MODULE_P="${HTTP_NAXSI_MODULE_PN}-${HTTP_NAXSI_MODULE_SHA:-${HTTP_NAXSI_MODULE_PV}}"
-HTTP_NAXSI_MODULE_URI="https://github.com/${HTTP_NAXSI_MODULE_A}/${HTTP_NAXSI_MODULE_PN}/archive/${HTTP_NAXSI_MODULE_SHA:-v${HTTP_NAXSI_MODULE_PV}}.tar.gz"
+HTTP_NAXSI_MODULE_URI="https://github.com/${HTTP_NAXSI_MODULE_A}/${HTTP_NAXSI_MODULE_PN}/archive/${HTTP_NAXSI_MODULE_SHA:-${HTTP_NAXSI_MODULE_PV}}.tar.gz"
 HTTP_NAXSI_MODULE_WD="${WORKDIR}/${HTTP_NAXSI_MODULE_P}/naxsi_src"
 
 # nginx-dav-ext-module (https://github.com/arut/nginx-dav-ext-module/tags, BSD)
@@ -358,20 +357,21 @@ HTTP_DAV_EXT_MODULE_P="${HTTP_DAV_EXT_MODULE_PN}-${HTTP_DAV_EXT_MODULE_SHA:-${HT
 HTTP_DAV_EXT_MODULE_URI="https://github.com/${HTTP_DAV_EXT_MODULE_A}/${HTTP_DAV_EXT_MODULE_PN}/archive/${HTTP_DAV_EXT_MODULE_SHA:-v${HTTP_DAV_EXT_MODULE_PV}}.tar.gz"
 HTTP_DAV_EXT_MODULE_WD="${WORKDIR}/${HTTP_DAV_EXT_MODULE_P}"
 
-# nginx-rtmp-module (https://github.com/arut/nginx-rtmp-module/tags, BSD)
-RTMP_MODULE_A="arut"
-RTMP_MODULE_PN="nginx-rtmp-module"
-RTMP_MODULE_PV="1.1.7"
-RTMP_MODULE_SHA="e08959247dc840bb42cdf3389b1f5edb5686825f"
-RTMP_MODULE_P="${RTMP_MODULE_PN}-${RTMP_MODULE_SHA:-${RTMP_MODULE_PV}}"
-RTMP_MODULE_URI="https://github.com/${RTMP_MODULE_A}/${RTMP_MODULE_PN}/archive/${RTMP_MODULE_SHA:-v${RTMP_MODULE_PV}}.tar.gz"
-RTMP_MODULE_WD="${WORKDIR}/${RTMP_MODULE_P}"
+# Broken on 1.11
+## nginx-rtmp-module (https://github.com/arut/nginx-rtmp-module/tags, BSD)
+#RTMP_MODULE_A="arut"
+#RTMP_MODULE_PN="nginx-rtmp-module"
+#RTMP_MODULE_PV="1.1.7"
+#RTMP_MODULE_SHA="e08959247dc840bb42cdf3389b1f5edb5686825f"
+#RTMP_MODULE_P="${RTMP_MODULE_PN}-${RTMP_MODULE_SHA:-${RTMP_MODULE_PV}}"
+#RTMP_MODULE_URI="https://github.com/${RTMP_MODULE_A}/${RTMP_MODULE_PN}/archive/${RTMP_MODULE_SHA:-v${RTMP_MODULE_PV}}.tar.gz"
+#RTMP_MODULE_WD="${WORKDIR}/${RTMP_MODULE_P}"
 
 # mod_security for nginx (https://github.com/SpiderLabs/ModSecurity/tags, Apache-2.0)
 HTTP_SECURITY_MODULE_A="SpiderLabs"
 HTTP_SECURITY_MODULE_PN="ModSecurity"
 HTTP_SECURITY_MODULE_PV="2.9.1"
-HTTP_SECURITY_MODULE_SHA="f2467b6715712275b0a4ba148a92437e7f736d1e"
+HTTP_SECURITY_MODULE_SHA="808ea48263f2123ea7b8d56678b16ea42855cfb3"
 HTTP_SECURITY_MODULE_P="${HTTP_SECURITY_MODULE_PN}-${HTTP_SECURITY_MODULE_SHA:-${HTTP_SECURITY_MODULE_PV}}"
 HTTP_SECURITY_MODULE_URI="https://github.com/${HTTP_SECURITY_MODULE_A}/${HTTP_SECURITY_MODULE_PN}/archive/${HTTP_SECURITY_MODULE_SHA:-v${HTTP_SECURITY_MODULE_PV}}.tar.gz"
 HTTP_SECURITY_MODULE_WD="${WORKDIR}/${HTTP_SECURITY_MODULE_P}"
@@ -387,8 +387,8 @@ HTTP_AUTH_PAM_MODULE_WD="${WORKDIR}/${HTTP_AUTH_PAM_MODULE_P}"
 # http_rrd (https://github.com/evanmiller/mod_rrd_graph/tags, BSD-2)
 RRD_MODULE_A="evanmiller"
 RRD_MODULE_PN="mod_rrd_graph"
-#RRD_MODULE_PV="0.2.0"
-RRD_MODULE_SHA="5d4c1a90d4d67cffb9df241540db1401fae7423c"
+RRD_MODULE_PV="0.2.0"
+RRD_MODULE_SHA="9b749a2d4b8ae47c313054b5a23b982e9a285c54"
 RRD_MODULE_P="${RRD_MODULE_PN}-${RRD_MODULE_SHA:-${RRD_MODULE_PV}}"
 RRD_MODULE_URI="https://github.com/${RRD_MODULE_A}/${RRD_MODULE_PN}/archive/${RRD_MODULE_SHA:-${RRD_MODULE_PV}}.tar.gz"
 RRD_MODULE_WD="${WORKDIR}/${RRD_MODULE_P}"
@@ -396,8 +396,8 @@ RRD_MODULE_WD="${WORKDIR}/${RRD_MODULE_P}"
 # sticky-module (https://bitbucket.org/nginx-goodies/nginx-sticky-module-ng/downloads#tag-downloads, BSD-2)
 HTTP_STICKY_MODULE_A="nginx-goodies"
 HTTP_STICKY_MODULE_PN="nginx-sticky-module-ng"
-HTTP_STICKY_MODULE_PV="1.2.5"
-HTTP_STICKY_MODULE_PV_SHA="bd312d586752"
+HTTP_STICKY_MODULE_PV="1.2.6"
+HTTP_STICKY_MODULE_PV_SHA="c78b7dd79d0d"
 HTTP_STICKY_MODULE_P="${HTTP_STICKY_MODULE_PN}-${HTTP_STICKY_MODULE_PV}"
 HTTP_STICKY_MODULE_URI="https://bitbucket.org/${HTTP_STICKY_MODULE_A}/${HTTP_STICKY_MODULE_PN}/get/${HTTP_STICKY_MODULE_PV}.tar.gz"
 HTTP_STICKY_MODULE_WD="${WORKDIR}/${HTTP_STICKY_MODULE_A}-${HTTP_STICKY_MODULE_PN}-${HTTP_STICKY_MODULE_PV_SHA}"
@@ -405,7 +405,7 @@ HTTP_STICKY_MODULE_WD="${WORKDIR}/${HTTP_STICKY_MODULE_A}-${HTTP_STICKY_MODULE_P
 # ajp-module (https://github.com/yaoweibin/nginx_ajp_module/tags, BSD-2)
 HTTP_AJP_MODULE_A="yaoweibin"
 HTTP_AJP_MODULE_PN="nginx_ajp_module"
-#HTTP_AJP_MODULE_PV="0.3.0"
+HTTP_AJP_MODULE_PV="0.3.0"
 HTTP_AJP_MODULE_SHA="bf6cd93f2098b59260de8d494f0f4b1f11a84627"
 HTTP_AJP_MODULE_P="${HTTP_AJP_MODULE_PN}-${HTTP_AJP_MODULE_SHA:-${HTTP_AJP_MODULE_PV}}"
 HTTP_AJP_MODULE_URI="https://github.com/yaoweibin/nginx_ajp_module/archive/${HTTP_AJP_MODULE_SHA:-v${HTTP_AJP_MODULE_PV}}.tar.gz"
@@ -480,7 +480,6 @@ SRC_URI="
 		${HTTP_PASSENGER_UNION_STATION_HOOKS_CORE_URI} -> ${HTTP_PASSENGER_UNION_STATION_HOOKS_CORE_P}.tar.gz
 		${HTTP_PASSENGER_UNION_STATION_HOOKS_RAILS_URI} -> ${HTTP_PASSENGER_UNION_STATION_HOOKS_RAILS_P}.tar.gz
 	)
-	rtmp? ( ${RTMP_MODULE_URI} -> ${RTMP_MODULE_P}.tar.gz )
 	rrd? ( ${RRD_MODULE_URI} -> ${RRD_MODULE_P}.tar.gz )
 	nginx_modules_http_sticky? ( ${HTTP_STICKY_MODULE_URI} -> ${HTTP_STICKY_MODULE_P}.tar.gz )
 	nginx_modules_http_ajp? ( ${HTTP_AJP_MODULE_URI} -> ${HTTP_AJP_MODULE_P}.tar.gz )
@@ -488,6 +487,7 @@ SRC_URI="
 	nginx_modules_http_njs? ( ${HTTP_NJS_MODULE_URI} -> ${HTTP_NJS_MODULE_P}.tar.gz )
 	nginx_modules_http_drizzle? ( ${HTTP_DRIZZLE_MODULE_URI} -> ${HTTP_DRIZZLE_MODULE_P}.tar.gz )
 "
+#	rtmp? ( ${RTMP_MODULE_URI} -> ${RTMP_MODULE_P}.tar.gz )
 #	nginx_modules_http_upstream_check? ( ${HTTP_UPSTREAM_CHECK_MODULE_URI} -> ${HTTP_UPSTREAM_CHECK_MODULE_P}.tar.gz )
 LICENSE="
 	BSD-2 BSD SSLeay MIT GPL-2 GPL-2+
@@ -643,7 +643,8 @@ REQUIRED_USE="
 		http2? ( nginx_modules_http_v2 )
 "
 
-IUSE="aio debug +http +http-cache ipv6 libatomic mail pam +pcre pcre-jit perftools rrd ssl stream threads vim-syntax luajit selinux rtmp http2"
+IUSE="aio debug +http +http-cache ipv6 libatomic mail pam +pcre pcre-jit perftools rrd ssl stream threads vim-syntax luajit selinux http2"
+# rtmp
 
 for mod in $NGINX_MODULES_STD; do
 	IUSE="${IUSE} +nginx_modules_http_${mod}"
@@ -787,7 +788,13 @@ pkg_setup() {
 
 	if use nginx_modules_http_passenger; then
 		use debug && append-flags -DPASSENGER_DEBUG
+		append-cflags "-fno-strict-aliasing -Wno-unused-result -Wno-unused-variable"
+		append-cxxflags "-fno-strict-aliasing -Wno-unused-result -Wno-unused-variable"
 		ruby-ng_pkg_setup
+	fi
+
+	if use nginx_modules_http_hls_audio; then
+		append-cflags "-Wno-deprecated-declarations"
 	fi
 
 	if use !http; then
@@ -998,6 +1005,11 @@ src_configure() {
 		myconf+=" --add-module=${HTTP_NAXSI_MODULE_WD}"
 	fi
 
+	if use nginx_modules_http_security ; then
+		http_enabled=1
+		myconf+=" --add-module=${HTTP_SECURITY_MODULE_WD}/nginx/modsecurity"
+	fi
+
 # (**) http_ndk
 	if use nginx_modules_http_ndk; then
 		http_enabled=1
@@ -1066,6 +1078,12 @@ src_configure() {
 		myconf+=" --add-module=${HTTP_HEADERS_MORE_MODULE_WD}"
 	fi
 
+# http_pagespeed
+	if use nginx_modules_http_pagespeed; then
+		http_enabled=1
+		myconf+=" --add-module=${HTTP_PAGESPEED_MODULE_WD}"
+	fi
+
 # (**) http_srcache
 	if use nginx_modules_http_srcache; then
 		http_enabled=1
@@ -1113,12 +1131,6 @@ src_configure() {
 	if use nginx_modules_http_coolkit; then
 		http_enabled=1
 		myconf+=" --add-module=${HTTP_COOLKIT_MODULE_WD}"
-	fi
-
-# http_pagespeed
-	if use nginx_modules_http_pagespeed; then
-		http_enabled=1
-		myconf+=" --add-module=${HTTP_PAGESPEED_MODULE_WD}"
 	fi
 
 # http_passenger
@@ -1243,11 +1255,6 @@ src_configure() {
 		myconf+=" --add-module=${HTTP_REDIS_MODULE_WD}"
 	fi
 
-	if use nginx_modules_http_security ; then
-		http_enabled=1
-		myconf+=" --add-module=${HTTP_SECURITY_MODULE_WD}/nginx/modsecurity"
-	fi
-
 	if use http || use http-cache; then
 		http_enabled=1
 	fi
@@ -1260,11 +1267,11 @@ src_configure() {
 		stream_enabled=1
 	fi
 
-	if use rtmp ; then
-		http_enabled=1
-#		myconf+=" --add-dynamic-module=${RTMP_MODULE_WD}"
-		myconf+=" --add-module=${RTMP_MODULE_WD}"
-	fi
+#	if use rtmp ; then
+#		http_enabled=1
+##		myconf+=" --add-dynamic-module=${RTMP_MODULE_WD}"
+#		myconf+=" --add-module=${RTMP_MODULE_WD}"
+#	fi
 
 	if use nginx_modules_http_sticky ; then
 		http_enabled=1
@@ -1344,7 +1351,7 @@ src_configure() {
 
 	if use nginx_modules_http_security; then
 		pushd "${HTTP_SECURITY_MODULE_WD}" &>/dev/null
-		export CFLAGS="${CFLAGS} -I/usr/include/apache2";
+		append-cflags "-I/usr/include/apache2";
 		./autogen.sh
 		econf \
 			--enable-standalone-module \
@@ -1363,10 +1370,6 @@ src_configure() {
 		pushd "${HTTP_PASSENGER_MODULE_WD}" &>/dev/null
 		einfo "Compiling Passenger support binaries"
 		export USE_VENDORED_LIBEV=no USE_VENDORED_LIBUV=no
-		export CFLAGS="${CFLAGS} -fno-strict-aliasing"
-# -Wno-unused-result -Wno-unused-variable"
-		export CXXFLAGS="${CXXFLAGS} -fno-strict-aliasing"
-# -Wno-unused-result -Wno-unused-variable"
 		rake nginx || die "Passenger premake for ${RUBY} failed!"
 		popd &>/dev/null
 	fi
@@ -1387,11 +1390,17 @@ src_configure() {
 		--http-uwsgi-temp-path="${EPREFIX}${NGINX_HOME_TMP}/uwsgi" \
 		${myconf} || die "configure failed"
 
-# --add-module fix to take less space
-		sed -i -e "s|${WORKDIR}|ext|g" objs/ngx_auto_config.h
-# passenger --add-module fix to take even less space
-		use nginx_modules_http_passenger && \
-			sed -i -e "s|/${P}/|/|g;s|/src/nginx_module||g" objs/ngx_auto_config.h
+	local sedargs=();
+	sedargs+=(-e "s|${WORKDIR}|ext|g")
+	use nginx_modules_http_security && \
+		sedargs+=(-e "s|/${P}/|/|g;s|/nginx/modsecurity||g")
+	use nginx_modules_http_njs && \
+		sedargs+=(-e "s|/${P}/|/|g;s|/nginx||g")
+	use nginx_modules_http_naxsi && \
+		sedargs+=(-e "s|/${P}/|/|g;s|/naxsi_src||g")
+	use nginx_modules_http_passenger && \
+		sedargs+=(-e "s|/${P}/|/|g;s|/src/nginx_module||g;s|/src_module||g;s|-release||")
+	sed -i -r "${sedargs[@]}" "${S}/objs/ngx_auto_config.h"
 }
 
 src_compile() {
@@ -1399,36 +1408,12 @@ src_compile() {
 	export LANG=C LC_ALL=C
 
 	if use nginx_modules_http_security; then
-		export CFLAGS="${CFLAGS} -I/usr/include/apache2";
+		append-cflags "-I/usr/include/apache2";
 		emake -C "${HTTP_SECURITY_MODULE_WD}";
 	fi
 
 	emake LINK="${CC} ${LDFLAGS}" OTHERLDFLAGS="${LDFLAGS}" || die "emake failed"
 }
-
-#get_passenger_wd() {
-#	echo ${S}/${HTTP_PASSENGER_MODULE_P}/ext/nginx
-#}
-
-#passenger_premake() {
-#	# dirty spike to make passenger compilation each-ruby compatible
-#	mkdir -p "${S}"
-#	cp -rl "${P}" "${S}"
-#	cp -r "${P}" "${S}"
-#	cp -r "${HTTP_PASSENGER_MODULE_P}" "${S}"
-#	cd "${S}"/"${HTTP_PASSENGER_MODULE_P}"
-#	sed -e "s%#{PlatformInfo.ruby_command}%${RUBY}%g" -i build/ruby_extension.rb
-#	sed -e "s%#{PlatformInfo.ruby_command}%${RUBY}%g" -i lib/phusion_passenger/native_support.rb
-#	sed -e "s% ruby % ${RUBY} %g" -i ext/nginx/config
-#	sed -r \
-#		-e "s%(ngx_addon_name)=.*%\1=ngx_http_passenger_module_${RUBY//*\/}%g" \
-#		-e 's%(HTTP_MODULES)=.*%\1="$HTTP_MODULES $ngx_addon_name"%g' \
-#		-i ext/nginx/config
-#	# workaround on QA issues on passenger
-#	export CFLAGS="${CFLAGS} -fno-strict-aliasing -Wno-unused-result"
-#	export CXXFLAGS="${CXXFLAGS} -fno-strict-aliasing -Wno-unused-result"
-#	rake nginx || die "Passenger premake for ${RUBY} failed!"
-#}
 
 passenger_install() {
 	# dirty spike to make passenger installation each-ruby compatible
@@ -1572,7 +1557,7 @@ src_install() {
 # http_form_input
 	if use nginx_modules_http_form_input; then
 		docinto "${HTTP_FORM_INPUT_MODULE_P}"
-		dodoc "${HTTP_FORM_INPUT_MODULE_WD}"/README
+		dodoc "${HTTP_FORM_INPUT_MODULE_WD}"/README.md
 	fi
 
 # http_echo
@@ -1686,10 +1671,10 @@ src_install() {
 		doins "${HTTP_NAXSI_MODULE_WD}"/../naxsi_config/naxsi_core.rules
 	fi
 
-	if use rtmp; then
-		docinto "${RTMP_MODULE_P}"
-		dodoc "${RTMP_MODULE_WD}"/{AUTHORS,README.md,stat.xsl}
-	fi
+#	if use rtmp; then
+#		docinto "${RTMP_MODULE_P}"
+#		dodoc "${RTMP_MODULE_WD}"/{AUTHORS,README.md,stat.xsl}
+#	fi
 
 	if use nginx_modules_http_dav_ext; then
 		docinto "${HTTP_DAV_EXT_MODULE_P}"
