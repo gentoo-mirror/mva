@@ -8,4 +8,4 @@ RDEPEND=|| ( virtual/jre virtual/jdk )
 SLOT=0
 SRC_URI=http://dex2jar.googlecode.com/files/dex2jar-0.0.9.13.zip
 _eclass_exported_funcs=src_prepare:- src_install:-
-_md5_=56f4f4fcca6f3fca8f863f814952adf7
+_md5_=6c08b98b605555e0e04063bf4123a000

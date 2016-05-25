@@ -9,4 +9,4 @@ SLOT=0
 SRC_URI=http://olivier.sessink.nl/jailkit/jailkit-2.17.tar.bz2
 _eclass_exported_funcs=pkg_postinst:- src_prepare:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	792f83d5ec9536cb5ccef375469d8bde	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=059406fcdbae413aa4b99245536488d9
+_md5_=0e3ef1c7ca27a33d4f084c714b7df6b7

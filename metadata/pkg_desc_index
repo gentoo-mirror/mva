@@ -1,6 +1,7 @@
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/jailkit 2.17: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
+app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
 app-crypt/csuser-plugin 2.0.6.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
@@ -56,8 +57,14 @@ dev-util/pySnipps 9999: A simple code snippet tool
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
 kde-misc/smooth-tasks 9999: Alternate taskbar KDE plasmoid, similar to Windows 7
+media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
+media-fonts/eurofurence 20160520: Eurofurence, a clean sans-serif font
+media-fonts/firacode 1.102 9999: A programming font with ligatures
+media-fonts/fixedsys 3.02.3 9999: Fixedsys Excelsior font with programming ligatures
+media-fonts/monofur 20160520: Monofur, a good fixed width font for development
+media-fonts/monoid 0.61: Open source coding font
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/inkscape-table 1.0: Table support for inkscape
@@ -77,6 +84,7 @@ net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 2.0.1: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 9999: Just a perfect C++ XMPP library
+net-im/telegram 9999: Telegram Desktop messaging app
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -119,7 +127,7 @@ www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ru
 www-client/yandex-browser-beta 16.6.0.6383_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.10.0: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.11.0: Robust, small and high performance http and reverse proxy server
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)

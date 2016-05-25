@@ -8,4 +8,4 @@ RDEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-2
 _eclasses_=git-2	672c3929a162f221a53b4ccb4d25d8a2
-_md5_=8b168519cd199e6b7c6bb271a83bf2d6
+_md5_=95fd2052271ae75a47b78e1015b72cb5

@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://kernel/linux/network/ofono/phonesim-1.20.tar.xz
 _eclass_exported_funcs=-
 _eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=ec8e3037cc65041e8e371fa8ad49f708
+_md5_=0cf43a14da8c19d133b46f6daa83e5c5
