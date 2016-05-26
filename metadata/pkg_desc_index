@@ -65,6 +65,7 @@ media-fonts/consolamono 20130127: Open Font
 media-fonts/eurofurence 20160520: Eurofurence, a clean sans-serif font
 media-fonts/firacode 1.102 9999: A programming font with ligatures
 media-fonts/fixedsys 3.02.3 9999: Fixedsys Excelsior font with programming ligatures
+media-fonts/iosevka 1.8.4 9999: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
