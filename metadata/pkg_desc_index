@@ -55,6 +55,7 @@ dev-util/dex2jar 0.0.9.13 0.0.9.15: Tools to work with android .dex and java .cl
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
 dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE (Community Edition)
 dev-util/madde 0.7.48: Maemo Application Development and Debugging Environment
+dev-util/premake 5.0.0_alpha8: A makefile generation tool
 dev-util/pySnipps 9999: A simple code snippet tool
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
@@ -72,6 +73,10 @@ media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barco
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/inkscape-textext 0.4.4: Scientific typesetting for Inkscape
+media-gfx/otfcc 0.1.8 9999: Parses & writes SFNT structures.
+media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
+media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
+media-gfx/woff2 9999: font compression reference code
 media-libs/hal-flash 0.3.2: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libcdr 9999: Library parsing the Corel cdr documents
 media-libs/libdmtx 0.7.4 9999: Barcode data matrix reading and writing library
@@ -130,7 +135,7 @@ www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ru
 www-client/yandex-browser-beta 16.6.0.6383_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.11.0: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.11.1: Robust, small and high performance http and reverse proxy server
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)
