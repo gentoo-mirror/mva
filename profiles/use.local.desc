@@ -143,7 +143,7 @@ dev-vcs/git-annex:webapp - Enable git-annex webapp
 dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
-media-fonts/iosevka:webfonts - Build web versions (woff) of the font (and it's variants)
+media-fonts/iosevka:woff - Build web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
 media-libs/libjpeg-turbo:pic - 
@@ -246,6 +246,7 @@ www-servers/nginx:nginx_modules_http_nchan -
 www-servers/nginx:nginx_modules_http_ndk - 
 www-servers/nginx:nginx_modules_http_njs - 
 www-servers/nginx:nginx_modules_http_pagespeed - 
+www-servers/nginx:nginx_modules_http_passenger - 
 www-servers/nginx:nginx_modules_http_postgres - 
 www-servers/nginx:nginx_modules_http_rds_csv - 
 www-servers/nginx:nginx_modules_http_rds_json - 
