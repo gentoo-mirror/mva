@@ -40,8 +40,17 @@ dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic l
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-libs/uchardet 0.0.1 9999: C port of Mozilla's Automatic Charset Detection algorithm
+dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
+dev-perl/DBIx-Custom 0.37: DBI extension to execute insert, update, delete, and select easily
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
 dev-perl/Device-Modem 1.56: Perl extension to talk to modem devices connected via serial port
+dev-perl/Mojolicious-Plugin-AutoRoute 0.22: Real-time web framework
+dev-perl/Mojolicious-Plugin-BasicAuth 0.08: Real-time web framework
+dev-perl/Mojolicious-Plugin-DBViewer 0.28: Real-time web framework
+dev-perl/Mojolicious-Plugin-INIConfig 0.03: Real-time web framework
+dev-perl/Object-Simple 3.16: Real-time web framework
+dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
+dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
 dev-php/php-dmtx 9999: PHP bindings for the dmtx library
 dev-python/axolotl 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
@@ -58,6 +67,7 @@ dev-util/madde 0.7.48: Maemo Application Development and Debugging Environment
 dev-util/premake 5.0.0_alpha8: A makefile generation tool
 dev-util/pySnipps 9999: A simple code snippet tool
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
+dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
 kde-misc/smooth-tasks 9999: Alternate taskbar KDE plasmoid, similar to Windows 7
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
