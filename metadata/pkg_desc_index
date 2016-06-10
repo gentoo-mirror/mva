@@ -29,7 +29,7 @@ dev-go/godep 9999: dependency tool for go
 dev-java/gradle 2.12: A project automation and build tool with a Groovy based DSL
 dev-libs/crypto++ 5.6.2-r2: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
-dev-libs/libcgroup 0.41-r2: Tools and libraries to configure and manage kernel control groups
+dev-libs/libcgroup 0.41-r3: Tools and libraries to configure and manage kernel control groups
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
 dev-libs/libdwarf 20120410 20140208: Library to deal with DWARF Debugging Information Format
 dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
