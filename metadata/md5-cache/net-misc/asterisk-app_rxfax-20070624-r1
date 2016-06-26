@@ -7,5 +7,4 @@ KEYWORDS=~amd64 ~ppc ~x86
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=http://www.soft-switch.org/downloads/snapshots/spandsp/test-apps-asterisk-1.4/app_rxfax.c
-_eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
 _md5_=b5e6e684a1b4db59b3147aecf52e5fc8

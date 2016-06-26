@@ -8,5 +8,4 @@ KEYWORDS=amd64 x86 ~arm
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=mirror://sourceforge/freetype/ttfautohint-0.95.tar.gz
-_eclass_exported_funcs=src_configure:-
 _md5_=c3dd92773f7caa61fd20b89f30e12f49
