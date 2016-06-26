@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=>=dev-libs/libevent-2.0.10:= >=net-misc/curl-7.16.3:=[ssl] sys-libs/zlib:= >=dev-libs/glib-2.32 dev-util/intltool sys-devel/gettext virtual/os-headers virtual/pkgconfig
+DESCRIPTION=A Fast, Easy and Free BitTorrent client - command line (CLI) version
+EAPI=6
+HOMEPAGE=http://www.transmissionbt.com/
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~x86 ~x86-fbsd ~amd64-linux
+LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
+RDEPEND=>=dev-libs/libevent-2.0.10:= >=net-misc/curl-7.16.3:=[ssl] sys-libs/zlib:=
+SLOT=0
+SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.92.tar.xz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	bfd09e8e66991dd5ce9e57610d8d1e6c
+_md5_=7e2a6390c002e3e223d2da882b22c08c
