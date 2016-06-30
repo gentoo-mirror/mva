@@ -101,7 +101,7 @@ net-firewall/xtables-addons 2.10: extensions not yet accepted in the main kernel
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 2.0.1: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
-net-im/swiften 9999: Just a perfect C++ XMPP library
+net-im/swiften 3.0 9999: Library for implementing XMPP applications.
 net-im/telegram 9999: Telegram Desktop messaging app
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
@@ -142,7 +142,7 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.6.0.6383_p1: Browser that combines a minimal design with sophisticated technology.
+www-client/yandex-browser-beta 16.7.0.2846_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.11.1: Robust, small and high performance http and reverse proxy server
