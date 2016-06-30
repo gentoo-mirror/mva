@@ -167,6 +167,7 @@ net-im/spectrum:symlinks -
 net-im/spectrum:tools - 
 net-im/spectrum:twitter - 
 net-im/spectrum:whatsapp - 
+net-im/swiften:gconf - 
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
