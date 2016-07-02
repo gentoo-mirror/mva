@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare
-DEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= ) dev-util/scons
+DEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= ) dev-util/scons
 DESCRIPTION=Library for implementing XMPP applications.
 EAPI=6
 HOMEPAGE=http://swift.im/
 IUSE=avahi expat gconf icu luajit test upnp
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
+RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
 SLOT=0
 SRC_URI=http://swift.im/downloads/releases/swift-3.0/swift-3.0.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	scons-utils	6a35944612b7ecb18a3803359554badc	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=c505518c283d2741afd4e20ae76c357b
+_md5_=771471dc624c17bfdc8cc2f01b8d40d2
