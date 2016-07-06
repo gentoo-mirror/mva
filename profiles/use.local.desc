@@ -269,6 +269,8 @@ www-servers/nginx:nginx_modules_http_xss -
 www-servers/nginx:nginx_modules_stream_access - 
 www-servers/nginx:nginx_modules_stream_limit_conn - 
 www-servers/nginx:nginx_modules_stream_lua - 
+www-servers/nginx:nginx_modules_stream_map - 
+www-servers/nginx:nginx_modules_stream_return - 
 www-servers/nginx:nginx_modules_stream_upstream_hash - 
 www-servers/nginx:nginx_modules_stream_upstream_least_conn - 
 www-servers/nginx:nginx_modules_stream_upstream_zone - 
