@@ -19,6 +19,7 @@ app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-mobilephone/dfu-util 0.8 9999: implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
 app-shells/zsh-completions 99999999: Programmable Completion for zsh (includes emerge and ebuild commands)
+app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
@@ -27,9 +28,10 @@ dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
 dev-go/godep 9999: dependency tool for go
 dev-java/gradle 2.12: A project automation and build tool with a Groovy based DSL
+dev-lang/mono 4.4.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/crypto++ 5.6.2-r2: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
-dev-libs/libcgroup 0.41-r3: Tools and libraries to configure and manage kernel control groups
+dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
 dev-libs/libdwarf 20120410 20140208: Library to deal with DWARF Debugging Information Format
 dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
@@ -59,6 +61,7 @@ dev-qt/qt5ct 0.22: Qt5 configuration utility
 dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.15.1: Treetop is a language for describing languages
 dev-ruby/treetop 1.6.5: Treetop is a language for describing languages
+dev-util/android-ndk 12b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.0.0: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/dex2jar 0.0.9.13 0.0.9.15: Tools to work with android .dex and java .class files
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
@@ -73,12 +76,14 @@ kde-misc/smooth-tasks 9999: Alternate taskbar KDE plasmoid, similar to Windows 7
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
+media-fonts/emojione 1.2: A color and B&W emoji SVG-in-OpenType font
 media-fonts/eurofurence 20160520: Eurofurence, a clean sans-serif font
-media-fonts/firacode 1.102 9999: A programming font with ligatures
+media-fonts/firacode 1.200 9999: A programming font with ligatures
 media-fonts/fixedsys 3.02.3 9999: Fixedsys Excelsior font with programming ligatures
 media-fonts/iosevka 1.8.4 9999: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
+media-fonts/twemoji 1.1: A color and B&W emoji SVG-in-OpenType font with support for ZWJ, skin tone modifiers and country flags.
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/inkscape-table 1.0: Table support for inkscape
@@ -130,6 +135,7 @@ net-voip/zoiper-communicator 1.0: Free proprietary cross-platform VoIP-client wi
 sci-biology/structure 2.3.3: Package for using multi-locus genotype data to investigate population structure
 sci-electronics/qsapec-ng 1.2.2 9999: Qt based GUI for sapec-ng (electric circuit analizys program)
 sci-electronics/sapec-ng 1.8.2: Sapec-NG is a symbolic analysis program for linear analog circuits
+sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.

@@ -120,6 +120,8 @@ dev-db/redis:luajit -
 dev-db/redis:tcmalloc - Use tcmalloc from dev-util/google-perftools for allocations.
 dev-db/sqlworkbench:informix - 
 dev-db/squirrel-sql:informix - 
+dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
 dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
 dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
