@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEFINED_PHASES=compile install postinst postrm setup unpack
 DEPEND=net-libs/nodejs media-gfx/fontforge media-gfx/ttfautohint media-gfx/otfcc woff? ( media-gfx/sfnt2woff media-gfx/woff2 ) X? ( x11-apps/mkfontdir media-fonts/encodings ) >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Open source coding font
 EAPI=6
@@ -7,6 +7,6 @@ IUSE=+woff X
 LICENSE=OFL-1.1
 RESTRICT=binchecks strip
 SLOT=0
-_eclass_exported_funcs=pkg_postrm:font pkg_postinst:font pkg_setup:font src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
+_eclass_exported_funcs=pkg_postrm:font pkg_postinst:font pkg_setup:font src_unpack:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	font	cd7790315ca5b8c505e1e0513df6acce	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=7aedc36f924624f97f692dc1fec9441d
+_md5_=3dc4f78445afeac7e804b32abd2337e0

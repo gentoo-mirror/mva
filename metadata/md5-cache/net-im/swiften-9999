@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= ) dev-util/scons >=dev-vcs/git-1.8.2.1
+DEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= ) dev-util/scons >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Library for implementing XMPP applications.
 EAPI=6
 HOMEPAGE=http://swift.im/
 IUSE=avahi expat gconf icu luajit test upnp
 LICENSE=GPL-3
-RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
+RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	scons-utils	6a35944612b7ecb18a3803359554badc	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=eb01f2b923d615b50841d0bee5a279a6
+_md5_=1c1e2be3f28cf95e5e8e1823b52e49a6

@@ -83,7 +83,7 @@ media-fonts/fixedsys 3.02.3 9999: Fixedsys Excelsior font with programming ligat
 media-fonts/iosevka 1.8.4 9999: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
-media-fonts/twemoji 1.1: A color and B&W emoji SVG-in-OpenType font with support for ZWJ, skin tone modifiers and country flags.
+media-fonts/twemoji 1.1: A color and B&W emoji SVG-in-OT font with ZWJ, skin tone mods and country flags
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/inkscape-table 1.0: Table support for inkscape
@@ -151,7 +151,7 @@ www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ru
 www-client/yandex-browser-beta 16.7.0.3265_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.11.2: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.11.3: Robust, small and high performance http and reverse proxy server
 x11-apps/edid-decode 9999: Edid decoder
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen

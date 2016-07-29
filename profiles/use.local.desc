@@ -145,6 +145,7 @@ dev-vcs/git-annex:webapp - Enable git-annex webapp
 dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
+media-fonts/firacode:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/iosevka:woff - Build web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
@@ -269,10 +270,13 @@ www-servers/nginx:nginx_modules_http_upstream_zone -
 www-servers/nginx:nginx_modules_http_v2 - 
 www-servers/nginx:nginx_modules_http_xss - 
 www-servers/nginx:nginx_modules_stream_access - 
+www-servers/nginx:nginx_modules_stream_geo - 
+www-servers/nginx:nginx_modules_stream_geoip - 
 www-servers/nginx:nginx_modules_stream_limit_conn - 
 www-servers/nginx:nginx_modules_stream_lua - 
 www-servers/nginx:nginx_modules_stream_map - 
 www-servers/nginx:nginx_modules_stream_return - 
+www-servers/nginx:nginx_modules_stream_split_clients - 
 www-servers/nginx:nginx_modules_stream_upstream_hash - 
 www-servers/nginx:nginx_modules_stream_upstream_least_conn - 
 www-servers/nginx:nginx_modules_stream_upstream_zone - 
