@@ -28,7 +28,6 @@ dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
 dev-go/godep 9999: dependency tool for go
 dev-java/gradle 2.12: A project automation and build tool with a Groovy based DSL
-dev-lang/mono 4.4.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/crypto++ 5.6.2-r2: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
