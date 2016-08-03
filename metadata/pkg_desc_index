@@ -18,6 +18,7 @@ app-misc/2gis-data 20151009: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-mobilephone/dfu-util 0.8 9999: implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
+app-portage/cpuid2cpuflags 9999: Tool to guess CPU_FLAGS flags for the host
 app-shells/zsh-completions 99999999: Programmable Completion for zsh (includes emerge and ebuild commands)
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
