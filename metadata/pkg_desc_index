@@ -37,7 +37,6 @@ dev-libs/libdwarf 20120410 20140208: Library to deal with DWARF Debugging Inform
 dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
 dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG software
 dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
-dev-libs/librevenge 9999: A helper library for REVerses ENGineered formats filters
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
@@ -69,6 +68,7 @@ dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE
 dev-util/madde 0.7.48: Maemo Application Development and Debugging Environment
 dev-util/premake 5.0.0_alpha8: A makefile generation tool
 dev-util/pySnipps 9999: A simple code snippet tool
+dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
