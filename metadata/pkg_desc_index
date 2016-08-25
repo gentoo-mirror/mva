@@ -29,7 +29,7 @@ dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
 dev-go/godep 9999: dependency tool for go
 dev-java/gradle 2.12: A project automation and build tool with a Groovy based DSL
-dev-libs/crypto++ 5.6.2-r2: C++ class library of cryptographic schemes
+dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
@@ -126,6 +126,7 @@ net-misc/ofono 1.12: Open Source mobile telephony (GSM/UMTS) daemon.
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/tinc 1.1.9999: tinc is an easy to configure VPN implementation
+net-p2p/librevault 0.1.18.6 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 0.12.16 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-inotify 0.6.8 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
@@ -148,7 +149,7 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.7.0.3265_p1: Browser that combines a minimal design with sophisticated technology.
+www-client/yandex-browser-beta 16.9.1.466_p1: Browser that combines a minimal design with sophisticated technology.
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.11.3: Robust, small and high performance http and reverse proxy server
