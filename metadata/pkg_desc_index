@@ -149,7 +149,7 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.9.1.466_p1: Browser that combines a minimal design with sophisticated technology.
+www-client/yandex-browser-beta 16.9.1.466_p1: The web browser from Yandex
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.11.3: Robust, small and high performance http and reverse proxy server
