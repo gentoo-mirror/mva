@@ -1,11 +1,11 @@
-DEFINED_PHASES=unpack
-DEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0 virtual/pkgconfig dev-vcs/git
+DEFINED_PHASES=prepare unpack
+DEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0 virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Tools for reading and writing Data Matrix barcodes
-EAPI=5
+EAPI=6
 HOMEPAGE=http://www.libdmtx.org/
 LICENSE=LGPL-2.1
 RDEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-2
-_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4
-_md5_=95fd2052271ae75a47b78e1015b72cb5
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	00f60a84fc7b499c99edfe99caea9f95	libtool	4890219c51da247200223277f993e054	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=20b75d22035e80cab7a6634bf7e0c966
