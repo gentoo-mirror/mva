@@ -28,7 +28,8 @@ dev-db/redis 3.0.4: A persistent caching system, key-value and data structures d
 dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
 dev-go/godep 9999: dependency tool for go
-dev-java/gradle 3.0: A project automation and build tool with a Groovy based DSL
+dev-java/gradle 3.1: A project automation and build tool with a Groovy based DSL
+dev-java/gradle-bin 3.1: A project automation and build tool with a Groovy based DSL
 dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
@@ -161,6 +162,5 @@ x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
 x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)
 x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
-x11-plugins/skype4pidgin 9999: Skype API Plugin for Pidgin
 x11-plugins/telegram-purple 9999: Libpurple (Pidgin) plugin for using a Telegram account
 x11-plugins/whatsapp-purple 9999: Whatsapp plugin for libpurple (Pidgin)
