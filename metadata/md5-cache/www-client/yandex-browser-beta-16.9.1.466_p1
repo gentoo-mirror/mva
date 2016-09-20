@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=amd64? ( http://repo.yandex.ru/yandex-browser/deb/pool/main/y/yandex-browser-beta/yandex-browser-beta_16.9.1.466-1_amd64.deb -> yandex-browser-beta-16.9.1.466_p1.deb )
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:linux-info src_unpack:- src_prepare:- src_install:-
 _eclasses_=chromium-2	c30f482b868782938c772c21d9ede135	eutils	b83a2420b796f7c6eff682679d08fe25	linux-info	fd1e29abbb02cbc49f1a14299846e9c4	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	unpacker	45d07319df5f40ee6af58418b0f930be	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=e2842c94212f8c0ff1b4863e713bfe3e
+_md5_=36cfdff48a448c79a6684a1c482a2d5d
