@@ -1,0 +1,11 @@
+DEFINED_PHASES=prepare unpack
+DEPEND=sys-devel/make virtual/libusb:1 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Open Free Fiasco Firmware Flasher
+EAPI=6
+HOMEPAGE=https://github.com/pali/0xFFFF
+LICENSE=GPL-2
+RDEPEND=virtual/libusb:1
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=09dd2c829c96c20722b8af0be5581355
