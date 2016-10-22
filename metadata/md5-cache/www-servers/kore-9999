@@ -7,5 +7,5 @@ LICENSE=ISC
 RDEPEND=dev-libs/openssl:* sys-libs/zlib
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-2 src_prepare:- src_compile:- src_install:-
-_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd
+_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd
 _md5_=17f378cac4426cf35cb6f2e26d2e1911
