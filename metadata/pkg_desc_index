@@ -61,7 +61,7 @@ dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.15.1: Treetop is a language for describing languages
 dev-ruby/treetop 1.6.5: Treetop is a language for describing languages
 dev-util/0xFFFF 0.6.1 9999: Open Free Fiasco Firmware Flasher
-dev-util/android-ndk 12b: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-ndk 13: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.2.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.2.0: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .class files
@@ -155,7 +155,6 @@ sys-process/htop 9999: interactive process viewer
 virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
-www-client/yandex-browser-beta 16.10.1.545_p1: The web browser from Yandex
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.11.5: Robust, small and high performance http and reverse proxy server
