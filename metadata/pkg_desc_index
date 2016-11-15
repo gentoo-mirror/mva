@@ -157,7 +157,7 @@ www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from dat
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.11.5: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.11.6: Robust, small and high performance http and reverse proxy server
 x11-apps/edid-decode 9999: Edid decoder
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
