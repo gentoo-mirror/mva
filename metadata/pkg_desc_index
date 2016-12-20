@@ -1,6 +1,8 @@
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/jailkit 2.17: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
+app-arch/jefferson 9999: JFFS2 filesystem extraction tool
+app-arch/sasquatch 4.3: Tool for creating compressed filesystem type squashfs
 app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
@@ -13,15 +15,23 @@ app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
+app-forensics/fatback 1.3: Tool to undelete files from FAT file systems
+app-forensics/tcpxtract 1.0.1: Extracts files from network packet captures
+app-forensics/yara 3.5.0: A malware identification and classification tool
+app-misc/010-editor-templates 20161226: 010 Editor Templates
 app-misc/2gis 3.15.10.0 4.15.2.280: Proprietary freeware multimedia map of several Russian and Ukrainian towns
 app-misc/2gis-data 20151009: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
+app-misc/binwalk 9999: A tool for identifying files embedded inside firmware images
+app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-mobilephone/dfu-util 0.8 9999: implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
 app-portage/cpuid2cpuflags 9999: Tool to guess CPU_FLAGS flags for the host
+app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
 app-shells/zsh-completions 99999999: Programmable Completion for zsh (includes emerge and ebuild commands)
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
+app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
 dev-db/redis 3.0.4: A persistent caching system, key-value and data structures database
@@ -34,6 +44,7 @@ dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
+dev-libs/libdwarf 20161124: Library for extracting DWARF data from code objects
 dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
 dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG software
 dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
@@ -55,7 +66,12 @@ dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibilit
 dev-php/php-dmtx 9999: PHP bindings for the dmtx library
 dev-python/axolotl 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
+dev-python/cstruct 1.0: C-style structs for Python
 dev-python/e4u 9999: Bundle Library of emoji4unicode at Google
+dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
+dev-python/pfp 9999: 010 Template interpretter for python
+dev-python/py010parser 9999: 010 template library for python
+dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-qt/qt5ct 0.22: Qt5 configuration utility
 dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.15.1: Treetop is a language for describing languages
@@ -66,6 +82,7 @@ dev-util/apktool 2.2.0 9999: A tool for reverse engineering 3rd party, closed, b
 dev-util/apktool-bin 2.2.0: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .class files
 dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
+dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
 dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE (Community Edition)
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
@@ -77,7 +94,6 @@ dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
-kde-misc/smooth-tasks 9999: Alternate taskbar KDE plasmoid, similar to Windows 7
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
@@ -92,7 +108,6 @@ media-fonts/twemoji 1.1: A color and B&W emoji SVG-in-OT font with ZWJ, skin ton
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/inkscape-table 1.0: Table support for inkscape
-media-gfx/inkscape-textext 0.4.4: Scientific typesetting for Inkscape
 media-gfx/otfcc 0.1.8 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
@@ -145,6 +160,7 @@ sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
+sys-apps/rkflashtool 6.0 9999: Tool for flashing Rockchip devices
 sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
 sys-fs/enchanceio 9999: SSD caching software, based on Facebook's open source Flashcache project
 sys-fs/exfat-nofuse 9999: Non-fuse kernel driver for exFat and VFat file systems
@@ -157,7 +173,7 @@ www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from dat
 www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.11.6: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.11.7: Robust, small and high performance http and reverse proxy server
 x11-apps/edid-decode 9999: Edid decoder
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen

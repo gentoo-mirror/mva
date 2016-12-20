@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-arch/sasquatch:lz4 - LZ4 support
+app-arch/sasquatch:xz - XZ support
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
@@ -114,6 +116,7 @@ app-misc/2gis-data:yuzhnosakhalinsk - Install GeoInformational data (incl. maps)
 app-misc/2gis-plugins:area - 
 app-misc/2gis-plugins:goto - 
 app-misc/2gis-plugins:mapnotes - 
+app-misc/binwalk:graph - Enable support for generating entropy graphs
 dev-db/dbeaver:informix - 
 dev-db/redis:jemalloc - Use dev-libs/jemalloc for allocations.
 dev-db/redis:luajit - 
