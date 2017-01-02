@@ -1,7 +1,7 @@
 DEFINED_PHASES=-
 DEPEND=net-misc/ofono virtual/pkgconfig
 DESCRIPTION=Phone Simulator for modem testing (oFono)
-EAPI=5
+EAPI=6
 HOMEPAGE=http://ofono.org/
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
@@ -10,4 +10,4 @@ SLOT=0
 SRC_URI=mirror://kernel/linux/network/ofono/phonesim-1.20.tar.xz
 _eclass_exported_funcs=-
 _eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=0cf43a14da8c19d133b46f6daa83e5c5
+_md5_=fd59c6c39ef8ec8c78a1b2b65d0d4598

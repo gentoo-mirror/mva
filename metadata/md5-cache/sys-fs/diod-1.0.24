@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile configure install prepare test
+DEFINED_PHASES=configure prepare
 DEPEND=|| ( virtual/lua >=dev-lang/lua-5.1:* >=dev-lang/luajit-2:* ) sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
 DESCRIPTION=Distributed I/O Daemon - a 9P file server
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/chaos/diod
 IUSE=rdma tcmalloc luajit
 KEYWORDS=~x86 ~amd64 ~arm
@@ -9,6 +9,6 @@ LICENSE=GPL-2
 RDEPEND=|| ( virtual/lua >=dev-lang/lua-5.1:* >=dev-lang/luajit-2:* ) sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
 SLOT=0
 SRC_URI=https://github.com/chaos/diod/archive/1.0.24.tar.gz
-_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:autotools-utils src_test:autotools-utils src_install:autotools-utils
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=184ea0a0b11a44b6b922daf7424efe4f
+_eclass_exported_funcs=src_prepare:- src_configure:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=cfd5426be6b70704d2f225ac74db99a9

@@ -9,4 +9,4 @@ RDEPEND=dev-java/antlr:3.5 || ( virtual/jre virtual/jdk )
 SLOT=0
 SRC_URI=https://github.com/pxb1988/dex2jar/archive/2.0.tar.gz -> dex2jar-2.0.tar.gz
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_md5_=afc71bd46ba21f3b4fa4768199d361a6
+_md5_=b9fba1605dea863f9fde0b197367ca95

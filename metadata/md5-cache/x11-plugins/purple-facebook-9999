@@ -1,11 +1,11 @@
-DEFINED_PHASES=compile configure install prepare test unpack
+DEFINED_PHASES=install prepare unpack
 DEPEND=net-im/pidgin dev-libs/json-glib dev-libs/glib:2 sys-libs/zlib !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 dev-vcs/mercurial >=dev-vcs/git-1.8.2.1
-DESCRIPTION=Whatsapp plugin for libpurple (Pidgin)
-EAPI=5
+DESCRIPTION=Facebook plugin for libpurple (Pidgin)
+EAPI=6
 HOMEPAGE=https://github.com/jgeboski/purple-facebook
 LICENSE=GPL-2
 RDEPEND=net-im/pidgin dev-libs/json-glib dev-libs/glib:2 sys-libs/zlib
 SLOT=0
-_eclass_exported_funcs=src_unpack:- src_prepare:- src_configure:autotools-utils src_compile:autotools-utils src_test:autotools-utils src_install:-
-_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	e928b84a9f6f1d9076d1d27687876dc6	libtool	4890219c51da247200223277f993e054	mercurial	66da6d1ccacd123e28d2c64821052a9a	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=213c60bd768e6ed502212d453cccef94
+_eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	e928b84a9f6f1d9076d1d27687876dc6	libtool	4890219c51da247200223277f993e054	mercurial	66da6d1ccacd123e28d2c64821052a9a	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=9a7bd89c125fb362a42ca69ac6c662e1

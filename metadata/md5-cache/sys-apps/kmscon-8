@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure install prepare
 DEPEND=dev-libs/glib:2 >=virtual/udev-172 x11-libs/libxkbcommon sys-apps/libtsm sys-kernel/linux-headers dbus? ( sys-apps/dbus ) drm? ( x11-libs/libdrm >=media-libs/mesa-8.0.3[egl,gbm] ) truetype? ( media-libs/freetype:2 ) gles2? ( >=media-libs/mesa-8.0.3[gles2] ) pango? ( x11-libs/pango ) systemd? ( sys-apps/systemd ) udev? ( virtual/udev ) pixman? ( x11-libs/pixman ) wayland? ( dev-libs/wayland ) virtual/pkgconfig x11-proto/xproto doc? ( dev-util/gtk-doc ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
 DESCRIPTION=KMS/DRM based virtual Console Emulator
-EAPI=5
+EAPI=6
 HOMEPAGE=http://www.freedesktop.org/wiki/Software/kmscon
 IUSE=dbus debug doc +drm +fbdev +gles2 multiseat +optimizations +pango pixman static-libs systemd truetype udev +unicode wayland
 KEYWORDS=~amd64 ~x86
@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=http://www.freedesktop.org/software/kmscon/releases/kmscon-8.tar.xz
 _eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	systemd	5b6ca8b2fc1307ca593223f327342c96	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=7dedfd156a1c887c398e2885c70998f7
+_md5_=0c8a20d3a88a5e041ca33318803b35d3

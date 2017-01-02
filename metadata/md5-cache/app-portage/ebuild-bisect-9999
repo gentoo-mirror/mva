@@ -6,4 +6,4 @@ KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 SLOT=0
 _eclass_exported_funcs=src_install:-
-_md5_=8160d869cc99f02c28ccf284cc241aa4
+_md5_=9ac3c87c9e66c5322c9010ccd24e3b35

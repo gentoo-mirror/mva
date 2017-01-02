@@ -1,7 +1,7 @@
 DEFINED_PHASES=install
 DEPEND=app-arch/unzip media-gfx/imagemagick[png] media-gfx/icoutils
 DESCRIPTION=Proprietary freeware multimedia map of several Russian and Ukrainian towns
-EAPI=5
+EAPI=6
 HOMEPAGE=http://2gis.ru
 IUSE=+data
 KEYWORDS=~x86 ~amd64
@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=http://download.2gis.ru/arhives/2GISShell-3.15.10.0.orig.zip
 _eclass_exported_funcs=src_install:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=986dd1346902dfe7a7844529fe1a2962
+_md5_=4c88bb243e7f748a7b9ed8dbca712980

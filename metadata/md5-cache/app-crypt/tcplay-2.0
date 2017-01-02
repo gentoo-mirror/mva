@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-libs/libgpg-error >=dev-libs/libgcrypt-1.5.0:0 sys-apps/util-linux sys-fs/lvm2 sys-devel/make >=dev-util/cmake-3.5.2
 DESCRIPTION=Free and simple TrueCrypt Implementation based on dm-crypt
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/bwalex/tc-play
 IUSE=static-libs test
 KEYWORDS=~x86 ~amd64
@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=https://github.com/bwalex/tc-play/tarball/b44b1fad854c726dda3ec7bfc96fe2d437d4343f -> tcplay-2.0.tar.gz
 _eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:cmake-utils src_configure:cmake-utils src_compile:cmake-utils src_test:- src_install:-
 _eclasses_=cmake-utils	b43f5e0df58483dd4b68aef4777f6e22	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=14bca56a78b0ff5d4484095836c56a98
+_md5_=25a8161f6192926923390afc79aec81b

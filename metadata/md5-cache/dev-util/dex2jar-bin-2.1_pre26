@@ -9,4 +9,4 @@ RDEPEND=|| ( virtual/jre virtual/jdk )
 SLOT=0
 SRC_URI=https://github.com/pxb1988/dex2jar/releases/download/2.1-nightly-26/dex-tools-2.1-20150601.060031-26.zip
 _eclass_exported_funcs=src_install:-
-_md5_=30a20c880a9446fed9c2e1e47ea344ca
+_md5_=0cc58c8eb71a8830d17fd50586ccc7db

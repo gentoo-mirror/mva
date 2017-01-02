@@ -7,7 +7,7 @@ app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only sn
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
 app-crypt/csuser-plugin 2.0.6.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
-app-crypt/etoken-sac 8.3.34_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
+app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/letsencrypt-sh 9999: letsencrypt/acme client implemented as a shell-script
 app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
@@ -24,7 +24,6 @@ app-misc/2gis-data 20151009: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-misc/binwalk 9999: A tool for identifying files embedded inside firmware images
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
-app-mobilephone/dfu-util 0.8 9999: implements the Host (PC) side of the USB DFU (Device Firmware Upgrade) protocol
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
 app-portage/cpuid2cpuflags 9999: Tool to guess CPU_FLAGS flags for the host
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
@@ -34,10 +33,8 @@ app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also refere
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
-dev-db/redis 3.0.4: A persistent caching system, key-value and data structures database
 dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
-dev-go/godep 9999: dependency tool for go
 dev-java/gradle 3.1: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 3.1: A project automation and build tool with a Groovy based DSL
 dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
@@ -51,7 +48,6 @@ dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
-dev-libs/uchardet 0.0.1 9999: C port of Mozilla's Automatic Charset Detection algorithm
 dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
 dev-perl/DBIx-Custom 0.37: DBI extension to execute insert, update, delete, and select easily
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
@@ -63,7 +59,6 @@ dev-perl/Mojolicious-Plugin-INIConfig 0.03: Real-time web framework
 dev-perl/Object-Simple 3.16: Real-time web framework
 dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
-dev-php/php-dmtx 9999: PHP bindings for the dmtx library
 dev-python/axolotl 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/cstruct 1.0: C-style structs for Python
@@ -73,9 +68,8 @@ dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-qt/qt5ct 0.22: Qt5 configuration utility
-dev-ruby/fcgi 0.9.2: FastCGI library for Ruby
-dev-ruby/git-version-bump 0.15.1: Treetop is a language for describing languages
-dev-ruby/treetop 1.6.5: Treetop is a language for describing languages
+dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
+dev-ruby/git-version-bump 0.15.1: Manage your app version entirely via git tags
 dev-util/0xFFFF 0.6.1 9999: Open Free Fiasco Firmware Flasher
 dev-util/android-ndk 13: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.2.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
@@ -87,8 +81,7 @@ dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
 dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE (Community Edition)
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
-dev-util/madde 0.7.48: Maemo Application Development and Debugging Environment
-dev-util/premake 5.0.0_alpha8: A makefile generation tool
+dev-util/premake 5.0.0_alpha10: A makefile generation tool
 dev-util/pySnipps 9999: A simple code snippet tool
 dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
@@ -122,9 +115,9 @@ media-sound/mumble 1.3.9999: Mumble is an open source, low-latency, high quality
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
-net-firewall/xtables-addons 2.10: extensions not yet accepted in the main kernel/iptables
+net-firewall/xtables-addons 2.11: extensions not yet accepted in the main kernel/iptables
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
-net-im/slack 2.1.2: A messaging app for teams
+net-im/slack 2.3.4: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 3.0 3.9999 9999: Library for implementing XMPP applications.
 net-im/telegram 9999: Telegram Desktop messaging app
@@ -152,10 +145,7 @@ net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized sync engine (lik
 net-p2p/syncthing-inotify 0.6.8 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/transmission-cli 2.92: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
-net-voip/zoiper-communicator 1.0: Free proprietary cross-platform VoIP-client with SIP and IAX support.
-sci-biology/structure 2.3.3: Package for using multi-locus genotype data to investigate population structure
-sci-electronics/qsapec-ng 1.2.2 9999: Qt based GUI for sapec-ng (electric circuit analizys program)
-sci-electronics/sapec-ng 1.8.2: Sapec-NG is a symbolic analysis program for linear analog circuits
+sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
 sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
@@ -170,14 +160,14 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
-www-apps/redmine 3.2.1 9999: Flexible project management webapp written using Ruby on Rails framework
-www-servers/apache-headers 2.4.20: Header files from the Apache Web Server
+www-apps/redmine 3.3.1 9999: Flexible project management webapp written using Ruby on Rails framework
+www-servers/apache-headers 2.4.25: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.11.8: Robust, small and high performance http and reverse proxy server
 x11-apps/edid-decode 9999: Edid decoder
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
-x11-plugins/purple-facebook 9999: Whatsapp plugin for libpurple (Pidgin)
+x11-plugins/purple-facebook 9999: Facebook plugin for libpurple (Pidgin)
 x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
 x11-plugins/telegram-purple 9999: Libpurple (Pidgin) plugin for using a Telegram account
 x11-plugins/whatsapp-purple 9999: Whatsapp plugin for libpurple (Pidgin)

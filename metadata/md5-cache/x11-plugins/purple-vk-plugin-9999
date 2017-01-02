@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=net-im/pidgin >=dev-libs/libxml2-2.7 sys-devel/gettext sys-devel/make >=dev-util/cmake-3.5.2 dev-vcs/mercurial
 DESCRIPTION=Pidgin plugin for vk.com social network
-EAPI=5
+EAPI=6
 HOMEPAGE=https://bitbucket.org/olegoandreev/purple-vk-plugin
 LICENSE=GPL-3
 SLOT=0
 _eclass_exported_funcs=src_unpack:mercurial src_prepare:cmake-utils src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
 _eclasses_=cmake-utils	b43f5e0df58483dd4b68aef4777f6e22	eutils	b83a2420b796f7c6eff682679d08fe25	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	mercurial	66da6d1ccacd123e28d2c64821052a9a	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=0723a9441ea2238faef3c19789046849
+_md5_=1860db9259a59925a3b4342b63fd9681

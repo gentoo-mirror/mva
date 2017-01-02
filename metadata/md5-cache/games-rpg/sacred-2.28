@@ -1,6 +1,6 @@
 DEFINED_PHASES=install postinst pretend setup
 DESCRIPTION=Linux port of famous RPG-game.
-EAPI=5
+EAPI=6
 HOMEPAGE=http://www.linuxgamepublishing.com/
 IUSE=iampirate linguas_ru
 KEYWORDS=~amd64 ~x86
@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=sacred.tar.bz2 iampirate? ( sacred_pirate.tar.bz2 ) linguas_ru? ( sacred_rus.tar.bz2 )
 _eclass_exported_funcs=pkg_pretend:check-reqs pkg_postinst:- pkg_setup:- src_install:-
 _eclasses_=check-reqs	aee25bdf4e2f459af86d17f7c41dcdf6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=0c65b82bcde4e697174b971d1d027bd5
+_md5_=97c5b3035e199b2fd1107f8c998097d3
