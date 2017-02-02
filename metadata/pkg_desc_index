@@ -143,7 +143,7 @@ net-misc/tinc 1.1.9999: tinc is an easy to configure VPN implementation
 net-p2p/librevault 0.1.18.6 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 0.12.16 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
-net-p2p/syncthing-inotify 0.6.8 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
+net-p2p/syncthing-inotify 0.8.4 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/transmission-cli 2.92: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
