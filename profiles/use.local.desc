@@ -239,6 +239,7 @@ www-servers/nginx:http2 -
 www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
 www-servers/nginx:luajit - 
 www-servers/nginx:mail - 
+www-servers/nginx:nginx_modules_http_ajp - 
 www-servers/nginx:nginx_modules_http_array_var - 
 www-servers/nginx:nginx_modules_http_auth_request - 
 www-servers/nginx:nginx_modules_http_coolkit - 
