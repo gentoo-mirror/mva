@@ -120,6 +120,7 @@ app-misc/binwalk:graph - Enable support for generating entropy graphs
 dev-db/dbeaver:informix - 
 dev-db/sqlworkbench:informix - 
 dev-db/squirrel-sql:informix - 
+dev-db/tora:experimental - Add experimental features
 dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
 dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
@@ -190,6 +191,8 @@ net-irc/weechat:trigger - Enable trigger plugin.
 net-irc/weechat:xfer - Enable xfer plugin support.
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
 net-libs/libnftnl:json - Supports parsing of JSON
+net-misc/android-file-transfer:fuse - Add fuse helper
+net-misc/android-file-transfer:gui - Build Qt GUI
 net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
 net-misc/i2pd:daemon - Compile I²P daemon
 net-misc/ofono:atmodem - ETSI AT modem support.

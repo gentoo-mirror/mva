@@ -32,9 +32,12 @@ app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processi
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-db/dbeaver 9999: Universal Database Manager
+dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
+dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
 dev-db/squirrel-sql 9999: Universal SQL Client
+dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-java/gradle 3.1: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 3.1: A project automation and build tool with a Groovy based DSL
 dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
@@ -65,7 +68,10 @@ dev-python/cstruct 1.0: C-style structs for Python
 dev-python/e4u 9999: Bundle Library of emoji4unicode at Google
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/pfp 9999: 010 Template interpretter for python
+dev-python/pgspecial 1.7.0: Meta-commands handler for Postgres Database
+dev-python/prompt_toolkit 1.0.13: Building powerful interactive command lines in Python
 dev-python/py010parser 9999: 010 template library for python
+dev-python/python-sqlparse 0.2.2: A non-validating SQL parser module for Python
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-qt/qt5ct 0.22: Qt5 configuration utility
 dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
@@ -131,6 +137,7 @@ net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libnftnl 9999: Netlink API to the in-kernel nf_tables subsystem
 net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
 net-libs/telegram-qt 9999: Telegram binding for Qt
+net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
