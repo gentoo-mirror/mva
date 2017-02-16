@@ -236,65 +236,66 @@ www-apps/redmine:passenger - Enable support for Phusion Passenger (aka mod_rails
 www-apps/redmine:sqlite3 - 
 www-servers/nginx:aio - Enable aio support
 www-servers/nginx:debug - Enable the debugging logging
-www-servers/nginx:http - 
-www-servers/nginx:http-cache - 
-www-servers/nginx:http2 - 
+www-servers/nginx:http - Enable HTTP NginX core module
+www-servers/nginx:http-cache - Enable HTTP cache support
+www-servers/nginx:http2 - Enable HTTP2 support
 www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
-www-servers/nginx:luajit - 
-www-servers/nginx:mail - 
-www-servers/nginx:nginx_modules_http_ajp - 
-www-servers/nginx:nginx_modules_http_array_var - 
-www-servers/nginx:nginx_modules_http_auth_request - 
-www-servers/nginx:nginx_modules_http_coolkit - 
-www-servers/nginx:nginx_modules_http_ctpp - 
-www-servers/nginx:nginx_modules_http_drizzle - 
-www-servers/nginx:nginx_modules_http_echo - 
-www-servers/nginx:nginx_modules_http_encrypted_session - 
-www-servers/nginx:nginx_modules_http_enmemcache - 
+www-servers/nginx:luajit - Build NginX against LuaJIT, instead of PUC-Rio Lua
+www-servers/nginx:mail - Enable Mail NginX core module
+www-servers/nginx:nginx_modules_http_ajp - AJP Module
+www-servers/nginx:nginx_modules_http_array_var - Array-Var Module
+www-servers/nginx:nginx_modules_http_auth_request - AuthRequest Module
+www-servers/nginx:nginx_modules_http_coolkit - CoolKit Module
+www-servers/nginx:nginx_modules_http_ctpp - CTPP2 template engine Module
+www-servers/nginx:nginx_modules_http_drizzle - This module adds the ability to "talk" with MySQL-like server
+www-servers/nginx:nginx_modules_http_echo - Echo Module
+www-servers/nginx:nginx_modules_http_encrypted_session - Encrypted Sessions Module
+www-servers/nginx:nginx_modules_http_enmemcache - Enmemcache Module
 www-servers/nginx:nginx_modules_http_ey_balancer - This module adds an upstream connection queue to nginx
-www-servers/nginx:nginx_modules_http_form_input - 
-www-servers/nginx:nginx_modules_http_hls_audio - 
-www-servers/nginx:nginx_modules_http_iconv - 
-www-servers/nginx:nginx_modules_http_lua - 
-www-servers/nginx:nginx_modules_http_lua_upstream - 
-www-servers/nginx:nginx_modules_http_memc - 
-www-servers/nginx:nginx_modules_http_nchan - 
-www-servers/nginx:nginx_modules_http_ndk - 
-www-servers/nginx:nginx_modules_http_njs - 
-www-servers/nginx:nginx_modules_http_pagespeed - 
-www-servers/nginx:nginx_modules_http_passenger - 
-www-servers/nginx:nginx_modules_http_postgres - 
-www-servers/nginx:nginx_modules_http_rds_csv - 
-www-servers/nginx:nginx_modules_http_rds_json - 
-www-servers/nginx:nginx_modules_http_redis - 
-www-servers/nginx:nginx_modules_http_replace_filter - 
-www-servers/nginx:nginx_modules_http_set_misc - 
-www-servers/nginx:nginx_modules_http_slice - 
+www-servers/nginx:nginx_modules_http_form_input - Form-Input Module
+www-servers/nginx:nginx_modules_http_hls_audio - HLS Audio Module
+www-servers/nginx:nginx_modules_http_iconv - Iconv Module
+www-servers/nginx:nginx_modules_http_lua - This module adds native Lua support to NginX
+www-servers/nginx:nginx_modules_http_lua_upstream - Lua Upstream Module
+www-servers/nginx:nginx_modules_http_memc - MEMC Module
+www-servers/nginx:nginx_modules_http_nchan - Nchan Module
+www-servers/nginx:nginx_modules_http_ndk - This module is like SDK for some another modules (so, it is only needed as dependency for them)
+www-servers/nginx:nginx_modules_http_njs - This module adds native JavaScript support in NginX
+www-servers/nginx:nginx_modules_http_pagespeed - Pagespeed module
+www-servers/nginx:nginx_modules_http_passenger - Phusion Passenger Application Server (supporting node.js, ruby, python and so on)
+www-servers/nginx:nginx_modules_http_postgres - This module adds the ability to "talk" to PostgreSQL server
+www-servers/nginx:nginx_modules_http_rdns - This module adds hostname based (reverse-dns lookup) acces lists
+www-servers/nginx:nginx_modules_http_rds_csv - RDS CSV Module
+www-servers/nginx:nginx_modules_http_rds_json - RDS JSON Module
+www-servers/nginx:nginx_modules_http_redis - This module adds the ability to "talk" with Redis server
+www-servers/nginx:nginx_modules_http_replace_filter - Replace Filter Module
+www-servers/nginx:nginx_modules_http_set_misc - Set-Misc Module
+www-servers/nginx:nginx_modules_http_slice - Enable slices support (read documentation before using this in production)
 www-servers/nginx:nginx_modules_http_slowfs_cache - This module adds the ability to cache static files
-www-servers/nginx:nginx_modules_http_srcache - 
-www-servers/nginx:nginx_modules_http_supervisord - 
-www-servers/nginx:nginx_modules_http_tcpproxy - 
-www-servers/nginx:nginx_modules_http_upstream_hash - 
-www-servers/nginx:nginx_modules_http_upstream_keepalive - 
-www-servers/nginx:nginx_modules_http_upstream_least_conn - 
-www-servers/nginx:nginx_modules_http_upstream_zone - 
-www-servers/nginx:nginx_modules_http_v2 - 
-www-servers/nginx:nginx_modules_http_xss - 
-www-servers/nginx:nginx_modules_stream_access - 
-www-servers/nginx:nginx_modules_stream_geo - 
-www-servers/nginx:nginx_modules_stream_geoip - 
-www-servers/nginx:nginx_modules_stream_limit_conn - 
-www-servers/nginx:nginx_modules_stream_lua - 
-www-servers/nginx:nginx_modules_stream_map - 
-www-servers/nginx:nginx_modules_stream_return - 
-www-servers/nginx:nginx_modules_stream_split_clients - 
-www-servers/nginx:nginx_modules_stream_upstream_hash - 
-www-servers/nginx:nginx_modules_stream_upstream_least_conn - 
-www-servers/nginx:nginx_modules_stream_upstream_zone - 
-www-servers/nginx:pcre-jit - 
+www-servers/nginx:nginx_modules_http_srcache - SRCache module
+www-servers/nginx:nginx_modules_http_supervisord - Supervisord module
+www-servers/nginx:nginx_modules_http_tcpproxy - TCP-Proxy module (legacy alternative to STREAM core module, having some features not provided by it)
+www-servers/nginx:nginx_modules_http_upstream_hash - Upstream Hash Module
+www-servers/nginx:nginx_modules_http_upstream_keepalive - Upstream Keepalive Module
+www-servers/nginx:nginx_modules_http_upstream_least_conn - Upstream LeastConn Module
+www-servers/nginx:nginx_modules_http_upstream_zone - Upstream Zone Module
+www-servers/nginx:nginx_modules_http_v2 - HTTP2 support
+www-servers/nginx:nginx_modules_http_xss - XSS Module
+www-servers/nginx:nginx_modules_stream_access - Access module (stream)
+www-servers/nginx:nginx_modules_stream_geo - GEO module (stream)
+www-servers/nginx:nginx_modules_stream_geoip - GEOIP module (stream)
+www-servers/nginx:nginx_modules_stream_limit_conn - LimitConn Module (stream)
+www-servers/nginx:nginx_modules_stream_lua - This module adds native Lua support to NginX (stream module API)
+www-servers/nginx:nginx_modules_stream_map - Mapping module (stream)
+www-servers/nginx:nginx_modules_stream_return - Return module (stream)
+www-servers/nginx:nginx_modules_stream_split_clients - Split Clients Module (stream)
+www-servers/nginx:nginx_modules_stream_upstream_hash - Upstream Hash Module (stream)
+www-servers/nginx:nginx_modules_stream_upstream_least_conn - Upstream LeastConn Module (stream)
+www-servers/nginx:nginx_modules_stream_upstream_zone - Upstream Zone Module (stream)
+www-servers/nginx:pcre-jit - Add support to PCRE JIT
 www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
-www-servers/nginx:stream - 
+www-servers/nginx:stream - Enable Stream NginX core module
 x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
 x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
