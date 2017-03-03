@@ -228,6 +228,11 @@ sys-fs/diod:rdma - RDMA support
 sys-kernel/ath10k-firmware:savedconfig - Allows individual selection of firmware files
 sys-process/htop:openvz - Enable openvz support
 sys-process/htop:vserver - Enable vserver support
+sys-process/systemd-cron:cron-boot - Include support for the boot timer.
+sys-process/systemd-cron:etc-crontab-systemd - Use dedicated /etc/crontab-systemd instead of parsing /etc/crontab
+sys-process/systemd-cron:minutely - Support /etc/cron.minutely
+sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
+sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 www-apps/ctpp2:md5 - 
 www-apps/redmine:bazaar - 
 www-apps/redmine:darcs - 
