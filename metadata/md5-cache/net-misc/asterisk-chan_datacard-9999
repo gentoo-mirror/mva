@@ -7,5 +7,5 @@ LICENSE=GPL-3
 RDEPEND=net-misc/asterisk dev-libs/libxml2 sys-libs/ncurses:0
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:subversion src_unpack:subversion src_install:-
-_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	subversion	a5d5826a85609611f098c0553eb24cc1	toolchain-funcs	53b75b4a49cf3e61530a523804045432
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	subversion	a5d5826a85609611f098c0553eb24cc1	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
 _md5_=94cc3c4413f2a7396d2951713d12b8a3

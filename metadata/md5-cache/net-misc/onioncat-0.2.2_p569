@@ -10,5 +10,5 @@ RDEPEND=net-misc/tor i2p? ( || ( net-misc/i2pd net-p2p/i2p ) )
 SLOT=0
 SRC_URI=https://www.cypherpunk.at/ocat/download/Source/current/onioncat-0.2.2.r569.tar.gz
 _eclass_exported_funcs=pkg_postinst:- src_prepare:- src_configure:- src_install:-
-_eclasses_=multilib	0236be304ee52e7f179ed2f337075515	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	53b75b4a49cf3e61530a523804045432
+_eclasses_=multilib	0236be304ee52e7f179ed2f337075515	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
 _md5_=8fb9163fb07e92bc645f55e9878ff77e
