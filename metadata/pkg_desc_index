@@ -27,7 +27,6 @@ app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform li
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
 app-portage/cpuid2cpuflags 9999: Tool to guess CPU_FLAGS flags for the host
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
-app-shells/zsh-completions 99999999: Programmable Completion for zsh (includes emerge and ebuild commands)
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
@@ -156,6 +155,8 @@ net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
 sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
+sys-apps/firejail 9999: a SUID sandbox program using linux namespaces
+sys-apps/firetools 0.9.46 9999: Graphical user interface of app-emulation/firejail
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-apps/rkflashtool 6.0 9999: Tool for flashing Rockchip devices

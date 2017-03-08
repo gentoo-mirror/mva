@@ -215,6 +215,15 @@ net-misc/tinc:uml - Enable support for User Mode Linux Sockets
 net-misc/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 net-p2p/librevault:daemon - Build LibreVault daemon
 net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
+sys-apps/firejail:apparmor - Enable support for custom AppArmor profiles
+sys-apps/firejail:bind - Enable custom bind mounts
+sys-apps/firejail:chroot - Enable chrooting to custom directory
+sys-apps/firejail:file-transfer - Enable file transfers between sandboxes and the host system
+sys-apps/firejail:network - Enable networking features
+sys-apps/firejail:network-restricted - Grant access to --interface, --net=ethXXX and --netfilter only to root user; regular users are only allowed --net=none
+sys-apps/firejail:seccomp - Enable system call filtering
+sys-apps/firejail:userns - Enable attaching a new user namespace to a sandbox (--noroot option)
+sys-apps/firejail:x11 - Enable X11 sandboxing
 sys-apps/kmscon:drm - Enable Linux DRM for backend
 sys-apps/kmscon:fbdev - Enable Linux FBDev for backend
 sys-apps/kmscon:gles2 - Enable GLES2 for backend
