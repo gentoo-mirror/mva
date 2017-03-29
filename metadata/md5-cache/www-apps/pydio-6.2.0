@@ -1,0 +1,13 @@
+DEFINED_PHASES=install
+DEPEND=webdav? ( dev-php/PEAR-HTTP_WebDAV_Client ) virtual/httpd-php:*
+DESCRIPTION=File sharing platform similar to dropbox
+EAPI=6
+HOMEPAGE=https://pyd.io/
+IUSE=+webdav
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=webdav? ( dev-php/PEAR-HTTP_WebDAV_Client ) virtual/httpd-php:*
+SLOT=0
+SRC_URI=http://sourceforge.net/projects/ajaxplorer/files/pydio/stable-channel/6.2.0/pydio-core-6.2.0.tar.gz/download -> pydio-6.2.0.tar.gz
+_eclass_exported_funcs=src_install:-
+_md5_=a3413bd1f0c7c61dea8d375ad86c07ad

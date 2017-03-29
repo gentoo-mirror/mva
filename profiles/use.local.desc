@@ -117,6 +117,8 @@ app-misc/2gis-plugins:area -
 app-misc/2gis-plugins:goto - 
 app-misc/2gis-plugins:mapnotes - 
 app-misc/binwalk:graph - Enable support for generating entropy graphs
+app-misc/terjira:console - Install "jiraconsole" application (intercative ruby interpreter with preloaded terjira classes)
+app-text/unicode:unihan - Support for Unihan
 dev-db/dbeaver:informix - 
 dev-db/sqlworkbench:informix - 
 dev-db/squirrel-sql:informix - 
@@ -126,6 +128,9 @@ dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/c
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
+dev-python/jira:filemagic - Include filemagic support (for identifying uploaded filetypes)
+dev-python/jira:ipython - Include Interactive Python (IPython)
+dev-python/jira:oauth - Support OAuth authentication
 dev-util/scanmem:gui - Enable the GameConqueror GUI
 dev-vcs/git-annex:asciiprogress - Use ascii-progress library (experimental)
 dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
@@ -145,7 +150,11 @@ dev-vcs/git-annex:webapp - Enable git-annex webapp
 dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 games-rpg/sacred:iampirate - 
+media-fonts/devicon:icons - Install "icons" version of the font (svgs)
+media-fonts/devicon:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/firacode:webfonts - Install so called "web" fonts (woff{,2}, eot)
+media-fonts/font-linux:webfonts - Build web versions (woff) of the font (and it's variants)
+media-fonts/fontawesome-extension:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/iosevka:woff - Build web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
@@ -243,6 +252,7 @@ sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 www-apps/ctpp2:md5 - 
+www-apps/pydio:webdav - Enable support for webdav protocol
 www-apps/redmine:bazaar - 
 www-apps/redmine:darcs - 
 www-apps/redmine:mercurial - 
@@ -277,12 +287,14 @@ www-servers/nginx:nginx_modules_http_ndk - This module is like SDK for some anot
 www-servers/nginx:nginx_modules_http_njs - This module adds native JavaScript support in NginX
 www-servers/nginx:nginx_modules_http_pagespeed - Pagespeed module
 www-servers/nginx:nginx_modules_http_passenger - Phusion Passenger Application Server (supporting node.js, ruby, python and so on)
+www-servers/nginx:nginx_modules_http_passenger_enterprise - Phusion Passenger Application Server (supporting node.js, ruby, python and so on). Enterprise version.
 www-servers/nginx:nginx_modules_http_postgres - This module adds the ability to "talk" to PostgreSQL server
 www-servers/nginx:nginx_modules_http_rdns - This module adds hostname based (reverse-dns lookup) acces lists
 www-servers/nginx:nginx_modules_http_rds_csv - RDS CSV Module
 www-servers/nginx:nginx_modules_http_rds_json - RDS JSON Module
 www-servers/nginx:nginx_modules_http_redis - This module adds the ability to "talk" with Redis server
 www-servers/nginx:nginx_modules_http_replace_filter - Replace Filter Module
+www-servers/nginx:nginx_modules_http_rrd - Enadle 3rd party rrd module
 www-servers/nginx:nginx_modules_http_set_misc - Set-Misc Module
 www-servers/nginx:nginx_modules_http_slice - Enable slices support (read documentation before using this in production)
 www-servers/nginx:nginx_modules_http_slowfs_cache - This module adds the ability to cache static files
@@ -310,6 +322,7 @@ www-servers/nginx:pcre-jit - Add support to PCRE JIT
 www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:stream - Enable Stream NginX core module
+www-servers/nginx:systemtap - Install systemtap tapset files for some modules
 x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
 x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
