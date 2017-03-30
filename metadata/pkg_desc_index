@@ -102,7 +102,7 @@ dev-ruby/unicode_utils 1.4.0: additional Unicode aware functions for Ruby 1.9
 dev-ruby/verse 0.5.0: Text transformations such as truncation, wrapping, aligning, indentation and
 dev-ruby/wisper 1.6.1: pub/sub for Ruby objects
 dev-util/0xFFFF 0.6.1 9999: Open Free Fiasco Firmware Flasher
-dev-util/android-ndk 13: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-ndk 14: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.2.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.2.0: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .class files
@@ -184,18 +184,17 @@ net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
 net-misc/asterisk-app_rxfax 20070624-r1: Asterisk applications for sending and receiving faxes
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
-net-misc/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
-net-misc/ofono 1.12: Open Source mobile telephony (GSM/UMTS) daemon.
-net-misc/onioncat 0.2.2_p569: An IP-Transparent Tor Hidden Service Connector
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
-net-misc/tinc 1.1.9999: tinc is an easy to configure VPN implementation
 net-p2p/librevault 0.1.18.6 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 0.12.16 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-inotify 0.8.4 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/transmission-cli 2.92: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
+net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
+net-vpn/onioncat 0.2.2_p569: An IP-Transparent Tor Hidden Service Connector
+net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
 sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter

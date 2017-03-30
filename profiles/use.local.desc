@@ -202,28 +202,22 @@ net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init
 net-libs/libnftnl:json - Supports parsing of JSON
 net-misc/android-file-transfer:fuse - Add fuse helper
 net-misc/android-file-transfer:gui - Build Qt GUI
-net-misc/i2pd:api - Build the libi2pd libraries (to work with I²P API).
-net-misc/i2pd:daemon - Compile I²P daemon
-net-misc/ofono:atmodem - ETSI AT modem support.
-net-misc/ofono:bluetooth - Enable Bluetooth modem support using net-wireless/bluez.
-net-misc/ofono:cdmamodem - Enable CDMA modem support.
-net-misc/ofono:isimodem - Enable PhoNet/ISI modem support.
-net-misc/ofono:phonesim - Enable phone Simulator support
-net-misc/ofono:tools - Enable testing tools
-net-misc/onioncat:http - enable handling of accidental HTTP requests
-net-misc/onioncat:i2p - install GarliCat (I2P-version)
-net-misc/onioncat:log - enable packet logging
-net-misc/onioncat:queue - enable queueuing of packets while connecting setup
-net-misc/onioncat:relay - disable source ip checking before forwarding
-net-misc/onioncat:rtt - enable inband RTT measurement
 net-misc/subnetcalc:colorgcc - 
-net-misc/tinc:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
-net-misc/tinc:gui - Add GUI support, using dev-python/wxpython
-net-misc/tinc:openssl - Using dev-libs/openssl for cryptography-related functions
-net-misc/tinc:uml - Enable support for User Mode Linux Sockets
-net-misc/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 net-p2p/librevault:daemon - Build LibreVault daemon
 net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
+net-vpn/i2pd:api - Build the libi2pd libraries (to work with I²P API).
+net-vpn/i2pd:daemon - Compile I²P daemon
+net-vpn/onioncat:http - enable handling of accidental HTTP requests
+net-vpn/onioncat:i2p - install GarliCat (I2P-version)
+net-vpn/onioncat:log - enable packet logging
+net-vpn/onioncat:queue - enable queueuing of packets while connecting setup
+net-vpn/onioncat:relay - disable source ip checking before forwarding
+net-vpn/onioncat:rtt - enable inband RTT measurement
+net-vpn/tinc:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
+net-vpn/tinc:gui - Add GUI support, using dev-python/wxpython
+net-vpn/tinc:openssl - Using dev-libs/openssl for cryptography-related functions
+net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
+net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 sys-apps/firejail:apparmor - Enable support for custom AppArmor profiles
 sys-apps/firejail:bind - Enable custom bind mounts
 sys-apps/firejail:chroot - Enable chrooting to custom directory
