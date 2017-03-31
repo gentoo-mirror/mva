@@ -28,6 +28,7 @@ app-misc/2gis-data 20151009: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-misc/binwalk 9999: A tool for identifying files embedded inside firmware images
 app-misc/jo 1.0 1.0_p20170319 9999: JSON output from a shell
+app-misc/jq 9999: Command-line JSON processor
 app-misc/terjira 0.3.3: Intercative JIRA cli
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
@@ -39,6 +40,7 @@ app-vim/nginx-syntax 1.11.12: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mydumper 0.9.1: A high-performance multi-threaded backup toolset for MySQL and Drizzle
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
 dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
@@ -193,7 +195,7 @@ net-p2p/syncthing-inotify 0.8.4 9999: Open, trustworthy and decentralized sync e
 net-p2p/transmission-cli 2.92: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 0.5.0 9999: High performance peer-to-peer hub for the ADC network
 net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
-net-vpn/onioncat 0.2.2_p569: An IP-Transparent Tor Hidden Service Connector
+net-vpn/onioncat 0.2.2_p571: An IP-Transparent Tor Hidden Service Connector
 net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
 sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library

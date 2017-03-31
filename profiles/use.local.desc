@@ -117,6 +117,7 @@ app-misc/2gis-plugins:area -
 app-misc/2gis-plugins:goto - 
 app-misc/2gis-plugins:mapnotes - 
 app-misc/binwalk:graph - Enable support for generating entropy graphs
+app-misc/jq:oniguruma - Use dev-libs/oniguruma for regular expression support
 app-misc/terjira:console - Install "jiraconsole" application (intercative ruby interpreter with preloaded terjira classes)
 app-text/unicode:unihan - Support for Unihan
 dev-db/dbeaver:informix - 
