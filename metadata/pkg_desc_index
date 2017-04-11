@@ -221,6 +221,7 @@ www-apps/grafana 4.2.0: Gorgeous metric viz, dashboards & editors for Graphite, 
 www-apps/pydio 6.2.0: File sharing platform similar to dropbox
 www-apps/redmine 3.3.1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
+www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
 www-servers/apache-headers 2.4.25: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.11.13: Robust, small and high performance http and reverse proxy server
