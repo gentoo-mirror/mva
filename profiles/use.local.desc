@@ -207,7 +207,7 @@ net-misc/subnetcalc:colorgcc -
 net-p2p/librevault:daemon - Build LibreVault daemon
 net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
-net-vpn/i2pd:cjdns - Compile with CJDNS network support
+net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
 net-vpn/i2pd:i2lua - Compile for i2lua support
 net-vpn/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
 net-vpn/i2pd:thread-sanitizer - Compile with Thread Sanitizer Feature
