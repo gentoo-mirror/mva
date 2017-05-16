@@ -9,13 +9,4 @@
  <name>Vadim A. Misbakh-Soloviov</name>
 </maintainer>
 <longdescription>FIXME</longdescription> 
-  <use>
-    <flag name="tools">
-      Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
-    </flag>
-  </use>
-  <upstream>
-    <remote-id type="github">syncthing/syncthing</remote-id>
-    <bugs-to>https://github.com/syncthing/syncthing/issues</bugs-to>
-  </upstream>
 </pkgmetadata>
