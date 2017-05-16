@@ -185,6 +185,7 @@ net-im/swiften:luajit -
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
+net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or portage/env/{CAT}/{PN}.
 net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
@@ -206,6 +207,7 @@ net-misc/android-file-transfer:gui - Build Qt GUI
 net-misc/subnetcalc:colorgcc - 
 net-p2p/librevault:daemon - Build LibreVault daemon
 net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
+net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
 net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
 net-vpn/i2pd:i2lua - Compile for i2lua support

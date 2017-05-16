@@ -111,6 +111,7 @@ dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .c
 dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
 dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
+dev-util/google-breakpad 9999: An open-source multi-platform crash reporting system
 dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE (Community Edition)
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
@@ -173,6 +174,7 @@ net-im/slack 2.3.4: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 3.0 3.9999 9999: Library for implementing XMPP applications.
 net-im/telegram-cli 9999: Command line interface client for Telegram
+net-im/telegram-desktop 9999: Official desktop client for Telegram
 net-im/telegram-desktop-bin 1.0.26: Official desktop client for Telegram (binary package)
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -190,7 +192,7 @@ net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-p2p/librevault 0.1.18.6 9999: Peer-to-peer, decentralized and open source file sync.
-net-p2p/syncthing 0.12.16 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
+net-p2p/syncthing 9999: Open Source Continuous File Synchronization
 net-p2p/syncthing-cli 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/syncthing-inotify 0.8.4 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
 net-p2p/transmission-cli 2.92: A Fast, Easy and Free BitTorrent client - command line (CLI) version
