@@ -205,9 +205,12 @@ net-libs/libnftnl:json - Supports parsing of JSON
 net-misc/android-file-transfer:fuse - Add fuse helper
 net-misc/android-file-transfer:gui - Build Qt GUI
 net-misc/subnetcalc:colorgcc - 
+net-p2p/librevault:cli - Build cli interface
 net-p2p/librevault:daemon - Build LibreVault daemon
 net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
+net-p2p/syncthing:cli - Install stcli (syncthing-cli).
 net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
+net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
 net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
 net-vpn/i2pd:i2lua - Compile for i2lua support

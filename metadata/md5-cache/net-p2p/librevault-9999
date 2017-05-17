@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) daemon? ( dev-db/sqlite:3 net-libs/libnatpmp net-libs/miniupnpc dev-libs/jsoncpp dev-cpp/websocketpp ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc sys-devel/make >=dev-util/cmake-3.7.2 >=dev-vcs/git-1.8.2.1
+DEPEND=gui? ( dev-qt/qtcore:5[static-libs(+)=] dev-qt/qtgui:5[static-libs(+)=] dev-qt/qtnetwork:5[static-libs(+)=] dev-qt/qtwebsockets:5[static-libs(+)=] dev-qt/qtwidgets:5[static-libs(+)=] ) daemon? ( dev-db/sqlite:3[static-libs(+)=] net-libs/libnatpmp[static-libs(+)=] net-libs/miniupnpc[static-libs(+)=] dev-libs/jsoncpp[static-libs(+)=] dev-cpp/websocketpp[static-libs(+)=] ) >=dev-libs/boost-1.58.0[static-libs(+)=] >=dev-libs/crypto++-5.6.2[static-libs(+)=] >=dev-libs/openssl-1.0.1[static-libs(+)=] >=dev-libs/protobuf-3.0[static-libs(+)=] || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc sys-devel/make >=dev-util/cmake-3.7.2 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Peer-to-peer, decentralized and open source file sync.
 EAPI=6
 HOMEPAGE=https://librevault.com
-IUSE=+daemon gui qt5
+IUSE=cli daemon debug gui static static-libs
 LICENSE=GPL-3
-RDEPEND=qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) daemon? ( dev-db/sqlite:3 net-libs/libnatpmp net-libs/miniupnpc dev-libs/jsoncpp dev-cpp/websocketpp ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc
-REQUIRED_USE=qt5? ( gui ) gui? ( || ( qt5 ) )
+RDEPEND=gui? ( dev-qt/qtcore:5[static-libs(+)=] dev-qt/qtgui:5[static-libs(+)=] dev-qt/qtnetwork:5[static-libs(+)=] dev-qt/qtwebsockets:5[static-libs(+)=] dev-qt/qtwidgets:5[static-libs(+)=] ) daemon? ( dev-db/sqlite:3[static-libs(+)=] net-libs/libnatpmp[static-libs(+)=] net-libs/miniupnpc[static-libs(+)=] dev-libs/jsoncpp[static-libs(+)=] dev-cpp/websocketpp[static-libs(+)=] ) >=dev-libs/boost-1.58.0[static-libs(+)=] >=dev-libs/crypto++-5.6.2[static-libs(+)=] >=dev-libs/openssl-1.0.1[static-libs(+)=] >=dev-libs/protobuf-3.0[static-libs(+)=] || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc
+REQUIRED_USE=|| ( cli daemon gui ) static? ( static-libs )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:cmake-utils src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
 _eclasses_=cmake-utils	e44137980fb9cdd48abe54b101678254	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	flag-o-matic	61cad4fb5d800b29d484b27cb033f59b	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	284a473719153462f3e974d86c8cb81c	ninja-utils	ebb2eaddc6331c4fa000b8eb8f6fe074	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0
-_md5_=be9122c0856843785409be58b24b938d
+_md5_=372f3a9841797fd66faac79dc144e3c7
