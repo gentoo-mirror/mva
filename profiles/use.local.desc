@@ -264,6 +264,7 @@ www-apps/redmine:passenger - Enable support for Phusion Passenger (aka mod_rails
 www-apps/redmine:sqlite3 - 
 www-servers/nginx:aio - Enable aio support
 www-servers/nginx:debug - Enable the debugging logging
+www-servers/nginx:dtls - Enable DTLS Support (experimental)
 www-servers/nginx:http - Enable HTTP NginX core module
 www-servers/nginx:http-cache - Enable HTTP cache support
 www-servers/nginx:http2 - Enable HTTP2 support
@@ -312,6 +313,7 @@ www-servers/nginx:nginx_modules_http_upstream_zone - Upstream Zone Module
 www-servers/nginx:nginx_modules_http_v2 - HTTP2 support
 www-servers/nginx:nginx_modules_http_xss - XSS Module
 www-servers/nginx:nginx_modules_stream_access - Access module (stream)
+www-servers/nginx:nginx_modules_stream_dtls - Enable DTLS Support (experimental)
 www-servers/nginx:nginx_modules_stream_geo - GEO module (stream)
 www-servers/nginx:nginx_modules_stream_geoip - GEOIP module (stream)
 www-servers/nginx:nginx_modules_stream_limit_conn - LimitConn Module (stream)
