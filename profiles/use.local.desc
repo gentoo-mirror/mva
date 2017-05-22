@@ -186,6 +186,7 @@ net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or portage/env/{CAT}/{PN}.
+net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
 net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
@@ -213,6 +214,7 @@ net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr
 net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
 net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
+net-vpn/i2pd:gui - Compile GUI I2PD version (trayicon + window with 2 quit buttons) *instead* of daemon
 net-vpn/i2pd:i2lua - Compile for i2lua support
 net-vpn/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
 net-vpn/i2pd:thread-sanitizer - Compile with Thread Sanitizer Feature
