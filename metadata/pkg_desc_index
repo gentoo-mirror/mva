@@ -40,7 +40,7 @@ app-vim/nginx-syntax 1.11.12: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
-dev-db/mydumper 0.9.1: A high-performance multi-threaded backup toolset for MySQL and Drizzle
+dev-db/mydumper 0.9.1 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
 dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/sqlworkbench 9999: Free, DBMS-independent, cross-platform SQL query tool.
