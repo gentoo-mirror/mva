@@ -3,6 +3,7 @@ DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=An open-source multi-platform crash reporting system
 EAPI=6
 HOMEPAGE=http://code.google.com/p/google-breakpad/
+KEYWORDS=~x86 ~amd64
 LICENSE=BSD
 SLOT=0
 _eclass_exported_funcs=src_unpack:- src_compile:- src_install:-
