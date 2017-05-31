@@ -33,10 +33,11 @@ app-misc/terjira 0.3.4 9999: Intercative JIRA cli
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-office/odt2txt 0.4: A simple converter from OpenDocument Text to plain text
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
+app-shells/zsh 5.3.1 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.11.12: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.13.1: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
@@ -174,7 +175,7 @@ net-im/slack 2.3.4: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 3.0 3.9999 9999: Library for implementing XMPP applications.
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 1.1.6 9999: Official desktop client for Telegram
+net-im/telegram-desktop 1.1.7 9999: Official desktop client for Telegram
 net-im/telegram-desktop-bin 1.0.26: Official desktop client for Telegram (binary package)
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
