@@ -121,14 +121,15 @@ app-misc/jq:oniguruma - Use dev-libs/oniguruma for regular expression support
 app-misc/terjira:console - Install "jiraconsole" application (intercative ruby interpreter with preloaded terjira classes)
 app-text/unicode:unihan - Support for Unihan
 dev-db/dbeaver:informix - 
-dev-db/sqlworkbench:informix - 
-dev-db/squirrel-sql:informix - 
 dev-db/tora:experimental - Add experimental features
 dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
 dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
+dev-libs/msgpack:cxx - 
+dev-libs/msgpack:static-libs - 
+dev-libs/msgpack:test - 
 dev-python/jira:filemagic - Include filemagic support (for identifying uploaded filetypes)
 dev-python/jira:ipython - Include Interactive Python (IPython)
 dev-python/jira:oauth - Support OAuth authentication
@@ -203,6 +204,23 @@ net-irc/weechat:trigger - Enable trigger plugin.
 net-irc/weechat:xfer - Enable xfer plugin support.
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
 net-libs/libnftnl:json - Supports parsing of JSON
+net-libs/libringclient:dbus - If disable, direct linking to daemon without D-Bus. Enable if unsure.
+net-libs/libringclient:video - Support video call in Ring
+net-libs/opendht:python - Install Python bindings. Requires dev-python/cython.
+net-libs/opendht:tools - Install extra opendht tools (dhtchat, dhtnode and dhtscanner).
+net-libs/pjproject:amr - Inlcude AMR codec in the build
+net-libs/pjproject:epoll - Use /dev/epoll ioqueue on Linux (experimental)
+net-libs/pjproject:g711 - Include G.711 codecs in the build
+net-libs/pjproject:g722 - Include G.722 codec in the build
+net-libs/pjproject:ilbc - Include iLBC codec in the build
+net-libs/pjproject:l16 - Include Linear/L16 codec family in the build
+net-libs/pjproject:libyuv - Include libyuv in the build
+net-libs/pjproject:openh264 - Include Open H.264 support in the build
+net-libs/pjproject:opus - Include OPUS support in the build
+net-libs/pjproject:resample - Include resampling implementations in the build
+net-libs/pjproject:silk - Include SILK support in the build
+net-libs/pjproject:v4l2 - Include Video4Linux v2 support in the build
+net-libs/pjproject:webrtc - Enable WebRTC support
 net-misc/android-file-transfer:fuse - Add fuse helper
 net-misc/android-file-transfer:gui - Build Qt GUI
 net-misc/subnetcalc:colorgcc - 
@@ -212,6 +230,23 @@ net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
 net-p2p/syncthing:cli - Install stcli (syncthing-cli).
 net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
+net-voip/kde-ring:akonadi - Enable support for Akonadi
+net-voip/kde-ring:video - Enable support for video call in Ring
+net-voip/ring-daemon:dbus - The D-Bus xml interfaces, and c++ bindings.
+net-voip/ring-daemon:graph - Create dot graphs in documentations
+net-voip/ring-daemon:hwaccel - Enable hardware-accelerated rendering (only vaapi supports at this moment)
+net-voip/ring-daemon:libilbc - Support ilbc audio
+net-voip/ring-daemon:nat-pmp - Support for NAT-PMP
+net-voip/ring-daemon:opus - Support opus audio
+net-voip/ring-daemon:restbed - An alternative to the dbus client to communicate with a headless daemon. It uses net-libs/restbed, a cpp framework for RESTful services.
+net-voip/ring-daemon:ringns - Ring name service, depends on net-libs/restbed
+net-voip/ring-daemon:sdes - Support for sdes key exchange. It uses dev-libs/libpcre
+net-voip/ring-daemon:speexdsp - Support for speexdp Noise Suppression and Automatic Gain Control
+net-voip/ring-daemon:system-gnutls - Uses the system library for gnutls
+net-voip/ring-daemon:system-pjproject - Uses the system library for pjproject
+net-voip/ring-daemon:vdpau - If enable, Ring would sometimes fail to build because of an undefined reference to "vdp_device_create_x11". Enable it on your own risk.
+net-voip/ring-daemon:video - Support video call in Ring
+net-voip/ring-daemon:vpx - Support vp8 audio
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
 net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
 net-vpn/i2pd:gui - Compile GUI I2PD version (trayicon + window with 2 quit buttons) *instead* of daemon
