@@ -127,8 +127,9 @@ dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/c
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
+dev-libs/msgpack:boost - 
 dev-libs/msgpack:cxx - 
-dev-libs/msgpack:static-libs - 
+dev-libs/msgpack:cxx11 - 
 dev-libs/msgpack:test - 
 dev-python/jira:filemagic - Include filemagic support (for identifying uploaded filetypes)
 dev-python/jira:ipython - Include Interactive Python (IPython)
@@ -161,6 +162,9 @@ media-fonts/iosevka:woff - Build web versions (woff) of the font (and it's varia
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
 media-libs/libjpeg-turbo:pic - 
+media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
+media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
+media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide (currently conflicts with jpeg-turbo)
 media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
 media-sound/mumble:speech - Enable text-to-speech support in Mumble.
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
