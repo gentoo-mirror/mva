@@ -200,6 +200,7 @@ net-irc/weechat:charset - Enable encoding conversions.
 net-irc/weechat:exec - Enable exec plugin.
 net-irc/weechat:fifo - Enable FIFO support (sh pipes).
 net-irc/weechat:irc - Enable IRC protocol support.
+net-irc/weechat:l10n_pt_BR - 
 net-irc/weechat:logger - Enable support for logging.
 net-irc/weechat:luajit - Enable LuaJIT support.
 net-irc/weechat:relay - Enable relay plugin (experimental)
