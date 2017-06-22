@@ -172,7 +172,7 @@ net-analyzer/prometheus-unbound_exporter 0.1_rc0: Prometheus exporter for Postgr
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
-net-firewall/xtables-addons 2.11: extensions not yet accepted in the main kernel/iptables
+net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel/iptables
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
 net-im/slack 2.3.4: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
