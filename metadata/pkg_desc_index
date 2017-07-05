@@ -126,6 +126,8 @@ dev-vcs/git-annex 9999: manage files with git, without checking their contents i
 dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 dev-vcs/hub 2.3.0_pre9: Command-line wrapper for git that makes you better at GitHub
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
+games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
+games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
