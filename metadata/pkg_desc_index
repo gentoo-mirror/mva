@@ -109,8 +109,8 @@ dev-ruby/verse 0.5.0: Text transformations such as truncation, wrapping, alignin
 dev-ruby/wisper 1.6.1: pub/sub for Ruby objects
 dev-util/0xFFFF 0.6.1 9999: Open Free Fiasco Firmware Flasher
 dev-util/android-ndk 14: Open Handset Alliance's Android NDK (Native Dev Kit)
-dev-util/apktool 2.2.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
-dev-util/apktool-bin 2.2.0: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/apktool 2.2.3 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/apktool-bin 2.2.3: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .class files
 dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
 dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
