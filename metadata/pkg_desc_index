@@ -11,8 +11,8 @@ app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
 app-crypt/csuser-plugin 2.0.6.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
+app-crypt/getssl 2.10 9999: letsencrypt/acme client implemented as a shell-script
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
-app-crypt/letsencrypt-sh 9999: letsencrypt/acme client implemented as a shell-script
 app-crypt/netid 4.4.7: Net iD PKI client software from SecMaker
 app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, rar and 7z archives
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
