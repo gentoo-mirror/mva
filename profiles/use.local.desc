@@ -137,7 +137,7 @@ dev-python/jira:oauth - Support OAuth authentication
 dev-util/scanmem:gui - Enable the GameConqueror GUI
 dev-vcs/git-annex:asciiprogress - Use ascii-progress library (experimental)
 dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
-dev-vcs/git-annex:database - Enable building with dev-haskell/persistent for database use
+dev-vcs/git-annex:database - Enable building with dev-haskell/persistentfor database use
 dev-vcs/git-annex:desktopnotify - Enable desktop environment notifications
 dev-vcs/git-annex:dns - Enable the haskell DNS library for DNS lookup
 dev-vcs/git-annex:ekg - Enable use of EKG to monitor git-annex as it runs.
@@ -161,17 +161,16 @@ media-fonts/fontawesome-extension:webfonts - Install so called "web" fonts (woff
 media-fonts/iosevka:woff - Build web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
-media-libs/libjpeg-turbo:pic - 
 media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
-media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide (currently conflicts with jpeg-turbo)
+media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide(currently conflicts with jpeg-turbo)
 media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
 media-sound/mumble:speech - Enable text-to-speech support in Mumble.
-net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
+net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrackwhen enables the connlabel matcher
 net-firewall/iptables:ipq - Support for IPQ
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
 net-firewall/iptables:nftables - Support nftables kernel interface
-net-firewall/iptables:pcap - Build against net-libs/libpcap which enables the nfbpf_compile util
+net-firewall/iptables:pcap - Build against net-libs/libpcapwhich enables the nfbpf_compile util
 net-im/libcommuni:qml - 
 net-im/libcommuni:uchardet - 
 net-im/spectrum:frotz - 
@@ -192,7 +191,7 @@ net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or portage/env/{CAT}/{PN}.
 net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
-net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
+net-im/tgl:gcrypt - Use dev-libs/libgcryptinstead of dev-libs/opensslfor crypto operations
 net-im/tgl:libevent - Enable LibEvent support
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-irc/weechat:alias - Enable plugin for alias control.
@@ -367,7 +366,7 @@ www-servers/nginx:nginx_modules_stream_upstream_hash - Upstream Hash Module (str
 www-servers/nginx:nginx_modules_stream_upstream_least_conn - Upstream LeastConn Module (stream)
 www-servers/nginx:nginx_modules_stream_upstream_zone - Upstream Zone Module (stream)
 www-servers/nginx:pcre-jit - Add support to PCRE JIT
-www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuning
+www-servers/nginx:perftools - Use dev-util/google-perftoolsfor performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:stream - Enable Stream NginX core module
 www-servers/nginx:systemtap - Install systemtap tapset files for some modules

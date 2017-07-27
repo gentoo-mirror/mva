@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst unpack
-DEPEND=x11-libs/libxcb sys-fs/fuse >=dev-vcs/git-1.8.2.1
+DEPEND=x11-libs/libxcb sys-fs/fuse:0 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Self-syncing tree-merging file system based on FUSE
 EAPI=6
 HOMEPAGE=https://github.com/sdhand/x11fs
 LICENSE=BSD
-RDEPEND=x11-libs/libxcb sys-fs/fuse
+RDEPEND=x11-libs/libxcb sys-fs/fuse:0
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=f4b9e97ac932970068f292c33062928a
+_md5_=4d44c5c76f54289632a66ed4007a8457

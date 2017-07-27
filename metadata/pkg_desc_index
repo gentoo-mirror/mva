@@ -148,10 +148,9 @@ media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
 media-gfx/woff2 9999: font compression reference code
-media-libs/hal-flash 0.3.2: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
+media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libcdr 9999: Library parsing the Corel cdr documents
 media-libs/libdmtx 0.7.4 9999: Barcode data matrix reading and writing library
-media-libs/libjpeg-turbo 1.1.90: MMX, SSE, and SSE2 SIMD accelerated JPEG library
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/vips 8.5.6 9999: VIPS Image Processing Library
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
@@ -227,7 +226,7 @@ sys-fs/x11fs 9999: Self-syncing tree-merging file system based on FUSE
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
-sys-process/systemd-cron 1.5.8 9999: systemd units to create timers for cron directories and crontab
+sys-process/systemd-cron 1.5.10 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web

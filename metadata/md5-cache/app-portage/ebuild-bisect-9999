@@ -1,9 +1,9 @@
 DEFINED_PHASES=install
 DESCRIPTION=Tool for bisecting live ebuilds
 EAPI=6
-HOMEPAGE=http://www.gentoo.org/
+HOMEPAGE=https://www.gentoo.org/
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 SLOT=0
 _eclass_exported_funcs=src_install:-
-_md5_=9ac3c87c9e66c5322c9010ccd24e3b35
+_md5_=e2585be8156e34d5985924a50705fde0
