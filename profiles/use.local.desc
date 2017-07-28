@@ -173,6 +173,7 @@ net-firewall/iptables:nftables - Support nftables kernel interface
 net-firewall/iptables:pcap - Build against net-libs/libpcapwhich enables the nfbpf_compile util
 net-im/libcommuni:qml - 
 net-im/libcommuni:uchardet - 
+net-im/qtox:gtk - Adds support for GTK and Status Notifier tray backends
 net-im/spectrum:frotz - 
 net-im/spectrum:irc - 
 net-im/spectrum:libev - 
@@ -193,6 +194,10 @@ net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must
 net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
 net-im/tgl:gcrypt - Use dev-libs/libgcryptinstead of dev-libs/opensslfor crypto operations
 net-im/tgl:libevent - Enable LibEvent support
+net-im/toxic:X - Adds support for X11
+net-im/toxic:av - Enable audio support
+net-im/toxic:libnotify - Enable desktop notification support.
+net-im/toxic:sound-notify - Adds support for sound notifications.
 net-im/yowsup:encryption - Pull in dependencies needed for WhatsApp's end-to-end encryption
 net-irc/weechat:alias - Enable plugin for alias control.
 net-irc/weechat:charset - Enable encoding conversions.

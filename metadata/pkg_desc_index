@@ -60,6 +60,7 @@ dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG soft
 dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
 dev-libs/msgpack 2.1.3 9999: MessagePack is a binary-based efficient data interchange format
+dev-libs/nlohman-json 9999: C++ class library of cryptographic schemes
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
@@ -175,6 +176,8 @@ net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet manglin
 net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel/iptables
 net-im/libcommuni 3.4.0: A cross-platform IRC framework written with Qt
+net-im/qtox 9999: Powerful Qt5 chat client for net-libs/tox that follows the Tox design guidelines
+net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/slack 2.3.4: A messaging app for teams
 net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 3.0 3.9999 9999: Library for implementing XMPP applications.
@@ -183,6 +186,7 @@ net-im/telegram-desktop 1.1.9 9999: Official desktop client for Telegram
 net-im/telegram-desktop-bin 1.0.26: Official desktop client for Telegram (binary package)
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
+net-im/toxic 9999: CLI Frontend for Tox
 net-im/transwhat 9999: a WhatsApp XMPP Gateway backend for net-im/spectrum
 net-im/yowsup 9999: Python WhatsApp library and CLI client
 net-irc/weechat 9999: Portable and multi-interface IRC client
@@ -200,6 +204,7 @@ net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
+net-misc/toxvpn 9999: toxvpn allows one to make tunneled point to point connections over Tox
 net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 9999: Open Source Continuous File Synchronization
 net-p2p/syncthing-inotify 9999: Open, trustworthy and decentralized sync engine (like DropBox/BTSync)
