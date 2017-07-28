@@ -191,6 +191,7 @@ net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or portage/env/{CAT}/{PN}.
+net-im/telegram-desktop:pulseaudio - Disables Pulseaudio support (use ALSA-backend only)
 net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
 net-im/tgl:gcrypt - Use dev-libs/libgcryptinstead of dev-libs/opensslfor crypto operations
 net-im/tgl:libevent - Enable LibEvent support

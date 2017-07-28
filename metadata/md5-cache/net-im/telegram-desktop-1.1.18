@@ -4,6 +4,7 @@ DESCRIPTION=Official desktop client for Telegram
 EAPI=6
 HOMEPAGE=https://desktop.telegram.org
 IUSE=custom-api-id debug +wide-baloons +pulseaudio
+KEYWORDS=~x86 ~amd64
 LICENSE=GPL-3-with-openssl-exception
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[xcb,jpeg,png] || ( <dev-qt/qtgui-5.7:5[gtkstyle] >=dev-qt/qtgui-5.7:5[gtk] ) dev-qt/qtwidgets[xcb,png] dev-qt/qtnetwork dev-qt/qtimageformats virtual/ffmpeg media-libs/opus x11-libs/libdrm x11-libs/libva[X,drm] sys-libs/zlib[minizip] x11-libs/gtk+:3 dev-libs/libappindicator:3 media-libs/openal dev-libs/openssl:0 x11-libs/libX11 dev-util/google-breakpad !net-im/telegram !net-im/telegram-desktop-bin pulseaudio? ( media-sound/pulseaudio )
 SLOT=0
