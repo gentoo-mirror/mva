@@ -51,6 +51,7 @@ dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-java/gradle 3.4: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 3.4: A project automation and build tool with a Groovy based DSL
 dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
+dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
@@ -87,6 +88,7 @@ dev-python/pgspecial 1.7.0: Meta-commands handler for Postgres Database
 dev-python/prompt_toolkit 1.0.13: Building powerful interactive command lines in Python
 dev-python/py010parser 9999: 010 template library for python
 dev-python/python-sqlparse 0.2.2: A non-validating SQL parser module for Python
+dev-python/pytox 9999: Python bindings for the Tox library
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-qt/qt5ct 0.22: Qt5 configuration utility
 dev-ruby/activesupport 4.0.13: Utility Classes and Extension to the Standard Library
@@ -204,6 +206,7 @@ net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
+net-misc/toxbot 9999: Tox groupchats bot
 net-misc/toxvpn 9999: toxvpn allows one to make tunneled point to point connections over Tox
 net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 9999: Open Source Continuous File Synchronization
