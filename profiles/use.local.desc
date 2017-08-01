@@ -341,6 +341,7 @@ www-servers/nginx:nginx_modules_http_pagespeed - Pagespeed module
 www-servers/nginx:nginx_modules_http_passenger - Phusion Passenger Application Server (supporting node.js, ruby, python and so on)
 www-servers/nginx:nginx_modules_http_passenger_enterprise - Phusion Passenger Application Server (supporting node.js, ruby, python and so on). Enterprise version.
 www-servers/nginx:nginx_modules_http_postgres - This module adds the ability to "talk" to PostgreSQL server
+www-servers/nginx:nginx_modules_http_python - This module adds native Python support to NginX
 www-servers/nginx:nginx_modules_http_rdns - This module adds hostname based (reverse-dns lookup) acces lists
 www-servers/nginx:nginx_modules_http_rds_csv - RDS CSV Module
 www-servers/nginx:nginx_modules_http_rds_json - RDS JSON Module
@@ -366,6 +367,7 @@ www-servers/nginx:nginx_modules_stream_geoip - GEOIP module (stream)
 www-servers/nginx:nginx_modules_stream_limit_conn - LimitConn Module (stream)
 www-servers/nginx:nginx_modules_stream_lua - This module adds native Lua support to NginX (stream module API)
 www-servers/nginx:nginx_modules_stream_map - Mapping module (stream)
+www-servers/nginx:nginx_modules_stream_python - This module adds native Python support to NginX
 www-servers/nginx:nginx_modules_stream_return - Return module (stream)
 www-servers/nginx:nginx_modules_stream_split_clients - Split Clients Module (stream)
 www-servers/nginx:nginx_modules_stream_upstream_hash - Upstream Hash Module (stream)
