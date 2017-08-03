@@ -146,6 +146,7 @@ media-fonts/twemoji-color-font 1.3: A color and B&W emoji SVG-in-OT font with ZW
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/inkscape-table 1.0: Table support for inkscape
+media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
