@@ -185,7 +185,6 @@ net-im/spectrum 9999: Spectrum is an XMPP transport/gateway
 net-im/swiften 3.0 3.9999 9999: Library for implementing XMPP applications.
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telegram-desktop 1.1.19 9999: Official desktop client for Telegram
-net-im/telegram-desktop-bin 1.0.26: Official desktop client for Telegram (binary package)
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/toxic 9999: CLI Frontend for Tox
