@@ -9,5 +9,5 @@ RDEPEND=>=dev-libs/libevent-2.0.10:= >=net-misc/curl-7.16.3[ssl] sys-libs/zlib:=
 SLOT=0
 SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.92.tar.xz
 _eclass_exported_funcs=src_configure:- src_install:-
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=e5a8fcd0cac828be1a228a4f1a19a366
