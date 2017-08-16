@@ -335,6 +335,7 @@ www-servers/nginx:nginx_modules_http_iconv - Iconv Module
 www-servers/nginx:nginx_modules_http_lua - This module adds native Lua support to NginX
 www-servers/nginx:nginx_modules_http_lua_upstream - Lua Upstream Module
 www-servers/nginx:nginx_modules_http_memc - MEMC Module
+www-servers/nginx:nginx_modules_http_mirror - Mirror Module
 www-servers/nginx:nginx_modules_http_nchan - Nchan Module
 www-servers/nginx:nginx_modules_http_ndk - This module is like SDK for some another modules (so, it is only needed as dependency for them)
 www-servers/nginx:nginx_modules_http_njs - This module adds native JavaScript support in NginX
