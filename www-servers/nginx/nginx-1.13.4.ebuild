@@ -197,8 +197,8 @@ HTTP_PYTHON_MODULE_WD="${WORKDIR}/${HTTP_PYTHON_MODULE_P}"
 # http_lua, NginX Lua module (https://github.com/openresty/lua-nginx-module/tags, BSD)
 HTTP_LUA_MODULE_A="openresty"
 HTTP_LUA_MODULE_PN="lua-nginx-module"
-HTTP_LUA_MODULE_PV="0.10.9rc8"
-HTTP_LUA_MODULE_SHA="f170505186ff61af36b3e126772b671793af9428"
+HTTP_LUA_MODULE_PV="0.10.10"
+#HTTP_LUA_MODULE_SHA="f170505186ff61af36b3e126772b671793af9428"
 HTTP_LUA_MODULE_P="${HTTP_LUA_MODULE_PN}-${HTTP_LUA_MODULE_SHA:-${HTTP_LUA_MODULE_PV}}"
 HTTP_LUA_MODULE_URI="https://github.com/${HTTP_LUA_MODULE_A}/${HTTP_LUA_MODULE_PN}/archive/${HTTP_LUA_MODULE_SHA:-v${HTTP_LUA_MODULE_PV}}.tar.gz"
 HTTP_LUA_MODULE_WD="${WORKDIR}/${HTTP_LUA_MODULE_P}"
@@ -234,8 +234,8 @@ HTTP_FORM_INPUT_MODULE_WD="${WORKDIR}/${HTTP_FORM_INPUT_MODULE_P}"
 # NginX echo module (https://github.com/openresty/echo-nginx-module/tags, BSD)
 HTTP_ECHO_MODULE_A="openresty"
 HTTP_ECHO_MODULE_PN="echo-nginx-module"
-HTTP_ECHO_MODULE_PV="0.60"
-HTTP_ECHO_MODULE_SHA="7740e11558b530b66b469c657576f5280b7cdb1b"
+HTTP_ECHO_MODULE_PV="0.61"
+#HTTP_ECHO_MODULE_SHA="7740e11558b530b66b469c657576f5280b7cdb1b"
 HTTP_ECHO_MODULE_P="${HTTP_ECHO_MODULE_PN}-${HTTP_ECHO_MODULE_SHA:-${HTTP_ECHO_MODULE_PV}}"
 HTTP_ECHO_MODULE_URI="https://github.com/${HTTP_ECHO_MODULE_A}/${HTTP_ECHO_MODULE_PN}/archive/${HTTP_ECHO_MODULE_SHA:-v${HTTP_ECHO_MODULE_PV}}.tar.gz"
 HTTP_ECHO_MODULE_WD="${WORKDIR}/${HTTP_ECHO_MODULE_P}"
@@ -300,7 +300,7 @@ HTTP_ARRAY_VAR_MODULE_WD="${WORKDIR}/${HTTP_ARRAY_VAR_MODULE_P}"
 # NginX Lua-Upstream module (https://github.com/openresty/lua-upstream-nginx-module/tags, BSD)
 HTTP_LUA_UPSTREAM_MODULE_A="openresty"
 HTTP_LUA_UPSTREAM_MODULE_PN="lua-upstream-nginx-module"
-HTTP_LUA_UPSTREAM_MODULE_PV="0.07rc1"
+HTTP_LUA_UPSTREAM_MODULE_PV="0.07"
 HTTP_LUA_UPSTREAM_MODULE_P="${HTTP_LUA_UPSTREAM_MODULE_PN}-${HTTP_LUA_UPSTREAM_MODULE_SHA:-${HTTP_LUA_UPSTREAM_MODULE_PV}}"
 HTTP_LUA_UPSTREAM_MODULE_URI="https://github.com/${HTTP_LUA_UPSTREAM_MODULE_A}/${HTTP_LUA_UPSTREAM_MODULE_PN}/archive/${HTTP_LUA_UPSTREAM_MODULE_SHA:-v${HTTP_LUA_UPSTREAM_MODULE_PV}}.tar.gz"
 HTTP_LUA_UPSTREAM_MODULE_WD="${WORKDIR}/${HTTP_LUA_UPSTREAM_MODULE_P}"
@@ -556,6 +556,7 @@ SLOT="mainline"
 KEYWORDS="~amd64 ~x86 ~arm"
 
 NGINX_MODULES_STD="
+	http_mirror
 	http_access
 	http_auth_basic
 	http_autoindex
@@ -925,7 +926,6 @@ pkg_setup() {
 	fi
 
 	if use nginx_modules_http_pagespeed; then
-		ewarn ""
 		ewarn "Be noticed that PageSpeed module using precompiled (by google) PSOL library."
 		ewarn "And due to way google built it, this build will definitelly follow to QA warning."
 		ewarn "So, take a look on it, please."
@@ -1057,8 +1057,11 @@ src_prepare() {
 	fi
 
 	if use nginx_modules_http_pagespeed; then
+		pushd "${HTTP_PAGESPEED_MODULE_WD}" &>/dev/null
+		eapply "${PATCHDIR}"/pagespeed-fix-compilation.patch
 		# TODO: replace precompiled psol with that one, built from apache module?
-		cp -rl "${HTTP_PAGESPEED_PSOL_WD}" "${HTTP_PAGESPEED_MODULE_WD}/" || die "Failed to insert psol"
+		cp -rl "${HTTP_PAGESPEED_PSOL_WD}" ./ || die "Failed to insert psol"
+		popd &>/dev/null
 	fi
 
 	if use nginx_modules_http_upload_progress; then
