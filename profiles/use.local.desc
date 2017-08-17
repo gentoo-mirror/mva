@@ -120,7 +120,6 @@ app-misc/binwalk:graph - Enable support for generating entropy graphs
 app-misc/jq:oniguruma - Use dev-libs/oniguruma for regular expression support
 app-misc/terjira:console - Install "jiraconsole" application (intercative ruby interpreter with preloaded terjira classes)
 app-text/unicode:unihan - Support for Unihan
-dev-db/dbeaver:informix - 
 dev-db/tora:experimental - Add experimental features
 dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
 dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
@@ -304,7 +303,6 @@ sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 www-apps/ctpp2:md5 - 
-www-apps/pydio:webdav - Enable support for webdav protocol
 www-apps/redmine:bazaar - 
 www-apps/redmine:darcs - 
 www-apps/redmine:mercurial - 

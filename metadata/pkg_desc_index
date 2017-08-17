@@ -2,7 +2,7 @@ app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/drush 8.1.10: The command line interface for Drupal
 app-admin/jailkit 2.17: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.7.3: A curses-based tool for viewing and analyzing log files
-app-admin/wp-cli 1.2.1: The command line interface for WordPress
+app-admin/wp-cli 1.3.0: The command line interface for WordPress
 app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-arch/sasquatch 4.3: Tool for creating compressed filesystem type squashfs
 app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
@@ -42,7 +42,6 @@ app-vim/nginx-syntax 1.13.1: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
-dev-db/dbeaver 9999: Universal Database Manager
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.9.1 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
 dev-db/mysql-proxy 9999: A Proxy for the MySQL Client/Server protocol
@@ -75,7 +74,6 @@ dev-perl/Mojolicious-Plugin-INIConfig 0.03: Real-time web framework
 dev-perl/Object-Simple 3.16: Real-time web framework
 dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
-dev-php/PEAR-HTTP_WebDAV_Client 1.0.2: WebDAV stream wrapper class
 dev-php/composer 1.4.1: Dependency Manager for PHP
 dev-python/axolotl 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
@@ -238,7 +236,6 @@ virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/grafana 4.3.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
-www-apps/pydio 6.2.0: File sharing platform similar to dropbox
 www-apps/redmine 3.3.1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
