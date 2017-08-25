@@ -8,5 +8,5 @@ LICENSE=LGPL-3
 RDEPEND=net-im/pidgin dev-libs/openssl:0 virtual/libc libwebp? ( media-libs/libwebp )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_configure:-
-_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
 _md5_=c58fee732ce7dac33ee67de01bbcb1d8

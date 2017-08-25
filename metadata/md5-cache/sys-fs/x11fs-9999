@@ -7,5 +7,5 @@ LICENSE=BSD
 RDEPEND=x11-libs/libxcb sys-fs/fuse:0
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_install:-
-_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
 _md5_=4d44c5c76f54289632a66ed4007a8457
