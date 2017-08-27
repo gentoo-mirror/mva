@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst prepare
+DEPEND=virtual/pkgconfig
+DESCRIPTION=An IP-Transparent Tor Hidden Service Connector
+EAPI=6
+HOMEPAGE=https://www.onioncat.org/
+IUSE=debug +http log +queue relay +rtt i2p
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=net-vpn/tor i2p? ( || ( net-vpn/i2pd net-vpn/i2p ) )
+SLOT=0
+SRC_URI=https://www.cypherpunk.at/ocat/download/Source/current/onioncat-0.2.2.r571.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_prepare:- src_configure:- src_install:-
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	15a3154d9241313a8b9b625618ce981b	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=8f24e10889bd118b055986bdcb7ad5f5

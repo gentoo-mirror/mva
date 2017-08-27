@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare
+DEPEND=sys-libs/zlib !xz? ( !lzo? ( sys-libs/zlib ) ) lz4? ( app-arch/lz4 ) lzma? ( app-arch/xz-utils ) lzo? ( dev-libs/lzo ) xattr? ( sys-apps/attr ) xz? ( app-arch/xz-utils )
+DESCRIPTION=Tool for creating compressed filesystem type squashfs
+EAPI=6
+HOMEPAGE=http://squashfs.sourceforge.net
+IUSE=+xz lzma lz4 lzo xattr
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib !xz? ( !lzo? ( sys-libs/zlib ) ) lz4? ( app-arch/lz4 ) lzma? ( app-arch/xz-utils ) lzo? ( dev-libs/lzo ) xattr? ( sys-apps/attr ) xz? ( app-arch/xz-utils )
+SLOT=0
+SRC_URI=mirror://sourceforge/squashfs/squashfs4.3.tar.gz mirror://debian/pool/main/s/squashfs-tools/squashfs-tools_4.3-3.debian.tar.xz https://github.com/devttys0/sasquatch/archive/59285c81b6dcabbdcb1d5c59b5ca46887fe01726.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=5cd7c2feddadfae3191403ac7c4d6994

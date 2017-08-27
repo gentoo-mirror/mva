@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=!!<=app-misc/2gis-4.0 !app-misc/2gis-data !app-misc/2gis-plugins dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 media-libs/mesa
+DESCRIPTION=Proprietary freeware multimedia map of several Russian and Ukrainian towns
+EAPI=6
+HOMEPAGE=http://2gis.ru
+IUSE=+data
+KEYWORDS=~x86 ~amd64
+LICENSE=2Gis-ru
+RDEPEND=!!<=app-misc/2gis-4.0 !app-misc/2gis-data !app-misc/2gis-plugins dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 media-libs/mesa
+SLOT=0
+SRC_URI=x86? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r15_i386.deb ) amd64? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r339_amd64.deb )
+_eclass_exported_funcs=src_unpack:- src_prepare:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=54b1a40f9fc1cb0c2c433fcb7fc53bf0
