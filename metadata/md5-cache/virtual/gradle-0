@@ -1,8 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for gradle
-EAPI=6
-KEYWORDS=~amd64 ~x86
-RDEPEND=|| ( dev-java/gradle-bin dev-java/gradle )
-SLOT=0
-_eclass_exported_funcs=-
-_md5_=a4ec2a4656ce55eb8c53b1a5b7d88e78
