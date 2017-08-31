@@ -74,7 +74,7 @@ dev-perl/Mojolicious-Plugin-INIConfig 0.03: Real-time web framework
 dev-perl/Object-Simple 3.16: Real-time web framework
 dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
-dev-php/composer 1.4.1: Dependency Manager for PHP
+dev-php/composer 1.5.1: Dependency Manager for PHP
 dev-python/axolotl 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/cstruct 1.0: C-style structs for Python
@@ -123,7 +123,7 @@ dev-util/pySnipps 9999: A simple code snippet tool
 dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
-dev-vcs/hub 2.3.0_pre9: Command-line wrapper for git that makes you better at GitHub
+dev-vcs/hub 2.3.0_pre10: Command-line wrapper for git that makes you better at GitHub
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
 games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
 games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
