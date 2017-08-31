@@ -123,7 +123,7 @@ dev-util/pySnipps 9999: A simple code snippet tool
 dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
-dev-vcs/hub 2.3.0_pre10: Command-line wrapper for git that makes you better at GitHub
+dev-vcs/hub 2.3.0_pre10 9999: Command-line wrapper for git that makes you better at GitHub
 games-rpg/sacred 2.28: Linux port of famous RPG-game.
 games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
 games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
