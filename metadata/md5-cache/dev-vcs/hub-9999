@@ -7,5 +7,5 @@ LICENSE=MIT
 RDEPEND=>=dev-vcs/git-1.7.3
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
-_eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	git-r3	78651c07ca1c1373bf81545d39eb9769	multilib	97f470f374f2e94ccab04a2fb21d811e	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	toolchain-funcs	185a06792159ca143528e7010368e8af
+_eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	git-r3	4f7ddb4119309845d6687213171ab445	multilib	97f470f374f2e94ccab04a2fb21d811e	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=f66a087c3a3aeb3b073096b9c3cd2020

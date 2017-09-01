@@ -8,5 +8,5 @@ LICENSE=qca-firmware
 RDEPEND=sys-kernel/linux-firmware
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:- pkg_postinst:- src_unpack:git-r3 src_prepare:- src_install:-
-_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	e6948c872ff47e15a10e5ad1be15c18e
+_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	e6948c872ff47e15a10e5ad1be15c18e
 _md5_=b52bb7c305b41065545d4bb94e265d6d
