@@ -318,6 +318,8 @@ www-servers/nginx:http2 - Enable HTTP2 support
 www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
 www-servers/nginx:luajit - Build NginX against LuaJIT, instead of PUC-Rio Lua
 www-servers/nginx:mail - Enable Mail NginX core module
+www-servers/nginx:nginx_modules_core_rtmp - RTMP module
+www-servers/nginx:nginx_modules_core_tcpproxy - TCP-Proxy module (legacy alternative to STREAM core module, having some features not provided by it)
 www-servers/nginx:nginx_modules_http_ajp - AJP Module
 www-servers/nginx:nginx_modules_http_array_var - Array-Var Module
 www-servers/nginx:nginx_modules_http_auth_request - AuthRequest Module
@@ -354,7 +356,6 @@ www-servers/nginx:nginx_modules_http_slice - Enable slices support (read documen
 www-servers/nginx:nginx_modules_http_slowfs_cache - This module adds the ability to cache static files
 www-servers/nginx:nginx_modules_http_srcache - SRCache module
 www-servers/nginx:nginx_modules_http_supervisord - Supervisord module
-www-servers/nginx:nginx_modules_http_tcpproxy - TCP-Proxy module (legacy alternative to STREAM core module, having some features not provided by it)
 www-servers/nginx:nginx_modules_http_upstream_hash - Upstream Hash Module
 www-servers/nginx:nginx_modules_http_upstream_keepalive - Upstream Keepalive Module
 www-servers/nginx:nginx_modules_http_upstream_least_conn - Upstream LeastConn Module
@@ -377,6 +378,7 @@ www-servers/nginx:nginx_modules_stream_upstream_zone - Upstream Zone Module (str
 www-servers/nginx:pcre-jit - Add support to PCRE JIT
 www-servers/nginx:perftools - Use dev-util/google-perftoolsfor performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
+www-servers/nginx:rtmp - RTMP module
 www-servers/nginx:stream - Enable Stream NginX core module
 www-servers/nginx:systemtap - Install systemtap tapset files for some modules
 x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
