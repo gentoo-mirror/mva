@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=>=dev-lang/go-1.5.1:= app-text/ronn
+DESCRIPTION=Command-line wrapper for git that makes you better at GitHub
+EAPI=6
+HOMEPAGE=https://github.com/github/hub
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=MIT
+RDEPEND=>=dev-vcs/git-1.7.3
+SLOT=0
+SRC_URI=https://github.com/github/hub/archive/v2.3.0-pre10.tar.gz -> hub-2.3.0_pre10.tar.gz
+_eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	multilib	97f470f374f2e94ccab04a2fb21d811e	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=ac857e50d8fe02da64a8a649a15b88df

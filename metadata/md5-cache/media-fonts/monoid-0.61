@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm setup unpack
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings )
+DESCRIPTION=Open source coding font
+EAPI=6
+HOMEPAGE=http://larsenwork.com/monoid https://github.com/larsenwork/monoid
+IUSE=+monoisome X
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86 ~x86-fbsd
+LICENSE=MIT OFL-1.1
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=mirror://gentoo/monoid-0.61.tar.gz monoisome? ( https://github.com/larsenwork/monoid/raw/0abc451aaaa650198c065cd97aea4e7895931227/Monoisome/Monoisome-Regular.ttf -> Monoisome-Regular-0abc451aaaa650198c065cd97aea4e7895931227.ttf )
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font	82836641e7d4639329d8c195234ad0e3	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=da8afaf1f24890c29c3f68b0cbdda8f2

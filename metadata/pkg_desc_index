@@ -115,7 +115,7 @@ dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .c
 dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
 dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
-dev-util/google-breakpad 0_p20170527 9999: An open-source multi-platform crash reporting system
+dev-util/google-breakpad 0_p1495843200 9999: An open-source multi-platform crash reporting system
 dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE (Community Edition)
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
