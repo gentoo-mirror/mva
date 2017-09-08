@@ -39,7 +39,7 @@ app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.13.1: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.13.5: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
