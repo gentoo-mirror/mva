@@ -76,6 +76,7 @@ dev-perl/Object-Simple 3.16: Real-time web framework
 dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
 dev-php/composer 1.5.1: Dependency Manager for PHP
+dev-php/msgpack 2.0.2 9999: API for communicating with MessagePack serialization
 dev-python/axolotl 9999-r1: Python port of libaxolotl
 dev-python/axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/cstruct 1.0: C-style structs for Python
@@ -111,11 +112,13 @@ dev-ruby/wisper 1.6.1: pub/sub for Ruby objects
 dev-util/android-ndk 14: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.2.3 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.2.3: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
 dev-util/dex2jar 2.0 2.1_pre26 9999: Tools to work with android .dex and java .class files
 dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
 dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
-dev-util/google-breakpad 0_p1495843200 9999: An open-source multi-platform crash reporting system
+dev-util/google-breakpad 0_p20170527 9999: An open-source multi-platform crash reporting system
+dev-util/gyp 0_p20170909 9999: Generate Your Projects
 dev-util/idea-community 12.1.4.129.713: IntelliJ IDEA is an intelligent Java IDE (Community Edition)
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
