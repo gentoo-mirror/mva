@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install prepare setup unpack
+DEPEND=www-servers/nginx:mainline upstream-check? ( www-nginx/upstream-check[upstream-fair] )
+DESCRIPTION=The fair load balancer module
+EAPI=6
+HOMEPAGE=https://github.com/cryptofuture/nginx-upstream-fair
+IUSE=upstream-check
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=www-servers/nginx:mainline upstream-check? ( www-nginx/upstream-check[upstream-fair] )
+SLOT=0
+SRC_URI=https://github.com/cryptofuture/nginx-upstream-fair/archive/b5be36f5056e7148a1744629e1626aeb414307b7.tar.gz -> nginx.upstream-fair-0_p20170322.tar.gz
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	nginx-module	5319a21c6d1ece6516441961ce2ca8ab	patches	96153bf76c23a36e6a8e937772875251	pax-utils	4f95120230a315c8caaabeb2307b7eee	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=f2be8f2d5561cf349ba2bd2ce1f3ea53

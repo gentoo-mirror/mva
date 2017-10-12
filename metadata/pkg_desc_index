@@ -21,6 +21,8 @@ app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-emulation/aws-cli 1.11.63: Universal Command Line Interface for Amazon Web Services
 app-emulation/crossover-bin 16.2.5: Commercial version of app-emulation/wine with paid support.
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
+app-eselect/eselect-lua 2: Lua eselect module
+app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
 app-forensics/fatback 1.3: Tool to undelete files from FAT file systems
 app-forensics/tcpxtract 1.0.1: Extracts files from network packet captures
 app-forensics/yara 3.5.0: A malware identification and classification tool
@@ -39,7 +41,7 @@ app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.13.5: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.13.6: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
@@ -50,6 +52,8 @@ dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-java/gradle 3.4: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 3.4: A project automation and build tool with a Groovy based DSL
+dev-lang/lua 5.1.5-r101 5.2.4 5.3.4: A powerful light-weight programming language designed for extending applications
+dev-lang/luajit 2.0.9999 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
@@ -64,6 +68,25 @@ dev-libs/msgpack 2.1.3 9999: MessagePack is a binary-based efficient data interc
 dev-libs/nlohman-json 9999: C++ class library of cryptographic schemes
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
+dev-lua/LuaBitOp 1.0.2-r1: Bit Operations Library for the Lua Programming Language
+dev-lua/bit32 9999: A Lua5.2+ bit manipulation library
+dev-lua/lua-cjson 9999: Lua JSON Library, written in C
+dev-lua/lua-rds-parser 9999: Resty-DBD-Stream (RDS) parser for Lua written in C
+dev-lua/redis-parser 9999: Redis reply parser and request constructor library for Lua
+dev-lua/resty-cookie 9999: Library for parsing HTTP Cookie header for Nginx
+dev-lua/resty-core 9999: New LuaJIT FFI based API for lua-nginx-module
+dev-lua/resty-dns 9999: Lua DNS resolver for the ngx_lua based on the cosocket API
+dev-lua/resty-lock 9999: Simple shm-based nonblocking lock API
+dev-lua/resty-lrucache 9999: A simple LRU cache for OpenResty and the ngx_lua module (based on LuaJIT FFI)
+dev-lua/resty-memcached 9999: Lua memcached client driver for the ngx_lua based on the cosocket API
+dev-lua/resty-mysql 9999: Lua MySQL client driver for ngx_lua based on the cosocket API
+dev-lua/resty-random 9999: LuaJIT FFI-based Random Library for OpenResty
+dev-lua/resty-redis 9999: Lua redis client driver for the ngx_lua based on the cosocket API
+dev-lua/resty-session 9999: Session library for OpenResty implementing Secure Cookie Protocol
+dev-lua/resty-string 9999: String utilities and common hash functions for ngx_lua and LuaJIT
+dev-lua/resty-template 9999: Templating Engine (HTML) for Lua and OpenResty.
+dev-lua/resty-upload 9999: Streaming reader and parser for HTTP file uploading based on ngx_lua cosocket
+dev-lua/resty-websocket 9999: Lua WebSocket implementation for the NginX lua module
 dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
 dev-perl/DBIx-Custom 0.37: DBI extension to execute insert, update, delete, and select easily
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
@@ -224,6 +247,7 @@ sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
 sys-apps/firejail 9999: a SUID sandbox program using linux namespaces
 sys-apps/firetools 0.9.46 9999: Graphical user interface of app-emulation/firejail
+sys-apps/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-apps/rkflashtool 6.0 9999: Tool for flashing Rockchip devices
@@ -237,15 +261,68 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/htop 9999: interactive process viewer
 sys-process/systemd-cron 1.5.10 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
+virtual/lua 5: Virtual for Lua programming language
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/grafana 4.3.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
+www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
 www-apps/redmine 3.3.1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
+www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
+www-nginx/array-var 0.05: Array-typed variables support for nginx config files
+www-nginx/audio-hls 0.2_p20150507: Generates audio track for HTTP Live Streaming (HLS) streams on the fly.
+www-nginx/auth-ldap 0.1: LDAP authentication module
+www-nginx/auth-pam 1.5.1: A module to use PAM for simple http authentication
+www-nginx/cache-purge 2.4.2: Adds support for purge ngx_http_(fastcgi|proxy|scgi|uwsgi)_module cache backend
+www-nginx/coolkit 0.2: collection of small and useful nginx add-ons
+www-nginx/ctpp 0.5: CT++ templater integration Module
+www-nginx/dav-ext 0.1.0: NGINX WebDAV missing methods support (PROPFIND & OPTIONS)
+www-nginx/drizzle 0.1.10: NginX upstream module that talks to mysql and drizzle by libdrizzle
+www-nginx/echo 0.61: 'echo', 'sleep', 'time', 'exec' and some more shell-like goodies
+www-nginx/enchanced-memcache 0.2_p20170216: Enhanced Nginx Memcached Module
+www-nginx/encrypted-session 0.06: Support for AES(+MAC) variables enc-/decryption in NgX config
+www-nginx/fancyindex 0.4.2: Fancy indexes module
+www-nginx/form-input 0.12: Converts POST/PUT urlencoded body (forms) to nginx variables.
+www-nginx/headers-more 0.32: Set and clear input and output headers
+www-nginx/http-rdns 0_p20160215: Nginx HTTP rDNS module
+www-nginx/iconv 0.14: Character conversion nginx module using libiconv
+www-nginx/lua-http 0.10.10: Embed the Power of Lua into NGINX (HTTP)
+www-nginx/lua-http-upstream 0.07: Nginx module to expose Lua API for Nginx upstreams
+www-nginx/lua-stream 0.0.1_p20170924: Embed the Power of Lua into NGINX (stream)
+www-nginx/memc 0.18: An extended version of the standard memcached module
+www-nginx/metrics 0.1.1: Responde code metrics and some more
+www-nginx/naxsi 0.55.3_p20170908: Open-source, high performance, low rules maintenance WAF
+www-nginx/nchan 1.1.7: Fast multiprocess pub/sub queuing server and proxy for NginX
+www-nginx/ndk 0.3.0: an Nginx module framework for another modules
+www-nginx/njs 0.1.14: A JS subset for location&variable handlers (HTTP+STREAM)
+www-nginx/pagespeed 1.12.34.2: PageSpeed dynamic module for NginX
+www-nginx/passenger 5.1.8: Phusion Passenger dynamic module for NginX
+www-nginx/passenger-enterprise 5.1.2: Phusion Passenger dynamic module for NginX
+www-nginx/postgres 1.0_rc7: Upstream module for direct commincation with PostgreSQL database
+www-nginx/push-stream 0.5.4: A pure stream http push technology for your Nginx setup
+www-nginx/python 0.2.0: Nginx Python Module
+www-nginx/rds-csv 0.07: Output filter, converting drizzle/postgres/whatever output to csv
+www-nginx/rds-json 0.14_p20170930: Output filter, converting drizzle/postgres/whatever output to json
+www-nginx/redis 0.14: Nginx upstream module for the Redis 2.0 protocol
+www-nginx/replace-filter 0.01_rc5_pre20171004: Streaming regular expression replacement in response bodies
+www-nginx/rrd-graph 0_p20160519: Link RRDtool's graphing facilities directly into nginx
+www-nginx/rtmp 1.2.0: NGINX-based Media Streaming Server
+www-nginx/security 0_p20170823: ModSecurity v3 Nginx Connector
+www-nginx/set-misc 0.31: Various set_xxx directives for NgX rewrite module
+www-nginx/slowfs 1.10: nginx module which adds ability to cache static files
+www-nginx/srcache 0.31: Transparent subrequest-based caching layout for arbitrary nginx locations
+www-nginx/supervisord 1.4: API to communicate with supervisord and manage (start/stop) backends on-demand
+www-nginx/tcp-proxy 0.4.5_p20170216: TCP proxy module (with health check and status monitor)
+www-nginx/upload-progress 0.9.2: Nginx Upload Progress Module
+www-nginx/upstream-check 0.3.0: Upstream health check and status report
+www-nginx/upstream-dyups 0.2.9_p20170725: Module for updating upstreams config by restful interface
+www-nginx/upstream-fair 0_p20170322: The fair load balancer module
+www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clients to the same upstreams
+www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.25: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.13.5: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.13.6: Robust, small and high performance http and reverse proxy server
 x11-apps/edid-decode 9999: Edid decoder
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
