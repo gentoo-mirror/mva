@@ -343,6 +343,7 @@ www-servers/nginx:nginx_modules_http_dyups - Dynamic Upstreams Module
 www-servers/nginx:nginx_modules_http_echo - Echo Module
 www-servers/nginx:nginx_modules_http_encrypted_session - Encrypted Sessions Module
 www-servers/nginx:nginx_modules_http_enmemcache - Enmemcache Module
+www-servers/nginx:nginx_modules_http_ey_balancer - [ey balancer]
 www-servers/nginx:nginx_modules_http_form_input - Form-Input Module
 www-servers/nginx:nginx_modules_http_hls_audio - HLS Audio Module
 www-servers/nginx:nginx_modules_http_iconv - Iconv Module
