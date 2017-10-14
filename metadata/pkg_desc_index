@@ -266,7 +266,7 @@ www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from dat
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/grafana 4.3.2: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
-www-apps/redmine 3.3.1 9999: Flexible project management webapp written using Ruby on Rails framework
+www-apps/redmine 3.4.2 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
 www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
