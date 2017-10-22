@@ -10,5 +10,5 @@ RDEPEND=www-servers/nginx:mainline lua? ( || ( virtual/lua <dev-lang/lua-5.2:0 d
 REQUIRED_USE=luajit? ( lua )
 SLOT=0
 SRC_URI=https://github.com/yzprofile/ngx_http_dyups_module/archive/a5e75737e04ff3e5040a80f5f739171e96c3359c.tar.gz -> nginx.upstream-dyups-0.2.9_p20170725.tar.gz
-_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	nginx-module	5319a21c6d1ece6516441961ce2ca8ab	patches	96153bf76c23a36e6a8e937772875251	pax-utils	4f95120230a315c8caaabeb2307b7eee	toolchain-funcs	185a06792159ca143528e7010368e8af
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	nginx-module	5319a21c6d1ece6516441961ce2ca8ab	patches	090880f4f4006ae441caaff2799fdbe1	pax-utils	4f95120230a315c8caaabeb2307b7eee	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=07fa2db75e3619791697117f80fe53f7
