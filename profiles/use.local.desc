@@ -279,7 +279,6 @@ net-vpn/onioncat:relay - disable source ip checking before forwarding
 net-vpn/onioncat:rtt - enable inband RTT measurement
 net-vpn/tinc:gui - Add GUI support, using dev-python/wxpython
 net-vpn/tinc:legacy - Enable legacy (tinc 1.0) protocol support
-net-vpn/tinc:tinfo - Compatibility with ncurses' tinfo useflag
 net-vpn/tinc:tools - Build some testing tools
 net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
 net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
