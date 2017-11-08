@@ -243,7 +243,7 @@ PDEPEND="
 	nginx_modules_http_nchan? ( www-nginx/nchan )
 	nginx_modules_http_ndk? ( www-nginx/ndk )
 	nginx_modules_http_lua? ( www-nginx/lua-http )
-	nginx_modules_http_lua_upstream? ( www-nginx/lua-upstream )
+	nginx_modules_http_lua_upstream? ( www-nginx/lua-http-upstream )
 	nginx_modules_stream_lua? ( www-nginx/lua-stream )
 	nginx_modules_http_hls_audio? ( www-nginx/audio-hls )
 	nginx_modules_http_upload_progress? ( www-nginx/upload-progress )
@@ -280,6 +280,7 @@ PDEPEND="
 	nginx_modules_http_ctpp? ( www-nginx/ctpp )
 	nginx_modules_core_tcpproxy? ( www-nginx/tcp-proxy )
 	nginx_modules_http_rdns? ( www-nginx/http-rdns )
+	vim-syntax? ( app-vim/nginx-syntax )
 "
 
 RDEPEND="${CDEPEND}"
@@ -287,8 +288,6 @@ DEPEND="${CDEPEND}
 	arm? ( dev-libs/libatomic_ops )
 	libatomic? ( dev-libs/libatomic_ops )
 "
-
-PDEPEND="vim-syntax? ( app-vim/nginx-syntax )"
 
 custom_econf() {
 	local EXTRA_ECONF=(${EXTRA_ECONF[@]})
