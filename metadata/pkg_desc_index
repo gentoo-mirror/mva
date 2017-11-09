@@ -52,8 +52,6 @@ dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-java/gradle 3.4: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 3.4: A project automation and build tool with a Groovy based DSL
-dev-lang/lua 5.1.5-r101 5.2.4 5.3.4: A powerful light-weight programming language designed for extending applications
-dev-lang/luajit 2.0.9999 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/crypto++ 5.7_pre 9999: C++ class library of cryptographic schemes
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
@@ -68,25 +66,6 @@ dev-libs/msgpack 2.1.3 9999: MessagePack is a binary-based efficient data interc
 dev-libs/nlohman-json 9999: C++ class library of cryptographic schemes
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
-dev-lua/LuaBitOp 1.0.2-r1: Bit Operations Library for the Lua Programming Language
-dev-lua/bit32 9999: A Lua5.2+ bit manipulation library
-dev-lua/lua-cjson 9999: Lua JSON Library, written in C
-dev-lua/lua-rds-parser 9999: Resty-DBD-Stream (RDS) parser for Lua written in C
-dev-lua/redis-parser 9999: Redis reply parser and request constructor library for Lua
-dev-lua/resty-cookie 9999: Library for parsing HTTP Cookie header for Nginx
-dev-lua/resty-core 9999: New LuaJIT FFI based API for lua-nginx-module
-dev-lua/resty-dns 9999: Lua DNS resolver for the ngx_lua based on the cosocket API
-dev-lua/resty-lock 9999: Simple shm-based nonblocking lock API
-dev-lua/resty-lrucache 9999: A simple LRU cache for OpenResty and the ngx_lua module (based on LuaJIT FFI)
-dev-lua/resty-memcached 9999: Lua memcached client driver for the ngx_lua based on the cosocket API
-dev-lua/resty-mysql 9999: Lua MySQL client driver for ngx_lua based on the cosocket API
-dev-lua/resty-random 9999: LuaJIT FFI-based Random Library for OpenResty
-dev-lua/resty-redis 9999: Lua redis client driver for the ngx_lua based on the cosocket API
-dev-lua/resty-session 9999: Session library for OpenResty implementing Secure Cookie Protocol
-dev-lua/resty-string 9999: String utilities and common hash functions for ngx_lua and LuaJIT
-dev-lua/resty-template 9999: Templating Engine (HTML) for Lua and OpenResty.
-dev-lua/resty-upload 9999: Streaming reader and parser for HTTP file uploading based on ngx_lua cosocket
-dev-lua/resty-websocket 9999: Lua WebSocket implementation for the NginX lua module
 dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
 dev-perl/DBIx-Custom 0.37: DBI extension to execute insert, update, delete, and select easily
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
