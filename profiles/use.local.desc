@@ -304,9 +304,6 @@ sys-process/systemd-cron:etc-crontab-systemd - Use dedicated /etc/crontab-system
 sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
-virtual/lua:bit - Select 'bit' module compatible implementation
-virtual/lua:bit32 - Select 'bit32' module compatible implementation
-virtual/lua:luajit - Select LuaJIT-compatible implementation
 www-apps/ctpp2:md5 - 
 www-apps/modsecurity:afl - Enable rules fuzzer support
 www-apps/modsecurity:geoip - GeoIP support

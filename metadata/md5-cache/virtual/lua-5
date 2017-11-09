@@ -1,9 +1,0 @@
-DEFINED_PHASES=-
-DEPEND=!luajit? ( || ( dev-lang/lua:5.1[deprecated] dev-lang/lua:5.2[deprecared] dev-lang/lua:5.3[deprecated] ) ) bit? ( || ( dev-lang/luajit:2 dev-lua/LuaBitOp ) ) bit32? ( || ( dev-lang/lua:5.2[deprecated] dev-lang/lua:5.3[deprecated] dev-lua/bit32 ) ) luajit? ( dev-lang/luajit:2 app-eselect/eselect-luajit ) app-eselect/eselect-lua !!dev-lang/lua:0
-DESCRIPTION=Virtual for Lua programming language
-EAPI=6
-IUSE=luajit bit bit32
-KEYWORDS=~x86 ~amd64 ~arm
-RDEPEND=!luajit? ( || ( dev-lang/lua:5.1[deprecated] dev-lang/lua:5.2[deprecared] dev-lang/lua:5.3[deprecated] ) ) bit? ( || ( dev-lang/luajit:2 dev-lua/LuaBitOp ) ) bit32? ( || ( dev-lang/lua:5.2[deprecated] dev-lang/lua:5.3[deprecated] dev-lua/bit32 ) ) luajit? ( dev-lang/luajit:2 app-eselect/eselect-luajit ) app-eselect/eselect-lua !!dev-lang/lua:0
-SLOT=0
-_md5_=5b90dff64b8bddccc02a896628b462f5
