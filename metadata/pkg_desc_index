@@ -265,17 +265,17 @@ www-nginx/form-input 0.12: Converts POST/PUT urlencoded body (forms) to nginx va
 www-nginx/headers-more 0.32: Set and clear input and output headers
 www-nginx/http-rdns 0_p20160215: Nginx HTTP rDNS module
 www-nginx/iconv 0.14: Character conversion nginx module using libiconv
-www-nginx/lua-http 0.10.10: Embed the Power of Lua into NGINX (HTTP)
+www-nginx/lua-http 0.10.12_rc1: Embed the Power of Lua into NGINX (HTTP)
 www-nginx/lua-http-upstream 0.07: Nginx module to expose Lua API for Nginx upstreams
 www-nginx/lua-stream 0.0.1_p20170924: Embed the Power of Lua into NGINX (stream)
 www-nginx/memc 0.18: An extended version of the standard memcached module
 www-nginx/metrics 0.1.1: Responde code metrics and some more
 www-nginx/naxsi 0.55.3_p20170908: Open-source, high performance, low rules maintenance WAF
-www-nginx/nchan 1.1.7: Fast multiprocess pub/sub queuing server and proxy for NginX
+www-nginx/nchan 1.1.10: Fast multiprocess pub/sub queuing server and proxy for NginX
 www-nginx/ndk 0.3.0: an Nginx module framework for another modules
 www-nginx/njs 0.1.14: A JS subset for location&variable handlers (HTTP+STREAM)
 www-nginx/pagespeed 1.12.34.2: PageSpeed dynamic module for NginX
-www-nginx/passenger 5.1.8: Phusion Passenger dynamic module for NginX
+www-nginx/passenger 5.1.12: Phusion Passenger dynamic module for NginX
 www-nginx/passenger-enterprise 5.1.2: Phusion Passenger dynamic module for NginX
 www-nginx/postgres 1.0_rc7: Upstream module for direct commincation with PostgreSQL database
 www-nginx/push-stream 0.5.4: A pure stream http push technology for your Nginx setup
@@ -300,7 +300,7 @@ www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clien
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.25: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.13.6-r2 1.13.6-r100: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.13.7 1.13.7-r100: Robust, small and high performance http and reverse proxy server
 x11-apps/edid-decode 9999: Edid decoder
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/rackman 9999: A tool measure distances on the screen
