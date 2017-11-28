@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/P-H-C/phc-winner-argon2
 IUSE=doc static-libs
 LICENSE=|| ( Apache-2.0 CC0-1.0 )
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
 _md5_=068dc04d4e70b8a6b558fe75d5b65878

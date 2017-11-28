@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/ScoreUnder/fjinit
 LICENSE=MIT
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	patches	7d362f094a8079c0604a5efbde318576
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	patches	7d362f094a8079c0604a5efbde318576
 _md5_=d944e3da1defe0c850b6aa64ff1e50a9
