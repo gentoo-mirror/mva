@@ -17,5 +17,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-libs/nlohman-json
+	dev-libs/nlohmann-json
 "
