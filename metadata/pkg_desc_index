@@ -11,7 +11,7 @@ media-fonts/firacode 1.204: A programming font with ligatures
 media-fonts/fixedsys 3.02.8: Fixedsys Excelsior font with programming ligatures
 media-fonts/font-linux 0.9 9999: An icon font providing popular linux distro's logos
 media-fonts/fontawesome-extension 0.0.3 9999: Set of icons representing programming languages, designing & development tools
-media-fonts/iosevka 1.11.4: Open source coding font
+media-fonts/iosevka 1.14.0: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
 media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
