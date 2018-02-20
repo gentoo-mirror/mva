@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-lang/php:*
 SLOT=0
-SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v1.3.0/wp-cli-1.3.0.phar
+SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v1.5.0/wp-cli-1.5.0.phar
 _md5_=8576b081b70ac685edfad3f3e3c39f94
