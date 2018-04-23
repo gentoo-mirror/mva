@@ -7,5 +7,5 @@ LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page virtual/perl-Module-CoreList dev-perl/Config-Tiny dev-perl/Time-Moment dev-lang/perl:=
 RESTRICT=test
 SLOT=0
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	25b08efef07cea6bcd45b8c6dcce2782	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011	user	8bc2845510e2109af75e3eeac607ec81	versionator	ce21313503c41896ebcd7d58b0607e37
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	25b08efef07cea6bcd45b8c6dcce2782	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011	user	8bc2845510e2109af75e3eeac607ec81	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
 _md5_=04b66eb2ae194e0031550120ae9f89be
