@@ -2,7 +2,6 @@ app-misc/jo 1.0: JSON output from a shell
 dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
 dev-perl/Device-Modem 1.56: Perl extension to talk to modem devices connected via serial port
-dev-ruby/tzinfo 0.3.53: Daylight-savings aware timezone library
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
