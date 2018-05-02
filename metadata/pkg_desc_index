@@ -18,3 +18,5 @@ media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
 media-libs/libdmtx 0.7.4: Barcode data matrix reading and writing library
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
+net-libs/libvncserver 0.9.11_p20180502-r2: library for creating vnc servers
+x11-misc/x11vnc 0.9.15: A VNC server for real X displays
