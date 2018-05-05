@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
 SLOT=0
 SRC_URI=http://swift.im/downloads/releases/swift-3.0/swift-3.0.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	scons-utils	fcace052aef60e6b0eb3023c26aa585a	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	scons-utils	fcace052aef60e6b0eb3023c26aa585a	toolchain-funcs	fa02994d0beba88681127d93da4411ec
 _md5_=7e7d1fda1324b17cc0fbd764babf7eec
