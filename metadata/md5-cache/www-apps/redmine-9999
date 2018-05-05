@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install postinst prepare setup test unpack
+DEFINED_PHASES=compile config configure install postinst prepare setup test unpack
 DEPEND=test? ( ruby_targets_ruby23? ( dev-ruby/bundler[ruby_targets_ruby23] virtual/rubygems[ruby_targets_ruby23] passenger? ( || ( www-apache/passenger[ruby_targets_ruby23] www-servers/nginx[ruby_targets_ruby23,nginx_modules_http_passenger] ) ) fastcgi? ( dev-ruby/fcgi[ruby_targets_ruby23] ) ) ruby_targets_ruby24? ( dev-ruby/bundler[ruby_targets_ruby24] virtual/rubygems[ruby_targets_ruby24] passenger? ( || ( www-apache/passenger[ruby_targets_ruby24] www-servers/nginx[ruby_targets_ruby24,nginx_modules_http_passenger] ) ) fastcgi? ( dev-ruby/fcgi[ruby_targets_ruby24] ) ) ) >=dev-vcs/git-1.8.2.1 ruby_targets_ruby23? ( dev-lang/ruby:2.3 ) ruby_targets_ruby24? ( dev-lang/ruby:2.4 )
 DESCRIPTION=Flexible project management webapp written using Ruby on Rails framework
 EAPI=6
