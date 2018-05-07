@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/Corvusoft/kashmir-dependency
 LICENSE=Boost-1.0
 SLOT=0
-_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782
+_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
 _md5_=70f0122e9e2e1c176c6be1d83e507fff
