@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile install postinst prepare unpack
-DEPEND=>=dev-lang/go-1.5.1:* app-text/ronn >=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-lang/go-1.5.1:* app-text/ronn >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Command-line wrapper for git that makes you better at GitHub
 EAPI=6
 HOMEPAGE=https://github.com/github/hub
 LICENSE=MIT
 RDEPEND=>=dev-vcs/git-1.7.3
 SLOT=0
-_eclasses_=bash-completion-r1	7e76462890d7d19cad453151876b0ecf	git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	readme.gentoo-r1	54aecea034d5e90bdb0684b80da5c9f3	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=bash-completion-r1	6af26c1ffe65d92d3f525cb715f6250c	git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	readme.gentoo-r1	54aecea034d5e90bdb0684b80da5c9f3	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=d88527b0dbc970c30f7991ca73d514a0

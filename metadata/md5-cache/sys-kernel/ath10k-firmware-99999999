@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst preinst prepare unpack
-DEPEND=sys-apps/coreutils >=dev-vcs/git-1.8.2.1
+DEPEND=sys-apps/coreutils >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Atheros ath10k firmware files
 EAPI=6
 HOMEPAGE=https://github.com/kvalo/ath10k-firmware
@@ -7,5 +7,5 @@ IUSE=savedconfig savedconfig
 LICENSE=qca-firmware
 RDEPEND=sys-kernel/linux-firmware
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	e6948c872ff47e15a10e5ad1be15c18e
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	e6948c872ff47e15a10e5ad1be15c18e
 _md5_=b52bb7c305b41065545d4bb94e265d6d

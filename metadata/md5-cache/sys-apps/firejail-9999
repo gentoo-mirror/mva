@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=!sys-apps/firejail-lts apparmor? ( sys-libs/libapparmor ) >=dev-vcs/git-1.8.2.1
+DEPEND=!sys-apps/firejail-lts apparmor? ( sys-libs/libapparmor ) >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=a SUID sandbox program using linux namespaces
 EAPI=6
 HOMEPAGE=https://l3net.wordpress.com/projects/firejail/
@@ -7,5 +7,5 @@ IUSE=apparmor +bind +chroot +file-transfer +network network-restricted +seccomp 
 LICENSE=GPL-2
 RDEPEND=!sys-apps/firejail-lts apparmor? ( sys-libs/libapparmor ) x11? ( x11-base/xorg-server[xcsecurity] x11-wm/xpra[client,server] )
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=880874ce05d22f976b6d062f299264bc
