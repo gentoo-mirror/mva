@@ -1,4 +1,5 @@
 app-misc/jo 1.0: JSON output from a shell
+dev-libs/libcgroup 0.41-r5: Tools and libraries to configure and manage kernel control groups
 dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
 dev-perl/Device-Modem 1.56: Perl extension to talk to modem devices connected via serial port
