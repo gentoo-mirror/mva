@@ -22,18 +22,18 @@ SLOT="0"
 
 NETWORKS="+irc"
 PLUGINS="+alias +buflist +charset +exec +fifo +logger +relay +scripts +spell +trigger +xfer"
-#INTERFACES="+ncurses gtk"
+INTERFACES="+ncurses headless"
 # dev-lang/v8 was dropped from Gentoo so we can't enable javascript support
-SCRIPT_LANGS="guile lua luajit +perl +python ruby tcl"
+SCRIPT_LANGS="guile lua luajit +perl php +python ruby tcl"
 LANGS=" cs de es fr hu it ja pl pt pt_BR ru tr"
 IUSE="doc nls +ssl test ${SCRIPT_LANGS} ${PLUGINS} ${INTERFACES} ${NETWORKS}"
 #REQUIRED_USE=" || ( ncurses gtk )"
-REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
+REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} ) test? ( headless )"
 
 RDEPEND="
 	dev-libs/libgcrypt:0=
 	net-misc/curl[ssl]
-	sys-libs/ncurses:0=
+	ncurses? ( sys-libs/ncurses:0= )
 	sys-libs/zlib
 	charset? ( virtual/libiconv )
 	guile? ( >=dev-scheme/guile-2.0 )
@@ -46,6 +46,7 @@ RDEPEND="
 	)
 	nls? ( virtual/libintl )
 	perl? ( dev-lang/perl:= )
+	php? ( >=dev-lang/php-7.0:=[embed] )
 	python? ( ${PYTHON_DEPS} )
 	ruby? ( dev-lang/ruby:* )
 	ssl? ( net-libs/gnutls )
@@ -66,7 +67,7 @@ DOCS="AUTHORS.adoc ChangeLog.adoc Contributing.adoc ReleaseNotes.adoc README.ado
 # tests need to be fixed to not use system plugins if weechat is already installed
 RESTRICT="test"
 
-PATCHES=( "${FILESDIR}"/${PN}-1.2-tinfo.patch )
+#PATCHES=( "${FILESDIR}"/${PN}-1.2-tinfo.patch )
 
 pkg_setup() {
 	use python && python-single-r1_pkg_setup
@@ -77,7 +78,7 @@ src_prepare() {
 
 	use ruby && (
 		sed -i \
-			-e 's@\(pkg_search_module(RUBY\) \(.*\)@\1 ruby-2.4 ruby \2@' \
+			-e 's@\(pkg_search_module(RUBY\) \(.*\)@\1 ruby-2.5 ruby-2.4 ruby \2@' \
 			cmake/FindRuby.cmake
 	)
 
@@ -130,7 +131,8 @@ src_configure() {
 	local needlua=$( (use lua || use luajit) && echo "yes" || echo "no");
 
 	local mycmakeargs=(
-		-DENABLE_NCURSES=ON
+		-DENABLE_NCURSES=$(usex ncurses)
+		-DENABLE_HEADLESS=$(usex headless)
 		-DENABLE_LARGEFILE=ON
 		-DENABLE_JAVASCRIPT=OFF
 		-DENABLE_ALIAS=$(usex alias)
@@ -145,6 +147,7 @@ src_configure() {
 		-DENABLE_LUA="${needlua}"
 		-DENABLE_NLS=$(usex nls)
 		-DENABLE_PERL=$(usex perl)
+		-DENABLE_PHP=$(usex php)
 		-DENABLE_PYTHON=$(usex python)
 		-DENABLE_RELAY=$(usex relay)
 		-DENABLE_RUBY=$(usex ruby)
