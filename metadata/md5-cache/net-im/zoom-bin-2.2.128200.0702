@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Video conferencing and web conferencing service
+EAPI=6
+HOMEPAGE=https://zoom.us
+IUSE=pulseaudio gstreamer
+KEYWORDS=~x86 ~amd64
+LICENSE=all-rights-reserved
+RDEPEND=pulseaudio? ( media-sound/pulseaudio ) gstreamer? ( media-libs/gst-plugins-base ) dev-db/sqlite dev-db/unixODBC dev-libs/glib dev-libs/nss dev-libs/libxslt dev-libs/quazip dev-qt/qtmultimedia dev-qt/qtwebengine dev-qt/qtsvg media-libs/fontconfig media-libs/gstreamer:0.10 media-libs/gst-plugins-base:0.10 media-libs/mesa x11-libs/libxcb x11-libs/libXcomposite x11-libs/libXi x11-libs/libXrender
+RESTRICT=mirror
+SLOT=0
+SRC_URI=amd64? ( https://zoom.us/client/2.2.128200.0702/zoom_x86_64.tar.xz -> zoom-bin-2.2.128200.0702_x86_64.tar.xz ) x86? ( https://zoom.us/client/2.2.128200.0702/zoom_i686.tar.xz -> zoom-bin-2.2.128200.0702_i686.tar.xz )
+_eclasses_=unpacker	87633b2194cdb56adaa1f5a5c8862c44
+_md5_=e819be5a166a3d6d5e899c5c0a48ab4c
