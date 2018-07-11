@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= ) dev-util/scons[python_targets_python2_7] >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn:0 sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= ) dev-util/scons[python_targets_python2_7] >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Library for implementing XMPP applications.
 EAPI=6
 HOMEPAGE=http://swift.im/
 IUSE=avahi expat gconf icu luajit test upnp
 LICENSE=GPL-3
-RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
+RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn:0 sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	scons-utils	abbc7625ff457854eae0edaa1fd55cc7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=bd12fb2b1baae3946d88c3be0c72a43f
+_md5_=7a26269ec25ab901a42c4808c5faf974
