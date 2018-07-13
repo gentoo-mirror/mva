@@ -9,4 +9,4 @@ RDEPEND=dev-lang/perl:=
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/K/KI/KIMOTO/DBIx-Custom-0.37.tar.gz
 _eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011
-_md5_=116bc6bb9c2c5c74835b34cb0b82ff11
+_md5_=bebe158e99720c99be7596fc02e56d80

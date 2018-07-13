@@ -9,4 +9,4 @@ RDEPEND=virtual/libusb:1
 SLOT=0
 SRC_URI=mirror://sourceforge/project/rkflashtool/rkflashtool-6.0/rkflashtool-6.0-src.tar.xz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=8f0ca85a61e2e9f470c25b2eb6ddc6c8
+_md5_=6e8e6c7eee9f5ddfcc8679b4b5fa2c71

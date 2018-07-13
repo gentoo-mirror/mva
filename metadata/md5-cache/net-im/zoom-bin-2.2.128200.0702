@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://zoom.us/client/2.2.128200.0702/zoom_x86_64.tar.xz -> zoom-bin-2.2.128200.0702_x86_64.tar.xz ) x86? ( https://zoom.us/client/2.2.128200.0702/zoom_i686.tar.xz -> zoom-bin-2.2.128200.0702_i686.tar.xz )
 _eclasses_=unpacker	87633b2194cdb56adaa1f5a5c8862c44
-_md5_=e819be5a166a3d6d5e899c5c0a48ab4c
+_md5_=36d4770a8f385439313216ec9a905aba

@@ -7,4 +7,4 @@ LICENSE=BSD
 RDEPEND=x11-libs/libxcb sys-fs/fuse:0
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
-_md5_=4d44c5c76f54289632a66ed4007a8457
+_md5_=b553b84b3f91fedf674a2e5b56e263f9

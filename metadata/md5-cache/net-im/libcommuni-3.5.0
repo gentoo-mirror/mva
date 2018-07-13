@@ -10,4 +10,4 @@ RDEPEND=dev-qt/qtcore:5= icu? ( dev-libs/icu ) uchardet? ( app-i18n/uchardet )
 SLOT=0
 SRC_URI=https://github.com/communi/libcommuni/archive/v3.5.0.tar.gz -> libcommuni-3.5.0.tar.gz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=c2a3c7fbfed25713be24f62a8258336d
+_md5_=92f4eaad5e275a16974452ca2c2139f4

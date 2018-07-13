@@ -16,7 +16,6 @@ media-fonts/fontawesome-extension 0.0.3 9999: Set of icons representing programm
 media-fonts/iosevka 1.14.0: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
-media-gfx/sfnt2woff 2009.10.4: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-libs/libvncserver 0.9.11_p20180712: library for creating vnc servers

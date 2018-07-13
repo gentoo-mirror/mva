@@ -8,4 +8,4 @@ LICENSE=Apache-2.0
 RDEPEND=dev-java/antlr:3.5 || ( virtual/jre virtual/jdk )
 SLOT=0
 SRC_URI=https://github.com/pxb1988/dex2jar/archive/2.1-nightly-26.tar.gz -> dex2jar-2.1_pre26.tar.gz
-_md5_=ce3342dfd874ff38957d311eefb1d528
+_md5_=087a81e06b3a42f80f8e2b0fcf4f7b8b
