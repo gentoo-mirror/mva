@@ -9,5 +9,5 @@ LICENSE=2Gis-ru
 RDEPEND=!!<=app-misc/2gis-4.0 !app-misc/2gis-data !app-misc/2gis-plugins dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 media-libs/mesa
 SLOT=0
 SRC_URI=x86? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r15_i386.deb ) amd64? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r339_amd64.deb )
-_eclasses_=eutils	5b8ce72259e08104b337fe28c6de5dbc	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	unpacker	87633b2194cdb56adaa1f5a5c8862c44
+_eclasses_=eutils	b43d08fe0771faf2f5e7be19c2789d33	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	unpacker	87633b2194cdb56adaa1f5a5c8862c44
 _md5_=dcb4daf60c35e30233eaf8f092d0a24e
