@@ -4,7 +4,7 @@ DESCRIPTION=Mozilla-compatible crypto-provider browser plugin for http://gosuslu
 EAPI=6
 HOMEPAGE=http://gosuslugi.ru/
 IUSE=multilib
-KEYWORDS=~x86 ~amd64 x86-macos x64-macos
+KEYWORDS=~amd64 ~x86 x64-macos x86-macos
 LICENSE=EULA
 RDEPEND=>=sys-apps/pcsc-lite-1.7 >=app-crypt/asedriveiiie-usb-3.7 virtual/libusb:0 media-libs/hal-flash
 REQUIRED_USE=amd64? ( multilib )
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-x86_64.deb -> csuser-plugin-3.0.0.0_amd64.deb ) x86? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-i386.deb -> csuser-plugin-3.0.0.0_x86.deb ) x86-macos? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin.pkg -> csuser-plugin-3.0.0.0_mac.pkg ) x64-macos? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin.pkg -> csuser-plugin-3.0.0.0_mac.pkg )
 _eclasses_=desktop	1b286a7e7143d8c4ec89cd0d2743a097	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b43d08fe0771faf2f5e7be19c2789d33	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	patches	7d362f094a8079c0604a5efbde318576	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	unpacker	87633b2194cdb56adaa1f5a5c8862c44	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=84566aef59ee232724de3a3f2d43ded4
+_md5_=fbf72ce10e3d1aede89a9d73a5891bbf

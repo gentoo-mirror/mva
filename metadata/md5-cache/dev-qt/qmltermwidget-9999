@@ -8,4 +8,4 @@ LICENSE=BSD
 RDEPEND=dev-qt/qtdeclarative:5= dev-qt/qtwidgets:5=
 SLOT=0
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b43d08fe0771faf2f5e7be19c2789d33	git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=42a102a76679118f561f9d61aaed976b
+_md5_=e3ccf1345ac5e67047fcaa9ab0fc3e3d
