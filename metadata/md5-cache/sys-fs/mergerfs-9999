@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/trapexit/mergerfs
 LICENSE=ISC
 RDEPEND=sys-apps/attr:= >=sys-apps/util-linux-2.18 sys-devel/gettext:=
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=567d8f68e171f0f86fb6d6692da62e2d

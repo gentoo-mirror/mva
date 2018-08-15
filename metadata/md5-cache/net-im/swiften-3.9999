@@ -7,5 +7,5 @@ IUSE=avahi expat gconf icu luajit test upnp
 LICENSE=GPL-3
 RDEPEND=dev-libs/boost:= dev-libs/openssl:0 net-dns/libidn:0 sys-libs/zlib avahi? ( net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2 ) gconf? ( gnome-base/gconf dev-libs/glib:2 ) luajit? ( || ( dev-lang/luajit:2 virtual/lua[luajit] ) ) !luajit? ( dev-lang/lua:* ) icu? ( dev-libs/icu:= ) upnp? ( net-libs/libnatpmp net-libs/miniupnpc:= )
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	scons-utils	abbc7625ff457854eae0edaa1fd55cc7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	scons-utils	741000d14c0b59263aac3f3cf6e39909	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=acf25ba8e61a2f62c965df71e31c53b1

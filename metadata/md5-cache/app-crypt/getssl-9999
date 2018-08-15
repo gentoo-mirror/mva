@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/srvrco/getssl
 LICENSE=GPL-3
 RDEPEND=net-dns/bind-tools sys-apps/grep virtual/awk sys-apps/sed net-misc/openssh sys-apps/coreutils net-misc/curl dev-libs/openssl
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=edcd5c13cb5a571e6fe9b28d681ee211
