@@ -7,5 +7,5 @@ IUSE=+libwebp
 LICENSE=LGPL-3
 RDEPEND=net-im/pidgin dev-libs/openssl:0 virtual/libc libwebp? ( media-libs/libwebp )
 SLOT=0
-_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
 _md5_=43263c70a5c7a418037aa6bf766b9bc3

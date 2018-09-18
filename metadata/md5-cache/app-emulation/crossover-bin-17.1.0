@@ -11,5 +11,5 @@ REQUIRED_USE=python_targets_python2_7
 RESTRICT=bindist test
 SLOT=0
 SRC_URI=https://media.codeweavers.com/pub/crossover/cxlinux/demo/install-crossover-17.1.0.bin
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	3a0fc81f484bfdbd9c2b7448015a36e4	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	unpacker	ee2f5086cd7e7b747b061f58db14d89e
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	3a0fc81f484bfdbd9c2b7448015a36e4	python-utils-r1	80c4202f2f51d22b08be7d3299e507af	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	unpacker	ee2f5086cd7e7b747b061f58db14d89e
 _md5_=6a4026dd34a00e4640cc74c932515de3
