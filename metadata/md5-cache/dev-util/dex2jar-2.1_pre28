@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=dev-java/antlr:3.5 || ( virtual/jre virtual/jdk )
 SLOT=0
-SRC_URI=https://github.com/pxb1988/dex2jar/archive/2.1-nightly-26.tar.gz -> dex2jar-2.1_pre26.tar.gz
-_md5_=3a1269f7dcc76868e3f4105fe8a426f3
+SRC_URI=https://github.com/pxb1988/dex2jar/archive/2.1-nightly-28.tar.gz -> dex2jar-2.1_pre28.tar.gz
+_md5_=33fe08290e74ca582f607315c3219d45
