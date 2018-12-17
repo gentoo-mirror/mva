@@ -8,4 +8,4 @@ LICENSE=MIT
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	golang-base	8e4d7f712ec0e170e2c190c1e3da6501
-_md5_=6d30b5a3f91cad90c09daf2de2703c34
+_md5_=345176254e6668802a9e6a1d367709a6
