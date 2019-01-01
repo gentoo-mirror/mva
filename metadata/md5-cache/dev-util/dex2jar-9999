@@ -7,4 +7,4 @@ LICENSE=Apache-2.0
 RDEPEND=dev-java/antlr:3.5 || ( virtual/jre virtual/jdk )
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=edd3f5b6a29c605fd0a49e62a4f256f4
+_md5_=eb4171485fa442f201b3b84678ee5eb2

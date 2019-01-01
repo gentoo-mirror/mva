@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=EULA
 SLOT=0
 SRC_URI=http://www.sweetscape.com/010editor/templates/files/010EditorTemplates.zip -> 010-editor-templates-20161226.zip
-_md5_=b7a463ef784e382c3c86e9ef86b71c16
+_md5_=37d52453de64bb3a0c77d3a0a6011d9a

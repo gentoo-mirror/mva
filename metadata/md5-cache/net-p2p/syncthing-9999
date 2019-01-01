@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=selinux? ( sec-policy/selinux-syncthing )
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	golang-base	8e4d7f712ec0e170e2c190c1e3da6501	multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bc2845510e2109af75e3eeac607ec81
-_md5_=9a37eaed3880d877804be2cde769b57a
+_md5_=1491584e48e2c85c3be822b2382140d2

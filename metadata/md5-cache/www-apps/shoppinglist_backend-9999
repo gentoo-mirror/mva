@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=virtual/httpd-php
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=93f8c8b82e18cfc3fbddf64a6686c33d
+_md5_=6fa04388b0d95160bfdcff1571abd087

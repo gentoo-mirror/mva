@@ -8,4 +8,4 @@ LICENSE=Apache-2.0
 RDEPEND=|| ( virtual/jre virtual/jdk )
 SLOT=0
 SRC_URI=https://github.com/pxb1988/dex2jar/releases/download/2.1-nightly-26/dex-tools-2.1-20150601.060031-26.zip
-_md5_=1c16a52f575b23786bcd31e96ac86168
+_md5_=343b27bfd4c15e3646008a229e7aa871

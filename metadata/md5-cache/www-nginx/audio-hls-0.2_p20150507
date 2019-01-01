@@ -9,4 +9,4 @@ RDEPEND=www-servers/nginx:mainline app-arch/bzip2 virtual/ffmpeg
 SLOT=0
 SRC_URI=https://github.com/flavioribeiro/nginx-audio-track-for-hls-module/archive/84f79f70ac9752deb263d777308e9d667ae34e57.tar.gz -> nginx.audio-hls-0.2_p20150507.tar.gz
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	55aaa148741116aa54ad0d80e361818e	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	nginx-module	6ab994f758fe7880c5170ef1c16ce5c6	patches	7d362f094a8079c0604a5efbde318576	pax-utils	e85f015e815dd463b0c206d781ef45a5	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=10dbdc19b1e4e69dde8f481e74d13a0a
+_md5_=52ce23256b2645b4db7cac337e124cd4

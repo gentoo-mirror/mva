@@ -6,4 +6,4 @@ HOMEPAGE=https://github.com/google/woff2
 LICENSE=Apache-2.0
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=c902cfd36d7599426a0c0eaad9e8bab0
+_md5_=e954cd93258450ad05ff261ee6591c9c
