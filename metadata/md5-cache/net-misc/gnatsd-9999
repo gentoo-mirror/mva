@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=>=dev-lang/go-1.9 >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=A high Performance NATS Server written in GoLang
+EAPI=6
+HOMEPAGE=https://nats.io
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=MIT
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	golang-base	8e4d7f712ec0e170e2c190c1e3da6501
+_md5_=7dcfc065c6a01ad995445bae06675efc
