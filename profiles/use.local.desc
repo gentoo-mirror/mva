@@ -2,8 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
-dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
 media-fonts/devicon:icons - Install "icons" version of the font (svgs)
 media-fonts/devicon:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/firacode:webfonts - Install so called "web" fonts (woff{,2}, eot)
