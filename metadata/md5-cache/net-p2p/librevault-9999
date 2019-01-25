@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=gui? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) !static? ( net-libs/libnatpmp net-libs/miniupnpc dev-db/sqlite:3 dev-cpp/websocketpp dev-python/docopt ) static? ( dev-libs/boost[static-libs] ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc sys-devel/make >=dev-util/cmake-3.9.6 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=gui? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) !static? ( net-libs/libnatpmp net-libs/miniupnpc dev-db/sqlite:3 dev-cpp/websocketpp dev-python/docopt ) static? ( dev-libs/boost[static-libs] ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1:0 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc sys-devel/make >=dev-util/cmake-3.9.6 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Peer-to-peer, decentralized and open source file sync.
 EAPI=6
 HOMEPAGE=https://librevault.com
 IUSE=cli daemon debug gui static
 LICENSE=GPL-3
-RDEPEND=gui? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) !static? ( net-libs/libnatpmp net-libs/miniupnpc dev-db/sqlite:3 dev-cpp/websocketpp dev-python/docopt ) static? ( dev-libs/boost[static-libs] ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc
+RDEPEND=gui? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) !static? ( net-libs/libnatpmp net-libs/miniupnpc dev-db/sqlite:3 dev-cpp/websocketpp dev-python/docopt ) static? ( dev-libs/boost[static-libs] ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1:0 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc
 REQUIRED_USE=|| ( cli daemon gui )
 SLOT=0
 _eclasses_=cmake-utils	ab10bd85e5d38e2a32077bcd91faa1b6	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	55aaa148741116aa54ad0d80e361818e	git-r3	0d4635eeb5a96cd5315597a47eba25c9	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	patches	7d362f094a8079c0604a5efbde318576	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	xdg-utils	93b2dfbb00a09161e1e7f6360c0f7f6b
-_md5_=4a5f80f25e3f8a66ed8fbd1e3c85e2f5
+_md5_=33dd18b90f8c3e8954951b0cd89566bc
