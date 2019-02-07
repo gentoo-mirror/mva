@@ -1,11 +1,12 @@
 DEFINED_PHASES=compile install setup unpack
-DEPEND=dev-go/glide >=dev-lang/go-1.5 >=dev-lang/go-1.9 virtual/pkgconfig
+DEPEND=dev-go/glide >=dev-lang/go-1.5 >=dev-lang/go-1.10 virtual/pkgconfig
 DESCRIPTION=Prometheus exporter for MongoDB metrics
 EAPI=6
 HOMEPAGE=https://github.com/dcu/mongodb_exporter
 KEYWORDS=~amd64
 LICENSE=MIT
+RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/dcu/mongodb_exporter/archive/v1.0.0.tar.gz -> prometheus-mongodb_exporter-1.0.0.tar.gz
-_eclasses_=golang-base	8e4d7f712ec0e170e2c190c1e3da6501	multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bc2845510e2109af75e3eeac607ec81
+_eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bc2845510e2109af75e3eeac607ec81
 _md5_=33b68276e1f771404656f5d97336c9ce
