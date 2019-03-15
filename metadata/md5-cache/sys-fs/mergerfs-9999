@@ -7,4 +7,4 @@ LICENSE=ISC
 RDEPEND=sys-apps/attr:= >=sys-apps/util-linux-2.18 sys-devel/gettext:=
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=6106031ac6613eae353be4d043c39b42
+_md5_=1f72b5367f2256d31ae22b5280a7b270
