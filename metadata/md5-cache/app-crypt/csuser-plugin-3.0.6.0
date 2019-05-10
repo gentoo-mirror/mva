@@ -1,15 +1,15 @@
 DEFINED_PHASES=install prepare unpack
-DEPEND=>=sys-apps/pcsc-lite-1.7 >=app-crypt/asedriveiiie-usb-3.7 virtual/libusb:0 media-libs/hal-flash
+DEPEND=dev-libs/libxml2-2.9.9-r1:2 sys-apps/pcsc-lite-1.8.24:0 virtual/libusb:0
 DESCRIPTION=Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
 EAPI=6
 HOMEPAGE=http://gosuslugi.ru/
 IUSE=multilib
 KEYWORDS=~amd64 ~x86 x64-macos x86-macos
 LICENSE=EULA
-RDEPEND=>=sys-apps/pcsc-lite-1.7 >=app-crypt/asedriveiiie-usb-3.7 virtual/libusb:0 media-libs/hal-flash
+RDEPEND=dev-libs/libxml2-2.9.9-r1:2 sys-apps/pcsc-lite-1.8.24:0 virtual/libusb:0
 REQUIRED_USE=amd64? ( multilib )
 RESTRICT=mirror
 SLOT=0
-SRC_URI=amd64? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-x86_64.deb -> csuser-plugin-3.0.0.0_amd64.deb ) x86? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-i386.deb -> csuser-plugin-3.0.0.0_x86.deb ) x86-macos? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin.pkg -> csuser-plugin-3.0.0.0_mac.pkg ) x64-macos? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin.pkg -> csuser-plugin-3.0.0.0_mac.pkg )
+SRC_URI=amd64? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-x86_64.deb -> csuser-plugin-3.0.6.0_amd64.deb ) x86? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-i386.deb -> csuser-plugin-3.0.6.0_x86.deb ) x86-macos? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin.pkg -> csuser-plugin-3.0.6.0_mac.pkg ) x64-macos? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin.pkg -> csuser-plugin-3.0.6.0_mac.pkg )
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	patches	7d362f094a8079c0604a5efbde318576	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	unpacker	3cd8bad0d31e525cd26be1bfa4e61631	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=fe3d231dfa835ff36ef517cd3544531c
+_md5_=2825025429c114ee071125897c459501
