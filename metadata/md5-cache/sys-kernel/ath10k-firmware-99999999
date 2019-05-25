@@ -7,5 +7,5 @@ IUSE=savedconfig savedconfig
 LICENSE=qca-firmware
 RDEPEND=sys-kernel/linux-firmware
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	e6948c872ff47e15a10e5ad1be15c18e
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	a3812ff9dbe63484d556efcad4cc9a69
 _md5_=103a0c4281a908bfd38f1fa55dbb9822
