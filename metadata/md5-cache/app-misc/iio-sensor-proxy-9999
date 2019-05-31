@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/hadess/iio-sensor-proxy
 LICENSE=Unlicense
 RDEPEND=sys-apps/systemd virtual/libgudev app-misc/geoclue:*
 SLOT=0
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	git-r3	0d4635eeb5a96cd5315597a47eba25c9	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	patches	7d362f094a8079c0604a5efbde318576	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	git-r3	0d4635eeb5a96cd5315597a47eba25c9	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	patches	74f24c3892095dc5a844d6687c07bea2	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
 _md5_=c6587ee9618aa4725f134aabb673f9df
