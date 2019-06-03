@@ -7,14 +7,13 @@ media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
 media-fonts/devicon 2.1 9999: Set of icons representing programming languages, designing & development tools
 media-fonts/eurofurence 20160520: Eurofurence, a clean sans-serif font
-media-fonts/firacode 1.204: A programming font with ligatures
+media-fonts/firacode 1.206: A programming font with ligatures
 media-fonts/fixedsys 3.02.8: Fixedsys Excelsior font with programming ligatures
 media-fonts/font-linux 0.9 9999: An icon font providing popular linux distro's logos
 media-fonts/fontawesome-extension 0.0.3 9999: Set of icons representing programming languages, designing & development tools
-media-fonts/iosevka 1.14.0: Open source coding font
+media-fonts/iosevka 2.2.1: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
-net-libs/libvncserver 0.9.11_p20180712: library for creating vnc servers
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
