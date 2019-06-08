@@ -1,6 +1,5 @@
 app-misc/jo 1.0: JSON output from a shell
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
-dev-lua/dkjson 2.5: David Kolf's JSON module for Lua
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
 dev-perl/Device-Modem 1.56: Perl extension to talk to modem devices connected via serial port
 dev-ruby/tzinfo 0.3.53: Daylight-savings aware timezone library
