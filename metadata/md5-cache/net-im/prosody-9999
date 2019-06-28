@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install postinst prepare test unpack
-DEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:0 ) icu? ( dev-libs/icu ) || ( >=dev-libs/openssl-0.9.8z:0.9.8 >=dev-libs/openssl-1.0.1j:0 ) dev-vcs/mercurial
+DEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:0 ) icu? ( dev-libs/icu ) >=dev-libs/openssl-1.0.1j:* dev-vcs/mercurial
 DESCRIPTION=Prosody is a flexible communications server for Jabber/XMPP written in Lua.
 EAPI=6
 HOMEPAGE=http://prosody.im/
 IUSE=doc +libevent mysql postgres sqlite +ssl +zlib luajit ipv6 migration no-example-certs icu random-getrandom random-openssl
 LICENSE=MIT
-RDEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:0 ) icu? ( dev-libs/icu ) || ( >=dev-libs/openssl-0.9.8z:0.9.8 >=dev-libs/openssl-1.0.1j:0 ) dev-lua/luasocket ipv6? ( dev-lua/luasocket ) ssl? ( dev-lua/luasec ) dev-lua/luaexpat dev-lua/luafilesystem mysql? ( >=dev-lua/luadbi-0.5[mysql] ) postgres? ( >=dev-lua/luadbi-0.5[postgres] ) random-getrandom? ( >=sys-kernel/linux-headers-3.17 >=sys-libs/glibc-2.25 ) sqlite? ( >=dev-lua/luadbi-0.5[sqlite] ) libevent? ( dev-lua/luaevent ) zlib? ( dev-lua/lua-zlib )
+RDEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:0 ) icu? ( dev-libs/icu ) >=dev-libs/openssl-1.0.1j:* dev-lua/luasocket ipv6? ( dev-lua/luasocket ) ssl? ( dev-lua/luasec ) dev-lua/luaexpat dev-lua/luafilesystem mysql? ( >=dev-lua/luadbi-0.5[mysql] ) postgres? ( >=dev-lua/luadbi-0.5[postgres] ) random-getrandom? ( >=sys-kernel/linux-headers-3.17 >=sys-libs/glibc-2.25 ) sqlite? ( >=dev-lua/luadbi-0.5[sqlite] ) libevent? ( dev-lua/luaevent ) zlib? ( dev-lua/lua-zlib )
 SLOT=0
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	mercurial	9813bb616cb1bd0c943177ab52204409	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=f5f0ce675425b04091bf6640e50b6e02
+_md5_=0cef6531df427bb649b4bfe45744cd59
