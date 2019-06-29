@@ -17,4 +17,5 @@ media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
+net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays

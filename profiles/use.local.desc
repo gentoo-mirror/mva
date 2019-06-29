@@ -11,3 +11,5 @@ media-fonts/iosevka:ss - Install additional prebuilt stilyzed families: ss01 = l
 media-fonts/iosevka:web - Build (9999) or install (non-live) web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
+net-im/swift:client - Build the full graphical XMPP client.
+net-im/swift:gconf - Enable configuration through gnome-base/gconf.
