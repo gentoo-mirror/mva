@@ -1,11 +1,11 @@
 DEFINED_PHASES=install unpack
 DEPEND=dev-lang/php:*
 DESCRIPTION=The command line interface for WordPress
-EAPI=6
+EAPI=7
 HOMEPAGE=https://wp-cli.org/
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=dev-lang/php:*
 SLOT=0
-SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v1.5.0/wp-cli-1.5.0.phar
-_md5_=538040fa02dc0d726022087bfb5801f1
+SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v2.2.0/wp-cli-2.2.0.phar
+_md5_=eb7e6d791f59c69adab44920b0781263
