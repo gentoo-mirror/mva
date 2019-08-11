@@ -1,20 +1,494 @@
-app-misc/jo 1.0: JSON output from a shell
+app-admin/aws-cli 1.14.41: Universal Command Line Interface for Amazon Web Services
+app-admin/cpulimit 9999: Limits the CPU usage of a process
+app-admin/drush 8.1.16: The command line interface for Drupal
+app-admin/jailkit 2.19: Allows you to easily put programs and users in a chrooted environment
+app-admin/lnav 0.8.3: A curses-based tool for viewing and analyzing log files
+app-admin/wp-cli 2.2.0: The command line interface for WordPress
+app-arch/brotli 1.0.6-r1 9999: Generic-purpose lossless compression algorithm
+app-arch/jefferson 9999: JFFS2 filesystem extraction tool
+app-arch/sasquatch 4.3: Tool for creating compressed filesystem type squashfs
+app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
+app-crypt/argon2 20161029 99999999: Password hashing software that won the Password Hashing Competition (PHC)
+app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
+app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
+app-crypt/csuser-plugin 3.0.6.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
+app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
+app-crypt/getssl 2.10 9999: letsencrypt/acme client implemented as a shell-script
+app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
+app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, rar and 7z archives
+app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
+app-editors/atom 9999: A hackable text editor for the 21st Century
+app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
+app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
+app-eselect/eselect-lua 2: Lua eselect module
+app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
+app-forensics/fatback 1.3: Tool to undelete files from FAT file systems
+app-forensics/tcpxtract 1.0.1: Extracts files from network packet captures
+app-forensics/yara 3.5.0: A malware identification and classification tool
+app-misc/010-editor-templates 20161226: 010 Editor Templates
+app-misc/2gis 3.15.10.0 4.15.2.280: Proprietary freeware multimedia map of several Russian and Ukrainian towns
+app-misc/2gis-data 20151009: Data-files for ~app-misc/2gis-3 (wine-version)
+app-misc/2gis-plugins 0-r9999: Plugins for 2gis
+app-misc/amazfitbip-font-tool 1.1: Amazfit Bip Font Parser (& Packer)
+app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware cooking)
+app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
+app-misc/jo 1.0 1.0_p20170319 9999: JSON output from a shell
+app-misc/jq 9999: Command-line JSON processor
+app-misc/terjira 9999: Intercative JIRA cli
+app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
+app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
+app-portage/eix 0.33.6 99999999: Search and query ebuilds
+app-shells/fzf 0.18.0: A general-purpose command-line fuzzy finder
+app-shells/push 3.1-r1: A POSIX shell function to treat a variable like an array, quoting args
+app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
+app-shells/zsh 5.7.1 9999: UNIX Shell similar to the Korn shell
+app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
+app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
+app-text/unicode 9999: A tool displaying unicode character properties
+app-vim/nginx-syntax 1.17.2: vim plugin: Nginx configuration files syntax
+app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
+dev-cpp/asio 9999: Asynchronous Network Library
+dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
+dev-cpp/ms-gsl 2.0.1_pre20190718 9999: Guideline Support Library implementation by Microsoft
+dev-cpp/range-v3 0.5.0 9999: Experimental range library for C++11/14/17
+dev-cpp/variant 1.1.6 9999: An header-only alternative to boost::variant for C++11 and C++14
+dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
+dev-db/mydumper 0.9.1 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
+dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
+dev-db/proxysql 2.0.5: A high performance, high availability, protocol aware proxy for MySQL and forks
+dev-db/tora 9999: TOra - Toolkit For Oracle
+dev-java/gradle 5.3.1: A project automation and build tool with a Groovy based DSL
+dev-java/gradle-bin 5.3.1: A project automation and build tool with a Groovy based DSL
+dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
+dev-lang/lua 5.1.5-r101 5.2.4 5.3.5: A powerful light-weight programming language designed for extending applications
+dev-lang/luajit 2.0.9999 2.1.9999: Just-In-Time Compiler for the Lua programming language
+dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
+dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
+dev-libs/libcgroup 0.41-r5: Tools and libraries to configure and manage kernel control groups
+dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
+dev-libs/libdwarf 20161124: Library for extracting DWARF data from code objects
+dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
+dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG software
+dev-libs/libiio 9999: Library for interfacing with IIO devices
+dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
+dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
+dev-libs/msgpack 2.1.3 9999: MessagePack is a binary-based efficient data interchange format
+dev-libs/nlohmann-json 9999: C++ class library of cryptographic schemes
+dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
+dev-libs/olm 3.1.3 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
+dev-libs/unibilium 2.0.0: A very basic terminfo library
+dev-lua/LuaBitOp 1.0.2-r1: Bit Operations Library for the Lua Programming Language
+dev-lua/alt-getopt 0.7.0: Lua bindings to getopt_long
+dev-lua/ansicolors 9999: A simple Lua function for printing to the console in color.
+dev-lua/argparse 9999: Feature-rich command line parser for Lua
+dev-lua/basexx 9999: A simple implementation of OATH-HOTP and OATH-TOTP written for Lua
+dev-lua/bit32 9999: A Lua5.2+ bit manipulation library
+dev-lua/cbor 9999: The most comprehensive CBOR module in the Lua universe
+dev-lua/cosmo 9999: safe-template engine for lua
+dev-lua/coxpcall 9999: Lua coxpcall Library
+dev-lua/dkjson 2.5: David Kolf's JSON module for Lua
+dev-lua/etree 9999: Library for XML documents manipulations as simple Lua data structures
+dev-lua/iluajit 9999: Readline powered shell for LuaJIT
+dev-lua/inspect 9999: Human-readable representation of lua-tables
+dev-lua/lahttp 9999: Lua Asynchronous HTTP Library.
+dev-lua/lanes 3.11 9999: lightweight, native, lazy evaluating multithreading library
+dev-lua/lapis 9999: A web framework for Lua/MoonScript.
+dev-lua/ldbus 9999: A Lua library to access dbus
+dev-lua/ldoc 9999: A LuaDoc-compatible documentation generation system
+dev-lua/lgi 9999: Dynamic Lua binding to GObject libraries using GObject-Introspection
+dev-lua/linotify 9999: inotify bindings for Lua
+dev-lua/ljit2dbus 9999: LuaJIT binding to libdbus
+dev-lua/ljsyscall 9999: LuaJIT Unix syscall FFI
+dev-lua/lpc 9999: A helper to call external processes and capture both their std-in and -out
+dev-lua/lpeg 1.0.1: Parsing Expression Grammars for Lua
+dev-lua/lpeglabel 9999: LPeg extension that supports labeled failures
+dev-lua/lsysstats 9999: System statistics library for Lua
+dev-lua/ltn12ce 9999: LuaSocket's LTN12-compatible Crypto/Compressing Engine
+dev-lua/lua-argon2 9999: Lua C binding for the Argon2 password hashing function
+dev-lua/lua-argon2-ffi 9999: LuaJIT FFI binding for the Argon2 password hashing function
+dev-lua/lua-captcha 9999: A small lua module to generate CAPTCHA images using lua-gd
+dev-lua/lua-cjson 9999: Lua JSON Library, written in C
+dev-lua/lua-cmsgpack 9999: A self contained Lua MessagePack C implementation
+dev-lua/lua-csv 9999: a Lua module for reading delimited text files
+dev-lua/lua-curl 9999: Lua cURL Library
+dev-lua/lua-discount 9999: Lua binding to app-text/discount
+dev-lua/lua-evdev 9999: Lua module for reading Linux input events from /dev/input/eventXX nodes
+dev-lua/lua-ext 9999: Some useful extensions to Lua classes
+dev-lua/lua-fann 0.5.3 9999: A set of Lua bindings for the Fast Artificial Neural Network (FANN) library.
+dev-lua/lua-fastcgi 9999: A FastCGI server for Lua, written in C
+dev-lua/lua-feeds 9999: Lua feeds parsing library
+dev-lua/lua-ffi-bindings 9999: Some common headers ported over to LuaJIT FFI
+dev-lua/lua-gd 9999: Lua bindings to Thomas Boutell's gd library
+dev-lua/lua-geoip 9999: Lua GeoIP Library
+dev-lua/lua-getopt 9999: Lua getopt module (simplified)
+dev-lua/lua-html 9999: lua bindings for HTMLParser in libxml2
+dev-lua/lua-htmlparser 9999: Parse HTML text into a tree of elements with selectors
+dev-lua/lua-iconv 9999: Lua bindings for POSIX iconv
+dev-lua/lua-idn 9999: A Lua implementation of IDNA (RFC 3490)
+dev-lua/lua-lsp 9999: A Language Server for Lua code, written in Lua
+dev-lua/lua-rds-parser 9999: Resty-DBD-Stream (RDS) parser for Lua written in C
+dev-lua/lua-sendmail 9999: Simple wrapper around luasoket smtp.send
+dev-lua/lua-set 9999: Straightforward Set library for Lua
+dev-lua/lua-spawn 9999: A lua library to spawn programs
+dev-lua/lua-std-debug 9999: Debug Hints Library
+dev-lua/lua-std-functional 9999: Functional Programming with Lua
+dev-lua/lua-std-normalize 9999: normalized Lua functions
+dev-lua/lua-std-prototype 9999: Prototype Oriented Programming with Lua
+dev-lua/lua-std-strict 9999: Check for use of undeclared variables
+dev-lua/lua-stdlib 9999: Standard Lua libraries
+dev-lua/lua-udev 9999: udev bindings for Lua
+dev-lua/lua-vips 9999: fast, low-memory-use image processing for luajit
+dev-lua/lua-xlsx 9999: a Lua module for reading .xlsx files
+dev-lua/lua-xxhash 9999: Lua bindings for dev-libs/xxhash (XXH32 only for now)
+dev-lua/lua-zip 9999: Lua bindings to libzip
+dev-lua/lua-zlib 9999: Lua bindings to zlib
+dev-lua/lua2html 9999: Lua to HTML code converter written in Lua.
+dev-lua/luacheck 0.23.0: A tool for linting and static analysis of Lua code
+dev-lua/luacrypto 9999: Lua Crypto Library
+dev-lua/luadbi 9999: DBI module for Lua
+dev-lua/luadoc 3.0.1 9999: LuaDoc is a documentation tool for Lua source code
+dev-lua/luaevent 9999: libevent bindings for Lua
+dev-lua/luaexpat 9999: SAX XML parser based on the Expat library.
+dev-lua/luafilesystem 9999: File System Library for the Lua Programming Language
+dev-lua/luaformatter 9999: Beautifies Lua code
+dev-lua/luahpdf 9999: Lua binding to media-libs/libharu (PDF generator)
+dev-lua/lualdap 9999: Lua driver for LDAP
+dev-lua/luamacro 9999: library and driver script for preprocessing and evaluating Lua code
+dev-lua/luamongo 9999: Lua driver for MongoDB
+dev-lua/luaossl 99999999: Most comprehensive OpenSSL module in the Lua universe.
+dev-lua/luaotp 9999: A simple implementation of OATH-HOTP and OATH-TOTP written for Lua
+dev-lua/luaposix 9999: POSIX binding, including curses, for Lua 5.1 and 5.2
+dev-lua/luapress 9999: Static sites generator (from markdown files)
+dev-lua/luarocks 9999: A deployment and management system for Lua modules
+dev-lua/luasec 9999: Lua binding for OpenSSL library to provide TLS/SSL communication.
+dev-lua/luasocket 9999: Networking support library for the Lua language.
+dev-lua/luatz 9999: A library for time and date manipulation
+dev-lua/luaunbound 9999: LuaJIT FFI bindings to net-dns/unbound
+dev-lua/luautf8 0.1.1 9999: lightweight, native, lazy evaluating multithreading library
+dev-lua/luaxml 9999: A minimal set of XML processing funcs & simple XML<->Tables mapping
+dev-lua/luazip 9999: Lua bindings to zziplib
+dev-lua/lullaby 9999: A stream-based HTML template library for Lua.
+dev-lua/lulpeg 9999: A pure Lua port of dev-lua/lpeg
+dev-lua/lunit 9999: A unit testing framework for Lua
+dev-lua/lunix 99999999: Lua Unix Module
+dev-lua/lustache 9999: A small lua module to generate CAPTCHA images using lua-gd
+dev-lua/luv 9999: libuv bindings for lua (jit & 5.x)
+dev-lua/lvk 9999: Parse HTML text into a tree of elements with selectors
+dev-lua/lyaml 9999: LibYAML binding for Lua.
+dev-lua/messagepack 9999: A pure Lua implementation of msgpack.org
+dev-lua/moonscript 9999: A programmer friendly language that compiles into Lua.
+dev-lua/moses 9999: Simple wrapper around luasoket smtp.send
+dev-lua/mpack 1.0.4: Lua bindings for libmpack
+dev-lua/nats 9999: Lua client for NATS messaging system
+dev-lua/orbit 9999: MVC Web Framework for Lua
+dev-lua/penlight 9999: Libraries for input handling, functional programming and OS path management.
+dev-lua/profi 1.3: a Lua Profiler
+dev-lua/randomlua 9999: Pure Lua Random Generator
+dev-lua/raven 9999: A small Lua interface to Sentry
+dev-lua/redis-parser 9999: Redis reply parser and request constructor library for Lua
+dev-lua/resty-cookie 9999: Library for parsing HTTP Cookie header for Nginx
+dev-lua/resty-core 9999: New LuaJIT FFI based API for lua-nginx-module
+dev-lua/resty-dns 9999: Lua DNS resolver for the ngx_lua based on the cosocket API
+dev-lua/resty-haru 9999: LuaJIT FFI Bindings to <pkg>media-libs/libharu</pkg>
+dev-lua/resty-hoedown 9999: LuaJIT FFI bindings to app-text/hoedown
+dev-lua/resty-hpdf 9999: LuaJIT FFI-based libHaru (PDF) library for OpenResty.
+dev-lua/resty-lock 9999: Simple shm-based nonblocking lock API
+dev-lua/resty-lrucache 9999: A simple LRU cache for OpenResty and the ngx_lua module (based on LuaJIT FFI)
+dev-lua/resty-memcached 9999: Lua memcached client driver for the ngx_lua based on the cosocket API
+dev-lua/resty-mysql 9999: Lua MySQL client driver for ngx_lua based on the cosocket API
+dev-lua/resty-random 9999: LuaJIT FFI-based Random Library for OpenResty
+dev-lua/resty-redis 9999: Lua redis client driver for the ngx_lua based on the cosocket API
+dev-lua/resty-session 9999: Session library for OpenResty implementing Secure Cookie Protocol
+dev-lua/resty-string 9999: String utilities and common hash functions for ngx_lua and LuaJIT
+dev-lua/resty-tags 9999: A small DSL for building HTML documents
+dev-lua/resty-template 9999: Templating Engine (HTML) for Lua and OpenResty.
+dev-lua/resty-upload 9999: Streaming reader and parser for HTTP file uploading based on ngx_lua cosocket
+dev-lua/resty-upstream-healthcheck 9999: Health Checker for Nginx Upstream Servers in Pure Lua
+dev-lua/resty-websocket 9999: Lua WebSocket implementation for the NginX lua module
+dev-lua/resty-xxhash 9999: LuaJIT bindings for dev-libs/xxhash
+dev-lua/rings 9999: Lua Rings Library
+dev-lua/serpent 9999: Lua serializer and pretty printer
+dev-lua/specl 9999: A testing tool for Lua, providing a Behaviour Driven Development
+dev-lua/squish 9999: XMPP client library written in Lua.
+dev-lua/srlua 101: A simple tool, that help you to glue lua script with interpreter
+dev-lua/tdlua 9999: A basic interface between tdlib and lua
+dev-lua/tekui 1.12_p1 9999: TekUI is a small, freestanding and portable GUI toolkit written in Lua and C
+dev-lua/uuid 9999: Generates uuids in pure Lua
+dev-lua/verse 9999: XMPP client library written in Lua.
+dev-lua/wsapi 9999: Lua WSAPI Library
+dev-lua/yubikey-lua 9999: Lua Asynchronous HTTP Library.
+dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
+dev-perl/DBIx-Custom 0.37: DBI extension to execute insert, update, delete, and select easily
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
 dev-perl/Device-Modem 1.56: Perl extension to talk to modem devices connected via serial port
+dev-perl/Mojolicious-Plugin-AutoRoute 0.22: Real-time web framework
+dev-perl/Mojolicious-Plugin-BasicAuth 0.08: Real-time web framework
+dev-perl/Mojolicious-Plugin-DBViewer 0.28: Real-time web framework
+dev-perl/Mojolicious-Plugin-INIConfig 0.03: Real-time web framework
+dev-perl/Object-Simple 3.16: Real-time web framework
+dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
+dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
+dev-php/composer 1.5.1: Dependency Manager for PHP
+dev-php/msgpack-php 2.0.3 9999: API for communicating with MessagePack serialization
+dev-python/cli_helpers 1.2.0 9999: Python helpers for common CLI tasks
+dev-python/cstruct 1.0: C-style structs for Python
+dev-python/e4u 9999: A library for handling unicode emoji and carrier's emoji
+dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
+dev-python/jira 1.0.10: Python library for interacting with JIRA via REST APIs.
+dev-python/neovim-python-client 0.3.1: Python client for Neovim
+dev-python/pfp 9999: 010 Template interpretter for python
+dev-python/py010parser 9999: 010 template library for python
+dev-python/python-axolotl 9999-r1: Python port of libaxolotl
+dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
+dev-python/pytox 9999: Python bindings for the Tox library
+dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
+dev-python/tabulate 0.8.3: Pretty-print tabular data
+dev-qt/qmltermwidget 0.1.0 9999: QML port of x11-libs/qtermwidget
+dev-qt/qt5ct 0.22: Qt5 configuration utility
+dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
+dev-ruby/colorls 1.1.0: A Ruby script that colorizes the ls output with color and icons
+dev-ruby/equatable 0.5.0: Allows ruby objects to implement equality comparison and inspection methods.
+dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
+dev-ruby/git-version-bump 0.15.1: Manage your app version entirely via git tags
+dev-ruby/jira-ruby 1.5.0: API for JIRA
+dev-ruby/manpages 0.6.1: manpages wrapper for rubygems
+dev-ruby/necromancer 0.4.0: Conversion from one object type to another with a bit of black magic.
+dev-ruby/oauth 0.5.4: A RubyGem for implementing both OAuth clients and servers
+dev-ruby/pastel 0.7.2: Terminal strings styling with intuitive and clean API.
+dev-ruby/strings 0.1.4: Terminal color capabilities detection
+dev-ruby/strings-ansi 0.1.0: Methods for processing ANSI escape codes in strings.
+dev-ruby/tty-color 0.4.3: Terminal color capabilities detection
+dev-ruby/tty-cursor 0.6.0: Ruby library to help move terminal cursor around
+dev-ruby/tty-prompt 0.17.1: Beautiful and powerful interactive command line prompt with a robust API
+dev-ruby/tty-reader 0.4.0: A set of methods for processing keyboard input
+dev-ruby/tty-screen 0.6.5: Terminal screen size detection which works on Linux, OS X and Windows/Cygwin
+dev-ruby/tty-spinner 0.4.1: Terminal spinner for tasks that have non-deterministic time frame.
+dev-ruby/tty-table 0.10.0: Flexible and intuitive table generator
 dev-ruby/tzinfo 0.3.53: Daylight-savings aware timezone library
+dev-ruby/unicode-display_width 1.4.0: Adds String#display_width to get the display size using EastAsianWidth.txt
+dev-ruby/unicode_utils 1.4.0: additional Unicode aware functions for Ruby 1.9
+dev-ruby/wisper 2.0.0: pub/sub for Ruby objects
+dev-util/android-ndk 14: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/apktool-bin 2.2.3: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
+dev-util/dex2jar 2.0 2.1_pre28 9999: Tools to work with android .dex and java .class files
+dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
+dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
+dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
+dev-util/google-breakpad 0_p20180823 9999: An open-source multi-platform crash reporting system
+dev-util/gyp 0_p20170909 9999: Generate Your Projects
+dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
+dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
+dev-util/premake 5.0.0_alpha12: A makefile generation tool
+dev-util/pySnipps 9999: A simple code snippet tool
+dev-util/scanmem 9999: Locate and modify variables in executing processes
+dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
+dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
+dev-vcs/hub 2.3.0_pre10 9999: Command-line wrapper for git that makes you better at GitHub
+games-arcade/flyinggame 0: A game prototype by Maurice (mari0 author)
+games-arcade/nottetris 2: A tetris game with physics
+games-arcade/orthorobot 0: Nice perspective based puzzle game. You flatten the view to move across gaps
+games-arcade/piratebay 0: A physics based game made for Devmania 2011 Overnight Contest
+games-arcade/rimshot 0: Nice application to work with drumbeats and play in 'Guitar Anti-Hero'
+games-arcade/shoothookers 0: A game prototype by Maurice (mari0 author)
+games-arcade/snayke 2.4: A nice 2D Snake game (like on Tetris)
+games-engines/love 9999: A framework for 2D games in Lua
+games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
+games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode
 media-fonts/consolamono 20130127: Open Font
 media-fonts/devicon 2.1 9999: Set of icons representing programming languages, designing & development tools
+media-fonts/emojione-color-font 1.3: A color and B&W emoji SVG-in-OpenType font
 media-fonts/eurofurence 20160520: Eurofurence, a clean sans-serif font
-media-fonts/firacode 1.206: A programming font with ligatures
-media-fonts/fixedsys 3.02.8: Fixedsys Excelsior font with programming ligatures
+media-fonts/firacode 1.206 9999: A programming font with ligatures
+media-fonts/fixedsys 3.02.8 9999: Fixedsys Excelsior font with programming ligatures
+media-fonts/font-linux 0.9 9999: An icon font providing popular linux distro's logos
 media-fonts/fontawesome-extension 0.0.3 9999: Set of icons representing programming languages, designing & development tools
-media-fonts/iosevka 2.2.1: Open source coding font
+media-fonts/iosevka 2.2.1 9999: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
+media-fonts/twemoji-color-font 1.3: A color and B&W emoji SVG-in-OT font with ZWJ, skin tone mods and country flags
+media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
+media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
+media-gfx/inkscape-table 1.0: Table support for inkscape
+media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
+media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
+media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
+media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
+media-libs/libdmtx 9999: Barcode data matrix reading and writing library
+media-libs/libtgvoip 2.4.4 9999: VoIP library for Telegram clients
+media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
+media-libs/rlottie 0_pre20190718 9999: A platform independent standalone library that plays Lottie Animation
+media-libs/vips 8.5.6 9999: VIPS Image Processing Library
+media-libs/woff2 9999: font compression reference code
+media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
+media-sound/mumble 1.3.9999: Mumble is an open source, low-latency, high quality voice chat software
+net-analyzer/prometheus 1.5.2: The Prometheus monitoring system and time series database
+net-analyzer/prometheus-alertmanager 0.5.1: The Prometheus monitoring system and time series database (Alert Manager)
+net-analyzer/prometheus-blackbox_exporter 0.4.0: Prometheus blackbox exporter
+net-analyzer/prometheus-haproxy_exporter 0.7.1: Prometheus exporter for HAProxy metrics
+net-analyzer/prometheus-memcached_exporter 0.3.0: Prometheus exporter for machine metrics
+net-analyzer/prometheus-mongodb_exporter 1.0.0: Prometheus exporter for MongoDB metrics
+net-analyzer/prometheus-mysqld_exporter 0.9.0: Prometheus exporter for machine metrics
+net-analyzer/prometheus-nginx_exporter 0_p20170327 9999: Prometheus exporter for NginX metrics
+net-analyzer/prometheus-nginx_vts_exporter 0.10.3: Prometheus exporter for NginX vts stats
+net-analyzer/prometheus-node_exporter 0.14.0: Prometheus exporter for machine metrics
+net-analyzer/prometheus-phpfpm_exporter 0.1: Prometheus exporter for PHP-FPM metrics
+net-analyzer/prometheus-postgres_exporter 0.1.2: Prometheus exporter for PostgreSQL metrics
+net-analyzer/prometheus-pushgateway 0.3.1: The Prometheus monitoring system and time series database (Push Gateway)
+net-analyzer/prometheus-script_exporter 1.0.2: Prometheus exporter for custom scripts
+net-analyzer/prometheus-snmp_exporter 0.3.0: Prometheus exporter for SNMP metrics
+net-analyzer/prometheus-unbound_exporter 0.1_rc0: Prometheus exporter for PostgreSQL metrics
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
+net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
+net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
+net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel/iptables
+net-im/clix 9999: XMPP client library written in Lua.
+net-im/libcommuni 3.5.0: A cross-platform IRC framework written with Qt
+net-im/matterbridge 9999: Bridge between multiple chat networks
+net-im/prosody 9999: Prosody is a flexible communications server for Jabber/XMPP written in Lua.
+net-im/prosody-modules 9999: Add-on modules for Prosody IM Server written in Lua.
+net-im/ratox 9999: A minimal FIFO based client for Tox
+net-im/rocketchat-bin 2.10.5: Have your own Slack like online chat, built with Meteor.
+net-im/slack-bin 3.2.1: A messaging app for teams
+net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
+net-im/telegram-cli 9999: Command line interface client for Telegram
+net-im/telegram-desktop 1.7.15 9999: Official desktop client for Telegram
+net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
+net-im/tgl 9999: Telegram library
+net-im/toxic 9999: A curses-based client for Tox.
+net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 2
+net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
+net-im/zoom-bin 2.8.183302.0415: Video conferencing and web conferencing service
+net-irc/weechat 9999: Portable and multi-interface IRC client
+net-irc/znc 9999: An advanced IRC Bouncer
+net-libs/libnftnl 9999: Netlink API to the in-kernel nf_tables subsystem
+net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
+net-libs/libvncserver 9999: library for creating vnc servers
+net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
+net-libs/opendht 1.3.1 9999: A lightweight C++11 Distributed Hash Table implementation
+net-libs/pjproject 2.6: Open source SIP, Media, and NAT Traversal Library
+net-libs/restbed 4.5 9999: For applications that require seamless and secure communication over HTTP
+net-libs/tdlib 9999: Cross-platform library for building Telegram clients
+net-libs/telegram-qt 9999: Telegram binding for Qt
+net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
+net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
+net-misc/asterisk-gui 2.9999: Asterisk's GUI.
+net-misc/gnatsd 9999: A high Performance NATS Server written in GoLang
+net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
+net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
+net-misc/toxbot 9999: Tox groupchats bot
+net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
+net-p2p/syncthing 1.2.0: Open Source Continuous File Synchronization
+net-p2p/transmission-cli 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
+net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
+net-voip/kde-ring 99999999: KDE Ring client
+net-voip/ring-daemon 99999999: Ring daemon
+net-voip/trueconf 7.2.1: Centralized proprietary VoIP service (supporting custom installations)
+net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
+net-vpn/onioncat 0.2.2_p13012018: An IP-Transparent Tor Hidden Service Connector
+net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
+net-vpn/toxvpn 9999: toxvpn allows one to make tunneled point to point connections over Tox
+sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
+sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
+sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
+sys-apps/firejail 9999: a SUID sandbox program using linux namespaces
+sys-apps/firetools 0.9.52 9999: Graphical user interface of app-emulation/firejail
+sys-apps/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
+sys-apps/ipmiutil 3.1.1-r1: IPMI Management Utilities
+sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
+sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
+sys-apps/rkflashtool 6.0 9999: Tool for flashing Rockchip devices
+sys-apps/yarn 0.22.0: Fast, reliable, and secure node dependency management
+sys-block/zram-init 8.0 9999: Scripts to support compressed swap devices or ramdisks with zram
+sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
+sys-fs/enchanceio 9999: SSD caching software, based on Facebook's open source Flashcache project
+sys-fs/exfat-nofuse 9999: Non-fuse kernel driver for exFat and VFat file systems
+sys-fs/mergerfs 9999: Another (FUSE based) union filesystem
+sys-fs/x11fs 9999: Self-syncing tree-merging file system based on FUSE
+sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
+sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
+sys-process/ctop 9999: Top-like interface for container-metrics
+sys-process/htop 9999: interactive process viewer
+sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
+virtual/gradle 0: Virtual for gradle
+virtual/lua 5: Virtual for Lua programming language
+www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
+www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
+www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
+www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
+www-apps/redmine 4.0.1 9999: Flexible project management webapp written using Ruby on Rails framework
+www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
+www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
+www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
+www-nginx/array-var 0.05: Array-typed variables support for nginx config files
+www-nginx/audio-hls 0.2_p20150507: Generates audio track for HTTP Live Streaming (HLS) streams on the fly.
+www-nginx/auth-ldap 0.1: LDAP authentication module
+www-nginx/auth-pam 1.5.1: A module to use PAM for simple http authentication
+www-nginx/cache-purge 2.4.2: Adds support for purge ngx_http_(fastcgi|proxy|scgi|uwsgi)_module cache backend
+www-nginx/coolkit 0.2: collection of small and useful nginx add-ons
+www-nginx/ctpp 0.5: CT++ templater integration Module
+www-nginx/dav-ext 0.1.0: NGINX WebDAV missing methods support (PROPFIND & OPTIONS)
+www-nginx/drizzle 0.1.10: NginX upstream module that talks to mysql and drizzle by libdrizzle
+www-nginx/echo 0.61: 'echo', 'sleep', 'time', 'exec' and some more shell-like goodies
+www-nginx/enchanced-memcache 0.2_p20170216: Enhanced Nginx Memcached Module
+www-nginx/encrypted-session 0.06: Support for AES(+MAC) variables enc-/decryption in NgX config
+www-nginx/fancyindex 0.4.2: Fancy indexes module
+www-nginx/form-input 0.12: Converts POST/PUT urlencoded body (forms) to nginx variables.
+www-nginx/headers-more 0.32: Set and clear input and output headers
+www-nginx/http-rdns 0_p20160215: Nginx HTTP rDNS module
+www-nginx/iconv 0.14: Character conversion nginx module using libiconv
+www-nginx/lua-http 0.10.12_rc1: Embed the Power of Lua into NGINX (HTTP)
+www-nginx/lua-http-upstream 0.07: Nginx module to expose Lua API for Nginx upstreams
+www-nginx/lua-stream 0.0.1_p20170924: Embed the Power of Lua into NGINX (stream)
+www-nginx/memc 0.18: An extended version of the standard memcached module
+www-nginx/metrics 0.1.1: Responde code metrics and some more
+www-nginx/naxsi 0.55.3_p20170908: Open-source, high performance, low rules maintenance WAF
+www-nginx/nchan 1.1.10: Fast multiprocess pub/sub queuing server and proxy for NginX
+www-nginx/ndk 0.3.0: an Nginx module framework for another modules
+www-nginx/njs 0.1.14: A JS subset for location&variable handlers (HTTP+STREAM)
+www-nginx/pagespeed 1.12.34.2: PageSpeed dynamic module for NginX
+www-nginx/passenger 5.1.12: Phusion Passenger dynamic module for NginX
+www-nginx/passenger-enterprise 5.1.2: Phusion Passenger dynamic module for NginX
+www-nginx/postgres 1.0_rc7: Upstream module for direct commincation with PostgreSQL database
+www-nginx/push-stream 0.5.4: A pure stream http push technology for your Nginx setup
+www-nginx/python 0.2.0: Nginx Python Module
+www-nginx/rds-csv 0.07: Output filter, converting drizzle/postgres/whatever output to csv
+www-nginx/rds-json 0.14_p20170930: Output filter, converting drizzle/postgres/whatever output to json
+www-nginx/redis 0.14: Nginx upstream module for the Redis 2.0 protocol
+www-nginx/replace-filter 0.01_rc5_pre20171004: Streaming regular expression replacement in response bodies
+www-nginx/rrd-graph 0_p20160519: Link RRDtool's graphing facilities directly into nginx
+www-nginx/rtmp 1.2.0: NGINX-based Media Streaming Server
+www-nginx/security 0_p20170823: ModSecurity v3 Nginx Connector
+www-nginx/set-misc 0.31: Various set_xxx directives for NgX rewrite module
+www-nginx/slowfs 1.10: nginx module which adds ability to cache static files
+www-nginx/srcache 0.31: Transparent subrequest-based caching layout for arbitrary nginx locations
+www-nginx/supervisord 1.4: API to communicate with supervisord and manage (start/stop) backends on-demand
+www-nginx/tcp-proxy 0.4.5_p20170216: TCP proxy module (with health check and status monitor)
+www-nginx/upload-progress 0.9.2: Nginx Upload Progress Module
+www-nginx/upstream-check 0.3.0: Upstream health check and status report
+www-nginx/upstream-dyups 0.2.9_p20170725: Module for updating upstreams config by restful interface
+www-nginx/upstream-fair 0_p20170322: The fair load balancer module
+www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clients to the same upstreams
+www-nginx/xss 0.05: Native cross-site scripting support in nginx
+www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
+www-servers/kore 9999: A fast SPDY capable webserver for web development in C
+www-servers/nginx 1.17.2-r10 1.17.2-r100: Robust, small and high performance http and reverse proxy server
+www-servers/nginx-unit 1.9.0-r10 9999: A dynamic web&application server with modules many languages
+x11-apps/edid-decode 9999: Edid decoder
+x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
+x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
+x11-misc/rackman 9999: A tool measure distances on the screen
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
+x11-plugins/purple-facebook 99999999: Facebook plugin for libpurple (Pidgin)
+x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
+x11-plugins/purple-matrix 9999: Libpurple protocol plugin for matrix
+x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
+x11-plugins/telegram-purple 9999: Libpurple (Pidgin) plugin for using a Telegram account
+x11-plugins/whatsapp-purple 9999: Whatsapp plugin for libpurple (Pidgin)

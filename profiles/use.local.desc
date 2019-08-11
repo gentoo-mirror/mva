@@ -2,13 +2,787 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-arch/sasquatch:lz4 - LZ4 support
+app-arch/sasquatch:xz - XZ support
+app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
+app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
+app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
+app-misc/2gis-data:abakan - Install GeoInformational data (incl. maps) for Abakan
+app-misc/2gis-data:almaty - Install GeoInformational data (incl. maps) for Almaty
+app-misc/2gis-data:almetevsk - Install GeoInformational data (incl. maps) for Almetevsk
+app-misc/2gis-data:arkhangelsk - Install GeoInformational data (incl. maps) for Arkhangelsk
+app-misc/2gis-data:armawir - Install GeoInformational data (incl. maps) for Armawir
+app-misc/2gis-data:astana - Install GeoInformational data (incl. maps) for Astana
+app-misc/2gis-data:astrakhan - Install GeoInformational data (incl. maps) for Astrakhan
+app-misc/2gis-data:barnaul - Install GeoInformational data (incl. maps) for Barnaul
+app-misc/2gis-data:belgorod - Install GeoInformational data (incl. maps) for Belgorod
+app-misc/2gis-data:biysk - Install GeoInformational data (incl. maps) for Biysk
+app-misc/2gis-data:blagoveshensk - Install GeoInformational data (incl. maps) for Blagoveshensk
+app-misc/2gis-data:bratsk - Install GeoInformational data (incl. maps) for Bratsk
+app-misc/2gis-data:bryansk - Install GeoInformational data (incl. maps) for Bryansk
+app-misc/2gis-data:cheboksary - Install GeoInformational data (incl. maps) for Cheboksary
+app-misc/2gis-data:chelyabinsk - Install GeoInformational data (incl. maps) for Chelyabinsk
+app-misc/2gis-data:chita - Install GeoInformational data (incl. maps) for Chita
+app-misc/2gis-data:dnepropetrovsk - Install GeoInformational data (incl. maps) for Dnepropetrovsk
+app-misc/2gis-data:donetsk - Install GeoInformational data (incl. maps) for Donetsk
+app-misc/2gis-data:dubai - Install GeoInformational data (incl. maps) for Dubai
+app-misc/2gis-data:ekaterinburg - Install GeoInformational data (incl. maps) for Ekaterinburg
+app-misc/2gis-data:gornoaltaysk - Install GeoInformational data (incl. maps) for Gornoaltaysk
+app-misc/2gis-data:irkutsk - Install GeoInformational data (incl. maps) for Irkutsk
+app-misc/2gis-data:ivanovo - Install GeoInformational data (incl. maps) for Ivanovo
+app-misc/2gis-data:izhevsk - Install GeoInformational data (incl. maps) for Izhevsk
+app-misc/2gis-data:k_uralskiy - Install GeoInformational data (incl. maps) for K_uralskiy
+app-misc/2gis-data:kaliningrad - Install GeoInformational data (incl. maps) for Kaliningrad
+app-misc/2gis-data:kaluga - Install GeoInformational data (incl. maps) for Kaluga
+app-misc/2gis-data:karaganda - Install GeoInformational data (incl. maps) for Karaganda
+app-misc/2gis-data:kazan - Install GeoInformational data (incl. maps) for Kazan
+app-misc/2gis-data:kemerovo - Install GeoInformational data (incl. maps) for Kemerovo
+app-misc/2gis-data:khabarovsk - Install GeoInformational data (incl. maps) for Khabarovsk
+app-misc/2gis-data:kharkov - Install GeoInformational data (incl. maps) for Kharkov
+app-misc/2gis-data:kirov - Install GeoInformational data (incl. maps) for Kirov
+app-misc/2gis-data:komsomolsk - Install GeoInformational data (incl. maps) for Komsomolsk
+app-misc/2gis-data:kostroma - Install GeoInformational data (incl. maps) for Kostroma
+app-misc/2gis-data:krasnodar - Install GeoInformational data (incl. maps) for Krasnodar
+app-misc/2gis-data:krasnoyarsk - Install GeoInformational data (incl. maps) for Krasnoyarsk
+app-misc/2gis-data:kurgan - Install GeoInformational data (incl. maps) for Kurgan
+app-misc/2gis-data:kursk - Install GeoInformational data (incl. maps) for Kursk
+app-misc/2gis-data:lenkuz - Install GeoInformational data (incl. maps) for Lenkuz
+app-misc/2gis-data:limassol - Install GeoInformational data (incl. maps) for Limassol
+app-misc/2gis-data:lipetsk - Install GeoInformational data (incl. maps) for Lipetsk
+app-misc/2gis-data:magnitogorsk - Install GeoInformational data (incl. maps) for Magnitogorsk
+app-misc/2gis-data:miass - Install GeoInformational data (incl. maps) for Miass
+app-misc/2gis-data:minvody - Install GeoInformational data (incl. maps) for Minvody
+app-misc/2gis-data:moscow - Install GeoInformational data (incl. maps) for Moscow
+app-misc/2gis-data:murmansk - Install GeoInformational data (incl. maps) for Murmansk
+app-misc/2gis-data:n_novgorod - Install GeoInformational data (incl. maps) for N_Novgorod
+app-misc/2gis-data:nabchelny - Install GeoInformational data (incl. maps) for Nabchelny
+app-misc/2gis-data:nahodka - Install GeoInformational data (incl. maps) for Nahodka
+app-misc/2gis-data:nicosia - Install GeoInformational data (incl. maps) for Nicosia
+app-misc/2gis-data:nizhnevartovsk - Install GeoInformational data (incl. maps) for Nizhnevartovsk
+app-misc/2gis-data:norilsk - Install GeoInformational data (incl. maps) for Norilsk
+app-misc/2gis-data:novokuznetsk - Install GeoInformational data (incl. maps) for Novokuznetsk
+app-misc/2gis-data:novorossiysk - Install GeoInformational data (incl. maps) for Novorossiysk
+app-misc/2gis-data:novosibirsk - Install GeoInformational data (incl. maps) for Novosibirsk
+app-misc/2gis-data:noyabrsk - Install GeoInformational data (incl. maps) for Noyabrsk
+app-misc/2gis-data:ntagil - Install GeoInformational data (incl. maps) for Ntagil
+app-misc/2gis-data:odessa - Install GeoInformational data (incl. maps) for Odessa
+app-misc/2gis-data:omsk - Install GeoInformational data (incl. maps) for Omsk
+app-misc/2gis-data:orel - Install GeoInformational data (incl. maps) for Orel
+app-misc/2gis-data:orenburg - Install GeoInformational data (incl. maps) for Orenburg
+app-misc/2gis-data:p_kamchatskiy - Install GeoInformational data (incl. maps) for P_kamchatskiy
+app-misc/2gis-data:padova - Install GeoInformational data (incl. maps) for Padova
+app-misc/2gis-data:pavlodar - Install GeoInformational data (incl. maps) for Pavlodar
+app-misc/2gis-data:penza - Install GeoInformational data (incl. maps) for Penza
+app-misc/2gis-data:perm - Install GeoInformational data (incl. maps) for Perm
+app-misc/2gis-data:petrozavodsk - Install GeoInformational data (incl. maps) for Petrozavodsk
+app-misc/2gis-data:praha - Install GeoInformational data (incl. maps) for Praha
+app-misc/2gis-data:pskov - Install GeoInformational data (incl. maps) for Pskov
+app-misc/2gis-data:rostov - Install GeoInformational data (incl. maps) for Rostov
+app-misc/2gis-data:ryazan - Install GeoInformational data (incl. maps) for Ryazan
+app-misc/2gis-data:samara - Install GeoInformational data (incl. maps) for Samara
+app-misc/2gis-data:santiago - Install GeoInformational data (incl. maps) for Santiago
+app-misc/2gis-data:saransk - Install GeoInformational data (incl. maps) for Saransk
+app-misc/2gis-data:saratov - Install GeoInformational data (incl. maps) for Saratov
+app-misc/2gis-data:smolensk - Install GeoInformational data (incl. maps) for Smolensk
+app-misc/2gis-data:sochi - Install GeoInformational data (incl. maps) for Sochi
+app-misc/2gis-data:spb - Install GeoInformational data (incl. maps) for Spb
+app-misc/2gis-data:staroskol - Install GeoInformational data (incl. maps) for Staroskol
+app-misc/2gis-data:stavropol - Install GeoInformational data (incl. maps) for Stavropol
+app-misc/2gis-data:sterlitamak - Install GeoInformational data (incl. maps) for Sterlitamak
+app-misc/2gis-data:surgut - Install GeoInformational data (incl. maps) for Surgut
+app-misc/2gis-data:syktyvkar - Install GeoInformational data (incl. maps) for Syktyvkar
+app-misc/2gis-data:tambov - Install GeoInformational data (incl. maps) for Tambov
+app-misc/2gis-data:tobolsk - Install GeoInformational data (incl. maps) for Tobolsk
+app-misc/2gis-data:togliatti - Install GeoInformational data (incl. maps) for Togliatti
+app-misc/2gis-data:tomsk - Install GeoInformational data (incl. maps) for Tomsk
+app-misc/2gis-data:tula - Install GeoInformational data (incl. maps) for Tula
+app-misc/2gis-data:tver - Install GeoInformational data (incl. maps) for Tver
+app-misc/2gis-data:tyumen - Install GeoInformational data (incl. maps) for Tyumen
+app-misc/2gis-data:ufa - Install GeoInformational data (incl. maps) for Ufa
+app-misc/2gis-data:ulanude - Install GeoInformational data (incl. maps) for Ulanude
+app-misc/2gis-data:ulyanovsk - Install GeoInformational data (incl. maps) for Ulyanovsk
+app-misc/2gis-data:ussuriysk - Install GeoInformational data (incl. maps) for Ussuriysk
+app-misc/2gis-data:ustkam - Install GeoInformational data (incl. maps) for Ustkam
+app-misc/2gis-data:v_novgorod - Install GeoInformational data (incl. maps) for V_Novgorod
+app-misc/2gis-data:vladimir - Install GeoInformational data (incl. maps) for Vladimir
+app-misc/2gis-data:vladivostok - Install GeoInformational data (incl. maps) for Vladivostok
+app-misc/2gis-data:volgograd - Install GeoInformational data (incl. maps) for Volgograd
+app-misc/2gis-data:vologda - Install GeoInformational data (incl. maps) for Vologda
+app-misc/2gis-data:voronezh - Install GeoInformational data (incl. maps) for Voronezh
+app-misc/2gis-data:yakutsk - Install GeoInformational data (incl. maps) for Yakutsk
+app-misc/2gis-data:yaroslavl - Install GeoInformational data (incl. maps) for Yaroslavl
+app-misc/2gis-data:yoshkarola - Install GeoInformational data (incl. maps) for Yoshkarola
+app-misc/2gis-data:yuzhnosakhalinsk - Install GeoInformational data (incl. maps) for Yuzhnosakhalinsk
+app-misc/2gis-plugins:area - 
+app-misc/2gis-plugins:goto - 
+app-misc/2gis-plugins:mapnotes - 
+app-misc/jq:oniguruma - Use dev-libs/oniguruma for regular expression support
+app-portage/eix:debug - Build with upstream's CXXFLAGS/LDFLAGS for debugging support; not recommended for normal use.
+app-portage/eix:dep - Make DEP=true the default which enables support for {,R,P,B}DEPEND but requires roughly double disk and memory.
+app-portage/eix:doc - Create description of the eix cache file additionally in html format
+app-portage/eix:jumbo-build - Compile faster and produce better binary. Recommended unless compiling on a quite memory-restricted system.
+app-portage/eix:meson - Build with meson instead of autotools. Faster but less compatible
+app-portage/eix:optimization - Accept upstream's choices for CXXFLAGS/LDFLAGS for optimization. Absense of this USE flag does not strip user's *FLAGS
+app-portage/eix:required-use - Make REQUIRED_USE=true the default which enables support for REQUIRED_USE but requires more disk and memory.
+app-portage/eix:security - This adds some checks which can prevent certain exploits if e.g. the eix code has a bug. If you use the hardened toolchain, using this flag does not increase security and can even lead to problems.
+app-portage/eix:sqlite - Compile in support for portage's sqlite backend; to actually use it you need additional configuration of portage and eix
+app-portage/eix:src-uri - Make SRC_URI=true the default which enables support for SRC_URI but requires roughly double disk and memory.
+app-portage/eix:strong-optimization - Adds several more agressive CXXFLAGS/LDFLAGS for optimization like graphite (if available). May cause trouble with some buggy compiler versions. Absense of this USE flag does not strip user's *FLAGS
+app-portage/eix:strong-security - Add many checks to prevent exploits if eix code has a bug. This will slow down eix considerably. Use only if you are paranoid or have reasons to suspect a bug.
+app-portage/eix:swap-remote - Swap role of remote addresses in eix-remote, making the data from gpo.zugaina.org the first choice.
+app-portage/eix:tools - Create separate binary for script helper tools; useful if they are called extremely often
+app-shells/fzf:tmux - Install TMUX extra tools
+app-text/unicode:unihan - Support for Unihan
+dev-db/mycli:ssh - Add support for connection over SSH tunnel
+dev-db/pgcli:keyring - Add support for keyrings feature
+dev-db/proxysql:clickhouse - 
+dev-db/tora:experimental - Add experimental features
+dev-lang/lua:deprecated - make deprecated data structures/routines available
+dev-lang/luajit:lua52compat - Enable some Lua:5.2+ features
+dev-lang/luajit:openresty - Build OpenResty's fork
+dev-lang/luajit:optimization - Use "Amalgamation" compilation mode
+dev-lang/luajit:valgrind - Enable support for debugging under Valgrind
+dev-libs/libcgroup:daemon - Install the configuration tools and init/config files.
+dev-libs/libcgroup:tools - Install the cgroup rules processing daemon and init/config files.
+dev-libs/libgpg-error:common-lisp - Install common-lisp files
+dev-libs/libsodium:asm - Enables assembly implementations
+dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
+dev-libs/msgpack:boost - 
+dev-libs/msgpack:cxx - 
+dev-libs/msgpack:cxx11 - 
+dev-libs/msgpack:test - 
+dev-lua/iluajit:completion - 
+dev-lua/lapis:moonscript - 
+dev-lua/ltn12ce:system-bzip - 
+dev-lua/ltn12ce:system-lzma - 
+dev-lua/ltn12ce:system-zlib - 
+dev-lua/lua-ext:gcmem - 
+dev-lua/lua-lsp:format - Support for formatting
+dev-lua/lua-lsp:lint - Support for linting
+dev-lua/luacrypto:gcrypt - 
+dev-lua/luacrypto:openssl - 
+dev-lua/luarocks:openssl - 
+dev-lua/lulpeg:lpeg_replace - 
+dev-lua/mpack:luajit - Use dev-lang/luajit instead of dev-lang/lua
+dev-lua/resty-string:naive-random - 
+dev-lua/tekui:cache - 
+dev-lua/tekui:fileno - 
+dev-lua/tekui:gradient - 
+dev-lua/tekui:udp - 
+dev-lua/wsapi:fcgi - 
+dev-lua/wsapi:uwsgi - 
+dev-python/jira:filemagic - Include filemagic support (for identifying uploaded filetypes)
+dev-python/jira:ipython - Include Interactive Python (IPython)
+dev-python/jira:oauth - Support OAuth authentication
+dev-util/scanmem:gui - Enable the GameConqueror GUI
+dev-vcs/git-annex:asciiprogress - Use ascii-progress library (experimental)
+dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
+dev-vcs/git-annex:database - Enable building with dev-haskell/persistentfor database use
+dev-vcs/git-annex:desktopnotify - Enable desktop environment notifications
+dev-vcs/git-annex:dns - Enable the haskell DNS library for DNS lookup
+dev-vcs/git-annex:ekg - Enable use of EKG to monitor git-annex as it runs.
+dev-vcs/git-annex:feed - Enable podcast feed support
+dev-vcs/git-annex:network-uri - Get Network.URI from the network-uri package.
+dev-vcs/git-annex:pairing - Enable pairing of git annex repositories
+dev-vcs/git-annex:quvi - Enable use of quvi to download videos
+dev-vcs/git-annex:s3 - Enable Amazon S3 remote
+dev-vcs/git-annex:tahoe - Enable the tahoe special remote
+dev-vcs/git-annex:tdfa - Use regex-tdfa for wildcards
+dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
+dev-vcs/git-annex:webapp - Enable git-annex webapp
+dev-vcs/git-annex:webapp-secure - Secure webapp
+dev-vcs/git-annex:webdav - Enable webdav remote
 media-fonts/devicon:icons - Install "icons" version of the font (svgs)
 media-fonts/devicon:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/firacode:webfonts - Install so called "web" fonts (woff{,2}, eot)
+media-fonts/font-linux:webfonts - Build web versions (woff) of the font (and it's variants)
 media-fonts/fontawesome-extension:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/iosevka:ss - Install additional prebuilt stilyzed families: ss01 = like Andale Mono ss02 = like Anonymous Pro ss03 = like Consolas ss04 = like Menlo ss05 = like Fira Mono ss06 = like Liberation Mono ss07 = like Monaco ss08 = like Pragmata Pro ss09 = like Source Code Pro ss10 = like Envy Code R ss11 = like X Windows Fixed See: https://git.io/iosevka-stylesets Currently, only suported by "non-live" ebuilds
 media-fonts/iosevka:web - Build (9999) or install (non-live) web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/ttfautohint:gui - Build GUI Frontend
+media-libs/libtgvoip:alsa - Enable ALSA support
+media-libs/libtgvoip:disable-reassembler - Apply reassembler disabling patch from tdesktop fork
+media-libs/libtgvoip:libcxx - Build with sys-devel/clang against sys-libs/libcxx
+media-libs/libtgvoip:pulseaudio - Enable PulseAudio support
+media-libs/libtgvoip:static-libs - Build static library
+media-libs/rlottie:cache - Enable cache support
+media-libs/rlottie:dumptree - Enable logging the rlottie tree
+media-libs/rlottie:libcxx - Build with sys-devel/clang and link against sys-libs/libcxx
+media-libs/rlottie:log - Enable logging
+media-libs/rlottie:module - Build Image module
+media-libs/rlottie:telegram-patches - Apply John Preston patches (you don't need that)
+media-libs/rlottie:threads - Support threading
+media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
+media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
+media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide(currently conflicts with jpeg-turbo)
+media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
+media-sound/mumble:speech - Enable text-to-speech support in Mumble.
+net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrackwhen enables the connlabel matcher
+net-firewall/iptables:ipq - Support for IPQ
+net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
+net-firewall/iptables:nftables - Support nftables kernel interface
+net-firewall/iptables:pcap - Build against net-libs/libpcapwhich enables the nfbpf_compile util
+net-firewall/nftables:json - 
+net-firewall/nftables:xtables - 
+net-im/libcommuni:qml - 
+net-im/libcommuni:uchardet - 
+net-im/prosody:libevent - 
+net-im/prosody:luajit - 
+net-im/prosody:migration - 
+net-im/prosody:no-example-certs - 
+net-im/prosody:random-getrandom - 
+net-im/prosody:random-openssl - 
+net-im/prosody-modules:misc - 
+net-im/prosody-modules:prosody_modules_addressing - This module is a partial implementation of XEP-0033: Extended Stanza Addressing. (info: https://modules.prosody.im/mod_addressing)
+net-im/prosody-modules:prosody_modules_adhoc_account_management - This module adds an ad-hoc command that lets an user change their password. This is useful for clients that don’t have support for XEP-0077 style password changing. In the future, it may provide other account management commands. (info: https://modules.prosody.im/mod_adhoc_account_management)
+net-im/prosody-modules:prosody_modules_adhoc_blacklist - This module provides the Edit Blacklist ad-hoc command described in XEP-0133 and also performs the actual blocking of incoming and outgoing server-to-server connections. (info: https://modules.prosody.im/mod_adhoc_blacklist)
+net-im/prosody-modules:prosody_modules_adhoc_dataforms_demo - This module provides Ad-Hoc commands for testing data form that includes all kinds of fields. It’s meant to help debug both Prosodys util.dataforms library and clients, eg seeing how various field types are rendered. (info: https://modules.prosody.im/mod_adhoc_dataforms_demo)
+net-im/prosody-modules:prosody_modules_adhoc_groups - This module lets you join groups using an ad-hoc command. When a user joins a group, everyone in the group is added to their roster, and they are added to the rosters of existing members. (info: https://modules.prosody.im/mod_adhoc_groups)
+net-im/prosody-modules:prosody_modules_admin_blocklist - This module uses the blocklists set by admins for blocking s2s connections. (info: https://modules.prosody.im/mod_admin_blocklist)
+net-im/prosody-modules:prosody_modules_admin_message - This module provides a console over XMPP. All the commands of the mod_admin_telnet module are available from an XMPP client. (info: https://modules.prosody.im/mod_admin_message)
+net-im/prosody-modules:prosody_modules_admin_probe - This module lets server administrators send <presence type="probe"/> to any local user and receive their presence in response, bypassing roster checks. (info: https://modules.prosody.im/mod_admin_probe)
+net-im/prosody-modules:prosody_modules_admin_web - This module provides a basic web administration interface. It currently gives you access to Ad-Hoc commands on any virtual host or component that you are set as an administrator for in the Prosody config file. It also provides a live list of all S2S and C2S connections. (info: https://modules.prosody.im/mod_admin_web)
+net-im/prosody-modules:prosody_modules_alias - This module allows you to set up aliases that alert people who try to contact them or add them to their roster what your actual JID is. This is useful for changing JIDs, or just in the case where you own both example.com and example.net, and want people who contact you@example.com to be alerted to contact you at you@example.net instead. (info: https://modules.prosody.im/mod_alias)
+net-im/prosody-modules:prosody_modules_atom - This module exposes users microblogging on Prosodys built-in HTTP server. (info: https://modules.prosody.im/mod_atom)
+net-im/prosody-modules:prosody_modules_auth_any - This module accepts any username and password, which can be useful for testing. (info: https://modules.prosody.im/mod_auth_any)
+net-im/prosody-modules:prosody_modules_auth_ccert - This module implements PKI-style client certificate authentication. You will therefore need your own Certificate Authority. How to set that up is beyond the current scope of this document. (info: https://modules.prosody.im/mod_auth_ccert)
+net-im/prosody-modules:prosody_modules_auth_custom_http - To authenticate users, this module does a POST request to a configured URL with a JSON payload. It is not async so requests block the server until answered. (info: https://modules.prosody.im/mod_auth_custom_http)
+net-im/prosody-modules:prosody_modules_auth_dovecot - This is a Prosody authentication plugin which uses Dovecot as the backend. (info: https://modules.prosody.im/mod_auth_dovecot)
+net-im/prosody-modules:prosody_modules_auth_external - Allow client authentication to be handled by an external script/process. (info: https://modules.prosody.im/mod_auth_external)
+net-im/prosody-modules:prosody_modules_auth_ha1 - This module authenticates users against hashed credentials stored in a plain text file. The format is the same as that used by reTurnServer. (info: https://modules.prosody.im/mod_auth_ha1)
+net-im/prosody-modules:prosody_modules_auth_http_async - This is an experimental authentication module that does an asynchronous HTTP call to verify username and password. (info: https://modules.prosody.im/mod_auth_http_async)
+net-im/prosody-modules:prosody_modules_auth_http_cookie - This is an experimental authentication module that does an asynchronous HTTP call to verify username and password. (info: https://modules.prosody.im/mod_auth_http_cookie)
+net-im/prosody-modules:prosody_modules_auth_imap - This is a Prosody authentication plugin which uses a generic IMAP server as the backend. (info: https://modules.prosody.im/mod_auth_imap)
+net-im/prosody-modules:prosody_modules_auth_internal_yubikey - A YubiKey is a small USB one-time-password (OTP) generator. (info: https://modules.prosody.im/mod_auth_internal_yubikey)
+net-im/prosody-modules:prosody_modules_auth_joomla - This module allows you to authenticate against an Joomla database. (info: https://modules.prosody.im/mod_auth_joomla)
+net-im/prosody-modules:prosody_modules_auth_ldap - This is a Prosody authentication plugin which uses LDAP as the backend. (info: https://modules.prosody.im/mod_auth_ldap)
+net-im/prosody-modules:prosody_modules_auth_ldap2 - See mod_lib_ldap for more information. (info: https://modules.prosody.im/mod_auth_ldap2)
+net-im/prosody-modules:prosody_modules_auth_oauthbearer - This is an authentication module for the SASL OAUTHBEARER mechanism, as provided by mod_sasl_oauthbearer. (info: https://modules.prosody.im/mod_auth_oauthbearer)
+net-im/prosody-modules:prosody_modules_auth_pam - This module makes Prosody authenticate users against PAM (Linux Pluggable Authentication Modules) (info: https://modules.prosody.im/mod_auth_pam)
+net-im/prosody-modules:prosody_modules_auth_phpbb3 - This module allows you to authenticate against an PHPBB3 database. (info: https://modules.prosody.im/mod_auth_phpbb3)
+net-im/prosody-modules:prosody_modules_auth_sql - Allow client authentication to be handled by an SQL database query. (info: https://modules.prosody.im/mod_auth_sql)
+net-im/prosody-modules:prosody_modules_auth_token - This module enables Prosody to authenticate time-based one-time-pin (TOTP) HMAC tokens. (info: https://modules.prosody.im/mod_auth_token)
+net-im/prosody-modules:prosody_modules_auth_wordpress - This module allows you to authenticate against an Wordpress database. (info: https://modules.prosody.im/mod_auth_wordpress)
+net-im/prosody-modules:prosody_modules_auto_accept_subscriptions - In some environments where all users on the system have mutual trust in each other, it’s sometimes fine to skip the usual authorization process to add someone to your contact list and see their status. (info: https://modules.prosody.im/mod_auto_accept_subscriptions)
+net-im/prosody-modules:prosody_modules_auto_activate_hosts - By default Prosody does not automatically activate/deactivate hosts when they are added to and removed from the configuration. (info: https://modules.prosody.im/mod_auto_activate_hosts)
+net-im/prosody-modules:prosody_modules_auto_answer_disco_info - This module intercepts disco#info queries and checks if we already know the capabilities of this session, in which case we don’t transmit the iq and answer it ourselves. (info: https://modules.prosody.im/mod_auto_answer_disco_info)
+net-im/prosody-modules:prosody_modules_benchmark_storage - To benchmark mod_storage_internal: (info: https://modules.prosody.im/mod_benchmark_storage)
+net-im/prosody-modules:prosody_modules_bidi - This module implements XEP-0288: Bidirectional Server-to-Server Connections. It allows servers to use a single connection for sending stanzas to each other, instead of two connections (one for stanzas in each direction). (info: https://modules.prosody.im/mod_bidi)
+net-im/prosody-modules:prosody_modules_block_outgoing - This module blocks all outgoing stanzas from a list of users. (info: https://modules.prosody.im/mod_block_outgoing)
+net-im/prosody-modules:prosody_modules_block_registrations - On a server with public registration it is usually desirable to prevent registration of certain “reserved” accounts, such as “admin”. (info: https://modules.prosody.im/mod_block_registrations)
+net-im/prosody-modules:prosody_modules_block_s2s_subscriptions - No documentation yet :( (info: https://modules.prosody.im/mod_block_s2s_subscriptions)
+net-im/prosody-modules:prosody_modules_block_strangers - No documentation yet :( (info: https://modules.prosody.im/mod_block_strangers)
+net-im/prosody-modules:prosody_modules_block_subscribes - No documentation yet :( (info: https://modules.prosody.im/mod_block_subscribes)
+net-im/prosody-modules:prosody_modules_block_subscriptions - No documentation yet :( (info: https://modules.prosody.im/mod_block_subscriptions)
+net-im/prosody-modules:prosody_modules_blocking - Privacy lists are a widely implemented protocol for instructing your server on blocking communications with selected users and services. (info: https://modules.prosody.im/mod_blocking)
+net-im/prosody-modules:prosody_modules_bob - This module extracts cid: URIs (as defined in XEP-0231) from messages, and replies with their content whenever another client asks for the actual data. (info: https://modules.prosody.im/mod_bob)
+net-im/prosody-modules:prosody_modules_bookmarks - This module fetches users’ bookmarks from Private XML and pushes them to PEP on login, and then redirects any Private XML query to PEP. This allows interop between older clients that use XEP-0048: Bookmarks in its 1.0 version and recent clients which use it in PEP. (info: https://modules.prosody.im/mod_bookmarks)
+net-im/prosody-modules:prosody_modules_broadcast - This module largely duplicates the functionality of the standard mod_announce that is included with Prosody. It was developed for compatibility with some clients (e.g. iChat) that do not support ad-hoc commands or sending to JIDs with the format ‘example.com/announce/online’. (info: https://modules.prosody.im/mod_broadcast)
+net-im/prosody-modules:prosody_modules_c2s_conn_throttle - This module allows to throttle those client connections which exceed a n*seconds limit. (info: https://modules.prosody.im/mod_c2s_conn_throttle)
+net-im/prosody-modules:prosody_modules_c2s_limit_sessions - This module lets you limit number of resources a user may connect. (info: https://modules.prosody.im/mod_c2s_limit_sessions)
+net-im/prosody-modules:prosody_modules_cache_c2s_caps - This module listens on presences containing caps (XEP-0115) and asks the client for the corresponding disco#info if it changed. (info: https://modules.prosody.im/mod_cache_c2s_caps)
+net-im/prosody-modules:prosody_modules_captcha_registration - Prosody-captcha is a little modification of prosody’s “mod_register.lua” module that provides captcha protection for registration form. (info: https://modules.prosody.im/mod_captcha_registration)
+net-im/prosody-modules:prosody_modules_carbons - This module implements XEP-0280: Message Carbons, allowing users to maintain a shared and synchronized view of all conversations across all their online clients and devices. (info: https://modules.prosody.im/mod_carbons)
+net-im/prosody-modules:prosody_modules_carbons_adhoc - No documentation yet :( (info: https://modules.prosody.im/mod_carbons_adhoc)
+net-im/prosody-modules:prosody_modules_carbons_copies - No documentation yet :( (info: https://modules.prosody.im/mod_carbons_copies)
+net-im/prosody-modules:prosody_modules_checkcerts - This module periodically checks your certificate to see if it is about to expire soon. The time before expiry is printed in the logs. About a week before a certificate expires, reminder messages will be sent to admins. (info: https://modules.prosody.im/mod_checkcerts)
+net-im/prosody-modules:prosody_modules_client_certs - XEP-0257 specifies a protocol for clients to store and manage client side certificates. When a client presents a stored client side certificate during the TLS handshake, it can log in without supplying a password (using SASL EXTERNAL). This makes it possible to have multiple devices accessing an account, without any of them needing to know the password, and makes it easier to revoke access for a single device. (info: https://modules.prosody.im/mod_client_certs)
+net-im/prosody-modules:prosody_modules_client_proxy - This module must be used as a component. For example: (info: https://modules.prosody.im/mod_client_proxy)
+net-im/prosody-modules:prosody_modules_cloud_notify - This is an implementation of the server bits of XEP-0357: Push Notifications. It allows clients to register an “app server” which is notified about new messages while the user is offline, disconnected or the session is hibernated by mod_smacks. Implementation of the “app server” is not included1. (info: https://modules.prosody.im/mod_cloud_notify)
+net-im/prosody-modules:prosody_modules_compact_resource - No documentation yet :( (info: https://modules.prosody.im/mod_compact_resource)
+net-im/prosody-modules:prosody_modules_compat_bind - No documentation yet :( (info: https://modules.prosody.im/mod_compat_bind)
+net-im/prosody-modules:prosody_modules_compat_dialback - This module provides a workaround for servers that do not set the to attribute on stream headers, which is required per RFC6120: (info: https://modules.prosody.im/mod_compat_dialback)
+net-im/prosody-modules:prosody_modules_compat_muc_admin - Adds compatibility for old clients/libraries attempting to change affiliations and retrieve ’em sending the < http://jabber.org/protocol/muc#owner > xmlns instead of < http://jabber.org/protocol/muc#admin >. (info: https://modules.prosody.im/mod_compat_muc_admin)
+net-im/prosody-modules:prosody_modules_compat_vcard - No documentation yet :( (info: https://modules.prosody.im/mod_compat_vcard)
+net-im/prosody-modules:prosody_modules_component_client - This module turns Prosody hosts into components of other XMPP servers. (info: https://modules.prosody.im/mod_component_client)
+net-im/prosody-modules:prosody_modules_component_http - This module allows you to implement a component that speaks HTTP. Stanzas (such as messages) coming from XMPP are sent to a configurable URL as a HTTP POST. If the POST returns a response, that response is returned to the sender over XMPP. (info: https://modules.prosody.im/mod_component_http)
+net-im/prosody-modules:prosody_modules_component_roundrobin - This module enables multiple instances of external components to connect at the same time, and does round-robin load-balancing of incoming stanzas. (info: https://modules.prosody.im/mod_component_roundrobin)
+net-im/prosody-modules:prosody_modules_compression_unsafe - NOTE: XMPP compression has unresolved security concerns, and this module has been removed from Prosody and renamed. (info: https://modules.prosody.im/mod_compression_unsafe)
+net-im/prosody-modules:prosody_modules_conformance_restricted - This module sends processing instructions, comments, DTDs and a non predefined entity (defined by the DTD) to the requesting entity. (info: https://modules.prosody.im/mod_conformance_restricted)
+net-im/prosody-modules:prosody_modules_conversejs - This module serves a small snippet of HTML that loads Converse.js, configured to work with the VirtualHost that it is loaded onto. (info: https://modules.prosody.im/mod_conversejs)
+net-im/prosody-modules:prosody_modules_couchdb - Note: This module needs updating to the 0.8 storage module API. (info: https://modules.prosody.im/mod_couchdb)
+net-im/prosody-modules:prosody_modules_csi - This module implements XEP-0352: Client State Indication, a way for mobile clients to tell the server that they are sitting in someones pocket and would rather not get some less urgent things pushed to it. (info: https://modules.prosody.im/mod_csi)
+net-im/prosody-modules:prosody_modules_csi_battery_saver - Please use this module instead of mod_csi_pump if you want timestamping, properly handled carbon copies, support for handling encrypted messages and correctly handled smacks events. (info: https://modules.prosody.im/mod_csi_battery_saver)
+net-im/prosody-modules:prosody_modules_csi_compat - This module implements the google:queue protocol and maps it to mod_csi events. (info: https://modules.prosody.im/mod_csi_compat)
+net-im/prosody-modules:prosody_modules_csi_grace_period - This module helps reduces power usage of inactive mobile clients while another client is actively used. E.g. in the case of chatting on a desktop computer, instantly pushing messages to a phone in someones pocket is not the best use of radio time. (info: https://modules.prosody.im/mod_csi_grace_period)
+net-im/prosody-modules:prosody_modules_csi_muc_priorities - This module lets users specify which of the group chats they are in are less important. This influences when mod_csi_simple decides to send stanzas vs waiting until there is more to send. Users in many large public channels might benefit from this. (info: https://modules.prosody.im/mod_csi_muc_priorities)
+net-im/prosody-modules:prosody_modules_data_access - This module gives HTTP access to prosody’s storage mechanism. It uses normal HTTP verbs and Basic HTTP authentication, so you could call it RESTful if you like buzzwords. (info: https://modules.prosody.im/mod_data_access)
+net-im/prosody-modules:prosody_modules_default_bookmarks - This module allows you to add default bookmarks for users. It only kicks in when the user has no existing bookmarks, so users are free to add, change or remove them. (info: https://modules.prosody.im/mod_default_bookmarks)
+net-im/prosody-modules:prosody_modules_default_vcard - It is possible for the user to supply more than just a username and password when creating an account using mod_register. This module automatically copies over that data to the user’s vcard. (info: https://modules.prosody.im/mod_default_vcard)
+net-im/prosody-modules:prosody_modules_delegation - Namespace Delegation is an extension which allows server to delegate some features handling to an entity/component. Typical use case is an external PEP service, but it can be used more generally when your preferred server lack one internal feature and you found an external component which can do it. (info: https://modules.prosody.im/mod_delegation)
+net-im/prosody-modules:prosody_modules_deny_omemo - No documentation yet :( (info: https://modules.prosody.im/mod_deny_omemo)
+net-im/prosody-modules:prosody_modules_devices - This is an experimental module that aims to identify the different devices (technically clients) that a user uses with their account. (info: https://modules.prosody.im/mod_devices)
+net-im/prosody-modules:prosody_modules_disable_tls - This module can be used to prevent Prosody from offering TLS on client ports that you specify. This can be useful to work around buggy clients when transport security is not required. (info: https://modules.prosody.im/mod_disable_tls)
+net-im/prosody-modules:prosody_modules_discoitems - This Prosody plugin lets you manually override the service discovery items for a host. (info: https://modules.prosody.im/mod_discoitems)
+net-im/prosody-modules:prosody_modules_dwd - This module implements an optimization of the Dialback protocol, by skipping the dialback step for servers presenting a valid certificate. (info: https://modules.prosody.im/mod_dwd)
+net-im/prosody-modules:prosody_modules_e2e_policy - This module was written to encourage usage of End-to-end encryption for chat and MUC messages. It can be configured to warn the sender after every plaintext/unencrypted message or to block all plaintext/unencrypted messages. It also supports MUC and JID whitelisting, so administrators can for example whitelist public support MUCs ;-) (info: https://modules.prosody.im/mod_e2e_policy)
+net-im/prosody-modules:prosody_modules_email_pass - This module aims to help in the procedure of user password restoration. To start the restoration, the user must go to an URL provided by this module, fill the JID and email and submit the request. (info: https://modules.prosody.im/mod_email_pass)
+net-im/prosody-modules:prosody_modules_extdisco - This module adds support for XEP-0215: External Service Discovery, which lets Prosody advertise non-XMPP services. (info: https://modules.prosody.im/mod_extdisco)
+net-im/prosody-modules:prosody_modules_fallback_vcard - No documentation yet :( (info: https://modules.prosody.im/mod_fallback_vcard)
+net-im/prosody-modules:prosody_modules_filter_chatstates - Some mobile XMPP client developers consider Chat State Notifications to be a waste of power and bandwidth, especially when the user is not actively looking at their device. This module will filter them out while the session is considered inactive. It depends on mod_csi for deciding when to begin and end filtering. (info: https://modules.prosody.im/mod_filter_chatstates)
+net-im/prosody-modules:prosody_modules_filter_words - No documentation yet :( (info: https://modules.prosody.im/mod_filter_words)
+net-im/prosody-modules:prosody_modules_firewall - Note: mod_firewall is in its very early stages. This documentation is liable to change, and some described functionality may be missing, incomplete or contain bugs. (info: https://modules.prosody.im/mod_firewall)
+net-im/prosody-modules:prosody_modules_flash_policy - This Prosody plugin adds support for flash socket policies. When connecting with a flash client (from a webpage, not an exe) to prosody the flash client requests for an xml “file” on port 584 or the connecting port (5222 in the case of default xmpp). Responding on port 584 is tricky because it requires root priviliges to set up a socket on a port < 1024. (info: https://modules.prosody.im/mod_flash_policy)
+net-im/prosody-modules:prosody_modules_graceful_shutdown - This module is an experiment about a more graceful shutdown process. (info: https://modules.prosody.im/mod_graceful_shutdown)
+net-im/prosody-modules:prosody_modules_group_bookmarks - mod_groups allows you to insert contacts into users’ contact lists. Well mod_group_bookmarks allows you to insert chatrooms into the user’s bookmarks. These are fetched by their client and automatically joined when the log in. (info: https://modules.prosody.im/mod_group_bookmarks)
+net-im/prosody-modules:prosody_modules_host_blacklist - No documentation yet :( (info: https://modules.prosody.im/mod_host_blacklist)
+net-im/prosody-modules:prosody_modules_host_guard - As often it’s undesiderable to employ only whitelisting logics in public environments, this module let’s you more selectively restrict access to your hosts (component or server host) either disallowing access completely (with optional exceptions) or blacklisting certain sources. (info: https://modules.prosody.im/mod_host_guard)
+net-im/prosody-modules:prosody_modules_host_status_check - This module allows you to monitor the state of hosts and components in your Prosody server. For example, it will track whether components are connected and (if the component supports it) listen for heartbeats sent by the component to indicate that it is functioning. (info: https://modules.prosody.im/mod_host_status_check)
+net-im/prosody-modules:prosody_modules_host_status_heartbeat - This module integrates with mod_host_status_check to provide heartbeats at regular intervals. (info: https://modules.prosody.im/mod_host_status_heartbeat)
+net-im/prosody-modules:prosody_modules_http_altconnect - No documentation yet :( (info: https://modules.prosody.im/mod_http_altconnect)
+net-im/prosody-modules:prosody_modules_http_auth_check - This module lets you test whether a set of credentials are valid, using Prosody’s configured authentication mechanism. (info: https://modules.prosody.im/mod_http_auth_check)
+net-im/prosody-modules:prosody_modules_http_authentication - This module enforces HTTP Basic authentication across all HTTP endpoints served by Prosody. (info: https://modules.prosody.im/mod_http_authentication)
+net-im/prosody-modules:prosody_modules_http_avatar - This module serves avatars from local users who have one set in their vCard, see XEP-0054 and XEP-0153. (info: https://modules.prosody.im/mod_http_avatar)
+net-im/prosody-modules:prosody_modules_http_dir_listing - This module generates directory listings when invoked by mod_http_files. See documentation on mod_http_files. (info: https://modules.prosody.im/mod_http_dir_listing)
+net-im/prosody-modules:prosody_modules_http_dir_listing2 - This module generates directory listings when invoked by mod_http_files. See documentation on mod_http_files. (info: https://modules.prosody.im/mod_http_dir_listing2)
+net-im/prosody-modules:prosody_modules_http_favicon - This simple module serves a favicon.ico from prosodys HTTP server and nothing else. (info: https://modules.prosody.im/mod_http_favicon)
+net-im/prosody-modules:prosody_modules_http_host_status_check - This module exposes serves over HTTP the information collected by mod_host_status_check and mod_host_status_heartbeat in a convenient format for automated monitoring tools. (info: https://modules.prosody.im/mod_http_host_status_check)
+net-im/prosody-modules:prosody_modules_http_hostaliases - No documentation yet :( (info: https://modules.prosody.im/mod_http_hostaliases)
+net-im/prosody-modules:prosody_modules_http_index - This module produces a list of enabled HTTP “apps” exposed from Prosody at http://example.org:5280/, e.g. mod_http_muc_log, mod_http_files or mod_admin_web. If you think Prosodys default “root” web page (a 404 error usually) is boring, this might be the module for you! :) (info: https://modules.prosody.im/mod_http_index)
+net-im/prosody-modules:prosody_modules_http_logging - This module produces more detailed HTTP logs for Prosodys built-in HTTP server. The format is similar to that of Apache and go into Prosodys normal logs at the info level. (info: https://modules.prosody.im/mod_http_logging)
+net-im/prosody-modules:prosody_modules_http_muc_log - This module provides a built-in web interface to view chatroom logs stored by mod_mam_muc. (info: https://modules.prosody.im/mod_http_muc_log)
+net-im/prosody-modules:prosody_modules_http_pep_avatar - This module serves avatars from local users who have published XEP-0084: User Avatar via PEP. (info: https://modules.prosody.im/mod_http_pep_avatar)
+net-im/prosody-modules:prosody_modules_http_rest - This module provides a RESTful method for sending XMPP stanzas. (info: https://modules.prosody.im/mod_http_rest)
+net-im/prosody-modules:prosody_modules_http_roster_admin - NOTE: THIS MODULE IS RELEASED UNDER THE MOZILLA PUBLIC LICENSE VERSION 2. (info: https://modules.prosody.im/mod_http_roster_admin)
+net-im/prosody-modules:prosody_modules_http_stats_stream - This module provides a streaming interface to Prosodys internal statistics via Server-sent events. (info: https://modules.prosody.im/mod_http_stats_stream)
+net-im/prosody-modules:prosody_modules_http_upload - This module implements XEP-0363, versions 0.2 and 0.3, which let clients upload files over HTTP. (info: https://modules.prosody.im/mod_http_upload)
+net-im/prosody-modules:prosody_modules_http_upload_external - This module implements XEP-0363, which lets clients upload files over HTTP to an external web server. (info: https://modules.prosody.im/mod_http_upload_external)
+net-im/prosody-modules:prosody_modules_http_user_count - No documentation yet :( (info: https://modules.prosody.im/mod_http_user_count)
+net-im/prosody-modules:prosody_modules_idlecompat - This module adds XEP-0319 idle tags to presence stanzas containing XEP-0012: Last Activity tags for idle indication (e.g. supported by libpurple clients). It works on outgoing and incoming presence stanzas. (info: https://modules.prosody.im/mod_idlecompat)
+net-im/prosody-modules:prosody_modules_ignore_host_chatstates - No documentation yet :( (info: https://modules.prosody.im/mod_ignore_host_chatstates)
+net-im/prosody-modules:prosody_modules_incidents_handling - This module implements XEP-268. (info: https://modules.prosody.im/mod_incidents_handling)
+net-im/prosody-modules:prosody_modules_inject_ecaps2 - This module injects ecaps2 elements in the presence once the legacy caps (XEP-0115) are received. (info: https://modules.prosody.im/mod_inject_ecaps2)
+net-im/prosody-modules:prosody_modules_inotify_reload - No documentation yet :( (info: https://modules.prosody.im/mod_inotify_reload)
+net-im/prosody-modules:prosody_modules_invite - This module allows users with an account to generate single-use invite URLs using an ad-hoc command. The invite URLs allow new users to create an account even if public registration is disabled. (info: https://modules.prosody.im/mod_invite)
+net-im/prosody-modules:prosody_modules_ipcheck - Sometimes for various reasons a client might want to know its IP address as it appears to the server. This simple XEP allows the client to ask the server for the IP address it is connected from. (info: https://modules.prosody.im/mod_ipcheck)
+net-im/prosody-modules:prosody_modules_isolate_host - In some environments it is desirable to isolate one or more hosts, and prevent communication with external, or even other internal domains. (info: https://modules.prosody.im/mod_isolate_host)
+net-im/prosody-modules:prosody_modules_jid_prep - This is a plugin that implements the JID prep protocol defined in http://xmpp.org/extensions/inbox/jidprep.html (info: https://modules.prosody.im/mod_jid_prep)
+net-im/prosody-modules:prosody_modules_json_streams - This plugin encodes XMPP as JSON. This is an implementation of XEP-0295: JSON Encodings for XMPP. (info: https://modules.prosody.im/mod_json_streams)
+net-im/prosody-modules:prosody_modules_lastlog - Simple module that stores the timestamp of when a user logs in. (info: https://modules.prosody.im/mod_lastlog)
+net-im/prosody-modules:prosody_modules_latex - This module intercepts messages between users and into chatrooms, and attaches a links to a rendered version of any LaTeX in the message. This requires client support for XHTML-IM, and fetching images via HTTP. (info: https://modules.prosody.im/mod_latex)
+net-im/prosody-modules:prosody_modules_lib_ldap - This module is used by other modules to access an LDAP server. It’s pretty useless on its own; you should use it if you want to write your own LDAP-related module, or if you want to use one of mine (mod_auth_ldap2, mod_storage_ldap). (info: https://modules.prosody.im/mod_lib_ldap)
+net-im/prosody-modules:prosody_modules_limit_auth - This module lets you put a per-IP limit on the number of failed authentication attempts. (info: https://modules.prosody.im/mod_limit_auth)
+net-im/prosody-modules:prosody_modules_limits - On some servers, especially public ones, it is desired to make sure that everyone gets their fair share of system resources (and no more). (info: https://modules.prosody.im/mod_limits)
+net-im/prosody-modules:prosody_modules_list_active - This module lists those users, who have used their account in a defined time-frame, basically the inverse of mod_list_inactive. (info: https://modules.prosody.im/mod_list_active)
+net-im/prosody-modules:prosody_modules_list_inactive - This module lists those users, who haven’t used their account in a defined time-frame. (info: https://modules.prosody.im/mod_list_inactive)
+net-im/prosody-modules:prosody_modules_listusers - This module adds a command to prosodyctl for listing users. (info: https://modules.prosody.im/mod_listusers)
+net-im/prosody-modules:prosody_modules_log_auth - Prosody doesn’t write IP addresses to its log file by default for privacy reasons (unless debug logging is enabled). (info: https://modules.prosody.im/mod_log_auth)
+net-im/prosody-modules:prosody_modules_log_events - No documentation yet :( (info: https://modules.prosody.im/mod_log_events)
+net-im/prosody-modules:prosody_modules_log_events_by_cpu_usage - This module logs events where more than a certain amount of CPU time was spent. (info: https://modules.prosody.im/mod_log_events_by_cpu_usage)
+net-im/prosody-modules:prosody_modules_log_events_by_memory - This module compares the memory usage reported by Lua before and after each event and reports it to the log if it exceeds the configuration setting log_memory_threshold (in bytes). (info: https://modules.prosody.im/mod_log_events_by_memory)
+net-im/prosody-modules:prosody_modules_log_http - This module logs outgoing requests that go via the internal net.http API. (info: https://modules.prosody.im/mod_log_http)
+net-im/prosody-modules:prosody_modules_log_mark - This module sends -- MARK -- to the log once per minute. This may be useful to give a sense of how busy the server is or see that logging and timers are still working. (info: https://modules.prosody.im/mod_log_mark)
+net-im/prosody-modules:prosody_modules_log_messages_sql - Consider using mod_mam together with mod_readonly instead. (info: https://modules.prosody.im/mod_log_messages_sql)
+net-im/prosody-modules:prosody_modules_log_rate - If you ever wanted to collect statistics on the number of log messages, this is the module for you! (info: https://modules.prosody.im/mod_log_rate)
+net-im/prosody-modules:prosody_modules_log_sasl_mech - No documentation yet :( (info: https://modules.prosody.im/mod_log_sasl_mech)
+net-im/prosody-modules:prosody_modules_log_slow_events - Most activities in Prosody take place within our built-in events framework, for example stanza processing and HTTP request handling, authentication, etc. (info: https://modules.prosody.im/mod_log_slow_events)
+net-im/prosody-modules:prosody_modules_mam - Implementation of XEP-0313: Message Archive Management. (info: https://modules.prosody.im/mod_mam)
+net-im/prosody-modules:prosody_modules_mam_adhoc - This module complements mod_mam by allowing clients to change archiving preferences through an Ad-hoc command. (info: https://modules.prosody.im/mod_mam_adhoc)
+net-im/prosody-modules:prosody_modules_mam_archive - Implementation of XEP-0136: Message Archiving for mod_mam. (info: https://modules.prosody.im/mod_mam_archive)
+net-im/prosody-modules:prosody_modules_mam_muc - This module logs the conversation of chatrooms running on the server to Prosody’s archive storage. To access them you will need a client with support for XEP-0313: Message Archive Management version 0.5 or a module such as mod_http_muc_log. (info: https://modules.prosody.im/mod_mam_muc)
+net-im/prosody-modules:prosody_modules_mamsub - No documentation yet :( (info: https://modules.prosody.im/mod_mamsub)
+net-im/prosody-modules:prosody_modules_manifesto - This module informs users about the XMPP Test day and whether their contacts are affected. For mor info about the test day, see https://stpeter.im/journal/1496.html (info: https://modules.prosody.im/mod_manifesto)
+net-im/prosody-modules:prosody_modules_map - This is a prototype for an experimental archive summary API recently added in Prosody trunk. (info: https://modules.prosody.im/mod_map)
+net-im/prosody-modules:prosody_modules_measure_client_features - This module measures the features supported by each connected client. (info: https://modules.prosody.im/mod_measure_client_features)
+net-im/prosody-modules:prosody_modules_measure_client_identities - This module measures the number of connected clients per identity. (info: https://modules.prosody.im/mod_measure_client_identities)
+net-im/prosody-modules:prosody_modules_measure_client_presence - This module measures the number of resources of a certain show (available, away, etc.) currently connected, and reports using Prosody 0.10 APIs (info: https://modules.prosody.im/mod_measure_client_presence)
+net-im/prosody-modules:prosody_modules_measure_cpu - This module measures CPU usage and reports using Prosody 0.10 APIs (info: https://modules.prosody.im/mod_measure_cpu)
+net-im/prosody-modules:prosody_modules_measure_malloc - This module collects stats from util.pposix.meminfo usage and reports using Prosody 0.10 APIs (info: https://modules.prosody.im/mod_measure_malloc)
+net-im/prosody-modules:prosody_modules_measure_memory - This module measures memory usage and reports using Prosody 0.10 APIs (info: https://modules.prosody.im/mod_measure_memory)
+net-im/prosody-modules:prosody_modules_measure_message_e2ee - This module measures the rate at which text messages are exchanged, and their encryption status. (info: https://modules.prosody.im/mod_measure_message_e2ee)
+net-im/prosody-modules:prosody_modules_measure_message_length - Simple module that collects statistics on message length in bytes, word count and line count. (info: https://modules.prosody.im/mod_measure_message_length)
+net-im/prosody-modules:prosody_modules_measure_stanza_counts - This module measures the number of stanzas handled and reports using Prosody 0.10 APIs (info: https://modules.prosody.im/mod_measure_stanza_counts)
+net-im/prosody-modules:prosody_modules_measure_storage - This module collects statistics from storage operations. (info: https://modules.prosody.im/mod_measure_storage)
+net-im/prosody-modules:prosody_modules_message_logging - Often service administrators need to log their users’ messages for reasons such as auditing and compliance. This module simply logs user messages to simple text files, which can be easily searched, archived or removed on a regular basis. (info: https://modules.prosody.im/mod_message_logging)
+net-im/prosody-modules:prosody_modules_migrate - This module adds a command to prosodyctl for copying data between storage drivers. (info: https://modules.prosody.im/mod_migrate)
+net-im/prosody-modules:prosody_modules_minimix - Normally when joining a MUC groupchat, it is each individual client that joins. This means their presence in the group is tied to the session, which can be short-lived or unstable, especially in the case of mobile clients. (info: https://modules.prosody.im/mod_minimix)
+net-im/prosody-modules:prosody_modules_motd_sequential - mod_motd_sequential is a variant of mod_motd that lets you specify a sequence of MOTD messages instead of a single static one. Each message is only sent once and the module keeps track of who as seen which message. (info: https://modules.prosody.im/mod_motd_sequential)
+net-im/prosody-modules:prosody_modules_muc_access_control - No documentation yet :( (info: https://modules.prosody.im/mod_muc_access_control)
+net-im/prosody-modules:prosody_modules_muc_badge - This module generates a badge for MUC rooms at a HTTP URL like https://conference.example.com:5281/muc_badge/room@conference.example.org containing the number of occupants. (info: https://modules.prosody.im/mod_muc_badge)
+net-im/prosody-modules:prosody_modules_muc_ban_ip - One frequent complaint about XMPP chatrooms (MUCs) compared to IRC is the inability for a room admin to ban a user based on their IP address. This is because an XMPP user is not identified on the network by their IP address, only their JID. (info: https://modules.prosody.im/mod_muc_ban_ip)
+net-im/prosody-modules:prosody_modules_muc_block_pm - This module prevents unaffiliated users from sending private messages in chat rooms, unless someone with an affiliation (member, admin etc) messages them first. (info: https://modules.prosody.im/mod_muc_block_pm)
+net-im/prosody-modules:prosody_modules_muc_cloud_notify - This is an experimental fork of mod_cloud_notify which allows a XEP-0357 Push Notifications App Servers to be registered against a MUC domain (normally they’re only registered against your own chat server’s domain). (info: https://modules.prosody.im/mod_muc_cloud_notify)
+net-im/prosody-modules:prosody_modules_muc_config_restrict - Sometimes, especially on public services, you may want to allow people to create their own rooms, but prevent some options from being modified by normal users. (info: https://modules.prosody.im/mod_muc_config_restrict)
+net-im/prosody-modules:prosody_modules_muc_defaults - Creates MUCs with default configuration settings upon Prosody startup. (info: https://modules.prosody.im/mod_muc_defaults)
+net-im/prosody-modules:prosody_modules_muc_eventsource - This module and its docs shamelessly forked from mod_pubsub_eventsource. (info: https://modules.prosody.im/mod_muc_eventsource)
+net-im/prosody-modules:prosody_modules_muc_gc10 - Groupchat 1.0 was probably the protocol that predated XEP-0045: Multi-User Chat and there is still some compatibility that lives on, in the XEP and in implementations. (info: https://modules.prosody.im/mod_muc_gc10)
+net-im/prosody-modules:prosody_modules_muc_intercom - This module allows sending a message to another MUC room. (info: https://modules.prosody.im/mod_muc_intercom)
+net-im/prosody-modules:prosody_modules_muc_lang - This module adds support for advertising the language used in a room. (info: https://modules.prosody.im/mod_muc_lang)
+net-im/prosody-modules:prosody_modules_muc_limits - This module allows you to control the maximum rate of ‘events’ in a MUC room. This makes it useful to prevent room floods (whether malicious or accidental). (info: https://modules.prosody.im/mod_muc_limits)
+net-im/prosody-modules:prosody_modules_muc_log - This module logs the conversation of chatrooms running on the server to Prosody’s data store. To view them you will need a module such as mod_muc_log_http. (info: https://modules.prosody.im/mod_muc_log)
+net-im/prosody-modules:prosody_modules_muc_log_http - This module provides a built-in web interface to view chatroom logs stored by mod_muc_log. (info: https://modules.prosody.im/mod_muc_log_http)
+net-im/prosody-modules:prosody_modules_muc_mam_hints - This module will check for MUC messages with XEP-0334 Message Processing Hints tags to qualify those messages as “historic” for later MAM archiving or not. (info: https://modules.prosody.im/mod_muc_mam_hints)
+net-im/prosody-modules:prosody_modules_muc_mam_markers - Chat markers (XEP-0333) specification states that markers SHOULD be archived. This is already happening in one to one conversations in the personal archives but not in Group Chats. This module hooks the muc-message-is-historic event to customize the mod_muc_mam behavior and have the chat markers archived. (info: https://modules.prosody.im/mod_muc_mam_markers)
+net-im/prosody-modules:prosody_modules_muc_notifications - This module listens to MUC messages and sends a notification to the MUC members not present in the MUC at that moment. (info: https://modules.prosody.im/mod_muc_notifications)
+net-im/prosody-modules:prosody_modules_muc_ping - This module implements the Server Optimization part of XEP-0410: MUC Self-Ping (info: https://modules.prosody.im/mod_muc_ping)
+net-im/prosody-modules:prosody_modules_muc_restrict_rooms - This module allows disabling room creation based on regexp patterns defined in configuration. (info: https://modules.prosody.im/mod_muc_restrict_rooms)
+net-im/prosody-modules:prosody_modules_munin - This module implements the Munin reporting protocol, allowing you to collect statistics directly from Prosody into Munin. (info: https://modules.prosody.im/mod_munin)
+net-im/prosody-modules:prosody_modules_net_dovecotauth - mod_net_dovecotauth is a server implementation of the Dovecot authentication protocol. It allows you to authenticate e.g. Postfix against your Prosody installation. (info: https://modules.prosody.im/mod_net_dovecotauth)
+net-im/prosody-modules:prosody_modules_net_proxy - This module implements the PROXY protocol in versions 1 and 2, which fulfills the following usecase as described within the official protocol specifications: (info: https://modules.prosody.im/mod_net_proxy)
+net-im/prosody-modules:prosody_modules_offline_email - Quite often when I am out and about, I’m not able to connect to Jabber. It is usually much more likely I can access my email though (whether via the web, or a mobile client). (info: https://modules.prosody.im/mod_offline_email)
+net-im/prosody-modules:prosody_modules_offline_hints - mod_offline does not take into account XEP-334 tags. This module will not add to the offline storage those messages tagged with <no-store />. (info: https://modules.prosody.im/mod_offline_hints)
+net-im/prosody-modules:prosody_modules_omemo_all_access - Traditionally OMEMO encrypted messages could only be exchanged after gaining mutual presence subscription due to the OMEMO key material being stored in PEP. (info: https://modules.prosody.im/mod_omemo_all_access)
+net-im/prosody-modules:prosody_modules_onhold - Enable mod_onhold to allow temporarily placing messages from particular JIDs “on hold” – i.e. store them, but do not deliver them until the hold status is taken away. (info: https://modules.prosody.im/mod_onhold)
+net-im/prosody-modules:prosody_modules_onions - This plugin allows Prosody to connect to other servers that are running as a Tor hidden service. Running Prosody on a hidden service works without this module, this module is only necessary to allow Prosody to federate to hidden XMPP servers. (info: https://modules.prosody.im/mod_onions)
+net-im/prosody-modules:prosody_modules_openid - OpenID is an decentralized authentication mechanism for the Web. mod_openid turns Prosody into an OpenID provider, allowing users to use their Prosody credentials to authenticate with various third party websites. (info: https://modules.prosody.im/mod_openid)
+net-im/prosody-modules:prosody_modules_password_policy - No documentation yet :( (info: https://modules.prosody.im/mod_password_policy)
+net-im/prosody-modules:prosody_modules_password_reset - This module allows users to reset their password via a simple link to a web page. (info: https://modules.prosody.im/mod_password_reset)
+net-im/prosody-modules:prosody_modules_pastebin - Pastebins are used very often in IM, especially in chat rooms. You have a long log or command output which you need to send to someone over IM, and don’t want to fill their message window with it. Put it on a pastebin site, and give them the URL instead, simple. (info: https://modules.prosody.im/mod_pastebin)
+net-im/prosody-modules:prosody_modules_pep_vcard_avatar - This module pushes the users nickname and avatar from vCards into PEP, or into vCards from PEP. This allows interop between older clients that use XEP-0153: vCard-Based Avatars to see the avatars of clients that use XEP-0084: User Avatar and vice versa. (info: https://modules.prosody.im/mod_pep_vcard_avatar)
+net-im/prosody-modules:prosody_modules_pep_vcard_png_avatar - Conversations (an XMPP client for Android) is publishing PEP avatars in the webp file format. However Pidgin and other XMPP desktop clients can only show vcard avatars, that are in the PNG file format. This module is the mod_pep_vcard_avatar module extended to also change the avatar file format to PNG. (info: https://modules.prosody.im/mod_pep_vcard_png_avatar)
+net-im/prosody-modules:prosody_modules_persisthosts - This module creates stub configuration files for newly activated hosts. (info: https://modules.prosody.im/mod_persisthosts)
+net-im/prosody-modules:prosody_modules_pinger - No documentation yet :( (info: https://modules.prosody.im/mod_pinger)
+net-im/prosody-modules:prosody_modules_poke_strangers - In order to build heuristics for which messages are spam, it is necessary to log as many details as possible about the spammers. This module sends a version and disco query whenever a message is received from a JID to a user it is not subscribed to. The results are printed to Prosody’s log file at the ‘info’ level. Queried full JIDs are not queried again until Prosody restarts. (info: https://modules.prosody.im/mod_poke_strangers)
+net-im/prosody-modules:prosody_modules_post_msg - Sometimes it’s useful to have different interfaces to access XMPP. (info: https://modules.prosody.im/mod_post_msg)
+net-im/prosody-modules:prosody_modules_presence_cache - This module stores a timestamp of the latest presence received from users contacts so that the client can see who is online faster when they sign in, and won’t have to wait for remote servers to reply. (info: https://modules.prosody.im/mod_presence_cache)
+net-im/prosody-modules:prosody_modules_presence_dedup - This module tries to squash incoming identical presence stanzas to save some bandwidth at the cost of increased memory use. (info: https://modules.prosody.im/mod_presence_dedup)
+net-im/prosody-modules:prosody_modules_privacy_lists - Privacy lists are a flexible method for blocking communications. (info: https://modules.prosody.im/mod_privacy_lists)
+net-im/prosody-modules:prosody_modules_private_adhoc - This is a very simple module which implements an adhoc commant toretrieves the users private XML data. (info: https://modules.prosody.im/mod_private_adhoc)
+net-im/prosody-modules:prosody_modules_privilege - Privileged Entity is an extension which allows entity/component to have privileged access to server (set/get roster, send message on behalf of server, access presence informations). It can be used to build services independently of server (e.g.: PEP service). (info: https://modules.prosody.im/mod_privilege)
+net-im/prosody-modules:prosody_modules_proctitle - This module sets the process name to prosody so it shows up as such instead of lua in process management tools. (info: https://modules.prosody.im/mod_proctitle)
+net-im/prosody-modules:prosody_modules_profile - This module provides a replacement for mod_vcard. In addition to the ageing protocol defined by XEP-0054, it also supports the new vCard 4 based protocol and integrates with Personal Eventing Protocol. (info: https://modules.prosody.im/mod_profile)
+net-im/prosody-modules:prosody_modules_prometheus - This module implements the Prometheus reporting protocol, allowing you to collect statistics directly from Prosody into Prometheus. (info: https://modules.prosody.im/mod_prometheus)
+net-im/prosody-modules:prosody_modules_proxy65_whitelist - This module attempts to restrict use of non-whitelisted XEP-0065 proxies. (info: https://modules.prosody.im/mod_proxy65_whitelist)
+net-im/prosody-modules:prosody_modules_pubsub_eventsource - Server-Sent Events is a simple HTTP/line-based protocol supported in HTML5, making it easy to receive a stream of “events” in realtime using the Javascript EventSource API. (info: https://modules.prosody.im/mod_pubsub_eventsource)
+net-im/prosody-modules:prosody_modules_pubsub_feeds - This module allows Prosody to fetch Atom and RSS feeds for you, and push new results to subscribers over XMPP. (info: https://modules.prosody.im/mod_pubsub_feeds)
+net-im/prosody-modules:prosody_modules_pubsub_github - This module accepts Github web hooks and publishes them to a local pubsub component for XMPP clients to subscribe to. (info: https://modules.prosody.im/mod_pubsub_github)
+net-im/prosody-modules:prosody_modules_pubsub_hub - This module implements a PubSubHubbub (PuSH) hub, allowing PuSH clients to subscribe to local XMPP Publish-Subscribe nodes stored by mod_pubsub and receive real time updates to feeds. (info: https://modules.prosody.im/mod_pubsub_hub)
+net-im/prosody-modules:prosody_modules_pubsub_mqtt - MQTT is a lightweight binary pubsub protocol suited to embedded devices. This module provides a way for MQTT clients to connect to Prosody and publish or subscribe to local pubsub nodes. (info: https://modules.prosody.im/mod_pubsub_mqtt)
+net-im/prosody-modules:prosody_modules_pubsub_pivotaltracker - No documentation yet :( (info: https://modules.prosody.im/mod_pubsub_pivotaltracker)
+net-im/prosody-modules:prosody_modules_pubsub_post - This module is a fairly generic WebHook receiver that lets you easily publish data to PubSub using a HTTP POST request. The payload can be Atom feeds, arbitrary XML, or arbitrary JSON. The type should be indicated via the Content-Type header. (info: https://modules.prosody.im/mod_pubsub_post)
+net-im/prosody-modules:prosody_modules_pubsub_stats - This module publishes data from Prosody’s internal statistics into a PubSub node in XEP-0039 format. (info: https://modules.prosody.im/mod_pubsub_stats)
+net-im/prosody-modules:prosody_modules_pubsub_text_interface - This module lets you manage subscriptions to pubsub nodes via simple chat messages. Subscriptions are always added based on bare JID. The include_body flag is enabled so that a plain text body version of events can be included, where supported. (info: https://modules.prosody.im/mod_pubsub_text_interface)
+net-im/prosody-modules:prosody_modules_pubsub_twitter - Twitter has an open ‘realtime’ search API, but it requires polling (within their rate limits). This module allows Prosody to poll for you, and push new results to subscribers over XMPP. (info: https://modules.prosody.im/mod_pubsub_twitter)
+net-im/prosody-modules:prosody_modules_query_client_ver - This module sends a version query to clients when they connect, and logs the response, allowing statistics of client usage to be recorded. (info: https://modules.prosody.im/mod_query_client_ver)
+net-im/prosody-modules:prosody_modules_rawdebug - Sometimes it is useful to get the raw XML logs from clients for debugging purposes, but some clients don’t expose this. (info: https://modules.prosody.im/mod_rawdebug)
+net-im/prosody-modules:prosody_modules_readonly - This module blocks configured queries that change server state. (info: https://modules.prosody.im/mod_readonly)
+net-im/prosody-modules:prosody_modules_register_dnsbl - This module checks the IP addresses attempting to register an account against a DNSBL, blocking the attempt if there is a hit. (info: https://modules.prosody.im/mod_register_dnsbl)
+net-im/prosody-modules:prosody_modules_register_dnsbl_firewall_mark - No documentation yet :( (info: https://modules.prosody.im/mod_register_dnsbl_firewall_mark)
+net-im/prosody-modules:prosody_modules_register_dnsbl_warn - This module checks the IP address of newly registered users against a DNS block list. If a positive match is found, it gets logged. (info: https://modules.prosody.im/mod_register_dnsbl_warn)
+net-im/prosody-modules:prosody_modules_register_json - This module let’s you activate a httpserver interface to handle data from webforms with POST and Base64 encoded JSON. (info: https://modules.prosody.im/mod_register_json)
+net-im/prosody-modules:prosody_modules_register_oob_url - Registration redirect to out of band URL as described in XEP-0077: In-Band Registration. (info: https://modules.prosody.im/mod_register_oob_url)
+net-im/prosody-modules:prosody_modules_register_redirect - Registration Redirect as explained in the IBR XEP. (info: https://modules.prosody.im/mod_register_redirect)
+net-im/prosody-modules:prosody_modules_register_web - There are various reasons to prefer web registration instead of “in-band” account registration over XMPP. For example the lack of CAPTCHA support in clients and servers. (info: https://modules.prosody.im/mod_register_web)
+net-im/prosody-modules:prosody_modules_reload_components - This module allows to load/unload external components after they have been added/removed to a configuration file. It is necessary to explicitly initiate a reload on Prosody either via prosodyctl reload or config:reload(). (info: https://modules.prosody.im/mod_reload_components)
+net-im/prosody-modules:prosody_modules_reload_modules - By default Prosody does not reload modules at runtime unless instructed to via one of its admin interfaces. However sometimes you want to easily reload a module to apply new settings when the config changes. (info: https://modules.prosody.im/mod_reload_modules)
+net-im/prosody-modules:prosody_modules_remote_roster - This module adds support for XEP-0321: Remote Roster Management which is commonly used to allow components such as transports to modify the rosters of local users. (info: https://modules.prosody.im/mod_remote_roster)
+net-im/prosody-modules:prosody_modules_require_otr - OTR, “Off The Record”, encryption allows clients to encrypt messages such that the server cannot read/modify them. (info: https://modules.prosody.im/mod_require_otr)
+net-im/prosody-modules:prosody_modules_roster_allinall - This module is similar in purpouse to mod_groups, for when you want all users on the server to be in each others roster. (info: https://modules.prosody.im/mod_roster_allinall)
+net-im/prosody-modules:prosody_modules_roster_command - This module allows you to perform various actions on user rosters via prosodyctl. (info: https://modules.prosody.im/mod_roster_command)
+net-im/prosody-modules:prosody_modules_s2s_auth_compat - This module is a workaround for servers that try to do s2s authentication with certificates and SASL EXTERNAL, but do not send correct stream headers. Notably Openfire versions since 3.7 or 3.8. (info: https://modules.prosody.im/mod_s2s_auth_compat)
+net-im/prosody-modules:prosody_modules_s2s_auth_dane - This module implements DANE as described in Using DNS Security Extensions (DNSSEC) and DNS-based Authentication of Named Entities (DANE) as a Prooftype for XMPP Domain Name Associations. (info: https://modules.prosody.im/mod_s2s_auth_dane)
+net-im/prosody-modules:prosody_modules_s2s_auth_fingerprint - This module allows you to manually pin certificate fingerprints of remote servers. (info: https://modules.prosody.im/mod_s2s_auth_fingerprint)
+net-im/prosody-modules:prosody_modules_s2s_auth_monkeysphere - Monkeysphere is a project aiming to introduce PGP’s web of trust to protocols such as SSH and TLS (which XMPP uses). (info: https://modules.prosody.im/mod_s2s_auth_monkeysphere)
+net-im/prosody-modules:prosody_modules_s2s_auth_posh - PKIX over Secure HTTP (POSH) describes a method of securely delegating a domain to a hosting provider, without that hosting provider needing keys and certificates covering the hosted domain. (info: https://modules.prosody.im/mod_s2s_auth_posh)
+net-im/prosody-modules:prosody_modules_s2s_auth_samecert - No documentation yet :( (info: https://modules.prosody.im/mod_s2s_auth_samecert)
+net-im/prosody-modules:prosody_modules_s2s_blacklist - This module lets you block connections to remote servers at the s2s level. (info: https://modules.prosody.im/mod_s2s_blacklist)
+net-im/prosody-modules:prosody_modules_s2s_idle_timeout - Some people find it preferable to close server-to-server connections after they have been silent for a while. (info: https://modules.prosody.im/mod_s2s_idle_timeout)
+net-im/prosody-modules:prosody_modules_s2s_keepalive - This module periodically sends XEP-0199 ping requests to remote servers to keep your connection alive. (info: https://modules.prosody.im/mod_s2s_keepalive)
+net-im/prosody-modules:prosody_modules_s2s_keysize_policy - This module sets the security status of s2s connections to invalid if their key is too small and their certificate was issued after 2014, per CA/B Forum guidelines. (info: https://modules.prosody.im/mod_s2s_keysize_policy)
+net-im/prosody-modules:prosody_modules_s2s_log_certs - This module produces info level log messages with the certificate status and fingerprint every time an s2s connection is established. It can also optionally store this in persistent storage. (info: https://modules.prosody.im/mod_s2s_log_certs)
+net-im/prosody-modules:prosody_modules_s2s_never_encrypt_blacklist - Let’s you stop Prosody from sending <starttls xmlns=‘urn:ietf:params:xml:ns:xmpp-tls’> feature to choppy/buggy servers which therefore would fail to re-negotiate and use a secure stream. (e.g. OpenFire 3.7.0) (info: https://modules.prosody.im/mod_s2s_never_encrypt_blacklist)
+net-im/prosody-modules:prosody_modules_s2s_reload_newcomponent - Currently, module:reload command in console doesn’t load new components. This module will automatically load the new components (if any) when the config:reload command is run in the console. (info: https://modules.prosody.im/mod_s2s_reload_newcomponent)
+net-im/prosody-modules:prosody_modules_s2s_whitelist - This module lets you block connections to any remote servers not on a whitelist. (info: https://modules.prosody.im/mod_s2s_whitelist)
+net-im/prosody-modules:prosody_modules_s2soutinjection - This module is similar to mod_srvinjection but less of an hack. (info: https://modules.prosody.im/mod_s2soutinjection)
+net-im/prosody-modules:prosody_modules_sasl_oauthbearer - This module adds a new SASL mechanism OAUTHBEARER, as defined in RFC-7628. (info: https://modules.prosody.im/mod_sasl_oauthbearer)
+net-im/prosody-modules:prosody_modules_saslauth_muc - No documentation yet :( (info: https://modules.prosody.im/mod_saslauth_muc)
+net-im/prosody-modules:prosody_modules_saslname - This module implements a manual method for advertsing the Kerberos principal name as per XEP-0233. It could be used in conjection with a Kerberos authentication module. (info: https://modules.prosody.im/mod_saslname)
+net-im/prosody-modules:prosody_modules_seclabels - This module implements XEP-0258: Security Labels in XMPP, but not actual policy enforcement. See for example mod_firewall for that. (info: https://modules.prosody.im/mod_seclabels)
+net-im/prosody-modules:prosody_modules_secure_interfaces - Sometimes you might run clients without encryption on the same machine or LAN as Prosody - and you want Prosody to treat them as secure ( e.g. allowing plaintext authentication) even though they are not encrypted. (info: https://modules.prosody.im/mod_secure_interfaces)
+net-im/prosody-modules:prosody_modules_server_status - This module fetches the current status of configured hosts and/or stanza statistics from mod_stanza_counter. And outputs it in either XML or JSON format. (info: https://modules.prosody.im/mod_server_status)
+net-im/prosody-modules:prosody_modules_service_directories - No documentation yet :( (info: https://modules.prosody.im/mod_service_directories)
+net-im/prosody-modules:prosody_modules_sift - SIFT is a technology to allow clients to filter incoming traffic on the server. This helps save bandwidth, etc. (info: https://modules.prosody.im/mod_sift)
+net-im/prosody-modules:prosody_modules_slack_webhooks - This module provides a Slack-compatible “web hook” interface to Prosody MUCs. Both “incoming” web hooks, which allow Slack integrations to post messages to Prosody MUCs, and “outgoing” web hooks, which copy messages from Prosody MUCs to Slack-style integrations by HTTP, are supported. This can also be used, in conjunction with various Slack inter-namespace bridging tools, to provide a bidirectional bridge between a Prosody-hosted XMPP MUC and a Slack channel. (info: https://modules.prosody.im/mod_slack_webhooks)
+net-im/prosody-modules:prosody_modules_smacks - By default XMPP is as reliable as your network is. Unfortunately in some cases that is not very reliable - in some network conditions disconnects can be frequent and message loss can occur. (info: https://modules.prosody.im/mod_smacks)
+net-im/prosody-modules:prosody_modules_smacks_noerror - By default mod_smacks sends back error stanzas for every unacked message stanza when the hibernation times out. This leads to “message not delivered” errors displayed in clients. (info: https://modules.prosody.im/mod_smacks_noerror)
+net-im/prosody-modules:prosody_modules_smacks_offline - No documentation yet :( (info: https://modules.prosody.im/mod_smacks_offline)
+net-im/prosody-modules:prosody_modules_sms_clickatell - This module provides and SMS gateway component which uses the Clickatell HTTP API to deliver text messages. See clickatell.com for details on their services. Note that at present, this is entirely one way: replies will either go nowhere or as sms to the source number you specify. (info: https://modules.prosody.im/mod_sms_clickatell)
+net-im/prosody-modules:prosody_modules_spam_reporting - This module is a very basic implementation of XEP-0377: Spam Reporting. (info: https://modules.prosody.im/mod_spam_reporting)
+net-im/prosody-modules:prosody_modules_srvinjection - This Prosody plugin lets you manually override SRV records used for a remote host. (info: https://modules.prosody.im/mod_srvinjection)
+net-im/prosody-modules:prosody_modules_sslv3_warn - No documentation yet :( (info: https://modules.prosody.im/mod_sslv3_warn)
+net-im/prosody-modules:prosody_modules_stanza_counter - This module counts incoming and outgoing stanzas from when the instance started, and makes the data available to other modules by creating a global prosody. object (info: https://modules.prosody.im/mod_stanza_counter)
+net-im/prosody-modules:prosody_modules_stanzadebug - This module logs the full stanzas that are sent and received into debug logs, for debugging purposes. (info: https://modules.prosody.im/mod_stanzadebug)
+net-im/prosody-modules:prosody_modules_statistics - No documentation yet :( (info: https://modules.prosody.im/mod_statistics)
+net-im/prosody-modules:prosody_modules_statistics_auth - No documentation yet :( (info: https://modules.prosody.im/mod_statistics_auth)
+net-im/prosody-modules:prosody_modules_statistics_cputotal - No documentation yet :( (info: https://modules.prosody.im/mod_statistics_cputotal)
+net-im/prosody-modules:prosody_modules_statistics_mem - No documentation yet :( (info: https://modules.prosody.im/mod_statistics_mem)
+net-im/prosody-modules:prosody_modules_statistics_statsd - No documentation yet :( (info: https://modules.prosody.im/mod_statistics_statsd)
+net-im/prosody-modules:prosody_modules_statistics_statsman - A module providing a streaming statistics interface like mod_statistics but based on the new statistics API introduced in Prosody 0.10. (info: https://modules.prosody.im/mod_statistics_statsman)
+net-im/prosody-modules:prosody_modules_statsd - No documentation yet :( (info: https://modules.prosody.im/mod_statsd)
+net-im/prosody-modules:prosody_modules_storage_appendmap - This is an experimental storage driver where changed data is appended. Data is simply written as key = value pairs to the end of the file. This allows changes to individual keys to be written without needing to write out the entire object again, but reads would grow gradually larger as it still needs to read old overwritten keys. This may be suitable for e.g. rosters where individual contacts are changed at a time. In theory, this could also allow rolling back changes. (info: https://modules.prosody.im/mod_storage_appendmap)
+net-im/prosody-modules:prosody_modules_storage_ejabberdsql_readonly - This is a storage backend using Ejabberd’s SQL backend. It depends on LuaDBI (info: https://modules.prosody.im/mod_storage_ejabberdsql_readonly)
+net-im/prosody-modules:prosody_modules_storage_gdbm - This is a storage module using GNU DBM as backend. It supports archives. (info: https://modules.prosody.im/mod_storage_gdbm)
+net-im/prosody-modules:prosody_modules_storage_ldap - See mod_lib_ldap for more information. (info: https://modules.prosody.im/mod_storage_ldap)
+net-im/prosody-modules:prosody_modules_storage_lmdb - This is a storage module using OpenLDAP Lightning Memory-Mapped Database as backend. (info: https://modules.prosody.im/mod_storage_lmdb)
+net-im/prosody-modules:prosody_modules_storage_memory - This module acts as a normal storage module for Prosody, but saves all data in memory only. All data is lost when the server stops. This makes it useful for testing, or certain specialized applications. (info: https://modules.prosody.im/mod_storage_memory)
+net-im/prosody-modules:prosody_modules_storage_mongodb - This is a storage backend that uses MongoDB. Depends on luamongo bindings (info: https://modules.prosody.im/mod_storage_mongodb)
+net-im/prosody-modules:prosody_modules_storage_muc_log - mod_muc_log provided logging of chatrooms running on the server to Prosody’s data store. This module gives access to this data using the 0.10+ stanza archive API, allowing legacy log data to be used with mod_mam_muc and mod_http_muc_log. (info: https://modules.prosody.im/mod_storage_muc_log)
+net-im/prosody-modules:prosody_modules_storage_muconference_readonly - This is a storage backend using MU-Conference’s SQL storage. It depends on LuaDBI (info: https://modules.prosody.im/mod_storage_muconference_readonly)
+net-im/prosody-modules:prosody_modules_storage_multi - This module attemtps to provide a storage driver that is really multiple storage drivers. This could be used for storage error tolerance or caching of data in a faster storage driver. (info: https://modules.prosody.im/mod_storage_multi)
+net-im/prosody-modules:prosody_modules_storage_xmlarchive - This module implements stanza archives using files, similar to the default “internal” storage. Unlike “internal”, it saves messages in two files per day (and per user), one containing metadata and one containing the actual messages in XML format (hence the name). (info: https://modules.prosody.im/mod_storage_xmlarchive)
+net-im/prosody-modules:prosody_modules_streamstats - No documentation yet :( (info: https://modules.prosody.im/mod_streamstats)
+net-im/prosody-modules:prosody_modules_strict_https - This module implements HTTP Strict Transport Security and responds to all non-HTTPS requests with a 301 Moved Permanently redirect to the HTTPS equivalent of the path. (info: https://modules.prosody.im/mod_strict_https)
+net-im/prosody-modules:prosody_modules_support_contact - This Prosody plugin adds a default contact to newly registered accounts. (info: https://modules.prosody.im/mod_support_contact)
+net-im/prosody-modules:prosody_modules_support_room - This module adds newly registered users as members to a specified MUC room and sends them an invite. In a way, this is similar in purpose to mod_support_contact and mod_default_bookmarks. (info: https://modules.prosody.im/mod_support_room)
+net-im/prosody-modules:prosody_modules_swedishchef - This module does some conversions on message bodys passed through it causing them to look like our beloved swedish chef had typed them. (info: https://modules.prosody.im/mod_swedishchef)
+net-im/prosody-modules:prosody_modules_tcpproxy - It happens occasionally that I would like to use the XMPP server as a generic proxy for connecting to another service. It is especially awkward in some environments, and impossible in (for example) Javascript inside a web browser. (info: https://modules.prosody.im/mod_tcpproxy)
+net-im/prosody-modules:prosody_modules_telnet_tlsinfo - This module adds two commands to the telnet console, c2s:showtls() and s2s:showtls(). These commands shows TLS parameters, such as ciphers and key agreement protocols, of all c2s or s2s connections. (info: https://modules.prosody.im/mod_telnet_tlsinfo)
+net-im/prosody-modules:prosody_modules_test_data - This module is of use to developers who want to fill their Prosody storage with test data, e.g. for debugging, testing or performance measurements of Prosody or client code. (info: https://modules.prosody.im/mod_test_data)
+net-im/prosody-modules:prosody_modules_throttle_presence - For most people ‘presence’ (status changes) of contacts make up most of the traffic received by their client. However much of the time it is not essential to have highly accurate presence information. (info: https://modules.prosody.im/mod_throttle_presence)
+net-im/prosody-modules:prosody_modules_throttle_unsolicited - This module limits the rate of outgoing unsolicited messages from local clients. Optionally, unsolicited messages coming in from remote servers may be limited per s2s conneciton. A message counts as “unsolicited” if the receiving user hasn’t added the sending user to their roster. (info: https://modules.prosody.im/mod_throttle_unsolicited)
+net-im/prosody-modules:prosody_modules_tls_policy - This module arose from discussions at the XMPP Summit about enforcing better ciphers in TLS. It may seem attractive to disallow some insecure ciphers or require forward secrecy, but doing this at the TLS level would the user with an unhelpful “Encryption failed” message. This module does this enforcing at the application level, allowing better error messages. (info: https://modules.prosody.im/mod_tls_policy)
+net-im/prosody-modules:prosody_modules_traceback - This module writes out a traceback to traceback.txt in Prosodys data directory (see prosodyctl about) when the signal SIGUSR1 is received. This is useful when debugging seemingly frozen instances in case it is stuck in Lua code. (info: https://modules.prosody.im/mod_traceback)
+net-im/prosody-modules:prosody_modules_track_muc_joins - This module attempts to keep track of what MUC chat rooms users have joined. It’s not very useful on its own, but can be used by other modules to influence decisions. (info: https://modules.prosody.im/mod_track_muc_joins)
+net-im/prosody-modules:prosody_modules_turncredentials - XEP-0215 implementation for time-limited TURN credentials. (info: https://modules.prosody.im/mod_turncredentials)
+net-im/prosody-modules:prosody_modules_twitter - Twitter has simple API to use, so I tried to deal with it via Prosody. I didn’t manage to finish this module, but it is nice example of component that accepts registrations, unregistrations, does HTTP polling and so on. Maybe someone will finnish this idea. (info: https://modules.prosody.im/mod_twitter)
+net-im/prosody-modules:prosody_modules_uptime_presence - This module simply responds to a presence probe sent to the server with a presence staza containing a timestamp from when the server started. (info: https://modules.prosody.im/mod_uptime_presence)
+net-im/prosody-modules:prosody_modules_vcard_command - No documentation yet :( (info: https://modules.prosody.im/mod_vcard_command)
+net-im/prosody-modules:prosody_modules_vcard_muc - This module adds the ability to set vCard for MUC rooms. One of the most common use case is to be able to define an avatar for your own MUC room. (info: https://modules.prosody.im/mod_vcard_muc)
+net-im/prosody-modules:prosody_modules_vjud - Basic implementation of XEP-0055: Jabber Search. (info: https://modules.prosody.im/mod_vjud)
+net-im/prosody-modules:prosody_modules_watchuntrusted - Similar to mod_watchregistrations, this module warns admins when an s2s connection fails due for encryption or trust reasons. (info: https://modules.prosody.im/mod_watchuntrusted)
+net-im/prosody-modules:prosody_modules_web_push - This module is terribly untested and will only work with Firefox as it’s missing payload encryption. Other vendors require it all the time. Public and private keys are also statically set in it. (info: https://modules.prosody.im/mod_web_push)
+net-im/prosody-modules:prosody_modules_webpresence - Quite often you may want to publish your Jabber status to your blog or website. mod_webpresence allows you to do exactly this. (info: https://modules.prosody.im/mod_webpresence)
+net-im/prosody-modules:prosody_modules_xhtmlim - This module attempts to sanitize XHTML-IM messages. (info: https://modules.prosody.im/mod_xhtmlim)
+net-im/spectrum2:frotz - Enables the Z-Engine backend.
+net-im/spectrum2:irc - Enables the IRC backend, based on net-im/libcommuni.
+net-im/spectrum2:purple - Enables the libpurple backend, based on net-im/pidgin.
+net-im/spectrum2:skype - Enables the SKype backend, based on x11-plugins/pidgin-skypeweb.
+net-im/spectrum2:sms - Enables the SMS backend, based on app-mobilephone/smstools.
+net-im/spectrum2:twitter - Enables the Twitter backend.
+net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based on net-im/transwhat.
 net-im/swift:client - Build the full graphical XMPP client.
 net-im/swift:gconf - Enable configuration through gnome-base/gconf.
+net-im/telegram-cli:json - Enable JSON support
+net-im/telegram-cli:lua - Enable Lua scripting
+net-im/telegram-cli:python - Enable Python support
+net-im/telegram-desktop:clang - Build with sys-devel/clang
+net-im/telegram-desktop:crash-report - Enable Crash Reporter
+net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or portage/env/{CAT}/{PN}.
+net-im/telegram-desktop:gtk3 - Keeps GTK3 stuff enabled
+net-im/telegram-desktop:openal-eff - Double playback speed
+net-im/telegram-desktop:pulseaudio - Keeps Pulseaudio support enabled (ALSA-only backend will be used if you disable this)
+net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
+net-im/tgl:gcrypt - Use dev-libs/libgcryptinstead of dev-libs/opensslfor crypto operations
+net-im/tgl:libevent - Enable LibEvent support
+net-im/toxic:X - Adds support for X11
+net-im/toxic:audio - Adds support for audio (including sound notifications).
+net-im/toxic:notifications - Enable desktop notification support.
+net-im/toxic:qrcode - Enable support for QR codes
+net-im/toxic:video - Enable video support
+net-irc/weechat:alias - Enable plugin for alias control.
+net-irc/weechat:buflist - Enable buffer list plugin.
+net-irc/weechat:charset - Enable encoding conversions.
+net-irc/weechat:exec - Enable exec plugin.
+net-irc/weechat:fifo - Enable FIFO support (sh pipes).
+net-irc/weechat:headless - Enable headless binary
+net-irc/weechat:irc - Enable IRC protocol support.
+net-irc/weechat:logger - Enable support for logging.
+net-irc/weechat:luajit - Enable LuaJIT support.
+net-irc/weechat:relay - Enable relay plugin (experimental)
+net-irc/weechat:scripts - Build infrastructure for scripting.
+net-irc/weechat:trigger - Enable trigger plugin.
+net-irc/weechat:xfer - Enable xfer plugin support.
+net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
+net-libs/libnftnl:json - Supports parsing of JSON
+net-libs/libringclient:dbus - If disable, direct linking to daemon without D-Bus. Enable if unsure.
+net-libs/libringclient:video - Support video call in Ring
+net-libs/libvncserver:24bpp - enable 24bpp support
+net-libs/libvncserver:filetransfer - enable tightvnc-filetransfer support
+net-libs/libvncserver:gcrypt - enable support for gcrypt
+net-libs/libvncserver:websockets - enable websockets support
+net-libs/opendht:python - Install Python bindings. Requires dev-python/cython.
+net-libs/opendht:tools - Install extra opendht tools (dhtchat, dhtnode and dhtscanner).
+net-libs/pjproject:amr - Inlcude AMR codec in the build
+net-libs/pjproject:epoll - Use /dev/epoll ioqueue on Linux (experimental)
+net-libs/pjproject:g711 - Include G.711 codecs in the build
+net-libs/pjproject:g722 - Include G.722 codec in the build
+net-libs/pjproject:ilbc - Include iLBC codec in the build
+net-libs/pjproject:l16 - Include Linear/L16 codec family in the build
+net-libs/pjproject:libyuv - Include libyuv in the build
+net-libs/pjproject:openh264 - Include Open H.264 support in the build
+net-libs/pjproject:opus - Include OPUS support in the build
+net-libs/pjproject:resample - Include resampling implementations in the build
+net-libs/pjproject:silk - Include SILK support in the build
+net-libs/pjproject:v4l2 - Include Video4Linux v2 support in the build
+net-libs/pjproject:webrtc - Enable WebRTC support
+net-libs/tdlib:cli - 
+net-libs/tdlib:lto - 
+net-misc/android-file-transfer:fuse - Add fuse helper
+net-misc/android-file-transfer:gui - Build Qt GUI
+net-misc/subnetcalc:colorgcc - 
+net-p2p/librevault:cli - Build cli interface
+net-p2p/librevault:daemon - Build LibreVault daemon
+net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
+net-p2p/syncthing:cli - Install stcli (syncthing-cli).
+net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
+net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
+net-voip/kde-ring:akonadi - Enable support for Akonadi
+net-voip/kde-ring:video - Enable support for video call in Ring
+net-voip/ring-daemon:dbus - The D-Bus xml interfaces, and c++ bindings.
+net-voip/ring-daemon:graph - Create dot graphs in documentations
+net-voip/ring-daemon:hwaccel - Enable hardware-accelerated rendering (only vaapi supports at this moment)
+net-voip/ring-daemon:libilbc - Support ilbc audio
+net-voip/ring-daemon:nat-pmp - Support for NAT-PMP
+net-voip/ring-daemon:opus - Support opus audio
+net-voip/ring-daemon:restbed - An alternative to the dbus client to communicate with a headless daemon. It uses net-libs/restbed, a cpp framework for RESTful services.
+net-voip/ring-daemon:ringns - Ring name service, depends on net-libs/restbed
+net-voip/ring-daemon:sdes - Support for sdes key exchange. It uses dev-libs/libpcre
+net-voip/ring-daemon:speexdsp - Support for speexdp Noise Suppression and Automatic Gain Control
+net-voip/ring-daemon:system-gnutls - Uses the system library for gnutls
+net-voip/ring-daemon:system-pjproject - Uses the system library for pjproject
+net-voip/ring-daemon:vdpau - If enable, Ring would sometimes fail to build because of an undefined reference to "vdp_device_create_x11". Enable it on your own risk.
+net-voip/ring-daemon:video - Support video call in Ring
+net-voip/ring-daemon:vpx - Support vp8 audio
+net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
+net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
+net-vpn/i2pd:gui - Compile GUI I2PD version (trayicon + window with 2 quit buttons) *instead* of daemon
+net-vpn/i2pd:i2lua - Compile for i2lua support
+net-vpn/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
+net-vpn/i2pd:thread-sanitizer - Compile with Thread Sanitizer Feature
+net-vpn/i2pd:websockets - Compile with Websocket UI
+net-vpn/onioncat:http - enable handling of accidental HTTP requests
+net-vpn/onioncat:i2p - install GarliCat (I2P-version)
+net-vpn/onioncat:log - enable packet logging
+net-vpn/onioncat:queue - enable queueuing of packets while connecting setup
+net-vpn/onioncat:relay - disable source ip checking before forwarding
+net-vpn/onioncat:rtt - enable inband RTT measurement
+net-vpn/tinc:gui - Add GUI support, using dev-python/wxpython
+net-vpn/tinc:legacy - Enable legacy (tinc 1.0) protocol support
+net-vpn/tinc:tools - Build some testing tools
+net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
+net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
+net-vpn/toxvpn:zeromq - Use net-libs/zeromq for queues management
+sys-apps/firejail:apparmor - Enable support for custom AppArmor profiles
+sys-apps/firejail:bind - Enable custom bind mounts
+sys-apps/firejail:chroot - Enable chrooting to custom directory
+sys-apps/firejail:file-transfer - Enable file transfers between sandboxes and the host system
+sys-apps/firejail:network - Enable networking features
+sys-apps/firejail:network-restricted - Grant access to --interface, --net=ethXXX and --netfilter only to root user; regular users are only allowed --net=none
+sys-apps/firejail:seccomp - Enable system call filtering
+sys-apps/firejail:userns - Enable attaching a new user namespace to a sandbox (--noroot option)
+sys-apps/firejail:x11 - Enable X11 sandboxing
+sys-apps/kmscon:drm - Enable Linux DRM for backend
+sys-apps/kmscon:fbdev - Enable Linux FBDev for backend
+sys-apps/kmscon:gles2 - Enable GLES2 for backend
+sys-apps/kmscon:multiseat - Enable multiseat support via systemd
+sys-apps/kmscon:optimizations - Enable optimizations
+sys-apps/kmscon:pango - Enable pango font rendering
+sys-apps/kmscon:pixman - Enable pixman font rendering
+sys-apps/libtsm:optimizations - Enable optimizations
+sys-fs/diod:luajit - Force build against LuaJIT
+sys-fs/diod:rdma - RDMA support
+sys-kernel/ath10k-firmware:savedconfig - Allows individual selection of firmware files
+sys-process/htop:openvz - Enable openvz support
+sys-process/htop:vserver - Enable vserver support
+sys-process/systemd-cron:cron-boot - Include support for the boot timer.
+sys-process/systemd-cron:etc-crontab-systemd - Use dedicated /etc/crontab-systemd instead of parsing /etc/crontab
+sys-process/systemd-cron:minutely - Support /etc/cron.minutely
+sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
+sys-process/systemd-cron:yearly - Support /etc/cron.yearly
+virtual/lua:bit - 
+virtual/lua:bit32 - 
+www-apps/ctpp2:md5 - 
+www-apps/modsecurity:afl - Enable rules fuzzer support
+www-apps/modsecurity:geoip - GeoIP support
+www-apps/redmine:bazaar - 
+www-apps/redmine:darcs - 
+www-apps/redmine:mercurial - 
+www-apps/redmine:sqlite3 - 
+www-nginx/upstream-check:upstream-dyups - Enable support for www-nginx/upstream-dyups
+www-nginx/upstream-check:upstream-fair - Enable support for www-nginx/upstream-fair
+www-nginx/upstream-fair:upstream-check - Enable support for www-nginx/upstream-check
+www-servers/nginx:aio - Enable aio support
+www-servers/nginx:busy-upstream - Apply the "Busy Upstream" Patch (required for some modules)
+www-servers/nginx:debug - Enable the debugging logging
+www-servers/nginx:dtls - Enable DTLS Support (experimental)
+www-servers/nginx:http - Enable HTTP NginX core module
+www-servers/nginx:http-cache - Enable HTTP cache support
+www-servers/nginx:http2 - Enable HTTP2 support
+www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
+www-servers/nginx:luajit - Build NginX against LuaJIT, instead of PUC-Rio Lua
+www-servers/nginx:mail - Enable Mail NginX core module
+www-servers/nginx:nginx_modules_core_rtmp - RTMP module
+www-servers/nginx:nginx_modules_core_stream_traffic_status - TODO
+www-servers/nginx:nginx_modules_core_tcpproxy - TCP-Proxy module (legacy alternative to STREAM core module, having some features not provided by it)
+www-servers/nginx:nginx_modules_http_ajp - AJP Module
+www-servers/nginx:nginx_modules_http_array_var - Array-Var Module
+www-servers/nginx:nginx_modules_http_auth_request - AuthRequest Module
+www-servers/nginx:nginx_modules_http_coolkit - CoolKit Module
+www-servers/nginx:nginx_modules_http_ctpp - CTPP2 template engine Module
+www-servers/nginx:nginx_modules_http_drizzle - This module adds the ability to "talk" with MySQL-like server
+www-servers/nginx:nginx_modules_http_dyups - Dynamic Upstreams Module
+www-servers/nginx:nginx_modules_http_echo - Echo Module
+www-servers/nginx:nginx_modules_http_encrypted_session - Encrypted Sessions Module
+www-servers/nginx:nginx_modules_http_enmemcache - Enmemcache Module
+www-servers/nginx:nginx_modules_http_ey_balancer - TODO
+www-servers/nginx:nginx_modules_http_form_input - Form-Input Module
+www-servers/nginx:nginx_modules_http_hls_audio - HLS Audio Module
+www-servers/nginx:nginx_modules_http_iconv - Iconv Module
+www-servers/nginx:nginx_modules_http_lua - This module adds native Lua support to NginX
+www-servers/nginx:nginx_modules_http_lua_upstream - Lua Upstream Module
+www-servers/nginx:nginx_modules_http_memc - MEMC Module
+www-servers/nginx:nginx_modules_http_mirror - Mirror Module
+www-servers/nginx:nginx_modules_http_nchan - Nchan Module
+www-servers/nginx:nginx_modules_http_ndk - This module is like SDK for some another modules (so, it is only needed as dependency for them)
+www-servers/nginx:nginx_modules_http_njs - This module adds native JavaScript support in NginX
+www-servers/nginx:nginx_modules_http_pagespeed - Pagespeed module
+www-servers/nginx:nginx_modules_http_passenger - Phusion Passenger Application Server (supporting node.js, ruby, python and so on)
+www-servers/nginx:nginx_modules_http_passenger_enterprise - Phusion Passenger Application Server (supporting node.js, ruby, python and so on). Enterprise version.
+www-servers/nginx:nginx_modules_http_postgres - This module adds the ability to "talk" to PostgreSQL server
+www-servers/nginx:nginx_modules_http_python - This module adds native Python support to NginX
+www-servers/nginx:nginx_modules_http_rdns - This module adds hostname based (reverse-dns lookup) acces lists
+www-servers/nginx:nginx_modules_http_rds_csv - RDS CSV Module
+www-servers/nginx:nginx_modules_http_rds_json - RDS JSON Module
+www-servers/nginx:nginx_modules_http_redis - This module adds the ability to "talk" with Redis server
+www-servers/nginx:nginx_modules_http_replace_filter - Replace Filter Module
+www-servers/nginx:nginx_modules_http_rrd - Enadle 3rd party rrd module
+www-servers/nginx:nginx_modules_http_set_misc - Set-Misc Module
+www-servers/nginx:nginx_modules_http_slice - Enable slices support (read documentation before using this in production)
+www-servers/nginx:nginx_modules_http_slowfs_cache - This module adds the ability to cache static files
+www-servers/nginx:nginx_modules_http_srcache - SRCache module
+www-servers/nginx:nginx_modules_http_supervisord - Supervisord module
+www-servers/nginx:nginx_modules_http_upstream_fair - Upstream Fair Module
+www-servers/nginx:nginx_modules_http_upstream_hash - Upstream Hash Module
+www-servers/nginx:nginx_modules_http_upstream_keepalive - Upstream Keepalive Module
+www-servers/nginx:nginx_modules_http_upstream_least_conn - Upstream LeastConn Module
+www-servers/nginx:nginx_modules_http_upstream_zone - Upstream Zone Module
+www-servers/nginx:nginx_modules_http_v2 - HTTP2 support
+www-servers/nginx:nginx_modules_http_xss - XSS Module
+www-servers/nginx:nginx_modules_stream_access - Access module (stream)
+www-servers/nginx:nginx_modules_stream_dtls - Enable DTLS Support (experimental)
+www-servers/nginx:nginx_modules_stream_geo - GEO module (stream)
+www-servers/nginx:nginx_modules_stream_geoip - GEOIP module (stream)
+www-servers/nginx:nginx_modules_stream_limit_conn - LimitConn Module (stream)
+www-servers/nginx:nginx_modules_stream_lua - This module adds native Lua support to NginX (stream module API)
+www-servers/nginx:nginx_modules_stream_map - Mapping module (stream)
+www-servers/nginx:nginx_modules_stream_python - This module adds native Python support to NginX
+www-servers/nginx:nginx_modules_stream_return - Return module (stream)
+www-servers/nginx:nginx_modules_stream_split_clients - Split Clients Module (stream)
+www-servers/nginx:nginx_modules_stream_traffic_status - TODO
+www-servers/nginx:nginx_modules_stream_upstream_hash - Upstream Hash Module (stream)
+www-servers/nginx:nginx_modules_stream_upstream_least_conn - Upstream LeastConn Module (stream)
+www-servers/nginx:nginx_modules_stream_upstream_zone - Upstream Zone Module (stream)
+www-servers/nginx:pcre-jit - Add support to PCRE JIT
+www-servers/nginx:perftools - Use dev-util/google-perftoolsfor performance tuning
+www-servers/nginx:rrd - Enadle 3rd party rrd module
+www-servers/nginx:rtmp - RTMP module
+www-servers/nginx:ssl-cert-cb - Patch NginX for ssl callback support
+www-servers/nginx:stream - Enable Stream NginX core module
+www-servers/nginx:systemtap - Install systemtap tapset files for some modules
+www-servers/nginx-unit:go - meta-flag for complement with gentoo repo naming. Use unit_modules_go instead
+www-servers/nginx-unit:ipv6 - Enable IPv6 support
+www-servers/nginx-unit:nodejs - Enable support for applications written in net-libs/nodejs
+www-servers/nginx-unit:unit_modules_go - Enable support for applications written in dev-lang/go
+www-servers/nginx-unit:unit_modules_java - Enable support for applications written in Java
+www-servers/nginx-unit:unit_modules_nodejs - Enable support for applications written in net-libs/nodejs
+www-servers/nginx-unit:unit_modules_perl - Enable support for applications written in dev-lang/perl
+www-servers/nginx-unit:unit_modules_php - Enable support for applications written in dev-lang/php
+www-servers/nginx-unit:unit_modules_python - Enable support for applications written in dev-lang/python
+www-servers/nginx-unit:unit_modules_ruby - Enable support for applications written in dev-lang/ruby
+www-servers/nginx-unit:unix-sockets - Enable support of unix sockets
+x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
+x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
+x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
+x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
+x11-plugins/telegram-purple:libwebp - 
