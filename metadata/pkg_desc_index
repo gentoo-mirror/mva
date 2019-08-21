@@ -44,7 +44,7 @@ app-shells/zsh 5.7.1 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.17.2: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.17.3: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
@@ -461,7 +461,7 @@ www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clien
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.17.2-r10 1.17.2-r100: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.17.3-r10 1.17.3-r100: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.9.0-r10 9999: A dynamic web&application server with modules many languages
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
