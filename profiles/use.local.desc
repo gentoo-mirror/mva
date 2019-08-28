@@ -216,6 +216,7 @@ media-libs/rlottie:threads - Support threading
 media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
 media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide(currently conflicts with jpeg-turbo)
+media-sound/mellowplayer:widevine - Install the Widevine DRM library
 media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
 media-sound/mumble:speech - Enable text-to-speech support in Mumble.
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrackwhen enables the connlabel matcher
