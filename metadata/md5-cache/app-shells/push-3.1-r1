@@ -7,4 +7,4 @@ LICENSE=BSD
 RDEPEND=!<app-portage/eix-0.33.4
 SLOT=0
 SRC_URI=https://github.com/vaeth/push/archive/v3.1.tar.gz -> push-3.1.tar.gz
-_md5_=e7829e205d2682b91bd1a36045a5c66d
+_md5_=978080628f0884c8a518a02a0b64ccc9

@@ -1,3 +1,6 @@
+acct-group/cgred 0: System group: cgred
+acct-group/git 0: System group: git
+acct-user/git 0: Git repository hosting user
 app-admin/aws-cli 1.14.41: Universal Command Line Interface for Amazon Web Services
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/drush 8.1.16: The command line interface for Drupal
@@ -268,7 +271,6 @@ dev-util/premake 5.0.0_alpha12: A makefile generation tool
 dev-util/pySnipps 9999: A simple code snippet tool
 dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
-dev-vcs/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 dev-vcs/hub 2.3.0_pre10 9999: Command-line wrapper for git that makes you better at GitHub
 games-arcade/flyinggame 0: A game prototype by Maurice (mari0 author)
 games-arcade/nottetris 2: A tetris game with physics
@@ -404,6 +406,7 @@ virtual/gradle 0: Virtual for gradle
 virtual/lua 5: Virtual for Lua programming language
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
+www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
 www-apps/redmine 4.0.1 9999: Flexible project management webapp written using Ruby on Rails framework

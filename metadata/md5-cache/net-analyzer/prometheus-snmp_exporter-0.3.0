@@ -9,4 +9,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/prometheus/snmp_exporter/archive/v0.3.0.tar.gz -> prometheus-snmp_exporter-0.3.0.tar.gz
 _eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	user	00484e1be1aac73e24fca1c99557a7d6
-_md5_=e85831d5f06a1fe105ab0295db4f42eb
+_md5_=f1d3775c3decdfe6851fe30d9341bf3d

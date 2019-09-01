@@ -9,4 +9,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/dcu/mongodb_exporter/archive/v1.0.0.tar.gz -> prometheus-mongodb_exporter-1.0.0.tar.gz
 _eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	user	00484e1be1aac73e24fca1c99557a7d6
-_md5_=33b68276e1f771404656f5d97336c9ce
+_md5_=c78a5b49a24d709869dfd97e17fb8cab

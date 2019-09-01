@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=!sys-apps/firejail-lts apparmor? ( sys-libs/libapparmor ) x11? ( x11-wm/xpra[client,server] x11-base/xorg-server[xephyr] x11-base/xorg-server[xvfb] x11-base/xorg-server[xcsecurity] )
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=a9b2758b0ce9380eb8e9cb4874a60d52
+_md5_=71d72a13de57220baa138adfac5c96da

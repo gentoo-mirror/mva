@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=virtual/httpd-php
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=6fa04388b0d95160bfdcff1571abd087
+_md5_=fe0559f23d009ae57ba65736dbe82f16

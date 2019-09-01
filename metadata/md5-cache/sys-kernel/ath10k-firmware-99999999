@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=sys-kernel/linux-firmware
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	portability	2b88d3ecc35035a3b8ab628b49cafb0e	savedconfig	0c38912e9b32aef6433a71726675b4b1
-_md5_=103a0c4281a908bfd38f1fa55dbb9822
+_md5_=93011c83ed03433b87080cf8225fdcd4

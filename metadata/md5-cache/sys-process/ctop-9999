@@ -9,4 +9,4 @@ PROPERTIES=live
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
-_md5_=da1469714071eed5ba86633c9231a16c
+_md5_=7b09dc73bb62c108e8a4955035c39a7d

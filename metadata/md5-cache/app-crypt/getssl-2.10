@@ -7,4 +7,4 @@ LICENSE=GPL-3
 RDEPEND=net-dns/bind-tools sys-apps/grep virtual/awk sys-apps/sed net-misc/openssh sys-apps/coreutils net-misc/curl dev-libs/openssl
 SLOT=0
 SRC_URI=https://github.com/srvrco/getssl/archive/v2.10.tar.gz -> getssl-2.10.tar.gz
-_md5_=f9c4b10f77b76d14cf6dae4843209f91
+_md5_=af62dd78415a89c7070371a51adf3814

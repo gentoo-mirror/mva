@@ -10,4 +10,4 @@ RESTRICT=mirror strip installsources test
 SLOT=0
 SRC_URI=https://dl.google.com/android/repository/android-ndk-r14-linux-x86_64.zip
 _eclasses_=check-reqs	5e40a693d9c828e8f3655184116e8b73
-_md5_=506b7e4ed4259c20393e30f40c97702c
+_md5_=3388428fc061058e84a0b6dfd142557d

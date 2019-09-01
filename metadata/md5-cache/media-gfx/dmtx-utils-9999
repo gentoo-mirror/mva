@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=>=media-gfx/imagemagick-6.2.4 >=media-libs/libdmtx-0.7.0
 SLOT=0
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	git-r3	562b380fc59ae6a8622171d0acb777d1	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=29badbc02fb8408ac316fb4062d435a8
+_md5_=63e8a1366d85059f4d905759f753f936
