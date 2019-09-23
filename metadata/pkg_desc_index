@@ -307,7 +307,7 @@ media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding sp
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.4 9999: VoIP library for Telegram clients
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
-media-libs/rlottie 0_pre20190818 9999: A platform independent standalone library that plays Lottie Animation
+media-libs/rlottie 0_pre20190920 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/vips 8.5.6 9999: VIPS Image Processing Library
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
@@ -344,7 +344,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 1.8.2 9999: Official desktop client for Telegram
+net-im/telegram-desktop 1.8.8 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/toxic 9999: A curses-based client for Tox.
