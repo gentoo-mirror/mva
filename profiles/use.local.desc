@@ -9,6 +9,9 @@ app-arch/sasquatch:lz4 - LZ4 support
 app-arch/sasquatch:xz - XZ support
 app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
 app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
+app-crypt/keybase:browser - Build browser native-messaging helper
+app-crypt/keybase:gui - Build Electron-based GUI app
+app-crypt/keybase:kbfs - Build KBFS FUSE mount-helper
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-data:abakan - Install GeoInformational data (incl. maps) for Abakan
 app-misc/2gis-data:almaty - Install GeoInformational data (incl. maps) for Almaty
