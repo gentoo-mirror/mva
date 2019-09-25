@@ -335,6 +335,7 @@ net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet manglin
 net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel/iptables
 net-im/clix 9999: XMPP client library written in Lua.
+net-im/keywee 9999: WeeChat plugin for Keybase chat
 net-im/libcommuni 3.5.0: A cross-platform IRC framework written with Qt
 net-im/matterbridge 9999: Bridge between multiple chat networks
 net-im/prosody 9999: Prosody is a flexible communications server for Jabber/XMPP written in Lua.
@@ -348,6 +349,7 @@ net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telegram-desktop 1.8.8 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
+net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 2
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
