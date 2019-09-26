@@ -1,5 +1,5 @@
 BDEPEND=gui? ( sys-apps/yarn ) kbfs? ( !app-crypt/kbfs sys-fs/fuse ) >=dev-lang/go-1.10 virtual/pkgconfig
-DEFINED_PHASES=compile install postinst prepare test unpack
+DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Client for keybase.io
 EAPI=7
 HOMEPAGE=https://keybase.io/
@@ -11,4 +11,4 @@ RESTRICT=gui? ( network-sandbox )
 SLOT=0
 SRC_URI=https://github.com/keybase/client/archive/v4.5.0.tar.gz -> keybase-4.5.0.tar.gz
 _eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
-_md5_=b542bed2d0aca0bfa4da040990a6123b
+_md5_=68d4074ecea83a61ca4c3100cf8ef664
