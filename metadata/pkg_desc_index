@@ -383,7 +383,6 @@ net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 1.2.0: Open Source Continuous File Synchronization
 net-p2p/transmission-cli 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
-net-voip/kde-ring 99999999: KDE Ring client
 net-voip/ring-daemon 99999999: Ring daemon
 net-voip/trueconf 7.2.1: Centralized proprietary VoIP service (supporting custom installations)
 net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
