@@ -53,8 +53,8 @@ app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
-dev-cpp/ms-gsl 2.0.1_pre20190718 9999: Guideline Support Library implementation by Microsoft
-dev-cpp/range-v3 0.5.0 9999: Experimental range library for C++11/14/17
+dev-cpp/ms-gsl 2.0.1_pre20191021 9999: Guideline Support Library implementation by Microsoft
+dev-cpp/range-v3 0.9.1 9999: Experimental range library for C++11/14/17
 dev-cpp/variant 1.1.6 9999: An header-only alternative to boost::variant for C++11 and C++14
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.9.1 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
@@ -353,7 +353,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 1.8.8 9999: Official desktop client for Telegram
+net-im/telegram-desktop 1.8.15 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
