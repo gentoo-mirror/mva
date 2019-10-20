@@ -40,11 +40,11 @@ app-misc/jo 1.0 1.0_p20170319 9999: JSON output from a shell
 app-misc/jq 9999: Command-line JSON processor
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
-app-portage/eix 0.33.6 99999999: Search and query ebuilds
+app-portage/eix 99999999: Search and query ebuilds
 app-shells/fzf 0.18.0: A general-purpose command-line fuzzy finder
 app-shells/push 3.1-r1: A POSIX shell function to treat a variable like an array, quoting args
 app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
-app-shells/zsh 5.7.1 9999: UNIX Shell similar to the Korn shell
+app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
