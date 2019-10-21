@@ -260,7 +260,7 @@ dev-ruby/colorls 1.1.0: A Ruby script that colorizes the ls output with color an
 dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.15.1: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: manpages wrapper for rubygems
-dev-util/android-ndk 14: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-ndk 21: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.2.3: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
