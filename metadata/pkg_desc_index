@@ -38,6 +38,7 @@ app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware 
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jo 1.0 1.0_p20170319 9999: JSON output from a shell
 app-misc/jq 9999: Command-line JSON processor
+app-misc/qcma 0.4.1 0.4.2_pre20181227 9999: Cross-platform content manager assistant for the PS Vita
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
 app-portage/eix 99999999: Search and query ebuilds
@@ -317,6 +318,7 @@ media-libs/libtgvoip 2.4.4 9999: VoIP library for Telegram clients
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0_pre20190920 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/vips 8.5.6 9999: VIPS Image Processing Library
+media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
