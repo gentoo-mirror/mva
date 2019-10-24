@@ -11,4 +11,4 @@ RDEPEND=dev-libs/glib:2 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt
 SLOT=0
 SRC_URI=https://github.com/codestation/qcma/archive/65f0eab8ca0640447d2e84cdc5fadc66d2c07efb.tar.gz -> qcma-0.4.2_pre20181227.tar.gz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=cf6e482beacd3a56770cfc1c450e445c
+_md5_=e9ff2294efd754c1471da6e0404ce73f
