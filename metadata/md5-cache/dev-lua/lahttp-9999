@@ -10,5 +10,5 @@ RDEPEND=dev-lua/squish dev-lua/luasocket lua_targets_lua51? ( dev-lang/lua:5.1 )
 REQUIRED_USE=|| ( lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_luajit2 )
 RESTRICT=network-sandbox
 SLOT=0
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	lua	549ea007f9bd75e8f5b559fd4c15e0fa	mercurial	d22fe98ea362174612a57c233239102f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	patches	2f260d98e63335610596007483c1b50f	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	lua	549ea007f9bd75e8f5b559fd4c15e0fa	mercurial	d22fe98ea362174612a57c233239102f	multilib	1d91b03d42ab6308b5f4f6b598ed110e	patches	2f260d98e63335610596007483c1b50f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=1efa59b123076eaad2c703107c6f43f0
