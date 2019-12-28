@@ -420,7 +420,7 @@ www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor fo
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
-www-apps/redmine 4.0.1 9999: Flexible project management webapp written using Ruby on Rails framework
+www-apps/redmine 4.0.5-r1 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
 www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
