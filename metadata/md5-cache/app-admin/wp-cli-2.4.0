@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=dev-lang/php:*
 SLOT=0
-SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v2.2.0/wp-cli-2.2.0.phar
+SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v2.4.0/wp-cli-2.4.0.phar
 _md5_=22f31ab454d83af5f87431117d708c83
