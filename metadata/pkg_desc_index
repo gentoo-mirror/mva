@@ -148,6 +148,7 @@ dev-lua/lua-stdlib 9999: Standard Lua libraries
 dev-lua/lua-udev 9999: udev bindings for Lua
 dev-lua/lua-vips 9999: fast, low-memory-use image processing for luajit
 dev-lua/lua-xlsx 9999: a Lua module for reading .xlsx files
+dev-lua/lua-xml-ser 9999: A basic XML serializer for Lua
 dev-lua/lua-xxhash 9999: Lua bindings for dev-libs/xxhash (XXH32 only for now)
 dev-lua/lua-zip 9999: Lua bindings to libzip
 dev-lua/lua-zlib 9999: Lua bindings to zlib
@@ -217,6 +218,7 @@ dev-lua/resty-websocket 9999: Lua WebSocket implementation for the NginX lua mod
 dev-lua/resty-xxhash 9999: LuaJIT bindings for dev-libs/xxhash
 dev-lua/rings 9999: Lua Rings Library
 dev-lua/serpent 9999: Lua serializer and pretty printer
+dev-lua/slaxml 9999: A basic XML serializer for Lua
 dev-lua/specl 9999: A testing tool for Lua, providing a Behaviour Driven Development
 dev-lua/squish 9999: XMPP client library written in Lua.
 dev-lua/srlua 101: A simple tool, that help you to glue lua script with interpreter
