@@ -7,4 +7,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/vaeth/quoter/archive/v4.1.tar.gz -> quoter-4.1.tar.gz
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=2101b905151445f52e712c2744d4a570
+_md5_=80eb707453a724326e1d51b23049bfe8

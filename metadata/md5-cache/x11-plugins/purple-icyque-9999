@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/glib:2 dev-libs/json-glib net-im/pidgin sys-libs/zlib:=
 SLOT=0
 _eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	patches	2f260d98e63335610596007483c1b50f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=65e57ea6b9410dffeab3e2a490aa4ed7
+_md5_=8f299bb6dc6dd2ba43ec9694067fb9f7

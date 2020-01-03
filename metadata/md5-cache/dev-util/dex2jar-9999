@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=dev-java/antlr:3.5 || ( virtual/jre virtual/jdk )
 SLOT=0
 _eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
-_md5_=0e512004011b60fc365e7cea96a15c4f
+_md5_=63aa01127d366edb6d71256c878f58b6

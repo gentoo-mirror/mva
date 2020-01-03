@@ -10,4 +10,4 @@ RDEPEND=!!<=app-misc/2gis-4.0 !app-misc/2gis-data !app-misc/2gis-plugins dev-qt/
 SLOT=0
 SRC_URI=x86? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r15_i386.deb ) amd64? ( http://deb.2gis.ru/pool/non-free/2/2gis/2gis_4.15.2-0trusty1+shv280+r339_amd64.deb )
 _eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	unpacker	3cd8bad0d31e525cd26be1bfa4e61631
-_md5_=1fb4fc30363df4b6df5b26e4c76dd961
+_md5_=2f20a379a425afdcd890f2b274683dd0

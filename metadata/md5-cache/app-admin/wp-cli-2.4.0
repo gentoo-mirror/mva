@@ -8,4 +8,4 @@ LICENSE=MIT
 RDEPEND=dev-lang/php:*
 SLOT=0
 SRC_URI=https://github.com/wp-cli/wp-cli/releases/download/v2.4.0/wp-cli-2.4.0.phar
-_md5_=22f31ab454d83af5f87431117d708c83
+_md5_=95f3b140a6bbbe069df56d44a87c2751
