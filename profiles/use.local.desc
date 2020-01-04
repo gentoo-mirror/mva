@@ -2,17 +2,17 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-acct-user/git:gitea - Set home directory for git hosting viawww-apps/gitea.
-acct-user/git:gitolite - Set home directory for git hosting viadev-vcs/gitoliteordev-vcs/gitolite-gentoo.
-acct-user/git:gitprep - Set home directory for git hosting viawww-apps/gitprep.
+acct-user/git:gitea - Set home directory for git hosting via www-apps/gitea.
+acct-user/git:gitolite - Set home directory for git hosting via dev-vcs/gitolite or dev-vcs/gitolite-gentoo.
+acct-user/git:gitprep - Set home directory for git hosting via www-apps/gitprep.
 app-arch/sasquatch:lz4 - LZ4 support
 app-arch/sasquatch:xz - XZ support
-app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, tryapp-crypt/gnupg-pkcs11-scd.
-app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requiresdev-libs/libusb.
+app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
+app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
 app-crypt/keybase:browser - Build browser native-messaging helper
 app-crypt/keybase:gui - Build Electron-based GUI app
 app-crypt/keybase:kbfs - Build KBFS FUSE mount-helper
-app-misc/2gis:data - Use maps and other data fromapp-misc/2gis-data
+app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-data:abakan - Install GeoInformational data (incl. maps) for Abakan
 app-misc/2gis-data:almaty - Install GeoInformational data (incl. maps) for Almaty
 app-misc/2gis-data:almetevsk - Install GeoInformational data (incl. maps) for Almetevsk
@@ -169,7 +169,7 @@ dev-lua/luacrypto:gcrypt -
 dev-lua/luacrypto:openssl - 
 dev-lua/luarocks:openssl - 
 dev-lua/lulpeg:lpeg_replace - 
-dev-lua/mpack:luajit - Usedev-lang/luajitinstead ofdev-lang/lua
+dev-lua/mpack:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/resty-string:naive-random - 
 dev-lua/tekui:cache - 
 dev-lua/tekui:fileno - 
@@ -183,7 +183,7 @@ dev-python/jira:oauth - Support OAuth authentication
 dev-util/scanmem:gui - Enable the GameConqueror GUI
 dev-vcs/git-annex:asciiprogress - Use ascii-progress library (experimental)
 dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
-dev-vcs/git-annex:database - Enable building withdev-haskell/persistentfor database use
+dev-vcs/git-annex:database - Enable building with dev-haskell/persistent for database use
 dev-vcs/git-annex:desktopnotify - Enable desktop environment notifications
 dev-vcs/git-annex:dns - Enable the haskell DNS library for DNS lookup
 dev-vcs/git-annex:ekg - Enable use of EKG to monitor git-annex as it runs.
@@ -210,27 +210,27 @@ media-gfx/cura:usb - Access 3D printers via USB
 media-gfx/ttfautohint:gui - Build GUI Frontend
 media-libs/libtgvoip:alsa - Enable ALSA support
 media-libs/libtgvoip:disable-reassembler - Apply reassembler disabling patch from tdesktop fork
-media-libs/libtgvoip:libcxx - Build withsys-devel/clangagainstsys-libs/libcxx
+media-libs/libtgvoip:libcxx - Build with sys-devel/clang against sys-libs/libcxx
 media-libs/libtgvoip:pulseaudio - Enable PulseAudio support
 media-libs/libtgvoip:static-libs - Build static library
 media-libs/rlottie:cache - Enable cache support
 media-libs/rlottie:dumptree - Enable logging the rlottie tree
-media-libs/rlottie:libcxx - Build withsys-devel/clangand link againstsys-libs/libcxx
+media-libs/rlottie:libcxx - Build with sys-devel/clang and link against sys-libs/libcxx
 media-libs/rlottie:log - Enable logging
 media-libs/rlottie:module - Build Image module
 media-libs/rlottie:telegram-patches - Apply John Preston patches (you don't need that)
 media-libs/rlottie:threads - Support threading
-media-libs/vips:fits - Enable support for the FITS image format throughsci-libs/cfitsio
-media-libs/vips:matio - Enable support for reading images from Matlab files throughsci-libs/matio
-media-libs/vips:openslide - Enable support for reading images from OpenSlide files throughmedia-libs/openslide(currently conflicts with jpeg-turbo)
+media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
+media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
+media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide (currently conflicts with jpeg-turbo)
 media-sound/mellowplayer:widevine - Install the Widevine DRM library
 media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
 media-sound/mumble:speech - Enable text-to-speech support in Mumble.
-net-firewall/iptables:conntrack - Build againstnet-libs/libnetfilter_conntrackwhen enables the connlabel matcher
+net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:ipq - Support for IPQ
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
 net-firewall/iptables:nftables - Support nftables kernel interface
-net-firewall/iptables:pcap - Build againstnet-libs/libpcapwhich enables the nfbpf_compile util
+net-firewall/iptables:pcap - Build against net-libs/libpcap which enables the nfbpf_compile util
 net-firewall/nftables:json - 
 net-firewall/nftables:xtables - 
 net-im/libcommuni:qml - 
@@ -553,25 +553,32 @@ net-im/prosody-modules:prosody_modules_web_push - This module is terribly untest
 net-im/prosody-modules:prosody_modules_webpresence - Quite often you may want to publish your Jabber status to your blog or website. mod_webpresence allows you to do exactly this. (info: https://modules.prosody.im/mod_webpresence)
 net-im/prosody-modules:prosody_modules_xhtmlim - This module attempts to sanitize XHTML-IM messages. (info: https://modules.prosody.im/mod_xhtmlim)
 net-im/spectrum2:frotz - Enables the Z-Engine backend.
-net-im/spectrum2:irc - Enables the IRC backend, based onnet-im/libcommuni.
-net-im/spectrum2:purple - Enables the libpurple backend, based onnet-im/pidgin.
-net-im/spectrum2:skype - Enables the SKype backend, based onx11-plugins/pidgin-skypeweb.
-net-im/spectrum2:sms - Enables the SMS backend, based onapp-mobilephone/smstools.
+net-im/spectrum2:irc - Enables the IRC backend, based on net-im/libcommuni.
+net-im/spectrum2:purple - Enables the libpurple backend, based on net-im/pidgin.
+net-im/spectrum2:skype - Enables the SKype backend, based on x11-plugins/pidgin-skypeweb.
+net-im/spectrum2:sms - Enables the SMS backend, based on app-mobilephone/smstools.
 net-im/spectrum2:twitter - Enables the Twitter backend.
-net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based onnet-im/transwhat.
+net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based on net-im/transwhat.
 net-im/swift:client - Build the full graphical XMPP client.
-net-im/swift:gconf - Enable configuration throughgnome-base/gconf.
+net-im/swift:gconf - Enable configuration through gnome-base/gconf.
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
-net-im/telegram-desktop:clang - Build withsys-devel/clang
+net-im/telegram-desktop:clang - Build with sys-devel/clang
+net-im/telegram-desktop:connman - Enable "connman" (net-misc/connman) QtNetwork backend
 net-im/telegram-desktop:crash-report - Enable Crash Reporter
-net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or portage/env/{CAT}/{PN}.
-net-im/telegram-desktop:gtk3 - Keeps GTK3 stuff enabled
-net-im/telegram-desktop:openal-eff - Double playback speed
-net-im/telegram-desktop:pulseaudio - Keeps Pulseaudio support enabled (ALSA-only backend will be used if you disable this)
+net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or `/etc/portage/env/{CAT}/{PN}`)
+net-im/telegram-desktop:gnome - Enable GNOME integrations
+net-im/telegram-desktop:gtk-file-dialog - Force GTK file dialog (instead of Qt one)
+net-im/telegram-desktop:gtk2 - Enable gtk+-2 integrations
+net-im/telegram-desktop:gtk3 - Enable gtk+-3 integrations
+net-im/telegram-desktop:ibus - Enable ibus Input system Qt Plugin support
+net-im/telegram-desktop:lto - Use Link Time Optimization (most probably it will be useless for you). Eats ~20GB RAM, longer build time.
+net-im/telegram-desktop:networkmanager - Enable "networkmanager" (net-misc/networkmanager) QtNetwork backend
+net-im/telegram-desktop:openal-eff - Use openal effects (like doubling playspeed)
+net-im/telegram-desktop:system-fonts - Drop internal fonts resource file (so Tg will use font that you've setup system-wide instead)
 net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
-net-im/tgl:gcrypt - Usedev-libs/libgcryptinstead ofdev-libs/opensslfor crypto operations
+net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
 net-im/toxic:X - Adds support for X11
 net-im/toxic:audio - Adds support for audio (including sound notifications).
@@ -599,7 +606,7 @@ net-libs/libvncserver:24bpp - enable 24bpp support
 net-libs/libvncserver:filetransfer - enable tightvnc-filetransfer support
 net-libs/libvncserver:gcrypt - enable support for gcrypt
 net-libs/libvncserver:websockets - enable websockets support
-net-libs/opendht:python - Install Python bindings. Requiresdev-python/cython.
+net-libs/opendht:python - Install Python bindings. Requires dev-python/cython.
 net-libs/opendht:tools - Install extra opendht tools (dhtchat, dhtnode and dhtscanner).
 net-libs/pjproject:amr - Inlcude AMR codec in the build
 net-libs/pjproject:epoll - Use /dev/epoll ioqueue on Linux (experimental)
@@ -631,9 +638,9 @@ net-voip/ring-daemon:hwaccel - Enable hardware-accelerated rendering (only vaapi
 net-voip/ring-daemon:libilbc - Support ilbc audio
 net-voip/ring-daemon:nat-pmp - Support for NAT-PMP
 net-voip/ring-daemon:opus - Support opus audio
-net-voip/ring-daemon:restbed - An alternative to the dbus client to communicate with a headless daemon. It usesnet-libs/restbed, a cpp framework for RESTful services.
-net-voip/ring-daemon:ringns - Ring name service, depends onnet-libs/restbed
-net-voip/ring-daemon:sdes - Support for sdes key exchange. It usesdev-libs/libpcre
+net-voip/ring-daemon:restbed - An alternative to the dbus client to communicate with a headless daemon. It uses net-libs/restbed, a cpp framework for RESTful services.
+net-voip/ring-daemon:ringns - Ring name service, depends on net-libs/restbed
+net-voip/ring-daemon:sdes - Support for sdes key exchange. It uses dev-libs/libpcre
 net-voip/ring-daemon:speexdsp - Support for speexdp Noise Suppression and Automatic Gain Control
 net-voip/ring-daemon:system-gnutls - Uses the system library for gnutls
 net-voip/ring-daemon:system-pjproject - Uses the system library for pjproject
@@ -653,7 +660,7 @@ net-vpn/onioncat:log - enable packet logging
 net-vpn/onioncat:queue - enable queueuing of packets while connecting setup
 net-vpn/onioncat:relay - disable source ip checking before forwarding
 net-vpn/onioncat:rtt - enable inband RTT measurement
-net-vpn/tinc:gui - Add GUI support, usingdev-python/wxpython
+net-vpn/tinc:gui - Add GUI support, using dev-python/wxpython
 net-vpn/tinc:legacy - Enable legacy (tinc 1.0) protocol support
 net-vpn/tinc:tools - Build some testing tools
 net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
@@ -695,9 +702,9 @@ www-apps/redmine:bazaar -
 www-apps/redmine:darcs - 
 www-apps/redmine:mercurial - 
 www-apps/redmine:sqlite3 - 
-www-nginx/upstream-check:upstream-dyups - Enable support forwww-nginx/upstream-dyups
-www-nginx/upstream-check:upstream-fair - Enable support forwww-nginx/upstream-fair
-www-nginx/upstream-fair:upstream-check - Enable support forwww-nginx/upstream-check
+www-nginx/upstream-check:upstream-dyups - Enable support for www-nginx/upstream-dyups
+www-nginx/upstream-check:upstream-fair - Enable support for www-nginx/upstream-fair
+www-nginx/upstream-fair:upstream-check - Enable support for www-nginx/upstream-check
 www-servers/nginx:aio - Enable aio support
 www-servers/nginx:busy-upstream - Apply the "Busy Upstream" Patch (required for some modules)
 www-servers/nginx:debug - Enable the debugging logging
@@ -770,7 +777,7 @@ www-servers/nginx:nginx_modules_stream_upstream_hash - Upstream Hash Module (str
 www-servers/nginx:nginx_modules_stream_upstream_least_conn - Upstream LeastConn Module (stream)
 www-servers/nginx:nginx_modules_stream_upstream_zone - Upstream Zone Module (stream)
 www-servers/nginx:pcre-jit - Add support to PCRE JIT
-www-servers/nginx:perftools - Usedev-util/google-perftoolsfor performance tuning
+www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:rtmp - RTMP module
 www-servers/nginx:ssl-cert-cb - Patch NginX for ssl callback support
@@ -778,14 +785,14 @@ www-servers/nginx:stream - Enable Stream NginX core module
 www-servers/nginx:systemtap - Install systemtap tapset files for some modules
 www-servers/nginx-unit:go - meta-flag for complement with gentoo repo naming. Use unit_modules_go instead
 www-servers/nginx-unit:ipv6 - Enable IPv6 support
-www-servers/nginx-unit:nodejs - Enable support for applications written innet-libs/nodejs
-www-servers/nginx-unit:unit_modules_go - Enable support for applications written indev-lang/go
+www-servers/nginx-unit:nodejs - Enable support for applications written in net-libs/nodejs
+www-servers/nginx-unit:unit_modules_go - Enable support for applications written in dev-lang/go
 www-servers/nginx-unit:unit_modules_java - Enable support for applications written in Java
-www-servers/nginx-unit:unit_modules_nodejs - Enable support for applications written innet-libs/nodejs
-www-servers/nginx-unit:unit_modules_perl - Enable support for applications written indev-lang/perl
-www-servers/nginx-unit:unit_modules_php - Enable support for applications written indev-lang/php
-www-servers/nginx-unit:unit_modules_python - Enable support for applications written indev-lang/python
-www-servers/nginx-unit:unit_modules_ruby - Enable support for applications written indev-lang/ruby
+www-servers/nginx-unit:unit_modules_nodejs - Enable support for applications written in net-libs/nodejs
+www-servers/nginx-unit:unit_modules_perl - Enable support for applications written in dev-lang/perl
+www-servers/nginx-unit:unit_modules_php - Enable support for applications written in dev-lang/php
+www-servers/nginx-unit:unit_modules_python - Enable support for applications written in dev-lang/python
+www-servers/nginx-unit:unit_modules_ruby - Enable support for applications written in dev-lang/ruby
 www-servers/nginx-unit:unix-sockets - Enable support of unix sockets
 x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
 x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
