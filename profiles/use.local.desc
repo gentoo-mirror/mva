@@ -573,7 +573,8 @@ net-im/telegram-desktop:gtk-file-dialog - Force GTK file dialog (instead of Qt o
 net-im/telegram-desktop:gtk2 - Enable gtk+-2 integrations
 net-im/telegram-desktop:gtk3 - Enable gtk+-3 integrations
 net-im/telegram-desktop:ibus - Enable ibus Input system Qt Plugin support
-net-im/telegram-desktop:lto - Use Link Time Optimization (most probably it will be useless for you). Eats ~20GB RAM, longer build time.
+net-im/telegram-desktop:kde - KDE support (actually, just don't select/install kludges to run under another DEs)
+net-im/telegram-desktop:lto - Use Link Time Optimization. Most probably it will be useless for you. Eats ~20GB RAM, longer build time.
 net-im/telegram-desktop:networkmanager - Enable "networkmanager" (net-misc/networkmanager) QtNetwork backend
 net-im/telegram-desktop:openal-eff - Use openal effects (like doubling playspeed)
 net-im/telegram-desktop:system-fonts - Drop internal fonts resource file (so Tg will use font that you've setup system-wide instead)
