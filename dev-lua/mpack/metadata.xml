@@ -3,15 +3,16 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>lluixhi@gmail.com</email>
-    <name>Aric Belsito</name></maintainer><maintainer type="project"><email>proxy-maint@gentoo.org</email>
+    <name>Aric Belsito</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>proxy-maint@gentoo.org</email>
     <name>Proxy Maintainers</name>
   </maintainer>
   <use>
-    <flag name="luajit">Use<pkg>dev-lang/luajit</pkg>instead of<pkg>dev-lang/lua</pkg></flag>
+    <flag name="luajit">Use <pkg>dev-lang/luajit</pkg> instead of <pkg>dev-lang/lua</pkg></flag>
   </use>
   <upstream>
-    <remote-id type="github">
-      tarruda/libmpack
-    </remote-id>
+    <remote-id type="github">tarruda/libmpack</remote-id>
   </upstream>
 </pkgmetadata>

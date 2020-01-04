@@ -6,8 +6,6 @@
     <name>Gentoo Sysadmin Project</name>
   </maintainer>
   <upstream>
-    <remote-id type="sourceforge">
-      ipmiutil
-    </remote-id>
+    <remote-id type="sourceforge">ipmiutil</remote-id>
   </upstream>
 </pkgmetadata>

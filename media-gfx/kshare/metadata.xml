@@ -5,12 +5,8 @@
     <email>mva@gentoo.org</email>
     <name>Vadim A. Misbakh-Soloviov</name>
   </maintainer>
-  <longdescription>
-    KShare is a screenshotting utility built using Qt and written in C++. It has many features, including: Area capture, Fullscreen capture, Active window capture, Magnifier, to make those aligments, Drawing on screenshots (blur, shapes, text, ...), Recording, Highly customizable video codecs, Automatic upload/clipboard copying, Hotkeys, Color picker, and last but not least, Custom upload destinations
-  </longdescription>
+  <longdescription>KShare is a screenshotting utility built using Qt and written in C++. It has many features, including: Area capture, Fullscreen capture, Active window capture, Magnifier, to make those aligments, Drawing on screenshots (blur, shapes, text, ...), Recording, Highly customizable video codecs, Automatic upload/clipboard copying, Hotkeys, Color picker, and last but not least, Custom upload destinations</longdescription>
   <upstream>
-    <remote-id type="github">
-      ArsenArsen/KShare
-    </remote-id>
+    <remote-id type="github">ArsenArsen/KShare</remote-id>
   </upstream>
 </pkgmetadata>

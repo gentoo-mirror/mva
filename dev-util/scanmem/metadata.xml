@@ -6,8 +6,6 @@
     <flag name="gui">Enable the GameConqueror GUI</flag>
   </use>
   <upstream>
-    <remote-id type="github">
-      scanmem/scanmem
-    </remote-id>
+    <remote-id type="github">scanmem/scanmem</remote-id>
   </upstream>
 </pkgmetadata>

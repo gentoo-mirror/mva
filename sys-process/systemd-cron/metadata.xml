@@ -12,8 +12,6 @@
     <flag name="setgid">Compile setgid C helper for crontab. Needs GCC or Clang.</flag>
   </use>
   <upstream>
-    <remote-id type="github">
-      systemd-cron/systemd-cron
-    </remote-id>
+    <remote-id type="github">systemd-cron/systemd-cron</remote-id>
   </upstream>
 </pkgmetadata>

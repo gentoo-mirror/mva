@@ -5,21 +5,9 @@
     <email>mva@gentoo.org</email>
     <name>Vadim Misbakh-Soloviov</name>
   </maintainer>
-  <longdescription lang="en">
-    Graphical frontend for
-    <pkg>
-      sys-apps/firejail-lts
-    </pkg>
-    and
-    <pkg>
-      sys-apps/firejail-lts
-    </pkg>
-    .
-  </longdescription>
+  <longdescription lang="en">Graphical frontend for <pkg>sys-apps/firejail-lts</pkg> and <pkg>sys-apps/firejail-lts</pkg>.</longdescription>
   <upstream>
-    <remote-id type="github">
-      firejail
-    </remote-id>
+    <remote-id type="github">firejail</remote-id>
   </upstream>
   <use/>
 </pkgmetadata>

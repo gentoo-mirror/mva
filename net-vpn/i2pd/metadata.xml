@@ -15,8 +15,6 @@
     <flag name="websockets">Compile with Websocket UI</flag>
   </use>
   <upstream>
-    <remote-id type="github">
-      PurpleI2P/i2pd
-    </remote-id>
+    <remote-id type="github">PurpleI2P/i2pd</remote-id>
   </upstream>
 </pkgmetadata>

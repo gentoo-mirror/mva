@@ -6,8 +6,6 @@
     <name>Gentoo Ruby Project</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">
-      cjheath/treetop
-    </remote-id>
+    <remote-id type="github">cjheath/treetop</remote-id>
   </upstream>
 </pkgmetadata>

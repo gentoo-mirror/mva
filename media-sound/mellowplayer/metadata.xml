@@ -2,15 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="gitlab">
-      ColinDuquesnoy/MellowPlayer
-    </remote-id>
-    <bugs-to>
-      https://gitlab.com/ColinDuquesnoy/MellowPlayer/issues
-    </bugs-to>
+    <remote-id type="gitlab">ColinDuquesnoy/MellowPlayer</remote-id>
+    <bugs-to>https://gitlab.com/ColinDuquesnoy/MellowPlayer/issues</bugs-to>
     <maintainer>
-      <name>Colin Duquesnoy</name><email>colin.duquesnoy@gmail.com</email></maintainer></upstream><maintainer type="person"><email>jpizarrocallejas@gmail.com</email>
+      <name>Colin Duquesnoy</name>
+      <email>colin.duquesnoy@gmail.com</email>
+    </maintainer>
+  </upstream>
+  <maintainer type="person">
+    <email>jpizarrocallejas@gmail.com</email>
     <name>Jorge Pizarro Callejas</name>
+    <description>Jorgicio Gentoo Overlay</description>
   </maintainer>
   <use>
     <flag name="widevine">Install the Widevine DRM library</flag>

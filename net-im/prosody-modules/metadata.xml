@@ -3,17 +3,13 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>mva@gentoo.org</email>
+    <description>Also, you can find me on IRC (FreeNode) as mva, or in Telegram as @mva_name</description>
     <name>Vadim A. Misbakh-Soloviov</name>
   </maintainer>
-  <longdescription>
-    Modules for
-    <pkg>
-      net-im/prosody
-    </pkg>
-    , developed by the community
-  </longdescription>
+  <longdescription>Modules for <pkg>net-im/prosody</pkg>, developed by the community</longdescription>
   <use>
-    <flag name="misc"/><flag name="prosody_modules_addressing">This module is a partial implementation of XEP-0033: Extended Stanza Addressing. (info: https://modules.prosody.im/mod_addressing)</flag>
+    <flag name="misc"/>
+    <flag name="prosody_modules_addressing">This module is a partial implementation of XEP-0033: Extended Stanza Addressing. (info: https://modules.prosody.im/mod_addressing)</flag>
     <flag name="prosody_modules_adhoc_account_management">This module adds an ad-hoc command that lets an user change their password. This is useful for clients that don’t have support for XEP-0077 style password changing. In the future, it may provide other account management commands. (info: https://modules.prosody.im/mod_adhoc_account_management)</flag>
     <flag name="prosody_modules_adhoc_blacklist">This module provides the Edit Blacklist ad-hoc command described in XEP-0133 and also performs the actual blocking of incoming and outgoing server-to-server connections. (info: https://modules.prosody.im/mod_adhoc_blacklist)</flag>
     <flag name="prosody_modules_adhoc_dataforms_demo">This module provides Ad-Hoc commands for testing data form that includes all kinds of fields. It’s meant to help debug both Prosodys util.dataforms library and clients, eg seeing how various field types are rendered. (info: https://modules.prosody.im/mod_adhoc_dataforms_demo)</flag>

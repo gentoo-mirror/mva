@@ -2,8 +2,6 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="sourceforge">
-      cryptopp
-    </remote-id>
+    <remote-id type="sourceforge">cryptopp</remote-id>
   </upstream>
 </pkgmetadata>

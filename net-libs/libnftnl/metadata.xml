@@ -3,7 +3,10 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>mrueg@gentoo.org</email>
-    <name>Manuel Rüger</name></maintainer><maintainer type="project"><email>base-system@gentoo.org</email>
+    <name>Manuel Rüger</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>base-system@gentoo.org</email>
     <name>Gentoo Base System</name>
   </maintainer>
   <use>

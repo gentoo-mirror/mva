@@ -6,8 +6,6 @@
     <name>Manuel Rüger</name>
   </maintainer>
   <upstream>
-    <remote-id type="sourceforge">
-      rkflashtool
-    </remote-id>
+    <remote-id type="sourceforge">rkflashtool</remote-id>
   </upstream>
 </pkgmetadata>

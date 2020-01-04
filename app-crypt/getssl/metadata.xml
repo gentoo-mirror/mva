@@ -6,8 +6,6 @@
     <name>Jason A. Donenfeld</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">
-      kuba/simp_le
-    </remote-id>
+    <remote-id type="github">kuba/simp_le</remote-id>
   </upstream>
 </pkgmetadata>

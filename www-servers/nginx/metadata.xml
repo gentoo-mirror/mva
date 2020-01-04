@@ -73,7 +73,7 @@
     <flag name="nginx_modules_stream_upstream_zone">Upstream Zone Module (stream)</flag>
     <flag name="nginx_modules_stream_dtls">Enable DTLS Support (experimental)</flag>
     <flag name="pcre-jit">Add support to PCRE JIT</flag>
-    <flag name="perftools">Use<pkg>dev-util/google-perftools</pkg>for performance tuning</flag>
+    <flag name="perftools">Use <pkg>dev-util/google-perftools</pkg> for performance tuning</flag>
     <flag name="nginx_modules_http_rrd">Enadle 3rd party rrd module</flag>
     <flag name="rrd">Enadle 3rd party rrd module</flag>
     <flag name="rtmp">RTMP module</flag>

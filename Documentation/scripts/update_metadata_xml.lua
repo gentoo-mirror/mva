@@ -1,6 +1,9 @@
 xml=require"slaxdom"
 mva_email="mva@gentoo.org"
 
+local indent = 2
+local char = "[a-zA-Z0-9().,-]"
+
 for i=1,#arg do
 	metadata_xml=arg[i]
 
@@ -16,35 +19,17 @@ for i=1,#arg do
 	end
 	s=f:read("*a");
 
-	s = s:gsub("(<!)(DOCTYPE[^>]*)(>)","%1--%2--%3")
-				:gsub("\n","")
-				:gsub("\t"," ")
-				:gsub("  *"," ")
+	s = s
+			:gsub("(<!)(DOCTYPE[^>]*)(>)","%1--%2--%3") -- Workaround for SLAXML bug as it doesn't currently support DOCTYPE
+		-- pre-strip whitespaces in 3 steps:
+			:gsub("\n","") -- TEMP (remove someday): pre-strip newlines (SLAXML skips it inside text-contained tags)
+			:gsub("\t"," ") -- substitute tabs with spaces
+			:gsub("  *"," ") -- substitute many spaces in a row with one
 
 	metadata = xml:dom(s,{
-					simple=true,
-					stripWhitespace=true
+					simple=true, -- simpler structure (no kids made from whitespaces)
+					stripWhitespace=true -- strip other whitespaces
 				})
-
-	local function strip_ws(ot,cn,ct)
-		return ot
-			..cn
-				:gsub(
-					"[\n][ ]*",
-					""
-				)
-			..ct
-	end
-
-	local indent=2
-
-	local function ifindent(indent, str)
-		if indent then
-			return str
-		else
-			return ""
-		end
-	end
 
 	local m_k=metadata.kids
 	for i=1,#m_k do
@@ -57,19 +42,22 @@ for i=1,#arg do
 					 and pm_k[ii].attr[1].value == "person"
 				then -- TODO: unhardcode attr position (make proper search, move to external function)
 					local mnt_k=pm_k[ii].kids
-					local name_i,email_i=0,0
-					for iii=1,#mnt_k do
+					local desc_i,name_i,email_i=0,0,0
+					for iii=1,#mnt_k do -- http://www.gentoo.org/dtd/metadata.dtd
 						if mnt_k[iii].name == "name" then
 							name_i=iii;
 						elseif mnt_k[iii].name == "email" then
 							email_i=iii;
 						elseif mnt_k[iii].name == "description" then
-							mnt_k[iii]={}
+							desc_i=iii;
 						end -- if(mnt_k)
 					end -- for(iii)
 					if email_i>0 and name_i>0 then
-						if mnt_k[name_i].kids[1].value:match("Misbakh") then
+						if mnt_k[name_i].kids[1].value:match("Misbakh%-Solov[a-z]*v") then -- since there is another devs and maintainers called Vadim, search me by last name (pattern here is because there was two notations)
 							mnt_k[email_i].kids[1].value=mva_email
+							if desc_i>0 then
+								mnt_k[desc_i].kids[1].value="Also, you can find me on IRC (FreeNode) as mva, or in Telegram as @mva_name"
+							end -- if(desc)
 						end -- if(mva)
 					end -- email/name_i>0
 				end -- if(pm_k)
@@ -85,7 +73,9 @@ for i=1,#arg do
 	end
 	f:write((
 --]]
---print((
+--[[
+print((
+--]]
 		xml:xml(
 			metadata,
 			{
@@ -93,18 +83,30 @@ for i=1,#arg do
 				sort=true,
 				omit
 			}
-		):gsub(
+		)
+		:gsub(  -- workaround over slaxml bug of not handling DOCTYPE
 			"(<!)%-%-(DOCTYPE)([^>]+)%-%-(>)",
 			"%1%2%3%4"
-		):gsub(
-			"(<flag[^>]*>)(.-)(</flag>)",
-			strip_ws
-		):gsub(
-			"(<maintainer[^<]+)(.*)(\n[^<]*</maintainer>)",
-			strip_ws
-		):gsub(
-			"(/email>)(<name)",
-			"%1"..(ifindent(indent,"\n"))..(" "):rep((indent or 0)*2).."%2"
+		)
+		:gsub( -- strip indentation inside text-containing nodes
+			"(>)[\n]*[ ]*("..char..")",
+			"%1%2"
+		)
+		:gsub( -- same
+			"("..char..")[\n]*[ ]*(</)",
+			"%1%2"
+		)
+		:gsub( -- same, but handle the case of ending by <pkg/>
+			"(</pkg>)[\n]*[ ]*(</)",
+			"%1%2"
+		)
+		:gsub( -- add space right before <pkg/>
+			"("..char..")[\n]*[ ]*(<pkg>[^<]*</pkg>)",
+			"%1 %2"
+		)
+		:gsub( -- and after
+			"(<pkg>[^<]*</pkg>)("..(char:gsub(".,",""))..")",
+			"%1 %2"
 		)
 	))
 	f:close();

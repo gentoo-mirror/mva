@@ -6,9 +6,7 @@
     <name>Fonts</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">
-      larsenwork/monoid
-    </remote-id>
+    <remote-id type="github">larsenwork/monoid</remote-id>
   </upstream>
   <use>
     <flag name="web">Build (9999) or install (non-live) web versions (woff) of the font (and it's variants)</flag>
