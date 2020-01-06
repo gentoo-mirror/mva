@@ -41,7 +41,7 @@ app-misc/qcma 0.4.1 0.4.2_pre20181227 9999: Cross-platform content manager assis
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
 app-portage/eix 99999999: Search and query ebuilds
-app-shells/fzf 0.18.0: A general-purpose command-line fuzzy finder
+app-shells/fzf 0.20.0: A general-purpose command-line fuzzy finder
 app-shells/push 3.1-r1: A POSIX shell function to treat a variable like an array, quoting args
 app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/zsh 9999: UNIX Shell similar to the Korn shell
@@ -317,7 +317,7 @@ media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding sp
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.4 9999: VoIP library for Telegram clients
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
-media-libs/rlottie 0_pre20190920 9999: A platform independent standalone library that plays Lottie Animation
+media-libs/rlottie 0.0.1_pre20191224 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/vips 8.9.0_rc2 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/woff2 9999: font compression reference code
