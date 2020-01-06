@@ -57,10 +57,11 @@ dev-cpp/ms-gsl 2.0.1_pre20191021 9999: Guideline Support Library implementation 
 dev-cpp/range-v3 0.9.1 9999: Experimental range library for C++11/14/17
 dev-cpp/variant 1.1.6 9999: An header-only alternative to boost::variant for C++11 and C++14
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
-dev-db/mydumper 0.9.1 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
+dev-db/mydumper 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
 dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/proxysql 2.0.5: A high performance, high availability, protocol aware proxy for MySQL and forks
 dev-db/tora 9999: TOra - Toolkit For Oracle
+dev-go/glide 0.13.2: Vendor Package Managment for Golang
 dev-java/gradle 5.3.1: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 5.3.1: A project automation and build tool with a Groovy based DSL
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
@@ -240,12 +241,11 @@ dev-perl/Object-Simple 3.16: Real-time web framework
 dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
 dev-php/composer 1.5.1: Dependency Manager for PHP
-dev-php/msgpack-php 2.0.3 9999: API for communicating with MessagePack serialization
+dev-php/msgpack-php 2.1.0_beta1 9999: API for communicating with MessagePack serialization
 dev-python/cli_helpers 1.2.0 9999: Python helpers for common CLI tasks
 dev-python/cstruct 1.0: C-style structs for Python
 dev-python/e4u 9999: A library for handling unicode emoji and carrier's emoji
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
-dev-python/jira 1.0.10: Python library for interacting with JIRA via REST APIs.
 dev-python/neovim-python-client 0.3.1: Python client for Neovim
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
@@ -387,7 +387,6 @@ net-p2p/syncthing 1.3.3_rc1: Open Source Continuous File Synchronization
 net-p2p/transmission-cli 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
 net-voip/ring-daemon 99999999: Ring daemon
-net-voip/trueconf 7.2.1: Centralized proprietary VoIP service (supporting custom installations)
 net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
 net-vpn/onioncat 0.2.2_p13012018: An IP-Transparent Tor Hidden Service Connector
 net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
@@ -421,7 +420,7 @@ www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor fo
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
-www-apps/redmine 4.0.5-r1 9999: Flexible project management webapp written using Ruby on Rails framework
+www-apps/redmine 4.1.0 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
 www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol

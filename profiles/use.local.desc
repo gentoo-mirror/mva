@@ -177,9 +177,6 @@ dev-lua/tekui:gradient -
 dev-lua/tekui:udp - 
 dev-lua/wsapi:fcgi - 
 dev-lua/wsapi:uwsgi - 
-dev-python/jira:filemagic - Include filemagic support (for identifying uploaded filetypes)
-dev-python/jira:ipython - Include Interactive Python (IPython)
-dev-python/jira:oauth - Support OAuth authentication
 dev-util/scanmem:gui - Enable the GameConqueror GUI
 dev-vcs/git-annex:asciiprogress - Use ascii-progress library (experimental)
 dev-vcs/git-annex:assistant - Enable git-annex assistant and watch command
@@ -572,10 +569,12 @@ net-im/telegram-desktop:gtk-file-dialog - Force GTK file dialog (instead of Qt o
 net-im/telegram-desktop:gtk2 - Enable gtk+-2 integrations
 net-im/telegram-desktop:gtk3 - Enable gtk+-3 integrations
 net-im/telegram-desktop:ibus - Enable ibus Input system Qt Plugin support
-net-im/telegram-desktop:kde - Enable KDE integrations (actually, just don't enable neither gtk ones nor qt5ct)
+net-im/telegram-desktop:kde - Enable KDE integrations (actually, just prevent enabling gtk/gnome ones and qt5ct)
 net-im/telegram-desktop:libcxx - Build with sys-devel/libcxx as sdtlib
 net-im/telegram-desktop:networkmanager - Enable "networkmanager" (net-misc/networkmanager) QtNetwork backend
 net-im/telegram-desktop:openal-eff - Use openal effects (like doubling playspeed)
+net-im/telegram-desktop:plasma - Enable KDE integrations (actually, just prevent enabling gtk/gnome ones and qt5ct)
+net-im/telegram-desktop:qt5ct - Enable Qt5ct integrations
 net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
 net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
