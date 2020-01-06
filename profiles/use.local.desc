@@ -564,7 +564,6 @@ net-im/swift:gconf - Enable configuration through gnome-base/gconf.
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
-net-im/telegram-desktop:clang - Build with sys-devel/clang
 net-im/telegram-desktop:connman - Enable "connman" (net-misc/connman) QtNetwork backend
 net-im/telegram-desktop:crash-report - Enable Crash Reporter
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or `/etc/portage/env/{CAT}/{PN}`)
@@ -573,11 +572,10 @@ net-im/telegram-desktop:gtk-file-dialog - Force GTK file dialog (instead of Qt o
 net-im/telegram-desktop:gtk2 - Enable gtk+-2 integrations
 net-im/telegram-desktop:gtk3 - Enable gtk+-3 integrations
 net-im/telegram-desktop:ibus - Enable ibus Input system Qt Plugin support
-net-im/telegram-desktop:kde - KDE support (actually, just don't select/install kludges to run under another DEs)
-net-im/telegram-desktop:lto - Use Link Time Optimization. Most probably it will be useless for you. Eats ~20GB RAM, longer build time.
+net-im/telegram-desktop:kde - Enable KDE integrations (actually, just don't enable neither gtk ones nor qt5ct)
+net-im/telegram-desktop:libcxx - Build with sys-devel/libcxx as sdtlib
 net-im/telegram-desktop:networkmanager - Enable "networkmanager" (net-misc/networkmanager) QtNetwork backend
 net-im/telegram-desktop:openal-eff - Use openal effects (like doubling playspeed)
-net-im/telegram-desktop:system-fonts - Drop internal fonts resource file (so Tg will use font that you've setup system-wide instead)
 net-im/telegram-desktop:wide-baloons - Apply custom patch to make text baloons in chat journal follow longest line width on adaptive widescreen layout, instead of using short ones and keep tons of empty space.
 net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
