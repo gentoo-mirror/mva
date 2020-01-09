@@ -7,5 +7,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-misc/asterisk
 SLOT=0
-_eclasses_=estack	686eaab303305a908fd57b2fd7617800	subversion	76e4ab6ae9cda8407c34d0b9a086f81c
+_eclasses_=estack	686eaab303305a908fd57b2fd7617800	subversion	1086a6c20b5a06e9f05f3128525fa694
 _md5_=73370ea2d0abc46ceca79570ab495f2e
