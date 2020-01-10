@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
 _md5_=73522e0ef5eb0b379ffbf2edd15a6fe3
