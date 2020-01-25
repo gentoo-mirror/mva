@@ -48,7 +48,7 @@ app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.17.5: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.17.8: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
@@ -356,7 +356,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 1.9.3 9999: Official desktop client for Telegram
+net-im/telegram-desktop 1.9.8 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
@@ -478,7 +478,7 @@ www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.17.8-r10 1.17.8-r100: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.12.0-r10 9999: A dynamic web&application server with modules many languages
+www-servers/nginx-unit 1.14.0-r10 9999: A dynamic web&application server with modules many languages
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
