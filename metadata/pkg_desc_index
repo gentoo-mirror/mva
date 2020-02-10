@@ -55,6 +55,7 @@ dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-cpp/ms-gsl 2.0.1_pre20191021 9999: Guideline Support Library implementation by Microsoft
 dev-cpp/range-v3 9999: Range library for C++14/17/20, basis for C++20's std::ranges
+dev-cpp/tl-expected 1.0.0 9999: Guideline Support Library implementation by Microsoft
 dev-cpp/variant 1.1.6 9999: An header-only alternative to boost::variant for C++11 and C++14
 dev-db/mycli 9999: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
@@ -317,7 +318,7 @@ media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding sp
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.4 9999: VoIP library for Telegram clients
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
-media-libs/rlottie 0.0.1_pre20191224 9999: A platform independent standalone library that plays Lottie Animation
+media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/vips 8.9.0_rc2 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/woff2 9999: font compression reference code
@@ -356,7 +357,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 1.9.9 9999: Official desktop client for Telegram
+net-im/telegram-desktop 1.9.11 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
