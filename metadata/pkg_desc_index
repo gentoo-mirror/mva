@@ -357,14 +357,14 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 1.9.12 9999: Official desktop client for Telegram
+net-im/telegram-desktop 1.9.13 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 2
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
-net-im/zoom-bin 2.8.183302.0415: Video conferencing and web conferencing service
+net-im/zoom-bin 3.5.352596.0119: Video conferencing and web conferencing service
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libnftnl 9999: Netlink API to the in-kernel nf_tables subsystem

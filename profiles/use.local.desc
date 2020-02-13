@@ -587,13 +587,11 @@ net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or `/etc/portage/env/{CAT}/{PN}`)
-net-im/telegram-desktop:gnome - Enable GNOME integrations
-net-im/telegram-desktop:gtk-file-dialog - Force GTK file dialog (instead of Qt one)
-net-im/telegram-desktop:gtk2 - Enable gtk+-2 integrations
-net-im/telegram-desktop:gtk3 - Enable gtk+-3 integrations
-net-im/telegram-desktop:kde - Enable KDE integrations
+net-im/telegram-desktop:dbus - Enable D-Bus integration
+net-im/telegram-desktop:force-gtk-file-dialog - Force GTK file dialog (instead of letting Qt to decide)
+net-im/telegram-desktop:gtk2 - Force gtk+-2 integration
+net-im/telegram-desktop:gtk3 - Force gtk+-3 integration
 net-im/telegram-desktop:libcxx - Build with sys-devel/libcxx as sdtlib
-net-im/telegram-desktop:qt5ct - Enable Qt5ct integrations
 net-im/telegram-desktop:system-expected - Use system-wide installed dev-cpp/tl-expected instead of bundled one
 net-im/telegram-desktop:system-fonts - Use system fonts instead of bundled. At least, media-fonts/open-sans can be installed to have same UX
 net-im/telegram-desktop:system-gsl - Use system-wide installed dev-cpp/ms-gsl instead of bundled one

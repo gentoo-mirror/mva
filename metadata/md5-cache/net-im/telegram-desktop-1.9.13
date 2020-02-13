@@ -5,6 +5,7 @@ DESCRIPTION=Official desktop client for Telegram
 EAPI=7
 HOMEPAGE=https://desktop.telegram.org
 IUSE=custom-api-id dbus debug gtk2 gtk3 force-gtk-file-dialog libcxx libressl spell system-gsl system-expected system-fonts system-libtgvoip system-rlottie system-variant test wide-baloons
+KEYWORDS=~amd64
 LICENSE=GPL-3-with-openssl-exception
 PROPERTIES=live
 RDEPEND=app-arch/lz4:= app-arch/xz-utils:= >=dev-cpp/range-v3-0.10.0:= dbus? ( dev-libs/libdbusmenu-qt:= ) dev-libs/xxhash:= dev-qt/qtcore:5= dev-qt/qtdbus:5= dev-qt/qtgui:5=[jpeg,png] || ( dev-qt/qtgui:5[X(-)] dev-qt/qtgui:5[xcb(-)] ) dev-qt/qtnetwork:5= dev-qt/qtwidgets:5=[png] || ( dev-qt/qtwidgets:5[X(-)] dev-qt/qtwidgets:5[xcb(-)] ) dev-qt/qtimageformats:5= gtk2? ( x11-libs/gtk+:2= ) gtk3? ( x11-libs/gtk+:3= dev-qt/qtwidgets:5=[gtk] ) libcxx? ( sys-devel/clang:= sys-devel/clang-runtime:=[libcxx] ) libressl? ( dev-libs/libressl:= ) !libressl? ( dev-libs/openssl:0= ) media-libs/openal:= media-video/ffmpeg:=[opus] !net-im/telegram !net-im/telegram-desktop-bin system-gsl? ( >dev-cpp/ms-gsl-2.0.0:= ) system-expected? ( >=dev-cpp/tl-expected-1.0.0:= ) system-fonts? ( media-fonts/open-sans:* ) system-variant? ( dev-cpp/variant:= ) system-libtgvoip? ( media-libs/libtgvoip:=[libcxx=] ) system-rlottie? ( >=media-libs/rlottie-0_pre20190818:=[libcxx(-)=,threads,-cache] ) spell? ( app-text/enchant:= ) sys-libs/zlib:=[minizip] x11-libs/libdrm:= x11-libs/libva:=[X,drm] x11-libs/libxkbcommon:= x11-libs/libX11:=
