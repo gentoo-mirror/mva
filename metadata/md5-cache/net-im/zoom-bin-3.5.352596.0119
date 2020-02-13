@@ -9,5 +9,5 @@ RDEPEND=pulseaudio? ( media-sound/pulseaudio ) gstreamer? ( media-libs/gst-plugi
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=amd64? ( https://zoom.us/client/3.5.352596.0119/zoom_x86_64.tar.xz -> zoom-bin-3.5.352596.0119_x86_64.tar.xz ) x86? ( https://zoom.us/client/3.5.352596.0119/zoom_i686.tar.xz -> zoom-bin-3.5.352596.0119_i686.tar.xz )
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d
-_md5_=94dad9fba7571041bfb70b6d0d208d7c
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	eutils	fcb2aa98e1948b835b5ae66ca52868c5
+_md5_=df81e8e0acd3aba54eb26d66a51fb037
