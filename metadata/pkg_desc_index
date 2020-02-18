@@ -319,7 +319,7 @@ media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20200214 9999: VoIP library for Telegram clients
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
-media-libs/vips 8.9.0_rc2 9999: VIPS Image Processing Library
+media-libs/vips 8.9.1 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
