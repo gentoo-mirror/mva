@@ -37,6 +37,7 @@ app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware 
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jo 1.0 1.0_p20170319 9999: JSON output from a shell
 app-misc/jq 9999: Command-line JSON processor
+app-misc/psvimgtools 9999: Tools that let you decrypt, extract, and repack PS Vita CMA backup images
 app-misc/qcma 0.4.1 0.4.2_pre20181227 9999: Cross-platform content manager assistant for the PS Vita
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
@@ -48,7 +49,7 @@ app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.17.8: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.17.9: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
@@ -357,7 +358,6 @@ net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 2
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
-net-im/zoom-bin 3.5.352596.0119: Video conferencing and web conferencing service
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libnftnl 9999: Netlink API to the in-kernel nf_tables subsystem
@@ -471,7 +471,7 @@ www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clien
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.17.8-r10 1.17.8-r100: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.17.9-r10 1.17.9-r100: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.14.0-r10 9999: A dynamic web&application server with modules many languages
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
