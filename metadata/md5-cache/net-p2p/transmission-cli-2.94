@@ -8,5 +8,5 @@ LICENSE=|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT
 RDEPEND=>=dev-libs/libevent-2.0.10:= >=net-misc/curl-7.16.3[ssl] sys-libs/zlib:=
 SLOT=0
 SRC_URI=http://download.transmissionbt.com/transmission/files/transmission-2.94.tar.xz
-_eclasses_=multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=multilib	ac7989ababbeabdef6fdc6e465b21644	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=6426b4e971764d1040d8905d56ab1d90
