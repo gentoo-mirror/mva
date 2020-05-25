@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/xxhash lua_targets_luajit2? ( dev-lang/luajit:2 )
 REQUIRED_USE=|| ( lua_targets_luajit2 )
 SLOT=0
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	lua	549ea007f9bd75e8f5b559fd4c15e0fa	multilib	ac7989ababbeabdef6fdc6e465b21644	patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	lua	549ea007f9bd75e8f5b559fd4c15e0fa	multilib	0914eab919f4f11dd9e0407b92af4726	patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
 _md5_=b4121e55a331e96b2ccbb5dc797e1b65
