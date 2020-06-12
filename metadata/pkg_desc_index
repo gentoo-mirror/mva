@@ -378,7 +378,6 @@ net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/toxbot 9999: Tox groupchats bot
 net-misc/zerotier 1.4.6: A software-based managed Ethernet switch for planet Earth
 net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
-net-p2p/syncthing 1.3.3_rc1: Open Source Continuous File Synchronization
 net-p2p/transmission-cli 2.94: A Fast, Easy and Free BitTorrent client - command line (CLI) version
 net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
 net-voip/ring-daemon 99999999: Ring daemon
