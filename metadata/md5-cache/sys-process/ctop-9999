@@ -1,7 +1,7 @@
+BDEPEND=>=dev-lang/go-1.10 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=>=dev-lang/go-1.10 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Top-like interface for container-metrics
-EAPI=6
+EAPI=7
 HOMEPAGE=https://ctop.sh https://github.com/bcicen/ctop
 IUSE=hardened
 LICENSE=MIT
@@ -9,4 +9,4 @@ PROPERTIES=live
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
-_md5_=73522e0ef5eb0b379ffbf2edd15a6fe3
+_md5_=a05d47e949ab523eaf742410d4c7151f
