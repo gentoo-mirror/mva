@@ -649,8 +649,6 @@ net-misc/subnetcalc:colorgcc -
 net-p2p/librevault:cli - Build cli interface
 net-p2p/librevault:daemon - Build LibreVault daemon
 net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
-net-p2p/syncthing:cli - Install stcli (syncthing-cli).
-net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
 net-voip/ring-daemon:dbus - The D-Bus xml interfaces, and c++ bindings.
 net-voip/ring-daemon:graph - Create dot graphs in documentations
