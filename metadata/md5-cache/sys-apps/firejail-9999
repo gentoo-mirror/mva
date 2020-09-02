@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=!sys-apps/firejail-lts apparmor? ( sys-libs/libapparmor ) x11? ( x11-wm/xpra[client,server] x11-base/xorg-server[xephyr] x11-base/xorg-server[xvfb] x11-base/xorg-server[xcsecurity] )
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=89844209100de760fc59b8a8d76602f7

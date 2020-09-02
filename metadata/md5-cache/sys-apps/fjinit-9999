@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/ScoreUnder/fjinit
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	patches	23d57edd5dd5cdd3d3d129ba159cf3af
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	patches	23d57edd5dd5cdd3d3d129ba159cf3af
 _md5_=b348699d347809d409ff38a01770f032
