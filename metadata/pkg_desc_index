@@ -22,6 +22,7 @@ app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, r
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
+app-emulation/qemu 5.0.0 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
 app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
@@ -43,7 +44,7 @@ app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform li
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
 app-portage/eix 99999999: Search and query ebuilds
 app-shells/fzf 0.20.0: A general-purpose command-line fuzzy finder
-app-shells/push 3.1-r1: A POSIX shell function to treat a variable like an array, quoting args
+app-shells/push 3.1-r5: A POSIX shell function to treat a variable like an array, quoting args
 app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
@@ -303,16 +304,19 @@ media-fonts/twemoji-color-font 1.3: A color and B&W emoji SVG-in-OT font with ZW
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/fdm-materials 4.3.0: FDM materials for media-gfx/cura
+media-gfx/gimp 9999-r99: GNU Image Manipulation Program
 media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
+media-libs/gegl 0.4.23 9999: A graph based image processing framework
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20200214 9999: VoIP library for Telegram clients
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
+media-libs/tg_owt 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 8.9.1 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/woff2 9999: font compression reference code
@@ -351,7 +355,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 2.0.1 9999: Official desktop client for Telegram
+net-im/telegram-desktop 2.1.13 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
