@@ -6,7 +6,6 @@ app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/jailkit 2.19: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.8.3: A curses-based tool for viewing and analyzing log files
 app-admin/wp-cli 2.4.0: The command line interface for WordPress
-app-arch/brotli 1.0.6-r1 9999: Generic-purpose lossless compression algorithm
 app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-arch/sasquatch 4.3: Tool for creating compressed filesystem type squashfs
 app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
