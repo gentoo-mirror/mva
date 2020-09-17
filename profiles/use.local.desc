@@ -669,7 +669,6 @@ net-irc/weechat:scripts - Build infrastructure for scripting.
 net-irc/weechat:trigger - Enable trigger plugin.
 net-irc/weechat:xfer - Enable xfer plugin support.
 net-irc/znc:daemon - Allow znc to run as a system-wide service. Installs an init script and creates a znc user:group.
-net-libs/libnftnl:json - Supports parsing of JSON
 net-libs/libringclient:dbus - If disable, direct linking to daemon without D-Bus. Enable if unsure.
 net-libs/libringclient:video - Support video call in Ring
 net-libs/libvncserver:24bpp - enable 24bpp support

@@ -363,7 +363,6 @@ net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 2
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
-net-libs/libnftnl 9999: Netlink API to the in-kernel nf_tables subsystem
 net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
