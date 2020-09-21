@@ -21,7 +21,6 @@ app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, r
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
-app-emulation/qemu 5.0.0 9999: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
 app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
