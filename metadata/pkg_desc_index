@@ -45,6 +45,7 @@ app-shells/fzf 0.20.0: A general-purpose command-line fuzzy finder
 app-shells/push 3.1-r5: A POSIX shell function to treat a variable like an array, quoting args
 app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
 app-shells/zsh 9999: UNIX Shell similar to the Korn shell
+app-text/highlight 3.58: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
@@ -302,7 +303,6 @@ media-fonts/twemoji-color-font 1.3: A color and B&W emoji SVG-in-OT font with ZW
 media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/fdm-materials 4.3.0: FDM materials for media-gfx/cura
-media-gfx/gimp 9999-r99: GNU Image Manipulation Program
 media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
