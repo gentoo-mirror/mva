@@ -473,7 +473,7 @@ www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clien
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.19.3-r10 1.19.3-r100: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.19.3-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.14.0-r10 9999: A dynamic web&application server with modules many languages
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
