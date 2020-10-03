@@ -312,6 +312,7 @@ media-libs/gegl 0.4.23 9999: A graph based image processing framework
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20200214 9999: VoIP library for Telegram clients
+media-libs/opencv 4.1.2-r3 4.4.0: A collection of algorithms and sample code for various computer vision problems
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/tg_owt 9999: WebRTC (video) library (fork) for Telegram clients
@@ -394,6 +395,7 @@ sys-apps/firetools 0.9.52 9999: Graphical user interface of app-emulation/fireja
 sys-apps/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
 sys-apps/ipmiutil 3.1.1-r1: IPMI Management Utilities
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
+sys-apps/ledmon 0.94: Enclosure LED Utilities
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-apps/rkflashtool 6.0 9999: Tool for flashing Rockchip devices
 sys-apps/yarn 0.22.0: Fast, reliable, and secure node dependency management
@@ -471,7 +473,7 @@ www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clien
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.19.2-r10 1.19.2-r100: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.19.3-r10 1.19.3-r100: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.14.0-r10 9999: A dynamic web&application server with modules many languages
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
