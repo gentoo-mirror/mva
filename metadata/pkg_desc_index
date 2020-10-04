@@ -49,7 +49,7 @@ app-text/highlight 3.58: Converts source code to formatted text (HTML, LaTeX, et
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.17.9: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.19.3: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20190322: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
