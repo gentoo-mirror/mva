@@ -20,7 +20,6 @@ app-crypt/keybase 4.6.0 9999: Client for keybase.io
 app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, rar and 7z archives
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/atom 9999: A hackable text editor for the 21st Century
-app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
 app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
@@ -304,7 +303,6 @@ media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barco
 media-gfx/dmtx-wrappers 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/fdm-materials 4.3.0: FDM materials for media-gfx/cura
 media-gfx/inkscape-table 1.0: Table support for inkscape
-media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
 media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
@@ -321,7 +319,6 @@ media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's US
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
-media-sound/mumble 1.4.9999: Mumble is an open source, low-latency, high quality voice chat software
 net-analyzer/prometheus 1.5.2: The Prometheus monitoring system and time series database
 net-analyzer/prometheus-alertmanager 0.5.1: The Prometheus monitoring system and time series database (Alert Manager)
 net-analyzer/prometheus-blackbox_exporter 0.4.0: Prometheus blackbox exporter
@@ -344,7 +341,6 @@ net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangli
 net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel/iptables
 net-im/clix 9999: XMPP client library written in Lua.
 net-im/keywee 9999: WeeChat plugin for Keybase chat
-net-im/libcommuni 3.5.0: A cross-platform IRC framework written with Qt
 net-im/matterbridge 9999: Bridge between multiple chat networks
 net-im/prosody 9999: Prosody is a flexible communications server for Jabber/XMPP written in Lua.
 net-im/prosody-modules 9999: Add-on modules for Prosody IM Server written in Lua.
@@ -419,7 +415,6 @@ www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, 
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
 www-apps/redmine 4.1.0 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
-www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
 www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
 www-nginx/array-var 0.05: Array-typed variables support for nginx config files
 www-nginx/audio-hls 0.2_p20150507: Generates audio track for HTTP Live Streaming (HLS) streams on the fly.
