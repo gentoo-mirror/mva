@@ -362,7 +362,6 @@ net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
-net-libs/opendht 1.3.1 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/pjproject 2.6: Open source SIP, Media, and NAT Traversal Library
 net-libs/restbed 4.5 9999: For applications that require seamless and secure communication over HTTP
 net-libs/tdlib 9999: Cross-platform library for building Telegram clients
