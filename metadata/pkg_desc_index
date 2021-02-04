@@ -79,7 +79,7 @@ dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic l
 dev-libs/msgpack 2.1.3 9999: MessagePack is a binary-based efficient data interchange format
 dev-libs/nlohmann-json 9999: C++ class library of cryptographic schemes
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
-dev-libs/olm 3.1.3 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/olm 3.2.1 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-lua/LuaBitOp 1.0.2-r1: Bit Operations Library for the Lua Programming Language
@@ -340,6 +340,7 @@ net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
+net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
 net-libs/libvncserver 9999: library for creating vnc servers
