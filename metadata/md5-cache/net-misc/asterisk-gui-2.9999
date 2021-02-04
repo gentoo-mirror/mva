@@ -1,11 +1,12 @@
+BDEPEND=dev-vcs/subversion[http(+)] net-misc/rsync
 DEFINED_PHASES=configure install preinst unpack
-DEPEND=net-misc/asterisk dev-vcs/subversion[http(+)] net-misc/rsync
+DEPEND=net-misc/asterisk
 DESCRIPTION=Asterisk's GUI.
-EAPI=6
+EAPI=7
 HOMEPAGE=http://www.digium.com/
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-misc/asterisk
 SLOT=0
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	ed3498da4fb92dcfb0d6089c85d1465f
-_md5_=73370ea2d0abc46ceca79570ab495f2e
+_md5_=645dda32b91d9a4d7428d0d0b3562633

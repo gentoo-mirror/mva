@@ -1,10 +1,10 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=prepare unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=process reaper intended for use as init-system in app-emulation/firejail
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/ScoreUnder/fjinit
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	patches	23d57edd5dd5cdd3d3d129ba159cf3af
-_md5_=b348699d347809d409ff38a01770f032
+_md5_=7bb7698ce4ab14a86025bea8a2f2861e

@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install prepare
 DEPEND=virtual/gradle
 DESCRIPTION=Tools to work with android .dex and java .class files
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/pxb1988/dex2jar
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=dev-java/antlr:3.5 || ( virtual/jre virtual/jdk )
 SLOT=0
 SRC_URI=https://github.com/pxb1988/dex2jar/archive/2.1-nightly-28.tar.gz -> dex2jar-2.1_pre28.tar.gz
-_md5_=1dcb13f81f55aa75523ac55de3780d1f
+_md5_=c7e05bc68c5a8d6b48255a71362ecbc3

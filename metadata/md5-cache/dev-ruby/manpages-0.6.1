@@ -1,7 +1,8 @@
+BDEPEND=ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby25? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby25(-)] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rake[ruby_targets_ruby25(-)] ) ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] !!dev-ruby/psych[ruby_targets_ruby25(-)] ) test? ( ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] ) )
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby25? ( doc? ( dev-ruby/rake[ruby_targets_ruby25(-)] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rake[ruby_targets_ruby25(-)] ) ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] !!dev-ruby/psych[ruby_targets_ruby25(-)] ) test? ( ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] ) )
+DEPEND=ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] )
 DESCRIPTION=manpages wrapper for rubygems
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/bitboxer/manpages
 IUSE=ruby_targets_ruby25 doc test test
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
@@ -12,4 +13,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://rubygems.org/gems/manpages-0.6.1.gem
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multilib	d410501a125f99ffb560b0c523cd3d1e	ruby-fakegem	6ee14a23a169409059ed36d4dddc3197	ruby-ng	676004cfb6cdf3dedf1c778d56346624	ruby-utils	03dfa7f54d59d740c2964dc7256d2820	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=55790eae716a60820a47bc15d2f2980e
+_md5_=eb1d1209f4de5d34d6051494d2afa057

@@ -1,7 +1,7 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Backend for a Android based app called ShoppingList
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/GroundApps/ShoppingList_backend
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=virtual/httpd-php
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=355458eb3d707897ad1935d7f9455f44
+_md5_=50a99ccdb96c49c34caff89a253a6dd3

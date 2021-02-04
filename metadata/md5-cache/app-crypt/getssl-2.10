@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile
 DESCRIPTION=letsencrypt/acme client implemented as a shell-script
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/srvrco/getssl
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=GPL-3
 RDEPEND=net-dns/bind-tools sys-apps/grep virtual/awk sys-apps/sed net-misc/openssh sys-apps/coreutils net-misc/curl dev-libs/openssl
 SLOT=0
 SRC_URI=https://github.com/srvrco/getssl/archive/v2.10.tar.gz -> getssl-2.10.tar.gz
-_md5_=e6db5f8b52273d5653e489c0ffc0a0fb
+_md5_=c140497f1d36e250aeba6e6b342b9eff

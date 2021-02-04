@@ -1,9 +1,9 @@
 DEFINED_PHASES=install
 DESCRIPTION=Manages LuaJIT symlinks
-EAPI=6
+EAPI=7
 HOMEPAGE=https://www.gentoo.org/
 KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~sparc-solaris ~x86-solaris
 LICENSE=GPL-2
 RDEPEND=>=app-admin/eselect-1.2.3
 SLOT=0
-_md5_=cb43fd72b1fb55b3044f284a355cf950
+_md5_=1d7e6af3c620e860f291db629f3e5f8f

@@ -1,11 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
-DEPEND=dev-util/premake:5 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=dev-util/premake:5
 DESCRIPTION=Parses & writes SFNT structures.
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/caryll/otfcc
 IUSE=debug
 LICENSE=Apache-2.0
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=7ee50303a1c5314e0f51fc874ee76b2a
+_md5_=bcf5729fecb9dc9c1deb5f6339bb99a9

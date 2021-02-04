@@ -1,7 +1,8 @@
+BDEPEND=dev-lang/perl
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-perl/Module-Build dev-lang/perl
 DESCRIPTION=Fast, safe DBI connection and transaction management
-EAPI=6
+EAPI=7
 HOMEPAGE=https://metacpan.org/release/DBIx-Connector
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
@@ -9,4 +10,4 @@ RDEPEND=dev-lang/perl:=
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/D/DW/DWHEELER/DBIx-Connector-0.56.tar.gz
 _eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	6ec4c4d8fc8324200f1c14e8d158c59b	perl-module	97206c028d9bdc9f248e022ac5c9fc83
-_md5_=8436cea285629767edc3c81da82c3425
+_md5_=2761988dac5328f8a9f9a889c94be547

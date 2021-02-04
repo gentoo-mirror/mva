@@ -1,11 +1,12 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=sys-apps/systemd virtual/libgudev app-misc/geoclue:* >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=sys-apps/systemd virtual/libgudev app-misc/geoclue:*
 DESCRIPTION=IIO accelerometer sensor to input device proxy
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/hadess/iio-sensor-proxy
 LICENSE=Unlicense
 PROPERTIES=live
 RDEPEND=sys-apps/systemd virtual/libgudev app-misc/geoclue:*
 SLOT=0
 _eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=38a9b95928546b79ad47fc8a0d528469
+_md5_=6103ab48429ebf9d94f5f787ed828dde

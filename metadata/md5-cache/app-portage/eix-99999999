@@ -1,12 +1,13 @@
+BDEPEND=>=app-portage/elt-patches-20170815 >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=nls? ( virtual/libintl ) sqlite? ( >=dev-db/sqlite-3:= ) meson? ( >=dev-util/meson-0.41.0 >=dev-util/ninja-1.7.2 strong-optimization? ( >=sys-devel/gcc-config-1.9.1 ) nls? ( sys-devel/gettext ) ) !meson? ( || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/gettext-0.19.6 ) >=app-portage/elt-patches-20170815 >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=nls? ( virtual/libintl ) sqlite? ( >=dev-db/sqlite-3:= ) meson? ( >=dev-util/meson-0.41.0 >=dev-util/ninja-1.7.2 strong-optimization? ( >=sys-devel/gcc-config-1.9.1 ) nls? ( sys-devel/gettext ) ) !meson? ( || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/gettext-0.19.6 )
 DESCRIPTION=Search and query ebuilds
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/vaeth/eix/
 IUSE=debug +dep doc +jumbo-build l10n_de l10n_ru +meson nls optimization +required-use security +src-uri strong-optimization strong-security sqlite swap-remote tools
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=nls? ( virtual/libintl ) sqlite? ( >=dev-db/sqlite-3:= ) >=app-shells/push-3.1 >=app-shells/quoter-4.1 virtual/tmpfiles
 SLOT=0
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	bash-completion-r1	be99724bde4274de21e581204e9d164a	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	meson	fdaf2a7b9376934c1c7ddbd32114defb	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	69861348186337fa4b269de5826004b3	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=9142a10ed47b03db590fe96c4c5f8d42
+_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	bash-completion-r1	be99724bde4274de21e581204e9d164a	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	meson	fdaf2a7b9376934c1c7ddbd32114defb	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	69861348186337fa4b269de5826004b3	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=984e435804ab5ffa0bd842af9daae0d6

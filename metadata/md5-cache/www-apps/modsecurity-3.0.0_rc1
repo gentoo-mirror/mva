@@ -1,7 +1,8 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=afl? ( amd64? ( app-forensics/afl ) ) net-misc/curl geoip? ( dev-libs/geoip ) dev-libs/libxml2 dev-libs/libpcre dev-libs/yajl sys-devel/bison sys-devel/flex >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=afl? ( amd64? ( app-forensics/afl ) ) net-misc/curl geoip? ( dev-libs/geoip ) dev-libs/libxml2 dev-libs/libpcre dev-libs/yajl sys-devel/bison sys-devel/flex
 DESCRIPTION=Open source, cross platform web application firewall (WAF) engine
-EAPI=6
+EAPI=7
 HOMEPAGE=https://modsecurity.org/
 IUSE=afl +geoip
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
@@ -11,4 +12,4 @@ RDEPEND=afl? ( amd64? ( app-forensics/afl ) ) net-misc/curl geoip? ( dev-libs/ge
 REQUIRED_USE=afl? ( amd64 )
 SLOT=0
 _eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=64935bd7bd6be25e87143c5b3d35b9e6
+_md5_=4de7032d0cd55e7bb4f2dc44e56f40f5

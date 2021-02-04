@@ -1,7 +1,8 @@
+BDEPEND=dev-lang/perl
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-perl/File-pushd dev-perl/Module-Build dev-lang/perl
 DESCRIPTION=Binding library for hoedown
-EAPI=6
+EAPI=7
 HOMEPAGE=https://metacpan.org/release/Text-Markdown-Hoedown
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
@@ -9,4 +10,4 @@ RDEPEND=dev-lang/perl:=
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/T/TO/TOKUHIROM/Text-Markdown-Hoedown-1.01.tar.gz
 _eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	6ec4c4d8fc8324200f1c14e8d158c59b	perl-module	97206c028d9bdc9f248e022ac5c9fc83
-_md5_=8844d27c45ae78ac16a8ade0491fbafd
+_md5_=6edb760b42f6177647809e7977d0e92c
