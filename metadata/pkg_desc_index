@@ -1,6 +1,7 @@
 acct-group/cgred 0: System group: cgred
 acct-group/git 0: System group: git
 acct-user/git 0: Git repository hosting user
+app-admin/aws-cli 1.19.1: Universal Command Line Interface for Amazon Web Services
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/jailkit 2.19: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.8.3: A curses-based tool for viewing and analyzing log files
@@ -401,6 +402,57 @@ www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web applicati
 www-apps/redmine 4.1.0 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
+www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
+www-nginx/array-var 0.05: Array-typed variables support for nginx config files
+www-nginx/audio-hls 0.2_p20150507: Generates audio track for HTTP Live Streaming (HLS) streams on the fly.
+www-nginx/auth-ldap 0.1: LDAP authentication module
+www-nginx/auth-pam 1.5.1: A module to use PAM for simple http authentication
+www-nginx/cache-purge 2.4.2: Adds support for purge ngx_http_(fastcgi|proxy|scgi|uwsgi)_module cache backend
+www-nginx/coolkit 0.2: collection of small and useful nginx add-ons
+www-nginx/ctpp 0.5: CT++ templater integration Module
+www-nginx/dav-ext 0.1.0: NGINX WebDAV missing methods support (PROPFIND & OPTIONS)
+www-nginx/drizzle 0.1.10: NginX upstream module that talks to mysql and drizzle by libdrizzle
+www-nginx/echo 0.61: 'echo', 'sleep', 'time', 'exec' and some more shell-like goodies
+www-nginx/enchanced-memcache 0.2_p20170216: Enhanced Nginx Memcached Module
+www-nginx/encrypted-session 0.06: Support for AES(+MAC) variables enc-/decryption in NgX config
+www-nginx/fancyindex 0.4.2: Fancy indexes module
+www-nginx/form-input 0.12: Converts POST/PUT urlencoded body (forms) to nginx variables.
+www-nginx/headers-more 0.32: Set and clear input and output headers
+www-nginx/http-rdns 0_p20160215: Nginx HTTP rDNS module
+www-nginx/iconv 0.14: Character conversion nginx module using libiconv
+www-nginx/lua-http 0.10.12_rc1: Embed the Power of Lua into NGINX (HTTP)
+www-nginx/lua-http-upstream 0.07: Nginx module to expose Lua API for Nginx upstreams
+www-nginx/lua-stream 0.0.1_p20170924: Embed the Power of Lua into NGINX (stream)
+www-nginx/memc 0.18: An extended version of the standard memcached module
+www-nginx/metrics 0.1.1: Responde code metrics and some more
+www-nginx/naxsi 0.55.3_p20170908: Open-source, high performance, low rules maintenance WAF
+www-nginx/nchan 1.1.10: Fast multiprocess pub/sub queuing server and proxy for NginX
+www-nginx/ndk 0.3.0: an Nginx module framework for another modules
+www-nginx/njs 0.1.14: A JS subset for location&variable handlers (HTTP+STREAM)
+www-nginx/pagespeed 1.12.34.2: PageSpeed dynamic module for NginX
+www-nginx/passenger 5.1.12: Phusion Passenger dynamic module for NginX
+www-nginx/passenger-enterprise 5.1.2: Phusion Passenger dynamic module for NginX
+www-nginx/postgres 1.0_rc7: Upstream module for direct commincation with PostgreSQL database
+www-nginx/push-stream 0.5.4: A pure stream http push technology for your Nginx setup
+www-nginx/python 0.2.0: Nginx Python Module
+www-nginx/rds-csv 0.07: Output filter, converting drizzle/postgres/whatever output to csv
+www-nginx/rds-json 0.14_p20170930: Output filter, converting drizzle/postgres/whatever output to json
+www-nginx/redis 0.14: Nginx upstream module for the Redis 2.0 protocol
+www-nginx/replace-filter 0.01_rc5_pre20171004: Streaming regular expression replacement in response bodies
+www-nginx/rrd-graph 0_p20160519: Link RRDtool's graphing facilities directly into nginx
+www-nginx/rtmp 1.2.0: NGINX-based Media Streaming Server
+www-nginx/security 0_p20170823: ModSecurity v3 Nginx Connector
+www-nginx/set-misc 0.31: Various set_xxx directives for NgX rewrite module
+www-nginx/slowfs 1.10: nginx module which adds ability to cache static files
+www-nginx/srcache 0.31: Transparent subrequest-based caching layout for arbitrary nginx locations
+www-nginx/supervisord 1.4: API to communicate with supervisord and manage (start/stop) backends on-demand
+www-nginx/tcp-proxy 0.4.5_p20170216: TCP proxy module (with health check and status monitor)
+www-nginx/upload-progress 0.9.2: Nginx Upload Progress Module
+www-nginx/upstream-check 0.3.0: Upstream health check and status report
+www-nginx/upstream-dyups 0.2.9_p20170725: Module for updating upstreams config by restful interface
+www-nginx/upstream-fair 0_p20170322: The fair load balancer module
+www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clients to the same upstreams
+www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.19.4-r10: Robust, small and high performance http and reverse proxy server
