@@ -6,6 +6,7 @@ app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/jailkit 2.19: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.8.3: A curses-based tool for viewing and analyzing log files
 app-admin/wp-cli 2.4.0: The command line interface for WordPress
+app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-arch/sasquatch 4.3: Tool for creating compressed filesystem type squashfs
 app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
 app-crypt/argon2 20161029 99999999: Password hashing software that won the Password Hashing Competition (PHC)
@@ -240,8 +241,15 @@ dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
 dev-php/composer 1.5.1: Dependency Manager for PHP
 dev-php/msgpack-php 2.1.0_beta1 9999: API for communicating with MessagePack serialization
+dev-python/cli_helpers 2.1.0 9999: Python helpers for common CLI tasks
+dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
+dev-python/pfp 9999: 010 Template interpretter for python
+dev-python/py010parser 9999: 010 template library for python
 dev-python/python-axolotl 9999-r1: Python port of libaxolotl
 dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
+dev-python/pytox 9999: Python bindings for the Tox library
+dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
+dev-python/tabulate 0.8.7: Pretty-print tabular data
 dev-qt/qmltermwidget 0.1.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.1.0: A Ruby script that colorizes the ls output with color and icons
@@ -251,11 +259,13 @@ dev-ruby/manpages 0.6.1: manpages wrapper for rubygems
 dev-util/android-ndk 21: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.2.3: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
 dev-util/dex2jar 2.0 2.1_pre28 9999: Tools to work with android .dex and java .class files
 dev-util/dex2jar-bin 2.0 2.1_pre26: Tools to work with android .dex and java .class files
 dev-util/dwarfdump 20161124: Library for extracting DWARF data from code objects
 dev-util/eclipse-sdk-bin 4.2.2: Eclipse SDK
 dev-util/google-breakpad 0_p20180823 9999: An open-source multi-platform crash reporting system
+dev-util/gyp 0_p20210207 9999: Generate Your Projects
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
 dev-util/premake 5.0.0_alpha12: A makefile generation tool
@@ -337,18 +347,21 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/rocketchat-bin 2.10.5: Have your own Slack like online chat, built with Meteor.
 net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
+net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telegram-desktop 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
+net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 3
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
+net-libs/opendht 2.1.4 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/pjproject 2.6: Open source SIP, Media, and NAT Traversal Library
 net-libs/restbed 4.5 9999: For applications that require seamless and secure communication over HTTP
 net-libs/tdlib 9999: Cross-platform library for building Telegram clients
