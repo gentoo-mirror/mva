@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=dev-libs/zziplib lua_targets_lua51? ( dev-lang/lua:5.1 ) lua_targets_lua52? ( dev-lang/lua:5.2 ) lua_targets_lua53? ( dev-lang/lua:5.3 ) lua_targets_luajit2? ( dev-lang/luajit:2 )
+DESCRIPTION=Lua bindings to zziplib
+EAPI=7
+HOMEPAGE=https://github.com/msva/luazip
+IUSE=doc examples lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_luajit2
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-libs/zziplib lua_targets_lua51? ( dev-lang/lua:5.1 ) lua_targets_lua52? ( dev-lang/lua:5.2 ) lua_targets_lua53? ( dev-lang/lua:5.3 ) lua_targets_luajit2? ( dev-lang/luajit:2 )
+REQUIRED_USE=|| ( lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_luajit2 )
+SLOT=0
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	git-r3	3e7ec3d6619213460c85e2aa48398441	l10n	8cdd85e169b835d518bc2fd59f780d8e	lua	08c9021d50fa39342c6662d5dff611fa	multilib	d410501a125f99ffb560b0c523cd3d1e	patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=8a15ce296a95f24d90528a7c5492c232
