@@ -1,0 +1,15 @@
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=system-bzip? ( app-arch/bzip2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) system-lzma? ( app-arch/xz-utils[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) system-zlib? ( sys-libs/zlib[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) lua_targets_lua51? ( dev-lang/lua:5.1 ) lua_targets_lua52? ( dev-lang/lua:5.2 ) lua_targets_lua53? ( dev-lang/lua:5.3 ) lua_targets_luajit2? ( dev-lang/luajit:2 ) lua_targets_lua5-1? ( ) lua_targets_lua5-2? ( ) lua_targets_lua5-3? ( ) lua_targets_lua5-4? ( ) lua_targets_luajit? ( )
+DESCRIPTION=LuaSocket's LTN12-compatible Crypto/Compressing Engine
+EAPI=7
+HOMEPAGE=https://github.com/mkottman/ltn12ce
+INHERIT=cmake-utils lua
+IUSE=+system-bzip +system-lzma +system-zlib abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_luajit2 lua_targets_lua5-1 lua_targets_lua5-2 lua_targets_lua5-3 lua_targets_lua5-4 lua_targets_luajit
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=system-bzip? ( app-arch/bzip2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) system-lzma? ( app-arch/xz-utils[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) system-zlib? ( sys-libs/zlib[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) lua_targets_lua51? ( dev-lang/lua:5.1 ) lua_targets_lua52? ( dev-lang/lua:5.2 ) lua_targets_lua53? ( dev-lang/lua:5.3 ) lua_targets_luajit2? ( dev-lang/luajit:2 ) lua_targets_lua5-1? ( ) lua_targets_lua5-2? ( ) lua_targets_lua5-3? ( ) lua_targets_lua5-4? ( ) lua_targets_luajit? ( )
+REQUIRED_USE=|| ( lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_luajit2 lua_targets_lua5-1 lua_targets_lua5-2 lua_targets_lua5-3 lua_targets_lua5-4 lua_targets_luajit )
+SLOT=0
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	cmake-utils	77cd39e6009811bf97a59d91ffd5b54f	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib-build	9a65133006c608964888346a412cc454	multilib-minimal	8bddda43703ba94d8341f4e247f97566	git-r3	3e7ec3d6619213460c85e2aa48398441	patches	23d57edd5dd5cdd3d3d129ba159cf3af	lua	99f90a793d212b265510fd93e9ee12b7
+_md5_=33f8d96d109de565d6cc135c4dedd01e
