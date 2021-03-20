@@ -469,7 +469,7 @@ www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.19.4-r10: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.20.0-r10 9999: A dynamic web&application server with modules many languages
+www-servers/nginx-unit 1.22.0-r10 9999: A dynamic web&application server with modules many languages
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
