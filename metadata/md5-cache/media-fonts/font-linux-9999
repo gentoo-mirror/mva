@@ -1,12 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst postrm setup unpack
-DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DESCRIPTION=An icon font providing popular linux distro's logos
 EAPI=7
 HOMEPAGE=https://lukas-w.github.io/font-linux
+INHERIT=font git-r3
 IUSE=webfonts X
 LICENSE=unlicense
 PROPERTIES=live
 SLOT=0
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=font	0667878c2b594871023dd1833d05996f	git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=146bfa255040e4dd8835ec763b295160

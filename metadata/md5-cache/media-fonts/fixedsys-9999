@@ -1,12 +1,13 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst postrm prepare setup unpack
-DEPEND=dev-python/fonttools X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEPEND=dev-python/fonttools
 DESCRIPTION=Fixedsys Excelsior font with programming ligatures
 EAPI=7
 HOMEPAGE=https://github.com/kika/fixedsys
+INHERIT=font git-r3
 IUSE=X
 LICENSE=OFL
 PROPERTIES=live
 SLOT=0
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=font	0667878c2b594871023dd1833d05996f	git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=a7c7e6ca373b58d09548ac123b1b3314

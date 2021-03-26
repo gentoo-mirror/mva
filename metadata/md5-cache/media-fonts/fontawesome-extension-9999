@@ -1,12 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup unpack
-DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DESCRIPTION=Set of icons representing programming languages, designing & development tools
 EAPI=7
 HOMEPAGE=https://github.com/AndreLGava/font-awesome-extension
+INHERIT=git-r3 font
 IUSE=webfonts X
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	font	0667878c2b594871023dd1833d05996f
 _md5_=53e803cbfbef691863d8e027668ef098
