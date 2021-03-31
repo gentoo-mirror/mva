@@ -3,6 +3,7 @@ DEPEND=net-misc/ofono virtual/pkgconfig
 DESCRIPTION=Phone Simulator for modem testing (oFono)
 EAPI=7
 HOMEPAGE=http://ofono.org/
+INHERIT=multilib
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 RDEPEND=net-misc/ofono

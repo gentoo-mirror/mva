@@ -3,10 +3,11 @@ DEPEND=>=games-engines/love-0.8.0:*
 DESCRIPTION=A tetris game with physics
 EAPI=7
 HOMEPAGE=https://stabyourself.net/nottetris2/
+INHERIT=eutils
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 RDEPEND=>=games-engines/love-0.8.0:*
 SLOT=0
 SRC_URI=http://stabyourself.net/dl.php?file=nottetris2/nottetris2-source.zip -> nottetris-2.zip
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e
 _md5_=923a15e5662c50a76dd1268dabe17bb4
