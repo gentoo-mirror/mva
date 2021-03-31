@@ -3,10 +3,11 @@ DEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:
 DESCRIPTION=Prosody is a flexible communications server for Jabber/XMPP written in Lua.
 EAPI=7
 HOMEPAGE=http://prosody.im/
+INHERIT=eutils multilib toolchain-funcs mercurial
 IUSE=doc +libevent mysql postgres sqlite +ssl +zlib luajit ipv6 migration no-example-certs icu random-getrandom random-openssl
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:0 ) icu? ( dev-libs/icu ) >=dev-libs/openssl-1.0.1j:* dev-lua/luasocket ipv6? ( dev-lua/luasocket ) ssl? ( dev-lua/luasec ) dev-lua/luaexpat dev-lua/luafilesystem mysql? ( >=dev-lua/luadbi-0.5[mysql] ) postgres? ( >=dev-lua/luadbi-0.5[postgres] ) random-getrandom? ( >=sys-kernel/linux-headers-3.17 >=sys-libs/glibc-2.25 ) sqlite? ( >=dev-lua/luadbi-0.5[sqlite] ) libevent? ( dev-lua/luaevent ) zlib? ( dev-lua/lua-zlib )
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	mercurial	d22fe98ea362174612a57c233239102f	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	mercurial	9f2bfb53237de8f79541b5592ed52f7a
 _md5_=15e2784162c4842120190a1ee142f64c

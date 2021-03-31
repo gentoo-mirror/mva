@@ -4,10 +4,11 @@ DEPEND=acct-user/git[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConf
 DESCRIPTION=Github clone. you can install Github system into your unix/linux machine.
 EAPI=7
 HOMEPAGE=http://gitprep.yukikimoto.com/
+INHERIT=perl-module git-r3
 LICENSE=|| ( Artistic GPL-1+ )
 PROPERTIES=live
 RDEPEND=acct-user/git[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page dev-perl/Config-Tiny dev-perl/Time-Moment virtual/perl-Module-CoreList dev-lang/perl:=
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	6ec4c4d8fc8324200f1c14e8d158c59b	perl-module	97206c028d9bdc9f248e022ac5c9fc83
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	6ec4c4d8fc8324200f1c14e8d158c59b	perl-module	ae176ff49e02bcbe576f6436b031c518	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=085e4ef1d5e4e88deaca87766fd0ca80
