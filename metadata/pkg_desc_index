@@ -472,7 +472,6 @@ www-servers/nginx 1.19.4-r10: Robust, small and high performance http and revers
 www-servers/nginx-unit 1.22.0-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
-x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
 x11-plugins/purple-facebook 99999999: Facebook plugin for libpurple (Pidgin)
 x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
