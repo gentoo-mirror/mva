@@ -838,8 +838,4 @@ www-servers/nginx-unit:unit_modules_php - Enable support for applications writte
 www-servers/nginx-unit:unit_modules_python - Enable support for applications written in dev-lang/python
 www-servers/nginx-unit:unit_modules_ruby - Enable support for applications written in dev-lang/ruby
 www-servers/nginx-unit:unix-sockets - Enable support of unix sockets
-x11-drivers/xf86-video-intel:dri3 - Set default DRI implementatio to 3
-x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
-x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
-x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
 x11-plugins/telegram-purple:libwebp - 

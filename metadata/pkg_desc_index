@@ -12,7 +12,6 @@ app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only sn
 app-crypt/argon2 20161029 99999999: Password hashing software that won the Password Hashing Competition (PHC)
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
-app-crypt/csuser-plugin 3.0.6.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-crypt/getssl 2.10 9999: letsencrypt/acme client implemented as a shell-script
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
@@ -466,6 +465,9 @@ www-nginx/upstream-dyups 0.2.9_p20170725: Module for updating upstreams config b
 www-nginx/upstream-fair 0_p20170322: The fair load balancer module
 www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clients to the same upstreams
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
+www-plugins/gosuslugi-plugin 3.1.1.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
+www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin for SKB Kontur services
+www-plugins/kontur-plugin 000804: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.19.4-r10: Robust, small and high performance http and reverse proxy server
