@@ -10,5 +10,5 @@ LICENSE=BSD
 RDEPEND=www-servers/nginx:mainline www-servers/nginx:mainline[ssl,stream,ssl-cert-cb,luajit=] || ( virtual/lua[luajit=] !luajit? ( || ( ( virtual/lua dev-lang/lua:5.1 ) <dev-lang/lua-5.2:0 ) ) luajit? ( || ( virtual/lua[luajit] >=dev-lang/luajit-2 ) ) )
 SLOT=0
 SRC_URI=https://github.com/openresty/stream-lua-nginx-module/archive/fde198fa5fe5befad70bf3403822ef1364a795a8.tar.gz -> nginx.lua-stream-0.0.1_p20170924.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	c0964e43ba712cb933da5f65b958fa88	pax-utils	d3fc79d3d50544347e324864f95206e2	patches	23d57edd5dd5cdd3d3d129ba159cf3af	nginx-module	8df7c49a1560288e9223301e45370e57
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	bc2e7662a4a9a8643be851982a837ddc	pax-utils	d3fc79d3d50544347e324864f95206e2	patches	23d57edd5dd5cdd3d3d129ba159cf3af	nginx-module	8df7c49a1560288e9223301e45370e57
 _md5_=fd8920cd265b3a0465bd1abf34cc3e19
