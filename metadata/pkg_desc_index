@@ -244,8 +244,6 @@ dev-python/cli_helpers 2.1.0 9999: Python helpers for common CLI tasks
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
-dev-python/python-axolotl 9999-r1: Python port of libaxolotl
-dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/pytox 9999: Python bindings for the Tox library
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-python/tabulate 0.8.7: Pretty-print tabular data
@@ -268,7 +266,6 @@ dev-util/gyp 0_p20210207 9999: Generate Your Projects
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
 dev-util/premake 5.0.0_alpha12: A makefile generation tool
-dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/hub 2.3.0_pre10 9999: Command-line wrapper for git that makes you better at GitHub
 games-arcade/flyinggame 0: A game prototype by Maurice (mari0 author)
@@ -356,7 +353,6 @@ net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 3
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
-net-irc/znc 9999: An advanced IRC Bouncer
 net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
