@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=acct-user/git[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page dev-perl/Config-Tiny dev-perl/Time-Moment virtual/perl-Module-CoreList dev-lang/perl:=
 RESTRICT=test
 SLOT=0
-_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	fea344a91ebf37efadf172c6a3de5a72	perl-module	fe87099fddad9ba492e2b99367e39063	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	fea344a91ebf37efadf172c6a3de5a72	perl-module	fdedfc91b478ee55457221eb728e3de5	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=085e4ef1d5e4e88deaca87766fd0ca80
