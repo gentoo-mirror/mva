@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-dns/bind-tools sys-apps/grep virtual/awk sys-apps/sed net-misc/openssh sys-apps/coreutils net-misc/curl dev-libs/openssl
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=5cc915a4172e410e32e5412ad959fddf

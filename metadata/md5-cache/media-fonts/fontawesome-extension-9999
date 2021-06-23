@@ -8,5 +8,5 @@ IUSE=webfonts X
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	font	0667878c2b594871023dd1833d05996f
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	font	0667878c2b594871023dd1833d05996f
 _md5_=53e803cbfbef691863d8e027668ef098
