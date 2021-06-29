@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=net-vpn/tor i2p? ( || ( net-vpn/i2pd net-vpn/i2p ) )
 SLOT=0
 SRC_URI=https://github.com/rahra/onioncat/archive/8e7f6eb655e342d14c2f06411d9c0c459b8f6f8f.tar.gz -> onioncat-0.2.2_p13012018.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	systemd	bd82a2f06f5594b2ed0889539a4f9a9f
 _md5_=ca7dc92611bec059c940858ae76b7b48
