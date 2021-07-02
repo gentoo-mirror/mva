@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-1.6:*
 SLOT=0
 SRC_URI=https://github.com/skylot/jadx/archive/v0.6.0.tar.gz -> jadx-0.6.0.tar.gz
-_eclasses_=java-utils-2	b5e6ac3113ad5ad2b604a72029a9969f
+_eclasses_=java-utils-2	14a796a27babeb8a6cc84d3b788e5024
 _md5_=9dd6d3efda94759ae47bdc403e2f5079
