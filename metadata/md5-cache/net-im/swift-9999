@@ -5,13 +5,13 @@ DESCRIPTION=An elegant, secure, adaptable and intuitive XMPP Client
 EAPI=7
 HOMEPAGE=https://swift.im/
 INHERIT=lua-single python-any-r1 scons-utils toolchain-funcs xdg patches git-r3
-IUSE=client expat gconf +icu +idn lua spell test zeroconf lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-2
+IUSE=client expat gconf +icu +idn lua spell test zeroconf lua_single_target_luajit lua_single_target_lua5-1
 KEYWORDS=~amd64
 LICENSE=BSD BSD-1 CC-BY-3.0 GPL-3 OFL-1.1
 PROPERTIES=live
 RDEPEND=dev-db/sqlite:3 dev-libs/boost:= dev-libs/openssl:0= net-libs/libnatpmp net-libs/miniupnpc:= sys-libs/zlib:= client? ( dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtwebkit:5 dev-qt/qtx11extras:5 net-dns/avahi ) expat? ( dev-libs/expat ) !expat? ( dev-libs/libxml2:2 ) gconf? ( gnome-base/gconf:2 ) icu? ( dev-libs/icu:= ) idn? ( net-dns/libidn:= ) lua? ( dev-lang/lua:= ) spell? ( app-text/hunspell:= )
-REQUIRED_USE=|| ( icu idn ) gconf? ( client ) spell? ( client ) lua? ( ^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-2 ) )
+REQUIRED_USE=|| ( icu idn ) gconf? ( client ) spell? ( client ) lua? ( ^^ ( lua_single_target_luajit lua_single_target_lua5-1 ) )
 RESTRICT=test
 SLOT=4/0
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	lua-utils	b2a391a6023bd5e1245bf27407f2f684	lua-single	d7fc7edcf6eef719ce5cc76acbde4f18	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	6551f7b3f1289e7f2956f3a1632e9d26	python-any-r1	901d9e22c7a848a1196502edf060f330	scons-utils	fc8e53815030125602cc608cd1bff857	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	patches	23d57edd5dd5cdd3d3d129ba159cf3af	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	lua-utils	af986d19619f43dc53862da0d25b9c2e	lua-single	8cdf449259063fc54bf347db93744d1f	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	python-utils-r1	6551f7b3f1289e7f2956f3a1632e9d26	python-any-r1	901d9e22c7a848a1196502edf060f330	scons-utils	fc8e53815030125602cc608cd1bff857	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	patches	23d57edd5dd5cdd3d3d129ba159cf3af	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=22b56a657aa2af31dc88750e51842cf3
