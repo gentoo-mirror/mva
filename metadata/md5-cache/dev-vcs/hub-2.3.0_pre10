@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=>=dev-vcs/git-1.7.3
 SLOT=0
 SRC_URI=https://github.com/github/hub/archive/v2.3.0-pre10.tar.gz -> hub-2.3.0_pre10.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	bash-completion-r1	d3a60385655d9b402be765a6de333245	readme.gentoo-r1	e51390d48521eb3d400db57d557b7530
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	bash-completion-r1	d3a60385655d9b402be765a6de333245	readme.gentoo-r1	c9646d622541c023f5159b86a14e930c
 _md5_=91d062c12424acbb5e9f0200613874ec
