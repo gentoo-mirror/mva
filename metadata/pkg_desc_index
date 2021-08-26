@@ -1,13 +1,13 @@
 acct-group/cgred 0: System group: cgred
 acct-group/git 0: System group: git
 acct-user/git 0: Git repository hosting user
-app-admin/aws-cli 1.19.1: Universal Command Line Interface for Amazon Web Services
+app-admin/awscli 9999: CLI interface for AWS
 app-admin/cpulimit 9999: Limits the CPU usage of a process
+app-admin/heroku-cli 7.53.0: A tool for creating and managing Heroku apps from the command line
 app-admin/jailkit 2.19: Allows you to easily put programs and users in a chrooted environment
 app-admin/lnav 0.8.3: A curses-based tool for viewing and analyzing log files
 app-admin/wp-cli 2.4.0: The command line interface for WordPress
 app-arch/jefferson 9999: JFFS2 filesystem extraction tool
-app-arch/sasquatch 4.3: Tool for creating compressed filesystem type squashfs
 app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
 app-crypt/argon2 20161029 99999999: Password hashing software that won the Password Hashing Competition (PHC)
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
@@ -20,6 +20,7 @@ app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, r
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
+app-emulation/qt-virt-manager 9999: A GUI application for managing virtual machines
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
 app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
@@ -32,6 +33,7 @@ app-misc/2gis-data 20191231: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-misc/amazfitbip-font-tool 1.1: Amazfit Bip Font Parser (& Packer)
 app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware cooking)
+app-misc/evemu 2.7.0: tools and bindings for kernel evdev device emulation, data capture, and replay
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jo 1.0 1.0_p20170319 9999: JSON output from a shell
 app-misc/jq 9999: Command-line JSON processor
@@ -63,6 +65,8 @@ dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/proxysql 2.0.5: A high performance, high availability, protocol aware proxy for MySQL and forks
 dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-go/glide 0.13.2: Vendor Package Managment for Golang
+dev-go/go-tools 0_pre20210324: Tools that support the Go programming language (godoc, etc.)
+dev-go/gopls 9999: official go language server
 dev-java/gradle 5.3.1: A project automation and build tool with a Groovy based DSL
 dev-java/gradle-bin 5.3.1: A project automation and build tool with a Groovy based DSL
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
@@ -78,7 +82,7 @@ dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG soft
 dev-libs/libiio 9999: Library for interfacing with IIO devices
 dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
-dev-libs/msgpack 2.1.3 9999: MessagePack is a binary-based efficient data interchange format
+dev-libs/msgpack 9999: MessagePack is a binary-based efficient data interchange format
 dev-libs/nlohmann-json 9999: C++ class library of cryptographic schemes
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/olm 3.2.1 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
@@ -227,6 +231,7 @@ dev-lua/uuid 9999: Generates uuids in pure Lua
 dev-lua/verse 9999: XMPP client library written in Lua.
 dev-lua/wsapi 9999: Lua WSAPI Library
 dev-lua/yubikey-lua 9999: Lua Asynchronous HTTP Library.
+dev-node/js-beautify 1.14.0: Beautifier for javascript https://beautifier.io
 dev-perl/DBIx-Connector 0.56: Fast, safe DBI connection and transaction management
 dev-perl/DBIx-Custom 0.37: DBI extension to execute insert, update, delete, and select easily
 dev-perl/Device-Gsm 1.60: Perl extension to interface GSM phones / modems
@@ -252,6 +257,7 @@ dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.1.0: A Ruby script that colorizes the ls output with color and icons
 dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.15.1: Manage your app version entirely via git tags
+dev-ruby/html2haml 2.2.0: Convert HTML and HTML+Erb to Haml
 dev-ruby/manpages 0.6.1: manpages wrapper for rubygems
 dev-util/android-ndk 21: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
@@ -267,7 +273,7 @@ dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
 dev-util/premake 5.0.0_alpha12: A makefile generation tool
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
-dev-vcs/hub 2.3.0_pre10 9999: Command-line wrapper for git that makes you better at GitHub
+dev-vcs/hub 9999: Command-line wrapper for git that makes you better at GitHub
 games-arcade/flyinggame 0: A game prototype by Maurice (mari0 author)
 games-arcade/nottetris 2: A tetris game with physics
 games-arcade/orthorobot 0: Nice perspective based puzzle game. You flatten the view to move across gaps
@@ -275,7 +281,6 @@ games-arcade/piratebay 0: A physics based game made for Devmania 2011 Overnight 
 games-arcade/rimshot 0: Nice application to work with drumbeats and play in 'Guitar Anti-Hero'
 games-arcade/shoothookers 0: A game prototype by Maurice (mari0 author)
 games-arcade/snayke 2.4: A nice 2D Snake game (like on Tetris)
-games-engines/love 9999: A framework for 2D games in Lua
 games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
 games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
@@ -288,7 +293,7 @@ media-fonts/firacode 1.206 9999: A programming font with ligatures
 media-fonts/fixedsys 3.02.8 9999: Fixedsys Excelsior font with programming ligatures
 media-fonts/font-linux 0.9 9999: An icon font providing popular linux distro's logos
 media-fonts/fontawesome-extension 0.0.3 9999: Set of icons representing programming languages, designing & development tools
-media-fonts/iosevka 2.3.3 3.0.0_beta1 9999: Open source coding font
+media-fonts/iosevka 9999: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
 media-fonts/twemoji-color-font 1.3: A color and B&W emoji SVG-in-OT font with ZWJ, skin tone mods and country flags
@@ -298,12 +303,11 @@ media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
-media-gfx/ttfautohint 0.95: A library to autohint TrueType fonts
+media-gfx/ttfautohint 1.8.3: A library to autohint TrueType fonts
 media-libs/gegl 0.4.23 9999: A graph based image processing framework
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20210302 9999: VoIP library for Telegram clients
-media-libs/opencv 4.1.2-r3 4.4.0: A collection of algorithms and sample code for various computer vision problems
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/tg_owt 0_pre20210203 9999: WebRTC (video) library (fork) for Telegram clients
@@ -365,6 +369,7 @@ net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/gnatsd 9999: A high Performance NATS Server written in GoLang
+net-misc/gotty-client 1.10.0: A terminal client for GoTTY
 net-misc/phonesim 1.20: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/toxbot 9999: Tox groupchats bot
@@ -388,7 +393,6 @@ sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
 sys-apps/ledmon 0.94: Enclosure LED Utilities
 sys-apps/libtsm 3 9999: A state machine for DEC VT100-VT520 compatible terminal emulators.
 sys-apps/rkflashtool 6.0 9999: Tool for flashing Rockchip devices
-sys-apps/yarn 0.22.0: Fast, reliable, and secure node dependency management
 sys-block/zram-init 8.0 9999: Scripts to support compressed swap devices or ramdisks with zram
 sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
 sys-fs/enchanceio 9999: SSD caching software, based on Facebook's open source Flashcache project
@@ -398,10 +402,9 @@ sys-fs/x11fs 9999: Self-syncing tree-merging file system based on FUSE
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/ctop 9999: Top-like interface for container-metrics
-sys-process/htop 9999: interactive process viewer
+sys-process/htop 9999: Interactive process viewer
 sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
-virtual/lua 5: Virtual for Lua programming language
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
@@ -466,8 +469,8 @@ www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin fo
 www-plugins/kontur-plugin 000804: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.19.4-r10: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.22.0-r10 9999: Dynamic web and application server
+www-servers/nginx 1.21.1-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx-unit 1.25.0-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays

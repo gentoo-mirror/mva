@@ -1,14 +1,14 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare setup unpack
-DEPEND=sys-libs/ncurses:0=[unicode?] virtual/pkgconfig
-DESCRIPTION=interactive process viewer
-EAPI=7
-HOMEPAGE=http://hisham.hm/htop/
+DEPEND=<=sys-libs/ncurses:0=[unicode?(+)] virtual/pkgconfig
+DESCRIPTION=Interactive process viewer
+EAPI=8
+HOMEPAGE=https://htop.dev
 INHERIT=autotools linux-info git-r3
 IUSE=kernel_FreeBSD kernel_linux openvz unicode vserver kernel_linux
 LICENSE=BSD GPL-2
 PROPERTIES=live
-RDEPEND=sys-libs/ncurses:0=[unicode?]
+RDEPEND=<=sys-libs/ncurses:0=[unicode?(+)]
 SLOT=0
 _eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c7052b276346587968d52ea8eaf5aca1	linux-info	7e8ed4c6a1d136fb291c52386f996c2c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=fc790f99d4c3ae585e3eecfee25dbfec
+_md5_=fa998707fe6147da579cf2ba0371ca4d
