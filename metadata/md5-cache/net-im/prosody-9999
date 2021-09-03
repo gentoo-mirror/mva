@@ -10,5 +10,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=virtual/lua[luajit=,bit] net-im/jabber-base !icu? ( >=net-dns/libidn-1.1:0 ) icu? ( dev-libs/icu ) >=dev-libs/openssl-1.0.1j:* dev-lua/luasocket ipv6? ( dev-lua/luasocket ) ssl? ( dev-lua/luasec ) dev-lua/luaexpat dev-lua/luafilesystem mysql? ( >=dev-lua/luadbi-0.5[mysql] ) postgres? ( >=dev-lua/luadbi-0.5[postgres] ) random-getrandom? ( >=sys-kernel/linux-headers-3.17 >=sys-libs/glibc-2.25 ) sqlite? ( >=dev-lua/luadbi-0.5[sqlite] ) libevent? ( dev-lua/luaevent ) zlib? ( dev-lua/lua-zlib )
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multilib	97566c1a256d07b00848aa767e38a352	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	mercurial	d9b8e6c09ecb32dd80eb36f50f27b157
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multilib	97566c1a256d07b00848aa767e38a352	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	mercurial	a21b79f291aec7e6c824df0dd4bb0877
 _md5_=15e2784162c4842120190a1ee142f64c
