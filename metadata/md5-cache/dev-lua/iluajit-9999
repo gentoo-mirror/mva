@@ -1,15 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=doc? ( dev-lua/luadoc ) dev-lua/penlight sys-libs/readline:0 completion? ( dev-lua/luafilesystem ) lua_targets_luajit? ( dev-lang/luajit:2 )
+DEFINED_PHASES=install prepare setup unpack
+DEPEND=doc? ( dev-lua/luadoc ) dev-lua/penlight sys-libs/readline:0 completion? ( dev-lua/luafilesystem )
 DESCRIPTION=Readline powered shell for LuaJIT
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/jdesgats/ILuaJIT
-INHERIT=lua git-r3
-IUSE=doc +completion lua_targets_luajit
+INHERIT=lua-single git-r3
+IUSE=doc +completion +lua_single_target_luajit
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=doc? ( dev-lua/luadoc ) dev-lua/penlight sys-libs/readline:0 completion? ( dev-lua/luafilesystem ) lua_targets_luajit? ( dev-lang/luajit:2 )
-REQUIRED_USE=|| ( lua_targets_luajit )
+RDEPEND=doc? ( dev-lua/luadoc ) dev-lua/penlight sys-libs/readline:0 completion? ( dev-lua/luafilesystem )
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	patches	23d57edd5dd5cdd3d3d129ba159cf3af	lua	3203c93359e673fa1afac0623e3ed04f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=ff609301f7c0e825913c45a5f5053edb
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua-single	ba92a0c9d413e015c6625cdb0b9aaf99	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=811868881ca7c56b5bd6e00e02472f08

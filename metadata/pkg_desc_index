@@ -308,6 +308,7 @@ media-libs/gegl 0.4.23 9999: A graph based image processing framework
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20210302 9999: VoIP library for Telegram clients
+media-libs/libyuv 1789_p20210902: Open source project that includes YUV scaling and conversion functionality
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/tg_owt 0_pre20210203 9999: WebRTC (video) library (fork) for Telegram clients
@@ -316,7 +317,6 @@ media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's US
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
-media-sound/mumble 1.4.9999: Mumble is an open source, low-latency, high quality voice chat software
 net-analyzer/prometheus 1.5.2: The Prometheus monitoring system and time series database
 net-analyzer/prometheus-alertmanager 0.5.1: The Prometheus monitoring system and time series database (Alert Manager)
 net-analyzer/prometheus-blackbox_exporter 0.4.0: Prometheus blackbox exporter
@@ -349,7 +349,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 2.6.1 9999: Official desktop client for Telegram
+net-im/telegram-desktop 3.0.1 9999: Official desktop client for Telegram
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
