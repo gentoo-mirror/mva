@@ -317,6 +317,7 @@ media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's US
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
+media-sound/mumble 1.5.9999: Mumble is an open source, low-latency, high quality voice chat software
 net-analyzer/prometheus 1.5.2: The Prometheus monitoring system and time series database
 net-analyzer/prometheus-alertmanager 0.5.1: The Prometheus monitoring system and time series database (Alert Manager)
 net-analyzer/prometheus-blackbox_exporter 0.4.0: Prometheus blackbox exporter
@@ -350,6 +351,7 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telegram-desktop 3.0.1 9999: Official desktop client for Telegram
+net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
