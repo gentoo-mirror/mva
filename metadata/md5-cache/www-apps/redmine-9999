@@ -1,16 +1,16 @@
-BDEPEND=test? ( ruby_targets_ruby25? ( dev-ruby/bundler:=[ruby_targets_ruby25(-)] virtual/rubygems:=[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( dev-ruby/bundler:=[ruby_targets_ruby26(-)] virtual/rubygems:=[ruby_targets_ruby26(-)] ) ) >=dev-vcs/git-1.8.2.1[curl] ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 )
+BDEPEND=test? ( ruby_targets_ruby26? ( dev-ruby/bundler:=[ruby_targets_ruby26(-)] virtual/rubygems:=[ruby_targets_ruby26(-)] ) ) >=dev-vcs/git-1.8.2.1[curl] ruby_targets_ruby26? ( dev-lang/ruby:2.6 )
 DEFINED_PHASES=compile config configure install postinst prepare setup test unpack
-DEPEND=ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 )
+DEPEND=ruby_targets_ruby26? ( dev-lang/ruby:2.6 )
 DESCRIPTION=Flexible project management webapp written using Ruby on Rails framework
 EAPI=7
 HOMEPAGE=https://www.redmine.org/
 INHERIT=eutils git-r3 ruby-ng
-IUSE=bazaar cvs darcs git imagemagick mercurial mysql postgres sqlite3 subversion ldap test ruby_targets_ruby25 ruby_targets_ruby26
+IUSE=bazaar cvs darcs git imagemagick mercurial mysql postgres sqlite3 subversion ldap test ruby_targets_ruby26
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=|| ( dev-lang/ruby:2.4[ssl] dev-lang/ruby:2.5[ssl] dev-lang/ruby:2.6[ssl] ) ruby_targets_ruby25? ( dev-ruby/bundler:=[ruby_targets_ruby25(-)] virtual/rubygems:=[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( dev-ruby/bundler:=[ruby_targets_ruby26(-)] virtual/rubygems:=[ruby_targets_ruby26(-)] ) acct-user/redmine acct-group/redmine imagemagick? ( media-gfx/imagemagick ) postgres? ( dev-db/postgresql ) sqlite3? ( dev-db/sqlite:3 ) mysql? ( virtual/mysql ) bazaar? ( dev-vcs/bzr ) cvs? ( >=dev-vcs/cvs-1.12 ) darcs? ( dev-vcs/darcs ) git? ( dev-vcs/git ) mercurial? ( dev-vcs/mercurial ) subversion? ( >=dev-vcs/subversion-1.3 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 )
-REQUIRED_USE=|| ( ruby_targets_ruby25 ruby_targets_ruby26 )
+RDEPEND=|| ( dev-lang/ruby:2.4[ssl] dev-lang/ruby:2.5[ssl] dev-lang/ruby:2.6[ssl] ) ruby_targets_ruby26? ( dev-ruby/bundler:=[ruby_targets_ruby26(-)] virtual/rubygems:=[ruby_targets_ruby26(-)] ) acct-user/redmine acct-group/redmine imagemagick? ( media-gfx/imagemagick ) postgres? ( dev-db/postgresql ) sqlite3? ( dev-db/sqlite:3 ) mysql? ( virtual/mysql ) bazaar? ( dev-vcs/bzr ) cvs? ( >=dev-vcs/cvs-1.12 ) darcs? ( dev-vcs/darcs ) git? ( dev-vcs/git ) mercurial? ( dev-vcs/mercurial ) subversion? ( >=dev-vcs/subversion-1.3 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 )
+REQUIRED_USE=|| ( ruby_targets_ruby26 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	estack	055c42df72f76a4f45ec92b35e83cd56	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	ruby-utils	08ae6f9c60b19aabce3f66a30cce9a2d	ruby-ng	ab9b21d1b0a24b6afdd489885350e82e
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	estack	055c42df72f76a4f45ec92b35e83cd56	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	ruby-utils	08ae6f9c60b19aabce3f66a30cce9a2d	ruby-ng	b3936ca28790633a9d3e5dd891ac9ae6
 _md5_=df4f158c499256d5f8fdac1810dd8c95
