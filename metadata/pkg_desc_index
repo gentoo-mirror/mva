@@ -67,11 +67,11 @@ dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-go/glide 0.13.2: Vendor Package Managment for Golang
 dev-go/go-tools 0_pre20210324: Tools that support the Go programming language (godoc, etc.)
 dev-go/gopls 9999: official go language server
-dev-java/gradle 5.3.1: A project automation and build tool with a Groovy based DSL
-dev-java/gradle-bin 5.3.1: A project automation and build tool with a Groovy based DSL
+dev-java/gradle 7.2: A project automation and build tool with a Groovy based DSL
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
 dev-lang/lua 5.1.5-r101 5.2.4 5.3.5: A powerful light-weight programming language designed for extending applications
 dev-lang/luajit 2.0.9999 2.1.9999: Just-In-Time Compiler for the Lua programming language
+dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libcgroup 0.41-r5: Tools and libraries to configure and manage kernel control groups
@@ -85,7 +85,7 @@ dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic l
 dev-libs/msgpack 9999: MessagePack is a binary-based efficient data interchange format
 dev-libs/nlohmann-json 9999: C++ class library of cryptographic schemes
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
-dev-libs/olm 3.2.1 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/olm 3.2.4 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-lua/LuaBitOp 1.0.2-r1: Bit Operations Library for the Lua Programming Language
@@ -252,6 +252,7 @@ dev-python/py010parser 9999: 010 template library for python
 dev-python/pytox 9999: Python bindings for the Tox library
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-python/tabulate 0.8.7: Pretty-print tabular data
+dev-qt/qhotkey 1.4.2 9999: A global shortcut/hotkey library for desktop Qt applications
 dev-qt/qmltermwidget 0.1.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.1.0: A Ruby script that colorizes the ls output with color and icons
@@ -350,7 +351,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 3.0.1 9999: Official desktop client for Telegram
+net-im/telegram-desktop 3.0.4 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library

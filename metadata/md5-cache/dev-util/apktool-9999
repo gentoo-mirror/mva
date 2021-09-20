@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=>=virtual/jdk-1.7 >=dev-java/java-config-2.2.0-r3
 RESTRICT=network-sandbox
 SLOT=0
-_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	gradle	44470ebbdc5065453b02348360ccdfe4	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=java-utils-2	ac9fb9efa5413c5fb85a4203fe930e88	java-pkg-2	a3d583b3f640032c3eff643a4191bd03	gradle	5bf5ca36d14b97f6342c7be144182c76	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=c66178ed8b8d71ce591d4b7e1141d0e5
