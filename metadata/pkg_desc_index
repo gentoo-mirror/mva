@@ -18,7 +18,6 @@ app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/keybase 4.6.0 9999: Client for keybase.io
 app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, rar and 7z archives
 app-crypt/tcplay 2.0: Free and simple TrueCrypt Implementation based on dm-crypt
-app-editors/atom 9999: A hackable text editor for the 21st Century
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
 app-emulation/qt-virt-manager 9999: A GUI application for managing virtual machines
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
@@ -249,6 +248,8 @@ dev-python/cli_helpers 2.1.0 9999: Python helpers for common CLI tasks
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
+dev-python/python-axolotl 9999-r1: Python port of libaxolotl
+dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/pytox 9999: Python bindings for the Tox library
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-python/tabulate 0.8.7: Pretty-print tabular data
@@ -273,6 +274,7 @@ dev-util/gyp 0_p20210207 9999: Generate Your Projects
 dev-util/jadx 0.6.0 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 0.6.0: Android Dex to Java Decompiler
 dev-util/premake 5.0.0_alpha12: A makefile generation tool
+dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/hub 9999: Command-line wrapper for git that makes you better at GitHub
 games-arcade/flyinggame 0: A game prototype by Maurice (mari0 author)
@@ -351,7 +353,7 @@ net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 3.0.4 9999: Official desktop client for Telegram
+net-im/telegram-desktop 3.1.0 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
