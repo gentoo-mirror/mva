@@ -1,15 +1,16 @@
-BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+BDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) >=app-i18n/unicode-data-14.0.0-r1 virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
 DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 )
-DESCRIPTION=Beautifies Lua code
+DESCRIPTION=lightweight, native, lazy evaluating multithreading library
 EAPI=8
-HOMEPAGE=https://luarocks.org/modules/luarocks/formatter
-INHERIT=lua git-r3
-IUSE=lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4
-LICENSE=EPL-1.0
+HOMEPAGE=https://github.com/starwing/luautf8
+INHERIT=lua git-r3 toolchain-funcs
+IUSE=test lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4
+LICENSE=MIT
 PROPERTIES=live
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 )
 REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=multibuild	05a584848db4901c97fcd94ae7cc3a97	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua	f41923d10bccf946e7ce65f103ab577d	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=2bb831e442472b0fb7687473652c0e53
+_md5_=4f058aaa7c427d1774c60322bec2adf8
