@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare setup unpack
-DEPEND=doc? ( dev-lua/luadoc ) dev-lua/penlight sys-libs/readline:0 completion? ( dev-lua/luafilesystem )
+DEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) doc? ( dev-lua/ldoc[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] ) dev-lua/penlight[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] sys-libs/readline:0 completion? ( dev-lua/luafilesystem[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] )
 DESCRIPTION=Readline powered shell for LuaJIT
 EAPI=8
 HOMEPAGE=https://github.com/jdesgats/ILuaJIT
@@ -8,7 +8,8 @@ INHERIT=lua-single git-r3
 IUSE=doc +completion +lua_single_target_luajit
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=doc? ( dev-lua/luadoc ) dev-lua/penlight sys-libs/readline:0 completion? ( dev-lua/luafilesystem )
+RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) doc? ( dev-lua/ldoc[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] ) dev-lua/penlight[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] sys-libs/readline:0 completion? ( dev-lua/luafilesystem[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] )
+REQUIRED_USE=^^ ( lua_single_target_luajit )
 SLOT=0
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua-single	ba92a0c9d413e015c6625cdb0b9aaf99	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=811868881ca7c56b5bd6e00e02472f08
+_md5_=1e12af0ac4f98316820cdd58bbd25001

@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=www-servers/nginx:*[nginx_modules_http_lua] lua_targets_lua51? ( dev-lang/lua:5.1 ) lua_targets_lua52? ( dev-lang/lua:5.2 ) lua_targets_lua53? ( dev-lang/lua:5.3 ) lua_targets_lua54? ( dev-lang/lua:5.4 ) lua_targets_luajit2? ( dev-lang/luajit:2 ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-2? ( dev-lang/lua:5.2 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) lua_targets_luajit? ( dev-lang/luajit:2 )
+DEFINED_PHASES=install unpack
+DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) www-servers/nginx:*[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?,nginx_modules_http_lua]
 DESCRIPTION=Templating Engine (HTML) for Lua and OpenResty.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/bungle/lua-resty-template
-INHERIT=lua-broken
-IUSE=lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_lua54 lua_targets_luajit2 lua_targets_lua5-1 lua_targets_lua5-2 lua_targets_lua5-3 lua_targets_lua5-4 lua_targets_luajit
+INHERIT=lua git-r3
+IUSE=lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=www-servers/nginx:*[nginx_modules_http_lua] lua_targets_lua51? ( dev-lang/lua:5.1 ) lua_targets_lua52? ( dev-lang/lua:5.2 ) lua_targets_lua53? ( dev-lang/lua:5.3 ) lua_targets_lua54? ( dev-lang/lua:5.4 ) lua_targets_luajit2? ( dev-lang/luajit:2 ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-2? ( dev-lang/lua:5.2 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) lua_targets_luajit? ( dev-lang/luajit:2 )
-REQUIRED_USE=|| ( lua_targets_lua51 lua_targets_lua52 lua_targets_lua53 lua_targets_lua54 lua_targets_luajit2 lua_targets_lua5-1 lua_targets_lua5-2 lua_targets_lua5-3 lua_targets_lua5-4 lua_targets_luajit )
+RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) www-servers/nginx:*[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?,nginx_modules_http_lua]
+REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
 SLOT=0
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	4134b5c0fb719b9161d10bdaba9e09e5	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	patches	23d57edd5dd5cdd3d3d129ba159cf3af	lua-broken	285154a862fb0cab6328bf23cd1a1768
-_md5_=a64e02dc08f7cb72a1dd1e84e12a17e9
+_eclasses_=multibuild	05a584848db4901c97fcd94ae7cc3a97	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua	f41923d10bccf946e7ce65f103ab577d	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=0d80a688572e1a5bfe743e57973b60d5

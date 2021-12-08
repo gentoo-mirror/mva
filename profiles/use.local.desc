@@ -232,6 +232,8 @@ media-fonts/iosevka:ss - Install additional prebuilt stilyzed families: ss01 = l
 media-fonts/iosevka:ttc - Use bundled TTC packages, that contain combined files for 01-08 (non-curly) series, with less footprint, instead of default "cropped" packages. Initially they are made for the Windows and Mac, but you may want to use them too
 media-fonts/iosevka:web - Build (9999) or install (non-live) web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
+media-gfx/sweethome3d-bin:gtk3 - Use GTK3 interface bindings
+media-gfx/sweethome3d-bin:system-java - Don't use bundled JRE packages
 media-gfx/ttfautohint:gui - Build GUI Frontend
 media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
 media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
