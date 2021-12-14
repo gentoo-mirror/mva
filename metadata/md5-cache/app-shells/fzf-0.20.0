@@ -11,5 +11,5 @@ RDEPEND=tmux? ( app-misc/tmux )
 RESTRICT=mirror network-sandbox
 SLOT=0
 SRC_URI=https://github.com/junegunn/fzf/archive/0.20.0.tar.gz -> fzf-0.20.0.tar.gz https://github.com/mattn/go-isatty/archive/66b8e73f3f5c.tar.gz -> github.com-mattn-go-isatty-66b8e73f3f5c.tar.gz https://github.com/mattn/go-runewidth/archive/14207d285c6c.tar.gz -> github.com-mattn-go-runewidth-14207d285c6c.tar.gz https://github.com/mattn/go-shellwords/archive/v1.0.3.tar.gz -> github.com-mattn-go-shellwords-v1.0.3.tar.gz https://github.com/golang/crypto/archive/558b6879de74.tar.gz -> github.com-golang-crypto-558b6879de74.tar.gz https://github.com/golang/sys/archive/a5b02f93d862.tar.gz -> github.com-golang-sys-a5b02f93d862.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	bash-completion-r1	d3a60385655d9b402be765a6de333245	golang-base	b8fb27dacacea08140c53857f439fc7d	golang-vcs-snapshot	ee98df2c8a27c4347826db72f6dc2d50
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988	bash-completion-r1	d3a60385655d9b402be765a6de333245	golang-base	b8fb27dacacea08140c53857f439fc7d	golang-vcs-snapshot	ee98df2c8a27c4347826db72f6dc2d50
 _md5_=995ffda2348d56a66a6f0f37af725b30
