@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~arm ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86
 LICENSE=BSD
 SLOT=0/14
 SRC_URI=http://miniupnp.free.fr/files/miniupnpc-2.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multilib	8a0248f83ae77f945d376ff4a7953257	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8
 _md5_=2b26b3c75b7ccbffeda2e61dc1f65fe3
