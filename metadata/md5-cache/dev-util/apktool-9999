@@ -5,11 +5,10 @@ DESCRIPTION=A tool for reverse engineering 3rd party, closed, binary Android app
 EAPI=7
 HOMEPAGE=https://ibotpeaches.github.io/Apktool/
 INHERIT=java-pkg-2 gradle git-r3
-IUSE=elibc_FreeBSD
 LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=>=virtual/jdk-1.7 >=dev-java/java-config-2.2.0-r3
 RESTRICT=network-sandbox
 SLOT=0
-_eclasses_=java-utils-2	32fe52795e36e76dcbcf92d89bb1c4d0	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	gradle	5bf5ca36d14b97f6342c7be144182c76	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=java-utils-2	eb6cdf369ec1bc780222e7e2136f64f5	java-pkg-2	2d0eb1353bf1264bd6e61736d3e409a2	gradle	5bf5ca36d14b97f6342c7be144182c76	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=c66178ed8b8d71ce591d4b7e1141d0e5
