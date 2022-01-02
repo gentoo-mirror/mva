@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) doc? ( dev-lua/ldoc[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] ) dev-lua/penlight[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] sys-libs/readline:0 completion? ( dev-lua/luafilesystem[%LUA_USEDEP-NEEDS-TO-BE-USED-IN-LUA_GEN_COND_DEP%] )
 REQUIRED_USE=^^ ( lua_single_target_luajit )
 SLOT=0
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua-single	ba92a0c9d413e015c6625cdb0b9aaf99	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	lua-utils	7b7cd623ac8b9dd4a7a6ee27219cada6	lua-single	ba92a0c9d413e015c6625cdb0b9aaf99	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=1e12af0ac4f98316820cdd58bbd25001
