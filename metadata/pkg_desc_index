@@ -89,7 +89,6 @@ dev-libs/msgpack 9999: MessagePack is a binary-based efficient data interchange 
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/olm 3.2.4 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
-dev-libs/tree-sitter 0.20.1 9999: Tree-sitter is a parser generator tool and an incremental parsing library.
 dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-lua/alt-getopt 0.8.0: Lua API for getopt similar to getopt_long(3)
 dev-lua/ansicolors 9999: A simple Lua function for printing to the console in color.
@@ -377,6 +376,7 @@ net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/gnatsd 9999: A high Performance NATS Server written in GoLang
 net-misc/gotty-client 1.10.0: A terminal client for GoTTY
+net-misc/mosh 9999: Mobile shell that supports roaming and intelligent local echo
 net-misc/phonesim 1.21_p20210125: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/toxbot 9999: Tox groupchats bot
@@ -391,8 +391,6 @@ net-vpn/toxvpn 9999: toxvpn allows one to make tunneled point to point connectio
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
 sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
-sys-apps/firejail 9999: a SUID sandbox program using linux namespaces
-sys-apps/firetools 0.9.52 9999: Graphical user interface of app-emulation/firejail
 sys-apps/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
 sys-apps/ipmiutil 3.1.1-r1: IPMI Management Utilities
 sys-apps/kmscon 8 9999: KMS/DRM based virtual Console Emulator
@@ -472,7 +470,7 @@ www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clien
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
 www-plugins/gosuslugi-plugin 3.1.1.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
 www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin for SKB Kontur services
-www-plugins/kontur-plugin 000804: Cryptographic browser plugin for SKB Kontur services
+www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.21.1-r10: Robust, small and high performance http and reverse proxy server
