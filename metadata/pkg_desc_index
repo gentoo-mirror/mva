@@ -312,7 +312,7 @@ media-gfx/ttfautohint 1.8.3: A library to autohint TrueType fonts
 media-libs/gegl 0.4.23 9999: A graph based image processing framework
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
-media-libs/libtgvoip 2.4.5_pre20210302 9999: VoIP library for Telegram clients
+media-libs/libtgvoip 2.4.5_pre20220117 9999: VoIP library for Telegram clients
 media-libs/libyuv 1794_p20211009: Open source project that includes YUV scaling and conversion functionality
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
