@@ -258,7 +258,7 @@ dev-python/tabulate 0.8.7: Pretty-print tabular data
 dev-qt/qhotkey 1.4.2 9999: A global shortcut/hotkey library for desktop Qt applications
 dev-qt/qmltermwidget 0.1.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
-dev-ruby/colorls 1.1.0: A Ruby script that colorizes the ls output with color and icons
+dev-ruby/colorls 1.4.4: A Ruby script that colorizes the ls output with color and icons
 dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.15.1: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: manpages wrapper for rubygems
