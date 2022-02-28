@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-misc/asterisk
 SLOT=0
-_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	c74febd1baf21b1229704d6a953c27db
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	c68c8559f821cf5c144f3867244db4a3
 _md5_=645dda32b91d9a4d7428d0d0b3562633
