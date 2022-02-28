@@ -10,5 +10,5 @@ RDEPEND=dev-libs/atk dev-libs/glib media-libs/fontconfig sys-apps/pcsc-lite x11-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://help.kontur.ru/files/kontur.plugin_amd64.001130.deb -> kontur-plugin-001130.deb )
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	unpacker	03b2fab39d555f46843c92f44a40a721	patches	23d57edd5dd5cdd3d3d129ba159cf3af
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	unpacker	2e16b7d5aafeda049669c53c05ce03c9	patches	23d57edd5dd5cdd3d3d129ba159cf3af
 _md5_=cbfa5ba5e94284a301b1a82c9ca55a75
