@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/prometheus/mysqld_exporter/archive/v0.9.0.tar.gz -> prometheus-mysqld_exporter-0.9.0.tar.gz
-_eclasses_=golang-base	9f0e420ab37bc55a318d74bab3aae891	user-info	df8c432bdcb3cdcef6c8250f0ab9e4ea	user	532ab7f2ae477f0333be1eacc343821c	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
+_eclasses_=golang-base	9f0e420ab37bc55a318d74bab3aae891	user-info	df8c432bdcb3cdcef6c8250f0ab9e4ea	user	cccf4b1f43c35defc6e448e73cc44ca0	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
 _md5_=b4b774c837eea61281cb8253f775f180
