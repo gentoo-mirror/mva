@@ -10,5 +10,5 @@ LICENSE=OFL-1.1
 PROPERTIES=live
 RESTRICT=binchecks strip network-sandbox
 SLOT=0
-_eclasses_=font	b500e97c1ae30f830e84a95be6e9bd36	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=e2d6676085e343ac7c1901f4fea26dc0

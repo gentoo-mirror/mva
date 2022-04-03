@@ -11,5 +11,5 @@ LICENSE=OFL
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=b20_sans -> b20-sans-20160520.zip
-_eclasses_=font	b500e97c1ae30f830e84a95be6e9bd36
+_eclasses_=font	d31f12a0f6e13d56dc3062e76ae58a61
 _md5_=b3d01f47e2323b310705a3c91da919f5
