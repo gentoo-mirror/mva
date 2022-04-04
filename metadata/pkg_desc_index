@@ -219,6 +219,7 @@ dev-lua/resty-string 9999: String utilities and common hash functions for ngx_lu
 dev-lua/resty-tags 9999: A small DSL for building HTML documents
 dev-lua/resty-template 9999: Templating Engine (HTML) for Lua and OpenResty.
 dev-lua/resty-upload 9999: Streaming reader and parser for HTTP file uploading based on ngx_lua cosocket
+dev-lua/resty-upstream-healthcheck 9999: Health Checker for Nginx Upstream Servers in Pure Lua
 dev-lua/resty-websocket 9999: Lua WebSocket implementation for the NginX lua module
 dev-lua/rings 9999: Lua Rings Library
 dev-lua/serpent 9999: Lua serializer and pretty printer
@@ -260,7 +261,7 @@ dev-qt/qmltermwidget 0.1.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.4.4: A Ruby script that colorizes the ls output with color and icons
 dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
-dev-ruby/git-version-bump 0.15.1: Manage your app version entirely via git tags
+dev-ruby/git-version-bump 0.17.2: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: manpages wrapper for rubygems
 dev-util/android-ndk 21: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
@@ -330,6 +331,7 @@ net-analyzer/prometheus-haproxy_exporter 0.7.1: Prometheus exporter for HAProxy 
 net-analyzer/prometheus-memcached_exporter 0.3.0: Prometheus exporter for machine metrics
 net-analyzer/prometheus-mongodb_exporter 1.0.0: Prometheus exporter for MongoDB metrics
 net-analyzer/prometheus-mysqld_exporter 0.9.0: Prometheus exporter for machine metrics
+net-analyzer/prometheus-nginx_exporter 0_p20220127 9999: Prometheus exporter for NginX metrics
 net-analyzer/prometheus-nginx_vts_exporter 0.10.3: Prometheus exporter for NginX vts stats
 net-analyzer/prometheus-node_exporter 0.14.0: Prometheus exporter for machine metrics
 net-analyzer/prometheus-phpfpm_exporter 0.1: Prometheus exporter for PHP-FPM metrics
@@ -473,7 +475,7 @@ www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin fo
 www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.21.1-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.21.6-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.25.0-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
