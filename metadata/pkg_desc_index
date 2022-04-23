@@ -1,6 +1,8 @@
 acct-group/cgred 0: System group: cgred
 acct-group/git 0: System group: git
+acct-group/synapse 0: System group: synapse
 acct-user/git 0: Git repository hosting user
+acct-user/synapse 0: User for net-im/synapse
 app-admin/awscli 9999: CLI interface for AWS
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/heroku-cli 7.53.0: A tool for creating and managing Heroku apps from the command line
@@ -249,6 +251,8 @@ dev-php/composer 1.5.1: Dependency Manager for PHP
 dev-php/msgpack-php 2.1.0_beta1 9999: API for communicating with MessagePack serialization
 dev-python/cli_helpers 2.1.0 9999: Python helpers for common CLI tasks
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
+dev-python/matrix-common 1.1.0: Common code for Synapse, Sydent and Sygnal
+dev-python/matrix-synapse-ldap3 0.2.0: An LDAP3 auth provider for Synapse
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
 dev-python/python-axolotl 9999-r1: Python port of libaxolotl
@@ -345,6 +349,8 @@ net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet manglin
 net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
 net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel/iptables
 net-im/clix 9999: XMPP client library written in Lua.
+net-im/jitsi-meet 2022.3.1: Desktop application for Jitsi Meet built with Electron
+net-im/jitsi-meet-bin 2021.11.1: Desktop application for Jitsi Meet built with Electron
 net-im/keywee 9999: WeeChat plugin for Keybase chat
 net-im/libcommuni 3.5.0: A cross-platform IRC framework written with Qt
 net-im/matterbridge 9999: Bridge between multiple chat networks
@@ -355,6 +361,8 @@ net-im/rocketchat-bin 2.10.5: Have your own Slack like online chat, built with M
 net-im/slack-bin 3.2.1: A messaging app for teams
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
+net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
+net-im/synapse 1.57.1: Reference homeserver for the Matrix decentralised comms protocol
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telegram-desktop 3.5.2 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
@@ -412,12 +420,15 @@ sys-process/htop 9999: Interactive process viewer
 sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
+www-apps/element 1.10.10: a Matrix web client built using the Matrix React SDK
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
+www-apps/privatebin 1.4.0: A minimalist, open source online pastebin where the server has zero knowledge of pasted data
 www-apps/redmine 4.1.0 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
+www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
 www-nginx/ajp 0.3.0_p20150227: Support for direct proxying AJP protocol
 www-nginx/array-var 0.05: Array-typed variables support for nginx config files
