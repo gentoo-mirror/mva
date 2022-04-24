@@ -381,6 +381,7 @@ net-libs/pjproject 2.6: Open source SIP, Media, and NAT Traversal Library
 net-libs/restbed 4.5 9999: For applications that require seamless and secure communication over HTTP
 net-libs/tdlib 9999: Cross-platform library for building Telegram clients
 net-libs/telegram-qt 9999: Telegram binding for Qt
+net-mail/dovecot 2.3.18-r2: An IMAP and POP3 server written with security primarily in mind
 net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
