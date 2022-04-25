@@ -495,7 +495,7 @@ www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur se
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.21.6-r10: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.25.0-r10 9999: Dynamic web and application server
+www-servers/nginx-unit 1.26.1-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
