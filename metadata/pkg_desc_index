@@ -249,18 +249,23 @@ dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
 dev-php/composer 1.5.1: Dependency Manager for PHP
 dev-php/msgpack-php 2.1.0_beta1 9999: API for communicating with MessagePack serialization
+dev-python/canonicaljson 1.6.0: Canonical JSON
 dev-python/cli_helpers 2.1.0 9999: Python helpers for common CLI tasks
-dev-python/frozendict 1.2: A simple immutable mapping for python
+dev-python/frozendict 2.3.2: A simple immutable mapping for python
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/matrix-common 1.1.0: Common code for Synapse, Sydent and Sygnal
 dev-python/matrix-synapse-ldap3 0.2.0: An LDAP3 auth provider for Synapse
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
+dev-python/pymacaroons 0.13.0: a Python implementation of Macaroons. They’re better than cookies!
 dev-python/python-axolotl 9999-r1: Python port of libaxolotl
 dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/pytox 9999: Python bindings for the Tox library
+dev-python/signedjson 1.1.4: Signs JSON objects with ED25519 signatures.
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-python/tabulate 0.8.7: Pretty-print tabular data
+dev-python/txredisapi 1.4.7: non-blocking redis client for python twisted
+dev-python/unpaddedbase64 2.1.0: Unpadded Base64
 dev-qt/qhotkey 1.4.2 9999: A global shortcut/hotkey library for desktop Qt applications
 dev-qt/qmltermwidget 0.1.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.3: A Ruby gem that wraps C locale functions
