@@ -258,6 +258,7 @@ dev-python/matrix-synapse-ldap3 0.2.0: An LDAP3 auth provider for Synapse
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
 dev-python/pymacaroons 0.13.0: a Python implementation of Macaroons. They’re better than cookies!
+dev-python/pysaml2 7.1.2: Python implementation of SAML Version 2 to be used in a WSGI environment
 dev-python/python-axolotl 9999-r1: Python port of libaxolotl
 dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/pytox 9999: Python bindings for the Tox library
