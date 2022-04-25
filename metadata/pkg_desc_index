@@ -250,6 +250,7 @@ dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibilit
 dev-php/composer 1.5.1: Dependency Manager for PHP
 dev-php/msgpack-php 2.1.0_beta1 9999: API for communicating with MessagePack serialization
 dev-python/cli_helpers 2.1.0 9999: Python helpers for common CLI tasks
+dev-python/frozendict 1.2: A simple immutable mapping for python
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/matrix-common 1.1.0: Common code for Synapse, Sydent and Sygnal
 dev-python/matrix-synapse-ldap3 0.2.0: An LDAP3 auth provider for Synapse
