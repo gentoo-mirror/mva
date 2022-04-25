@@ -95,7 +95,6 @@ dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-lua/alt-getopt 0.8.0: Lua API for getopt similar to getopt_long(3)
 dev-lua/ansicolors 9999: A simple Lua function for printing to the console in color.
 dev-lua/basexx 9999: A simple implementation of OATH-HOTP and OATH-TOTP written for Lua
-dev-lua/bit32 9999: A Lua5.2+ bit manipulation library
 dev-lua/cbor 9999: The most comprehensive CBOR module in the Lua universe
 dev-lua/compat52 9999: A Lua5.2+ bit manipulation library
 dev-lua/cosmo 9999: safe-template engine for lua
@@ -120,6 +119,7 @@ dev-lua/ltn12ce 9999: LuaSocket's LTN12-compatible Crypto/Compressing Engine
 dev-lua/lua-argon2 9999: Lua C binding for the Argon2 password hashing function
 dev-lua/lua-argon2-ffi 9999: LuaJIT FFI binding for the Argon2 password hashing function
 dev-lua/lua-argparse 9999: Feature-rich command line parser for Lua
+dev-lua/lua-bit32 9999: A Lua5.2+ bit manipulation library
 dev-lua/lua-captcha 9999: A small lua module to generate CAPTCHA images using lua-gd
 dev-lua/lua-cjson 9999: Lua JSON Library, written in C
 dev-lua/lua-cmsgpack 9999: A self contained Lua MessagePack C implementation
