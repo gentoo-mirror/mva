@@ -1,0 +1,13 @@
+BDEPEND=libcxx? ( sys-devel/clang:= sys-devel/clang-runtime:=[libcxx] ) >=dev-util/meson-0.50.1 >=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install prepare pretend test
+DESCRIPTION=A platform independent standalone library that plays Lottie Animation
+EAPI=8
+HOMEPAGE=https://github.com/Samsung/rlottie
+INHERIT=meson toolchain-funcs flag-o-matic patches
+IUSE=cache dumptree libcxx log module +threads
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~x86
+LICENSE=LGPL-2.1 FTL MIT
+SLOT=0
+SRC_URI=https://github.com/Samsung/rlottie/archive/875626965959d8e269ca22175c8e1ad190696c43.tar.gz -> rlottie-0.2_p20220107.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	777767a09e8cd6db1d4cebe8400bc974	meson	4e69b4b5d15387549776392e83e8c42c	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	patches	23d57edd5dd5cdd3d3d129ba159cf3af
+_md5_=12733abcb09e58a9a8d64abe911a63fe

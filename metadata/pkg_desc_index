@@ -136,7 +136,7 @@ dev-lua/lua-gd 9999: Lua bindings to Thomas Boutell's gd library
 dev-lua/lua-geoip 9999: Lua GeoIP Library
 dev-lua/lua-getopt 9999: Lua getopt module (simplified)
 dev-lua/lua-html 9999: lua bindings for HTMLParser in libxml2
-dev-lua/lua-htmlparser 9999: Parse HTML text into a tree of elements with selectors
+dev-lua/lua-htmlparser 0.3.9 9999: Parse HTML text into a tree of elements with selectors
 dev-lua/lua-iconv 9999: Lua bindings for POSIX iconv
 dev-lua/lua-idn 9999: A Lua implementation of IDNA (RFC 3490)
 dev-lua/lua-lsp 9999: A Language Server for Lua code, written in Lua
@@ -327,7 +327,7 @@ media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20220117 9999: VoIP library for Telegram clients
 media-libs/libyuv 1794_p20211009: Open source project that includes YUV scaling and conversion functionality
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
-media-libs/rlottie 0.0.1_pre20200120 9999: A platform independent standalone library that plays Lottie Animation
+media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/tg_owt 0_pre20220214 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 8.10.2 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
@@ -371,7 +371,7 @@ net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/synapse 1.57.1: Reference homeserver for the Matrix decentralised comms protocol
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 3.5.2 9999: Official desktop client for Telegram
+net-im/telegram-desktop 3.7.3 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
