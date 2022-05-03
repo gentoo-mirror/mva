@@ -157,6 +157,7 @@ app-text/unicode:unihan - Support for Unihan
 dev-db/mycli:ssh - Add support for connection over SSH tunnel
 dev-db/pgcli:keyring - Add support for keyrings feature
 dev-db/proxysql:clickhouse - 
+dev-db/redis:tcmalloc - Use tcmalloc from dev-util/google-perftools for allocations.
 dev-db/tora:experimental - Add experimental features
 dev-lang/luajit:lua52compat - Enable some Lua:5.2+ features
 dev-lang/luajit:openresty - Build OpenResty's fork
