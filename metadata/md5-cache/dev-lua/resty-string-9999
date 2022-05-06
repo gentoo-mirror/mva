@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
-DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[lua_targets_luajit(-)?,nginx_modules_http_lua,ssl] dev-libs/openssl:0
+DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua,ssl] dev-libs/openssl:0
 DESCRIPTION=String utilities and common hash functions for ngx_lua and LuaJIT
 EAPI=8
 HOMEPAGE=https://github.com/openresty/lua-resty-string
@@ -9,8 +9,8 @@ IUSE=naive-random lua_targets_luajit
 LICENSE=BSD
 PDEPEND=!naive-random? ( dev-lua/resty-random[lua_targets_luajit(-)?] )
 PROPERTIES=live
-RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[lua_targets_luajit(-)?,nginx_modules_http_lua,ssl] dev-libs/openssl:0
+RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua,ssl] dev-libs/openssl:0
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=fc741d767fe5c57c87793ddd4937c96e
+_md5_=db469ea5ba40b0e1e78e28754d524af2
