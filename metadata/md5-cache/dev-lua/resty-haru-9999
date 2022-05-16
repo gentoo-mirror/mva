@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) media-libs/libharu dev-lua/penlight[lua_targets_luajit(-)?]
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
-_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=6eae4df71c6f930cdfc890c597626471

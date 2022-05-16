@@ -9,5 +9,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=dev-libs/glib:2 dev-libs/json-glib net-im/pidgin sys-libs/zlib:=
 SLOT=0
-_eclasses_=patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=8f299bb6dc6dd2ba43ec9694067fb9f7
