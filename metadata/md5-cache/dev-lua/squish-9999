@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) lua_single_target_lua5-4? ( dev-lang/lua:5.4 ) lua_single_target_luajit? ( dev-lua/luasocket[lua_targets_luajit(-)] ) lua_single_target_lua5-1? ( dev-lua/luasocket[lua_targets_lua5-1(-)] ) lua_single_target_lua5-3? ( dev-lua/luasocket[lua_targets_lua5-3(-)] ) lua_single_target_lua5-4? ( dev-lua/luasocket[lua_targets_lua5-4(-)] )
 REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4 )
 SLOT=0
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	f2c2fb82c912dd65d53bdae3613a331f	mercurial	53b96197cb26db4afb5056f1bbfa4845
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	f2c2fb82c912dd65d53bdae3613a331f	mercurial	53b96197cb26db4afb5056f1bbfa4845
 _md5_=fe9531d9fce68a8eaa74469090fdcbf9

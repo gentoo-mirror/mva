@@ -10,5 +10,5 @@ LICENSE=BSD
 RDEPEND=dev-qt/qtcore:5= icu? ( dev-libs/icu ) uchardet? ( app-i18n/uchardet )
 SLOT=0
 SRC_URI=https://github.com/communi/libcommuni/archive/v3.5.0.tar.gz -> libcommuni-3.5.0.tar.gz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	qmake-utils	59420c906278d16deaaa629f9d115707
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	qmake-utils	59420c906278d16deaaa629f9d115707
 _md5_=e4815e8a5c53c0b8cc24093f047103a0
