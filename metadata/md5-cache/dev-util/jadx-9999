@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=>=virtual/jre-1.6:*
 SLOT=0
-_eclasses_=java-utils-2	e38ea02d8ed864a74078ecf46aa06f30	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=java-utils-2	cfb5f6911bb70204c94ceafd0372c716	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=648a97ef5633050b63eb56b60c6093bb
