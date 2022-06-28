@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 )
 REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
 SLOT=0
-SRC_URI=https://github.com/cheusov/lua-alt-getopt/archive/refs/tags/0.8.0.tar.gz
+SRC_URI=https://github.com/cheusov/lua-alt-getopt/archive/refs/tags/0.8.0.tar.gz -> alt-getopt-0.8.0.tar.gz
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214
-_md5_=82958021ff01913e9abcf9f252cc0581
+_md5_=d72e8da868f3e4de031f02b64c6b48d0

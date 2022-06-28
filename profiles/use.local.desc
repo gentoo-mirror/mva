@@ -154,7 +154,6 @@ app-portage/eix:swap-remote - Swap role of remote addresses in eix-remote, makin
 app-portage/eix:tools - Create separate binary for script helper tools; useful if they are called extremely often
 app-shells/fzf:tmux - Install TMUX extra tools
 app-text/unicode:unihan - Support for Unihan
-dev-db/mycli:ssh - Add support for connection over SSH tunnel
 dev-db/pgcli:keyring - Add support for keyrings feature
 dev-db/proxysql:clickhouse - 
 dev-db/tora:experimental - Add experimental features
@@ -218,7 +217,7 @@ dev-vcs/git-annex:webapp-secure - Secure webapp
 dev-vcs/git-annex:webdav - Enable webdav remote
 media-fonts/devicon:icons - Install "icons" version of the font (svgs)
 media-fonts/devicon:webfonts - Install so called "web" fonts (woff{,2}, eot)
-media-fonts/firacode:webfonts - Install so called "web" fonts (woff{,2}, eot)
+media-fonts/fira-code:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/font-linux:webfonts - Build web versions (woff) of the font (and it's variants)
 media-fonts/fontawesome-extension:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/iosevka:cc - DEPRECATED "CC" seriaes font packages, intended to be width-compatible with legacy East Asian fonts from Iosevka 2.x
