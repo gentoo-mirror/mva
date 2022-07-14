@@ -327,7 +327,7 @@ media-libs/libtgvoip 2.4.5_pre20220117 9999: VoIP library for Telegram clients
 media-libs/libyuv 1794_p20211009: Open source project that includes YUV scaling and conversion functionality
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
-media-libs/tg_owt 0_pre20220214 9999: WebRTC (video) library (fork) for Telegram clients
+media-libs/tg_owt 0_pre20220508 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 8.10.2 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
 media-libs/woff2 9999: font compression reference code
