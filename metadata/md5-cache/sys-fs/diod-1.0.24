@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=|| ( virtual/lua >=dev-lang/lua-5.1:* >=dev-lang/luajit-2:* ) sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
 SLOT=0
 SRC_URI=https://github.com/chaos/diod/archive/1.0.24.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257
 _md5_=bb5f5707c0b921fc1352e0e4c8c45812
