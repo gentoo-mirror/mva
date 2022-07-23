@@ -1,4 +1,4 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare pretend setup test unpack
 DESCRIPTION=WeeChat plugin for Keybase chat
 EAPI=7
@@ -7,5 +7,5 @@ INHERIT=haskell-cabal git-r3 patches
 LICENSE=GPL-3
 PROPERTIES=live
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	81cdafdd21e27dfc13f0f7b4947fa145	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	patches	23d57edd5dd5cdd3d3d129ba159cf3af
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	bd6d32a0289c486284bc0cdc06a639a6	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	patches	23d57edd5dd5cdd3d3d129ba159cf3af
 _md5_=72bb8c42bb02970fb95cc01711cf6e5f
