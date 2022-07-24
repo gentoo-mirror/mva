@@ -187,6 +187,7 @@ dev-lua/lulpeg 9999: A pure Lua port of dev-lua/lpeg
 dev-lua/lunit 9999: A unit testing framework for Lua
 dev-lua/lunix 99999999: Lua Unix Module
 dev-lua/lustache 9999: 
+dev-lua/luv 1.43.0.0-r1: Bare libuv bindings for lua
 dev-lua/lvk 9999: Lua wrapper-functions for REST API methods of vk.com
 dev-lua/lyaml 9999: LibYAML binding for Lua.
 dev-lua/messagepack 9999: Lua coxpcall Library
