@@ -400,6 +400,7 @@ net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/toxbot 9999: Tox groupchats bot
 net-misc/zerotier 1.4.6: A software-based managed Ethernet switch for planet Earth
 net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
+net-p2p/syncthing 9999: Open Source Continuous File Synchronization
 net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
 net-voip/ring-daemon 99999999: Ring daemon
 net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
