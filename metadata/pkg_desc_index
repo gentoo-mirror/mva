@@ -376,7 +376,7 @@ net-misc/gnatsd 9999: A high Performance NATS Server written in GoLang
 net-misc/gotty-client 1.10.0: A terminal client for GoTTY
 net-misc/mosh 9999: Mobile shell that supports roaming and intelligent local echo
 net-misc/phonesim 1.21_p20210125: Phone Simulator for modem testing (oFono)
-net-misc/subnetcalc 2.4.1 9999: An IPv4/IPv6 Subnet Calculator
+net-misc/subnetcalc 2.4.19 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/toxbot 9999: Tox groupchats bot
 net-misc/zerotier 1.4.6: A software-based managed Ethernet switch for planet Earth
 net-p2p/syncthing 9999: Open Source Continuous File Synchronization
