@@ -234,8 +234,6 @@ media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/sweethome3d-bin:gtk3 - Use GTK3 interface bindings
 media-gfx/sweethome3d-bin:system-java - Don't use bundled JRE packages
 media-gfx/ttfautohint:gui - Build GUI Frontend
-media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
-media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
 media-libs/libtgvoip:alsa - Enable ALSA support
 media-libs/libtgvoip:disable-reassembler - Apply reassembler disabling patch from tdesktop fork
 media-libs/libtgvoip:libcxx - Build with sys-devel/clang against sys-libs/libcxx
@@ -248,11 +246,9 @@ media-libs/rlottie:log - Enable logging
 media-libs/rlottie:module - Build Image module
 media-libs/rlottie:telegram-patches - Apply John Preston patches (you don't need that)
 media-libs/rlottie:threads - Support threading
-media-libs/tg_owt:alsa - Enable ALSA support
-media-libs/tg_owt:disable-reassembler - Apply reassembler disabling patch from tdesktop fork
+media-libs/tg_owt:X - Support functionality that requires Xorg server (like screen recording)
 media-libs/tg_owt:libcxx - Build with sys-devel/clang against sys-libs/libcxx
-media-libs/tg_owt:pulseaudio - Enable PulseAudio support
-media-libs/tg_owt:static-libs - Build static library
+media-libs/tg_owt:pipewire - Add media-video/pipewire support
 media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
 media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide (currently conflicts with jpeg-turbo)

@@ -10,7 +10,6 @@ app-admin/jailkit 2.19: Allows you to easily put programs and users in a chroote
 app-admin/lnav 0.8.3: A curses-based tool for viewing and analyzing log files
 app-admin/wp-cli 2.4.0: The command line interface for WordPress
 app-arch/jefferson 9999: JFFS2 filesystem extraction tool
-app-backup/lvmsync 9999: Synchronise LVM LVs across a network by sending only snapshotted changes
 app-crypt/argon2 20161029 99999999: Password hashing software that won the Password Hashing Competition (PHC)
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
@@ -311,7 +310,6 @@ media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sh
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sweethome3d-bin 6.6: Sweet Home 3D is a free interior design application.
 media-gfx/ttfautohint 1.8.3: A library to autohint TrueType fonts
-media-libs/gegl 0.4.23 9999: A graph based image processing framework
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libtgvoip 2.4.5_pre20220117 9999: VoIP library for Telegram clients
@@ -466,7 +464,7 @@ www-nginx/upstream-dyups 0.2.9_p20170725: Module for updating upstreams config b
 www-nginx/upstream-fair 0_p20170322: The fair load balancer module
 www-nginx/upstream-sticky 1.2.6_p20160719: A module to always forward same clients to the same upstreams
 www-nginx/xss 0.05: Native cross-site scripting support in nginx
-www-plugins/gosuslugi-plugin 3.1.1.0: Mozilla-compatible crypto-provider browser plugin for http://gosuslugi.ru/
+www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
 www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin for SKB Kontur services
 www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
