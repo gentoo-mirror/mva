@@ -46,6 +46,7 @@ app-shells/zsh 9999: UNIX Shell similar to the Korn shell
 app-text/highlight 3.58: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
+app-text/ltex-ls 15.2.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties
 app-vim/nginx-syntax 1.19.4: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
@@ -357,7 +358,7 @@ net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/synapse 1.57.1: Reference homeserver for the Matrix decentralised comms protocol
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 4.0.2 9999: Official desktop client for Telegram
+net-im/telegram-desktop 4.1.0 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
