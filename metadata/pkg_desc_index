@@ -88,7 +88,7 @@ dev-libs/mongo-c-driver 1.19.0: Client library written in C for MongoDB
 dev-libs/mongo-cxx-driver 3.7.0_beta1: C++ Driver for MongoDB
 dev-libs/msgpack 9999: MessagePack is a binary-based efficient data interchange format
 dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
-dev-libs/olm 3.2.4 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/olm 3.2.12 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-libs/unibilium 2.0.0: A very basic terminfo library
 dev-lua/alt-getopt 0.8.0: Lua API for getopt similar to getopt_long(3)
@@ -408,6 +408,7 @@ net-vpn/onioncat 0.2.2_p13012018: An IP-Transparent Tor Hidden Service Connector
 net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
 net-vpn/toxvpn 9999: toxvpn allows one to make tunneled point to point connections over Tox
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
+sci-mathematics/fann 2.2.0 9999: Fast Artificial Neural Network Library
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
 sys-apps/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
 sys-apps/ipmiutil 3.1.1-r1: IPMI Management Utilities
