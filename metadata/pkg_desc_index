@@ -1,8 +1,10 @@
 acct-group/cgred 0: System group: cgred
 acct-group/git 0: System group: git
 acct-group/synapse 0: System group: synapse
+acct-group/uhub 0: A group for net-p2p/uhub
 acct-user/git 0: Git repository hosting user
 acct-user/synapse 0: User for net-im/synapse
+acct-user/uhub 0: System user: uhub
 app-admin/awscli 9999: CLI interface for AWS
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/heroku-cli 7.53.0: A tool for creating and managing Heroku apps from the command line
@@ -18,7 +20,9 @@ app-crypt/getssl 2.10 9999: letsencrypt/acme client implemented as a shell-scrip
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/keybase 4.6.0 9999: Client for keybase.io
 app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, rar and 7z archives
+app-crypt/tcplay 3.3: Free and simple TrueCrypt Implementation based on dm-crypt
 app-editors/cutemarked 0.11.0 9999: QT Markdown Editor
+app-emulation/qt-virt-manager 9999: A GUI application for managing virtual machines
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
 app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
@@ -53,11 +57,14 @@ app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
+dev-cpp/nlohmann_json 9999: C++ class library of cryptographic schemes
 dev-cpp/range-v3 9999: Range library for C++14/17/20, basis for C++20's std::ranges
 dev-cpp/tl-expected 1.0.1_pre20191111 9999: Guideline Support Library implementation by Microsoft
 dev-cpp/variant 1.1.6 9999: An header-only alternative to boost::variant for C++11 and C++14
+dev-db/mydumper 9999: A high-performance multi-threaded backup toolset for MySQL and Drizzle
 dev-db/pgcli 9999: Postgres CLI with autocompletion and syntax highlighting
 dev-db/proxysql 2.0.5: A high performance, high availability, protocol aware proxy for MySQL and forks
+dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-embedded/lm4tools 9999: Provides lm4flash and lmicdiusb for developing on the TI Stellaris Launchpad
 dev-go/glide 0.13.2: Vendor Package Managment for Golang
 dev-go/go-tools 0_pre20210324: Tools that support the Go programming language (godoc, etc.)
@@ -66,6 +73,7 @@ dev-java/gradle 7.2: A project automation and build tool with a Groovy based DSL
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
 dev-lang/luajit 2.0.9999 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
+dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libbson 1.19.0: Library routines related to building,parsing and iterating BSON documents
 dev-libs/libcgroup 0.41-r5: Tools and libraries to configure and manage kernel control groups
@@ -73,6 +81,7 @@ dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as 
 dev-libs/libdwarf 20161124: Library for extracting DWARF data from code objects
 dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
 dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG software
+dev-libs/libiio 9999: Library for interfacing with IIO devices
 dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
 dev-libs/mongo-c-driver 1.19.0: Client library written in C for MongoDB
@@ -309,6 +318,7 @@ media-gfx/dmtx-utils 0.7.4 9999: Tools for reading and writing Data Matrix barco
 media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/kshare 4.1 9999: The free and open source and cross platform screen sharing software
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
+media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
 media-gfx/sweethome3d-bin 6.6: Sweet Home 3D is a free interior design application.
 media-gfx/ttfautohint 1.8.3: A library to autohint TrueType fonts
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
@@ -320,6 +330,7 @@ media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library
 media-libs/tg_owt 0_pre20220508 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 8.10.2 9999: VIPS Image Processing Library
 media-libs/vitamtp 2.5.9_pre20160829 9999: Library to interact with PS Vita's USB MTP protocol
+media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
 media-sound/mumble 1.5.9999: Mumble is an open source, low-latency, high quality voice chat software
@@ -354,23 +365,31 @@ net-im/prosody-modules 9999: Add-on modules for Prosody IM Server written in Lua
 net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/rocketchat-bin 2.10.5: Have your own Slack like online chat, built with Meteor.
 net-im/slack-bin 3.2.1: A messaging app for teams
+net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/synapse 1.57.1: Reference homeserver for the Matrix decentralised comms protocol
 net-im/telegram-cli 9999: Command line interface client for Telegram
 net-im/telegram-desktop 4.1.0 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
+net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 3
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
+net-libs/libringclient 99999999: libringclient is the common interface for Ring applications
+net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/miniupnpc 2.0: UPnP client library and a simple UPnP client
+net-libs/opendht 2.1.4 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/pjproject 2.6: Open source SIP, Media, and NAT Traversal Library
 net-libs/quiche 0.14.0-r1: Implementation of the QUIC transport protocol and HTTP/3
+net-libs/restbed 4.5 9999: For applications that require seamless and secure communication over HTTP
 net-libs/tdlib 9999: Cross-platform library for building Telegram clients
+net-libs/telegram-qt 9999: Telegram binding for Qt
 net-mail/dovecot 2.3.19.1-r1: An IMAP and POP3 server written with security primarily in mind
+net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
 net-misc/asterisk-chan_datacard 9999: Datacard channel for Asterisk.
 net-misc/asterisk-gui 2.9999: Asterisk's GUI.
 net-misc/gnatsd 9999: A high Performance NATS Server written in GoLang
@@ -380,10 +399,14 @@ net-misc/phonesim 1.21_p20210125: Phone Simulator for modem testing (oFono)
 net-misc/subnetcalc 2.4.19 9999: An IPv4/IPv6 Subnet Calculator
 net-misc/toxbot 9999: Tox groupchats bot
 net-misc/zerotier 1.4.6: A software-based managed Ethernet switch for planet Earth
+net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 9999: Open Source Continuous File Synchronization
+net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
 net-voip/ring-daemon 99999999: Ring daemon
+net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
 net-vpn/onioncat 0.2.2_p13012018: An IP-Transparent Tor Hidden Service Connector
 net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
+net-vpn/toxvpn 9999: toxvpn allows one to make tunneled point to point connections over Tox
 sci-biology/structure 2.3.4: Package for using multi-locus genotype data to investigate population structure
 sci-misc/multimeter 0.2: Data acquisition tool for V&A VA18B and clones (as PeakTech 3375) multimeter
 sys-apps/fjinit 9999: process reaper intended for use as init-system in app-emulation/firejail
@@ -473,9 +496,11 @@ www-servers/kore 9999: A fast SPDY capable webserver for web development in C
 www-servers/nginx 1.21.6-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.26.1-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
+x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
 x11-plugins/purple-facebook 99999999: Facebook plugin for libpurple (Pidgin)
 x11-plugins/purple-icyque 9999: ICQ WIM protocol for libpurple
 x11-plugins/purple-matrix 9999: Libpurple protocol plugin for matrix
+x11-plugins/purple-vk-plugin 9999: Pidgin plugin for vk.com social network
 x11-plugins/telegram-purple 9999: Libpurple (Pidgin) plugin for using a Telegram account
 x11-plugins/whatsapp-purple 9999: Whatsapp plugin for libpurple (Pidgin)
