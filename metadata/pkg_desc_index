@@ -52,7 +52,7 @@ app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processi
 app-text/iec16022 0.2.4: Tool & library to produce 2D barcodes often also referenced as DataMatrix.
 app-text/ltex-ls 15.2.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.19.4: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.23.1: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
@@ -494,8 +494,8 @@ www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin fo
 www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.29: Header files from the Apache Web Server
 www-servers/kore 9999: A fast SPDY capable webserver for web development in C
-www-servers/nginx 1.21.6-r10: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.26.1-r10 9999: Dynamic web and application server
+www-servers/nginx 1.23.1-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx-unit 1.27.0-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
