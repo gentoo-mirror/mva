@@ -323,7 +323,7 @@ media-gfx/sweethome3d-bin 6.6: Sweet Home 3D is a free interior design applicati
 media-gfx/ttfautohint 1.8.3: A library to autohint TrueType fonts
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
-media-libs/libtgvoip 2.4.5_pre20220117 9999: VoIP library for Telegram clients
+media-libs/libtgvoip 2.4.5_pre20220503 9999: VoIP library for Telegram clients
 media-libs/libyuv 1794_p20211009: Open source project that includes YUV scaling and conversion functionality
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
