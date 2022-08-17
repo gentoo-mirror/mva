@@ -247,7 +247,6 @@ dev-perl/Mojolicious-Plugin-INIConfig 0.03: Real-time web framework
 dev-perl/Object-Simple 3.16: Real-time web framework
 dev-perl/Text-Markdown-Hoedown 1.01: Binding library for hoedown
 dev-perl/Validator-Custom 1.01: HTML form Validation, simple and good flexibility
-dev-php/composer 1.5.1: Dependency Manager for PHP
 dev-php/msgpack-php 2.1.0_beta1 9999: API for communicating with MessagePack serialization
 dev-python/canonicaljson 1.6.0: Canonical JSON
 dev-python/frozendict 2.3.2: A simple immutable mapping for python
