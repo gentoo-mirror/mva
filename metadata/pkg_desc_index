@@ -427,13 +427,14 @@ sys-process/ctop 9999: Top-like interface for container-metrics
 sys-process/htop 9999: Interactive process viewer
 sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
+www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/element 1.10.10: a Matrix web client built using the Matrix React SDK
 www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
 www-apps/privatebin 1.4.0: A minimalist, open source online pastebin where the server has zero knowledge of pasted data
-www-apps/redmine 4.1.0 9999: Flexible project management webapp written using Ruby on Rails framework
+www-apps/redmine 5.0.2 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/shoppinglist_backend 9999: Backend for a Android based app called ShoppingList
 www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
 www-client/phantomjs 9999: A headless WebKit scriptable with a JavaScript API
