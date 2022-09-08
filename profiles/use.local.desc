@@ -234,11 +234,14 @@ media-fonts/monoid:monoisome - Enable Monoisome font
 media-gfx/sweethome3d-bin:gtk3 - Use GTK3 interface bindings
 media-gfx/sweethome3d-bin:system-java - Don't use bundled JRE packages
 media-gfx/ttfautohint:gui - Build GUI Frontend
+media-libs/cgif:flag - desc
+media-libs/libspng:flag - desc
 media-libs/libtgvoip:alsa - Enable ALSA support
 media-libs/libtgvoip:disable-reassembler - Apply reassembler disabling patch from tdesktop fork
 media-libs/libtgvoip:libcxx - Build with sys-devel/clang against sys-libs/libcxx
 media-libs/libtgvoip:pulseaudio - Enable PulseAudio support
 media-libs/libtgvoip:static-libs - Build static library
+media-libs/nifti:flag - desc
 media-libs/rlottie:cache - Enable cache support
 media-libs/rlottie:dumptree - Enable logging the rlottie tree
 media-libs/rlottie:libcxx - Build with sys-devel/clang and link against sys-libs/libcxx
