@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=>=dev-lang/php-7[fpm,zlib,gd] app-admin/webapp-config
 SLOT=1.4.0
 SRC_URI=https://github.com/PrivateBin/PrivateBin/archive/refs/tags/1.4.0.tar.gz -> privatebin-1.4.0.tar.gz
-_eclasses_=webapp	d872f28d7595b70dd46545199ef35fb0
+_eclasses_=webapp	67df5bab481d0b9428f9ab7b3de690e4
 _md5_=add1ef33b41df0bd8694ac597af8222f
