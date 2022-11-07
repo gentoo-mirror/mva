@@ -10,5 +10,5 @@ LICENSE=qca-firmware
 PROPERTIES=live
 RDEPEND=sys-kernel/linux-firmware
 SLOT=0
-_eclasses_=portability	58227860123d3e8da23290064ce3373e	savedconfig	4011d8d7370446e970e2c92b20a31341	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=portability	58227860123d3e8da23290064ce3373e	savedconfig	4011d8d7370446e970e2c92b20a31341	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=727494184d5be56f5f21793c5ae43bac
