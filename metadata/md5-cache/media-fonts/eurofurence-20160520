@@ -11,5 +11,5 @@ LICENSE=OFL
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=eurofurence -> eurofurence-20160520.zip
-_eclasses_=font	9cdfddf092c05c7c4efd70cc30dea046
+_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
 _md5_=814ea6054a54b547dedbfea04fe29083
