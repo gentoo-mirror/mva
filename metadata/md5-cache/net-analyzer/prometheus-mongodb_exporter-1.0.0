@@ -10,5 +10,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/dcu/mongodb_exporter/archive/v1.0.0.tar.gz -> prometheus-mongodb_exporter-1.0.0.tar.gz
-_eclasses_=golang-base	9f0e420ab37bc55a318d74bab3aae891	user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ee8b59cbe68b390f981e3ee247ed908f	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=golang-base	9f0e420ab37bc55a318d74bab3aae891	user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ee8b59cbe68b390f981e3ee247ed908f	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=27d1cb8050aa9867d98681550b870fa8

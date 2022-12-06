@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_luajit? ( doc? ( dev-lua/ldoc[lua_targets_luajit(-)] ) dev-lua/penlight[lua_targets_luajit(-)] sys-libs/readline:0 completion? ( dev-lua/luafilesystem[lua_targets_luajit(-)] ) )
 REQUIRED_USE=^^ ( lua_single_target_luajit )
 SLOT=0
-_eclasses_=toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	aee383a0de35701b9eb0b27077a1c143	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	aee383a0de35701b9eb0b27077a1c143	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=fb4b69b562e67d0f5c60edc1ef551de1
