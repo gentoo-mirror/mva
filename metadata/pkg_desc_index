@@ -334,22 +334,7 @@ media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
 media-sound/mumble 1.5.9999: Mumble is an open source, low-latency, high quality voice chat software
-net-analyzer/prometheus 1.5.2: The Prometheus monitoring system and time series database
-net-analyzer/prometheus-alertmanager 0.5.1: The Prometheus monitoring system and time series database (Alert Manager)
-net-analyzer/prometheus-blackbox_exporter 0.4.0: Prometheus blackbox exporter
-net-analyzer/prometheus-haproxy_exporter 0.7.1: Prometheus exporter for HAProxy metrics
-net-analyzer/prometheus-memcached_exporter 0.3.0: Prometheus exporter for machine metrics
-net-analyzer/prometheus-mongodb_exporter 1.0.0: Prometheus exporter for MongoDB metrics
-net-analyzer/prometheus-mysqld_exporter 0.9.0: Prometheus exporter for machine metrics
 net-analyzer/prometheus-nginx_exporter 0_p20220127 9999: Prometheus exporter for NginX metrics
-net-analyzer/prometheus-nginx_vts_exporter 0.10.3: Prometheus exporter for NginX vts stats
-net-analyzer/prometheus-node_exporter 0.14.0: Prometheus exporter for machine metrics
-net-analyzer/prometheus-phpfpm_exporter 0.1: Prometheus exporter for PHP-FPM metrics
-net-analyzer/prometheus-postgres_exporter 0.1.2: Prometheus exporter for PostgreSQL metrics
-net-analyzer/prometheus-pushgateway 0.3.1: The Prometheus monitoring system and time series database (Push Gateway)
-net-analyzer/prometheus-script_exporter 1.0.2: Prometheus exporter for custom scripts
-net-analyzer/prometheus-snmp_exporter 0.3.0: Prometheus exporter for SNMP metrics
-net-analyzer/prometheus-unbound_exporter 0.1_rc0: Prometheus exporter for PostgreSQL metrics
 net-analyzer/trafshow 5.2.3: Full screen visualization of the network traffic
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-firewall/nftables 9999: Linux kernel (3.13+) firewall, NAT and packet mangling tools
@@ -357,7 +342,6 @@ net-firewall/xtables-addons 2.12: extensions not yet accepted in the main kernel
 net-im/clix 9999: XMPP client library written in Lua.
 net-im/keywee 9999: WeeChat plugin for Keybase chat
 net-im/libcommuni 3.5.0: A cross-platform IRC framework written with Qt
-net-im/matterbridge 9999: Bridge between multiple chat networks
 net-im/prosody 9999: Prosody is a flexible communications server for Jabber/XMPP written in Lua.
 net-im/prosody-modules 9999: Add-on modules for Prosody IM Server written in Lua.
 net-im/ratox 9999: A minimal FIFO based client for Tox
@@ -426,9 +410,7 @@ sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron di
 virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/element 1.10.10: a Matrix web client built using the Matrix React SDK
-www-apps/etherpad-lite 1.6.1: A really-real time collaborative word processor for the web
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
-www-apps/grafana 5.2.1: Gorgeous metric viz, dashboards & editors for Graphite, InfluxDB & OpenTSDB
 www-apps/modsecurity 3.0.0_rc1 3.9999: Open source, cross platform web application firewall (WAF) engine
 www-apps/privatebin 1.4.0: A minimalist, open source online pastebin where the server has zero knowledge of pasted data
 www-apps/redmine 5.0.2 9999: Flexible project management webapp written using Ruby on Rails framework
