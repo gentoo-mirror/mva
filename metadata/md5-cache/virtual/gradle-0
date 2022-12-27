@@ -4,4 +4,4 @@ EAPI=7
 KEYWORDS=~amd64 ~x86
 RDEPEND=|| ( dev-java/gradle-bin dev-java/gradle )
 SLOT=0
-_md5_=1cbd58ec977563eae5938dde8e4222c2
+_md5_=4f2e598f5e04556290d634b016997232

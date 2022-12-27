@@ -1,13 +1,14 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=install postinst unpack
 DEPEND=>=games-engines/love-0.8.0:*
 DESCRIPTION=A tetris game with physics
-EAPI=7
+EAPI=8
 HOMEPAGE=https://stabyourself.net/nottetris2/
-INHERIT=eutils
+INHERIT=desktop wrapper
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 RDEPEND=>=games-engines/love-0.8.0:*
 SLOT=0
 SRC_URI=http://stabyourself.net/dl.php?file=nottetris2/nottetris2-source.zip -> nottetris-2.zip
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=923a15e5662c50a76dd1268dabe17bb4
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=0b09c06c830f5eb52c0702c3a555d9a2

@@ -1,13 +1,13 @@
-BDEPEND=dev-vcs/subversion[http(+)] net-misc/rsync
-DEFINED_PHASES=install preinst unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
 DEPEND=net-misc/asterisk dev-libs/libxml2 sys-libs/ncurses:0
 DESCRIPTION=Datacard channel for Asterisk.
-EAPI=7
+EAPI=8
 HOMEPAGE=http://www.makhutov.org/
-INHERIT=eutils subversion
+INHERIT=git-r3 patches
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-misc/asterisk dev-libs/libxml2 sys-libs/ncurses:0
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	estack	055c42df72f76a4f45ec92b35e83cd56	subversion	dee31e56422214d05644c2a3c900a148
-_md5_=9153a358e887e646764d771ad65dbd5e
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	patches	23d57edd5dd5cdd3d3d129ba159cf3af
+_md5_=0713797f518d488c2afb93d3bbf76401

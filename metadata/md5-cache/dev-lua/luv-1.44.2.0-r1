@@ -1,0 +1,17 @@
+BDEPEND=virtual/pkgconfig >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) >=dev-libs/libuv-1.44:=
+DESCRIPTION=Bare libuv bindings for lua
+EAPI=8
+HOMEPAGE=https://github.com/luvit/luv
+INHERIT=cmake flag-o-matic lua unpacker
+IUSE=test lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4
+KEYWORDS=~amd64 ~arm ~arm64 ~riscv ~x86 ~x64-macos
+LICENSE=Apache-2.0 MIT
+RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) >=dev-libs/libuv-1.44:=
+REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/luvit/luv/archive/1.44.2-0.tar.gz -> luv-1.44.2.0.tar.gz https://github.com/keplerproject/lua-compat-5.3/archive/v0.10.tar.gz -> luv-lua-compat-0.10.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	multibuild	d26d81f242cb193d899a72bca423d0bd	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	unpacker	f03f9c0c03643e8057ad762b297ce01e
+_md5_=b8ff722dc1eb37e53fe2f481dc6b251a

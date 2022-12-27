@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Sweet Home 3D is a free interior design application.
+EAPI=8
+HOMEPAGE=http://sweethome3d.com/
+INHERIT=desktop wrapper
+IUSE=gtk3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/jre
+SLOT=0
+SRC_URI=amd64? ( mirror://sourceforge/sweethome3d/SweetHome3D-7.0-linux-x64.tgz ) x86? ( mirror://sourceforge/sweethome3d/SweetHome3D-7.0-linux-x86.tgz )
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=91994854306e365db9bb3b5950d8e2de

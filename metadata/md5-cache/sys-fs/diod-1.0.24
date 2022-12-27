@@ -1,14 +1,16 @@
-DEFINED_PHASES=configure prepare
-DEPEND=|| ( virtual/lua >=dev-lang/lua-5.1:* >=dev-lang/luajit-2:* ) sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure prepare setup
+DEPEND=sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
 DESCRIPTION=Distributed I/O Daemon - a 9P file server
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/chaos/diod
-INHERIT=eutils
-IUSE=rdma tcmalloc luajit
+INHERIT=autotools lua-single
+IUSE=rdma tcmalloc lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
-RDEPEND=|| ( virtual/lua >=dev-lang/lua-5.1:* >=dev-lang/luajit-2:* ) sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
+RDEPEND=sys-apps/tcp-wrappers virtual/libc sys-libs/libcap sys-libs/ncurses:0 tcmalloc? ( dev-util/google-perftools )
+REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4 )
 SLOT=0
-SRC_URI=https://github.com/chaos/diod/archive/1.0.24.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=bb5f5707c0b921fc1352e0e4c8c45812
+SRC_URI=https://github.com/chaos/diod/archive/1.0.24.tar.gz -> diod-1.0.24.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	aee383a0de35701b9eb0b27077a1c143
+_md5_=fa0fc0889f819dbb6f7547c7c9329e98

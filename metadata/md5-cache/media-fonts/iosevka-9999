@@ -1,14 +1,13 @@
-BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=net-libs/nodejs media-gfx/fontforge media-gfx/ttfautohint media-gfx/otfcc web? ( media-gfx/sfnt2woff media-libs/woff2 ) X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm setup unpack
-DEPEND=net-libs/nodejs media-gfx/fontforge media-gfx/ttfautohint media-gfx/otfcc web? ( media-gfx/sfnt2woff media-libs/woff2 )
 DESCRIPTION=Open source coding font
-EAPI=7
+EAPI=8
 HOMEPAGE=https://be5invis.github.io/Iosevka
 INHERIT=font git-r3
-IUSE=unhinted web X
+IUSE=web X
 LICENSE=OFL-1.1
 PROPERTIES=live
 RESTRICT=binchecks strip network-sandbox
 SLOT=0
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=e2d6676085e343ac7c1901f4fea26dc0
+_md5_=a41dc3a02ce007bb2b9daf7aa4192aaf

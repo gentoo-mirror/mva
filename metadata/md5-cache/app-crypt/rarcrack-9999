@@ -2,13 +2,13 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
 DEPEND=dev-libs/libxml2
 DESCRIPTION=Bruteforce algorithm to find correct password of zip, rar and 7z archives
-EAPI=7
+EAPI=8
 HOMEPAGE=http://rarcrack.sourceforge.net/
-INHERIT=git-r3 eutils toolchain-funcs flag-o-matic
+INHERIT=git-r3 toolchain-funcs flag-o-matic
 KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-libs/libxml2
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395
-_md5_=b62248c2d0889123afe7c5084a4d811e
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395
+_md5_=daf2f2b14373c51ba06c4498f900af6d

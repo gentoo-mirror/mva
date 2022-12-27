@@ -11,4 +11,4 @@ RDEPEND=net-vpn/tor i2p? ( || ( net-vpn/i2pd net-vpn/i2p ) )
 SLOT=0
 SRC_URI=https://github.com/rahra/onioncat/archive/8e7f6eb655e342d14c2f06411d9c0c459b8f6f8f.tar.gz -> onioncat-0.2.2_p13012018.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=ca7dc92611bec059c940858ae76b7b48
+_md5_=c2941d58c54ac984fb066bf6b6b704a1

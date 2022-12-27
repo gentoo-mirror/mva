@@ -1,8 +1,7 @@
 DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Package for using multi-locus genotype data to investigate population structure
-EAPI=7
+EAPI=8
 HOMEPAGE=http://pritchardlab.stanford.edu/structure.html
-INHERIT=eutils
 IUSE=java doc
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
@@ -10,5 +9,4 @@ RDEPEND=java? ( virtual/jre )
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://web.stanford.edu/group/pritchardlab/structure_software/release_versions/v2.3.4/structure_kernel_source.tar.gz -> structure_kernel_source-2.3.4.tar.gz java? ( http://web.stanford.edu/group/pritchardlab/structure_software/release_versions/v2.3.4/structure_frontend_source.tar.gz -> structure_frontend_source-2.3.4.tar.gz ) doc? ( http://web.stanford.edu/group/pritchardlab/structure_software/release_versions/v2.3.4/structure_doc.pdf -> structure_doc-2.3.4.pdf )
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=ea3f58ae82b8131c1f3b111489b03bba
+_md5_=a173f0630e98c3143353da27fe600a16

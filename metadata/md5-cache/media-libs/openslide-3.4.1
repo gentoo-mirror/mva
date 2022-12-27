@@ -1,15 +1,13 @@
 DEFINED_PHASES=install
-DEPEND=virtual/jpeg:0 media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
+DEPEND=media-libs/libjpeg-turbo media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
 DESCRIPTION=C library with simple interface to read virtual slides
-EAPI=7
+EAPI=8
 HOMEPAGE=http://openslide.org/
-INHERIT=eutils
 IUSE=doc
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
-RDEPEND=virtual/jpeg:0 media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
+RDEPEND=media-libs/libjpeg-turbo media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/openslide/openslide/releases/download/v3.4.1/openslide-3.4.1.tar.xz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=b84638633bc388d5a16cc2ff0c620cdc
+_md5_=69e09a4a5015bccc6d200033738983a6

@@ -2,13 +2,14 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/
 DEFINED_PHASES=configure install prepare unpack
 DEPEND=>=sys-devel/bison-3.0 sys-devel/flex oniguruma? ( dev-libs/oniguruma[static-libs?] ) test? ( dev-util/valgrind )
 DESCRIPTION=Command-line JSON processor
-EAPI=7
+EAPI=8
 HOMEPAGE=http://stedolan.github.io/jq/
 INHERIT=autotools git-r3 patches
 IUSE=oniguruma static-libs test
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=!static-libs? ( oniguruma? ( dev-libs/oniguruma[static-libs?] ) )
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	git-r3	2347f8fe2d392b2a091191f94be37e6f	patches	23d57edd5dd5cdd3d3d129ba159cf3af
-_md5_=f5fe80fbd463b04099324ebd7817b3cc
+_md5_=ebf97129f1b6f2724d059776198e430d

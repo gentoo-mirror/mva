@@ -1,14 +1,15 @@
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=dev-libs/protobuf:0= sys-libs/ncurses:0= virtual/ssh client? ( dev-lang/perl dev-perl/IO-Tty ) dev-libs/openssl:0= utempter? ( sys-libs/libutempter ) dev-vcs/git[curl] virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=dev-libs/protobuf:= sys-libs/ncurses:= sys-libs/zlib virtual/ssh client? ( dev-lang/perl dev-perl/IO-Tty ) !nettle? ( dev-libs/openssl:= ) nettle? ( dev-libs/nettle:= ) utempter? ( sys-libs/libutempter )
 DESCRIPTION=Mobile shell that supports roaming and intelligent local echo
-EAPI=6
+EAPI=8
 HOMEPAGE=https://mosh.org
 INHERIT=autotools bash-completion-r1 git-r3
-IUSE=+client examples +mosh-hardening +server ufw +utempter
+IUSE=+client examples +hardened nettle +server syslog ufw +utempter
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/protobuf:0= sys-libs/ncurses:0= virtual/ssh client? ( dev-lang/perl dev-perl/IO-Tty ) dev-libs/openssl:0= utempter? ( sys-libs/libutempter )
+RDEPEND=dev-libs/protobuf:= sys-libs/ncurses:= sys-libs/zlib virtual/ssh client? ( dev-lang/perl dev-perl/IO-Tty ) !nettle? ( dev-libs/openssl:= ) nettle? ( dev-libs/nettle:= ) utempter? ( sys-libs/libutempter )
 REQUIRED_USE=|| ( client server ) examples? ( client )
 SLOT=0
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	447396341f5f896d722e435a06f87a4f	eqawarn	c9847c43b3253a276ae2eabddedab3d7	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	ltprune	97143780d341cc8d8f1d4c6187a36d29	preserve-libs	a8e50acee31b5759b4df1f7707cae54b	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=6a8c7abb990d71bcf13096101217a775
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=c0c69b9b0864de62587af5baae1f7609

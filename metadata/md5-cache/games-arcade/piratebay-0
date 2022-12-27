@@ -1,13 +1,14 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=install postinst
 DEPEND=>=games-engines/love-0.8.0:*
 DESCRIPTION=A physics based game made for Devmania 2011 Overnight Contest
-EAPI=7
+EAPI=8
 HOMEPAGE=http://gamejams.schattenkind.net/2011/10/pirate-bay.html
-INHERIT=eutils
+INHERIT=desktop wrapper
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=ZLIB
 RDEPEND=>=games-engines/love-0.8.0:*
 SLOT=0
 SRC_URI=http://sience.schattenkind.net/devmania/piratebay.love -> piratebay-0.zip
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=a71621f8faeddb52922328e2b886528c
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=77949d421a0fcb5fc732ee38b57ea517

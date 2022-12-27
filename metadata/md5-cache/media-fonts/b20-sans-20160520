@@ -1,15 +1,14 @@
-BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
-DEPEND=app-arch/unzip
 DESCRIPTION=B20 Sans, a sans-serif font
-EAPI=7
+EAPI=8
 HOMEPAGE=http://www.dafont.com/b20-sans.font
 INHERIT=font
 IUSE=X
-KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86
 LICENSE=OFL
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=b20_sans -> b20-sans-20160520.zip
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
-_md5_=b3d01f47e2323b310705a3c91da919f5
+_md5_=76003129a05a9247e4ee959dfa51da0b

@@ -2,14 +2,14 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
 DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua] dev-lua/resty-lrucache[lua_targets_luajit(-)?]
 DESCRIPTION=New LuaJIT FFI based API for lua-nginx-module
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/openresty/lua-resty-core
 INHERIT=lua git-r3
-IUSE=lua_targets_luajit
+IUSE=+lua_targets_luajit lua_targets_luajit
 LICENSE=BSD
 PROPERTIES=live
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua] dev-lua/resty-lrucache[lua_targets_luajit(-)?]
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=4629c381802b27062eaf40e0300353c4
+_md5_=e97d5b1f5aee73b499ec14633f343958

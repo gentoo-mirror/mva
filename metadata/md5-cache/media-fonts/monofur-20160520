@@ -1,15 +1,14 @@
-BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup
-DEPEND=app-arch/unzip
 DESCRIPTION=Monofur, a good fixed width font for development
-EAPI=7
+EAPI=8
 HOMEPAGE=http://www.dafont.com/monofur.font
 INHERIT=font
 IUSE=X
-KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86
 LICENSE=OFL
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=monofur -> monofur-20160520.zip
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
-_md5_=cc69e624dbd5861c228d2f6120dc4691
+_md5_=55504b93c8e1e2caaecaf81c5250f2c8

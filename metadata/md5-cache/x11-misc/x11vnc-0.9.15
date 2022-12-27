@@ -1,15 +1,15 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=>=net-libs/libvncserver-0.9.8[ssl?] x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr >=x11-libs/libXtst-1.1.0 ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= ) ) xinerama? ( x11-libs/libXinerama ) zeroconf? ( >=net-dns/avahi-0.6.4 ) x11-libs/libXt x11-base/xorg-proto
+DEPEND=>=net-libs/libvncserver-0.9.8[ssl?] x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr >=x11-libs/libXtst-1.1.0 ssl? ( dev-libs/openssl:0= ) xinerama? ( x11-libs/libXinerama ) zeroconf? ( >=net-dns/avahi-0.6.4 ) x11-libs/libXt x11-base/xorg-proto
 DESCRIPTION=A VNC server for real X displays
-EAPI=7
+EAPI=8
 HOMEPAGE=https://libvnc.github.io/
 INHERIT=autotools vcs-snapshot
-IUSE=crypt fbcon libressl ssl xinerama zeroconf
-KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~arm-linux ~x86-linux ~sparc-solaris ~x64-solaris ~x86-solaris
+IUSE=crypt fbcon ssl xinerama zeroconf
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~arm-linux ~x86-linux ~sparc-solaris ~x64-solaris ~x86-solaris
 LICENSE=GPL-2
-RDEPEND=>=net-libs/libvncserver-0.9.8[ssl?] x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr >=x11-libs/libXtst-1.1.0 ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= ) ) xinerama? ( x11-libs/libXinerama ) zeroconf? ( >=net-dns/avahi-0.6.4 )
+RDEPEND=>=net-libs/libvncserver-0.9.8[ssl?] x11-libs/libX11 x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrandr >=x11-libs/libXtst-1.1.0 ssl? ( dev-libs/openssl:0= ) xinerama? ( x11-libs/libXinerama ) zeroconf? ( >=net-dns/avahi-0.6.4 )
 SLOT=0
 SRC_URI=https://github.com/LibVNC/x11vnc/archive/0.9.15.tar.gz -> x11vnc-0.9.15.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
-_md5_=c6725763b12791e435579c5ba4a227c8
+_md5_=daa64906cac10a9e93be0f780c5ebc0e

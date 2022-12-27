@@ -1,4 +1,4 @@
-BDEPEND=gui? ( sys-apps/yarn net-libs/nodejs ) kbfs? ( !app-crypt/kbfs sys-fs/fuse ) >=dev-lang/go-1.18 app-arch/unzip virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=gui? ( sys-apps/yarn net-libs/nodejs ) kbfs? ( sys-fs/fuse ) >=dev-lang/go-1.18 app-arch/unzip virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst unpack
 DESCRIPTION=Client for keybase.io
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=app-crypt/gnupg gui? ( !system-vulkan? ( media-libs/vulkan-loader ) !sys
 RESTRICT=gui? ( network-sandbox ) strip
 SLOT=0
 _eclasses_=go-module	4c4b34f361efda91762ffeda8f632c02	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=beea3c67116682f42248f3ebb128743c
+_md5_=1c8ce178cd37b33979543506b9098150

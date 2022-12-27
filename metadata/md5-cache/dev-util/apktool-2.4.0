@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install preinst prepare setup
-DEPEND=!dev-util/apktool-bin virtual/gradle >=dev-java/java-config-2.2.0-r3
+DEPEND=!!dev-util/apktool-bin virtual/gradle >=dev-java/java-config-2.2.0-r3
 DESCRIPTION=A tool for reverse engineering 3rd party, closed, binary Android apps
-EAPI=7
+EAPI=8
 HOMEPAGE=https://ibotpeaches.github.io/Apktool/
-INHERIT=java-pkg-2
+INHERIT=java-pkg-2 gradle
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=>=virtual/jdk-1.7 >=dev-java/java-config-2.2.0-r3
-RESTRICT=test
+RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/iBotPeaches/Apktool/archive/v2.4.0.tar.gz -> apktool-2.4.0.tar.gz
-_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd
-_md5_=0f7b9cdba48417cf9e8b47d6044e195c
+_eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	gradle	2d31b772e6d226355d010b2d777af00b
+_md5_=f7c3c828f0e0e137eb2da738b95ea371

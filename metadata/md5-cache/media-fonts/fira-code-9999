@@ -1,7 +1,7 @@
 BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst postrm setup unpack
 DESCRIPTION=A programming font with ligatures
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/tonsky/FiraCode
 INHERIT=font git-r3
 IUSE=truetype webfonts X
@@ -9,4 +9,4 @@ LICENSE=OFL
 PROPERTIES=live
 SLOT=0
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=5f7e7e191f3ff7eb59d7eb97bcdbacd4
+_md5_=eaa2bebae63ea4a6f36a9cffbc417f96

@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=dev-qt/qtdeclarative:5= dev-qt/qtwidgets:5=
+DESCRIPTION=QML port of x11-libs/qtermwidget
+EAPI=8
+HOMEPAGE=https://github.com/Swordfish90/qmltermwidget
+INHERIT=qmake-utils
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=BSD
+RDEPEND=dev-qt/qtdeclarative:5= dev-qt/qtwidgets:5=
+SLOT=0
+SRC_URI=https://github.com/Swordfish90/qmltermwidget/archive/0.2.0.tar.gz -> qmltermwidget-0.2.0.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
+_md5_=54ea91821304dd03ccfd61b5021585ee

@@ -1,13 +1,14 @@
+BDEPEND=app-arch/unzip
 DEFINED_PHASES=install postinst
 DEPEND=>=games-engines/love-0.8.0:*
 DESCRIPTION=A game prototype by Maurice (mari0 author)
-EAPI=7
+EAPI=8
 HOMEPAGE=http://stabyourself.net/other/
-INHERIT=eutils
+INHERIT=desktop wrapper
 KEYWORDS=~amd64 ~arm ~x86
 LICENSE=GPL-2
 RDEPEND=>=games-engines/love-0.8.0:*
 SLOT=0
 SRC_URI=http://stabyourself.net/dl.php?file=shoothookers/shoothookers.love -> shoothookers-0.zip
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32
-_md5_=4b9dc199cfe40aa18a9bb0a90e916a1b
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=585243f76a43852ce0a527d214265ba3

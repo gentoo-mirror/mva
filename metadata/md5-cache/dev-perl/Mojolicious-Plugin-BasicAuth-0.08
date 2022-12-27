@@ -1,14 +1,16 @@
-BDEPEND=dev-lang/perl
+BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-lang/perl
-DESCRIPTION=Real-time web framework
-EAPI=7
+DESCRIPTION=Basic HTTP Auth Helper
+EAPI=8
 HOMEPAGE=https://metacpan.org/release/Mojolicious-Plugin-BasicAuth
 INHERIT=perl-module
+IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( Artistic GPL-1+ )
 RDEPEND=dev-lang/perl:=
+RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/T/TE/TEMPIRE/Mojolicious-Plugin-BasicAuth-0.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	perl-module	21a0cb6221498d0e7894bdf445b79887
-_md5_=64add1c2e172bcaa9d5de0593cf79b3e
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	perl-module	21a0cb6221498d0e7894bdf445b79887
+_md5_=9f24ee81f84277730ccbdd998ee7cee6

@@ -1,13 +1,13 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 dev-vcs/mercurial >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare unpack
 DEPEND=net-im/pidgin dev-libs/json-glib dev-libs/glib:2 sys-libs/zlib
 DESCRIPTION=Facebook plugin for libpurple (Pidgin)
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/jgeboski/purple-facebook
-INHERIT=autotools mercurial git-r3
+INHERIT=autotools git-r3
 LICENSE=GPL-2
-PROPERTIES=live live
+PROPERTIES=live
 RDEPEND=net-im/pidgin dev-libs/json-glib dev-libs/glib:2 sys-libs/zlib
 SLOT=0
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	mercurial	53b96197cb26db4afb5056f1bbfa4845	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=c2f41d2ab2ba25774e40594c67be03e0
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=1791b77a91acbeab1d31ca8338a6151d

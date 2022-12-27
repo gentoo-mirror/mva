@@ -5,11 +5,11 @@ DESCRIPTION=A simple LRU cache for OpenResty and the ngx_lua module (based on Lu
 EAPI=8
 HOMEPAGE=https://github.com/openresty/lua-resty-lrucache
 INHERIT=lua git-r3
-IUSE=lua_targets_luajit
+IUSE=+lua_targets_luajit lua_targets_luajit
 LICENSE=BSD
 PROPERTIES=live
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua]
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=d37dfb2d3ea1c7c114064f64c69d22bd
+_md5_=5471e09af89f1ee8cae7764cc0041c09

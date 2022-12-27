@@ -5,10 +5,11 @@ DESCRIPTION=A tool displaying unicode character properties
 EAPI=8
 HOMEPAGE=https://github.com/garabik/unicode
 INHERIT=python-r1 git-r3
-IUSE=python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
+IUSE=python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 python_targets_python3_11
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=app-i18n/unicode-data
+RDEPEND=app-i18n/unicode-data python_targets_pypy3? ( >=dev-python/pypy3-7.3.10-r1:0= ) python_targets_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_targets_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) python_targets_python3_11? ( >=dev-lang/python-3.11.1:3.11 )
+REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 python_targets_python3_11 )
 SLOT=0
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	1d1b325c00c1d24c564a1b49327ec3c5	python-r1	ca02b49ab4dd44b606c151aa296ef399	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=5d9672e8c138e68564d1c408768ee7ce
+_md5_=073daebf5a065a7039fad45cf87be35f

@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.18 app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=A terminal client for GoTTY
+EAPI=8
+HOMEPAGE=https://github.com/moul/gotty-client
+INHERIT=bash-completion-r1 go-module git-r3
+IUSE=bash-completion zsh-completion
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=zsh-completion? ( app-shells/zsh )
+RESTRICT=mirror strip strip
+SLOT=0
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	go-module	4c4b34f361efda91762ffeda8f632c02	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=ce76f5dac58ad037d6793ea3dc963e92

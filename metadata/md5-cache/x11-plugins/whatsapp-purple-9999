@@ -2,12 +2,12 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=setup unpack
 DEPEND=net-im/pidgin media-libs/freeimage
 DESCRIPTION=Whatsapp plugin for libpurple (Pidgin)
-EAPI=7
-HOMEPAGE=http://davidgf.net/page/39/
-INHERIT=eutils git-r3
+EAPI=8
+HOMEPAGE=https://davidgf.net/page/39/
+INHERIT=git-r3
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=net-im/pidgin media-libs/freeimage
 SLOT=0
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=44575c63d36074cfab8020ccf5dcc8dc
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=ada1f77c498f5f08fe837bf509c7d48f

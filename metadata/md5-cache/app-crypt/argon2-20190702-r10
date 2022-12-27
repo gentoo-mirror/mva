@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=The password hash Argon2, winner of PHC
+EAPI=8
+HOMEPAGE=https://github.com/P-H-C/phc-winner-argon2
+INHERIT=patches toolchain-funcs
+IUSE=static-libs
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=|| ( Apache-2.0 CC0-1.0 )
+SLOT=0/1
+SRC_URI=https://github.com/P-H-C/phc-winner-argon2/archive/20190702.tar.gz -> argon2-20190702.tar.gz
+_eclasses_=patches	23d57edd5dd5cdd3d3d129ba159cf3af	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=855770e1390f270a69c4be1076b18cf7

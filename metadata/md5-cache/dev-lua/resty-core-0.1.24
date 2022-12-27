@@ -1,0 +1,15 @@
+DEFINED_PHASES=install prepare
+DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua] dev-lua/resty-lrucache[lua_targets_luajit(-)?]
+DESCRIPTION=New LuaJIT FFI based API for lua-nginx-module
+EAPI=8
+HOMEPAGE=https://github.com/openresty/lua-resty-core
+INHERIT=lua
+IUSE=+lua_targets_luajit lua_targets_luajit
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=BSD
+RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) www-servers/nginx:*[nginx_modules_http_lua] dev-lua/resty-lrucache[lua_targets_luajit(-)?]
+REQUIRED_USE=|| ( lua_targets_luajit )
+SLOT=0
+SRC_URI=https://github.com/openresty/lua-resty-core/archive/refs/tags/v0.1.24.tar.gz -> resty-core-0.1.24.tar.gz
+_eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214
+_md5_=e97d5b1f5aee73b499ec14633f343958

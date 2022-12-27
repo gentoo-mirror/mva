@@ -1,12 +1,12 @@
 BDEPEND=>=dev-lang/go-1.18 app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DESCRIPTION=official go language server
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/golang/tools/blob/master/gopls
 INHERIT=go-module git-r3
 LICENSE=MIT
 PROPERTIES=live
-RESTRICT=network-sandbox
+RESTRICT=strip
 SLOT=0
 _eclasses_=go-module	4c4b34f361efda91762ffeda8f632c02	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=e36da82052e481e8f8e2035338e923c9
+_md5_=000be69a96e0de69909449a9d2864985
