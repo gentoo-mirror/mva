@@ -1,15 +1,16 @@
-BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure install prepare unpack
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install prepare
 DEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20221215:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( media-sound/pulseaudio[daemon(-)] ) pipewire? ( media-sound/pulseaudio[-daemon(+)] media-video/pipewire[sound-server(-)] )
 DESCRIPTION=VoIP library for Telegram clients
 EAPI=8
 HOMEPAGE=https://github.com/telegramdesktop/libtgvoip
-INHERIT=autotools flag-o-matic patches git-r3
+INHERIT=autotools flag-o-matic patches
 IUSE=+alsa +dsp pulseaudio pipewire static-libs
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=Unlicense
-PROPERTIES=live
 RDEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20221215:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( media-sound/pulseaudio[daemon(-)] ) pipewire? ( media-sound/pulseaudio[-daemon(+)] media-video/pipewire[sound-server(-)] )
 REQUIRED_USE=|| ( dsp alsa pulseaudio pipewire )
 SLOT=0
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	flag-o-matic	69394e25812406faa1f90edaf4969395	patches	23d57edd5dd5cdd3d3d129ba159cf3af	git-r3	2347f8fe2d392b2a091191f94be37e6f
+SRC_URI=https://github.com/telegramdesktop/libtgvoip/archive/532b4970752ec2bf90e2003e0779bebd8f01500d.tar.gz -> libtgvoip-2.4.5_pre20221209.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	flag-o-matic	69394e25812406faa1f90edaf4969395	patches	23d57edd5dd5cdd3d3d129ba159cf3af
 _md5_=8c90732274dae415ae773991e4ca8365

@@ -296,12 +296,12 @@ media-libs/cgif 0.3.0 9999: GIF encoder written in C
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libspng 0.7.2 9999: Simple PNG library
-media-libs/libtgvoip 2.4.5_pre20220503 9999: VoIP library for Telegram clients
-media-libs/libyuv 1794_p20211009: Open source project that includes YUV scaling and conversion functionality
+media-libs/libtgvoip 2.4.5_pre20221209 9999: VoIP library for Telegram clients
+media-libs/libyuv 1854_p20221228: Open source project that includes YUV scaling and conversion functionality
 media-libs/nifti 3.0.1 9999: C libraries for NIFTI support
 media-libs/openslide 3.4.1: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
-media-libs/tg_owt 0_pre20221103 9999: WebRTC (video) library (fork) for Telegram clients
+media-libs/tg_owt 0_pre20221215 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 8.13.1 9999: VIPS Image Processing Library
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
@@ -318,7 +318,7 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 4.3.0 9999: Official desktop client for Telegram
+net-im/telegram-desktop 4.4.2 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library

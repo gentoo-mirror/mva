@@ -87,19 +87,17 @@ media-gfx/ttfautohint:gui - Build GUI Frontend
 media-libs/libspng:miniz - Use dev-libs/miniz as compression library
 media-libs/libspng:optimizations - Various optimizations
 media-libs/libtgvoip:alsa - Enable ALSA support
-media-libs/libtgvoip:libcxx - Build with sys-devel/clang against sys-libs/libcxx
+media-libs/libtgvoip:dsp - Enable signal processing (echo cancellation, noise suppression, and automatic gain control)
 media-libs/libtgvoip:pipewire - Enable PipeWire support (actually, only force needed dependencies)
 media-libs/libtgvoip:pulseaudio - Enable PulseAudio support
 media-libs/libtgvoip:static-libs - Build static library
 media-libs/libyuv:tools - Install additional tools
 media-libs/rlottie:cache - Enable cache support
 media-libs/rlottie:dumptree - Enable logging the rlottie tree
-media-libs/rlottie:libcxx - Build with sys-devel/clang and link against sys-libs/libcxx
 media-libs/rlottie:log - Enable logging
 media-libs/rlottie:module - Build Image module
 media-libs/rlottie:threads - Support threading
 media-libs/tg_owt:X - Support functionality that requires Xorg server (like screen recording)
-media-libs/tg_owt:libcxx - Build with sys-devel/clang against sys-libs/libcxx
 media-libs/tg_owt:pipewire - Add media-video/pipewire support
 media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
@@ -131,7 +129,6 @@ net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must
 net-im/telegram-desktop:dbus - Enable D-Bus integration
 net-im/telegram-desktop:enchant - Use app-text/enchant for spell checking
 net-im/telegram-desktop:hunspell - Use app-text/enchant for spell checking
-net-im/telegram-desktop:libcxx - Build with sys-libs/libcxx as sdtlib
 net-im/telegram-desktop:lto - Enable Link Time Optimizations (build will take 20+G RAM and binary will be about 2G)
 net-im/telegram-desktop:pipewire - Use media-video/pipewire as sound server
 net-im/telegram-desktop:system-expected - Use system-wide installed dev-cpp/tl-expected instead of bundled one
