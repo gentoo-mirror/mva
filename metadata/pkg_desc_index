@@ -237,6 +237,7 @@ dev-perl/Validator-Custom 1.0201: HTML form Validation, simple and good flexibil
 dev-php/msgpack-php 2.2.0_rc2 9999: API for communicating with MessagePack serialization
 dev-python/frozendict 2.3.2: A simple immutable mapping for python
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
+dev-python/matrix-synapse-ldap3 0.2.2: An LDAP3 auth provider for Synapse
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
 dev-python/pysaml2 7.1.2: Python implementation of SAML Version 2 to be used in a WSGI environment
