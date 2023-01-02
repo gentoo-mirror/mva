@@ -26,13 +26,11 @@ RDEPEND="
 	dev-libs/nss
 	x11-libs/libXtst
 	app-accessibility/at-spi2-core:2
-	app-accessibility/at-spi2-atk:2
 	system-ffmpeg? ( <media-video/ffmpeg-4.3[chromium] )
 "
 
 KEYWORDS="~amd64"
-S=$WORKDIR
-
+S="${WORKDIR}"
 
 src_install() {
 	rm "opt/Jitsi Meet/chrome-sandbox" || die
@@ -41,7 +39,7 @@ src_install() {
 	doins -r "opt/Jitsi Meet"
 
 	# dobin "opt/Jitsi Meet/jitsi-meet"
-	dosym "${EPREFIX}/opt/Jitsi Meet/jitsi-meet" ${EPREFIX}/usr/bin/jitsi-meet
+	dosym "../../opt/Jitsi Meet/jitsi-meet" "${EPREFIX}/usr/bin/jitsi-meet"
 	domenu usr/share/applications/jitsi-meet.desktop
 	doicon usr/share/icons/hicolor/512x512/apps/jitsi-meet.png
 
