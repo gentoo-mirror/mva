@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~spar
 LICENSE=GPL-2
 RDEPEND=>=app-admin/eselect-1.2.3
 SLOT=0
-_md5_=8692c088b3b6f4453297187262adfff5
+_md5_=67145345d18e746d13d90450ac19544d

@@ -11,4 +11,4 @@ RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=monofur -> monofur-20160520.zip
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
-_md5_=55504b93c8e1e2caaecaf81c5250f2c8
+_md5_=a9d1dcd6e40ce59ff4e8941d1970c83d

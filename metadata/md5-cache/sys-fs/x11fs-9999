@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-libs/libxcb sys-fs/fuse:0
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=9ed212caf6a1854fb66e0d2e6337f69b
+_md5_=3e73d0676f58bd9f28c96d313f104200

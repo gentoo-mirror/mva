@@ -13,4 +13,4 @@ REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_t
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214	git-r3	2347f8fe2d392b2a091191f94be37e6f	virtualx	644887c82aefdf12001489391fca4f02
-_md5_=0959c96feff731e86429518ef1f39560
+_md5_=677564d09d086243ba64eba5d5bb7242

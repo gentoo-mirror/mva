@@ -12,4 +12,4 @@ RDEPEND=dev-libs/boost >=dev-libs/mongo-c-driver-1.17.0 static-mongoc? ( dev-lib
 SLOT=0
 SRC_URI=https://github.com/mongodb/mongo-cxx-driver/archive/refs/tags/r3.7.0.tar.gz -> mongo-cxx-driver-3.7.0.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
-_md5_=bfb44673478c935cd98b27bf9e2fbe92
+_md5_=a795bb0cac3aa9cbdeb5fb1b7a70a676

@@ -11,4 +11,4 @@ RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://openfontlibrary.org/assets/downloads/consolamono/61cc2afcc4eca96efe7c6ebf178d39df/consolamono.zip -> consolamono-20130127.zip
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
-_md5_=84734b9dfb34b3ebf6f86e5e20710549
+_md5_=bdae6ae1413b6499027e22fb88810364

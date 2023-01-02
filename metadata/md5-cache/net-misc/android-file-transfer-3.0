@@ -12,4 +12,4 @@ RDEPEND=fuse? ( sys-fs/fuse:0 ) gui? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtw
 SLOT=0
 SRC_URI=https://github.com/whoozle/android-file-transfer-linux/archive/v3.0.tar.gz -> android-file-transfer-3.0.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
-_md5_=8bebc3b72e9ecc78d7cc6306851ab27b
+_md5_=9e29e679f2d36bb60e7d4f9889b42014

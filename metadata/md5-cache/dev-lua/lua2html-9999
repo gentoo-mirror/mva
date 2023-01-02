@@ -12,4 +12,4 @@ RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1
 REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4 )
 SLOT=0
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua-single	aee383a0de35701b9eb0b27077a1c143	mercurial	53b96197cb26db4afb5056f1bbfa4845
-_md5_=540cbd0f3c59186f2da3026162b1d2b6
+_md5_=409ec2eae9945d8e02ec5a153665380b

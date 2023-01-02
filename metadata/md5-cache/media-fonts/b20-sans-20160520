@@ -11,4 +11,4 @@ RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=b20_sans -> b20-sans-20160520.zip
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
-_md5_=76003129a05a9247e4ee959dfa51da0b
+_md5_=ac20d821d58383e51dcddb8305a0a001

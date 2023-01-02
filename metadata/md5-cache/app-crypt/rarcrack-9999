@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/libxml2
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395
-_md5_=daf2f2b14373c51ba06c4498f900af6d
+_md5_=ec0191272a8dc832fcbc45773efe6d5c

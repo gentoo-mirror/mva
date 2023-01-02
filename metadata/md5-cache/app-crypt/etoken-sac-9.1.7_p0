@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=http://online.payment.ru/drivers/SAC_9_1_Linux.zip
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	rpm	f73e907469f65e52192f110dec72dce0
-_md5_=2a39ffd5b32711b6519f02eea2bacbdd
+_md5_=da89a054ab64624634ce46366fa60e30

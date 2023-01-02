@@ -8,4 +8,4 @@ LICENSE=BSD
 SLOT=0
 SRC_URI=https://github.com/mapbox/variant/archive/v1.2.0.tar.gz -> variant-1.2.0.tar.gz
 _eclasses_=patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=06c2eb2fb4ea0d1dcc79ae319ea69005
+_md5_=1c827c5b6f620775c690239f8f69c9ac

@@ -9,4 +9,4 @@ LICENSE=2Gis-ru
 RDEPEND=app-misc/2gis
 SLOT=0
 SRC_URI=area? ( https://download.2gis.ru/arhives/ComputeAreaPlugin2.zip -> 2GIS_Plugin_ComputeArea.zip ) goto? ( https://download.2gis.ru/arhives/GoTo.zip -> 2GIS_Plugin_GoTo.zip ) mapnotes? ( https://download.2gis.ru/arhives/MapNotes.zip -> 2GIS_Plugin_MapNotes.zip )
-_md5_=66848e3c29896196bf53b67ead4eb413
+_md5_=9ab58e1d61239fe8b60d6ef890baa521

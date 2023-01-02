@@ -11,4 +11,4 @@ RDEPEND=>=games-engines/love-0.8.0:*
 SLOT=0
 SRC_URI=http://stabyourself.net/dl.php?file=flyinggame/flyinggame.love -> flyinggame-0.zip
 _eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=585243f76a43852ce0a527d214265ba3
+_md5_=eb13ae54c0fb81702e3e64b85e3b7a26

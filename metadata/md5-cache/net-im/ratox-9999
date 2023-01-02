@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=net-libs/tox[av] media-libs/libv4l media-libs/libvpx media-libs/openal
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=24935a167e33ec668d781a51210094f2
+_md5_=05e1a42e1385f01e308e5e0b59b4ae01

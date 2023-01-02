@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	vim-doc	f088862726f2bc672c57b1063b81ec52	vim-plugin	89bf54501de4a75f241062d5a56e787f
-_md5_=cc40362bcb69bac926995fd66d77d3f3
+_md5_=063a74b77bc10db7d1c63d17b1dbcf55

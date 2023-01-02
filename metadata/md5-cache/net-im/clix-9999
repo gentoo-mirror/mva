@@ -12,4 +12,4 @@ RDEPEND=dev-lua/verse dev-lua/luaexpat
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
 _eclasses_=mercurial	53b96197cb26db4afb5056f1bbfa4845	multibuild	d26d81f242cb193d899a72bca423d0bd	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	lua-utils	e69ff116248d78546ae1a234c086fe80	lua	d5c7dbcaf69f3065f5d7ce3b172c2214
-_md5_=c36ac74f72cc975ee14f72b40b76f0ab
+_md5_=39d3378c7c88a58ecfc498b59c9cb938

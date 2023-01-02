@@ -11,4 +11,4 @@ RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/iBotPeaches/Apktool/archive/v2.4.0.tar.gz -> apktool-2.4.0.tar.gz
 _eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd	gradle	2d31b772e6d226355d010b2d777af00b
-_md5_=f7c3c828f0e0e137eb2da738b95ea371
+_md5_=664efeb3f50b58a35f3122c69336296f

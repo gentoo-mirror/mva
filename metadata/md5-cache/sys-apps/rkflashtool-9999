@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=virtual/libusb:1
 SLOT=0
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=189cd87c89d4b253d4363715dbab3dca
+_md5_=eff6fc18bc401a40172874bc21956d8c
