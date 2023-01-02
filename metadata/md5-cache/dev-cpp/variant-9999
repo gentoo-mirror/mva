@@ -7,5 +7,5 @@ INHERIT=patches git-r3
 LICENSE=BSD
 PROPERTIES=live
 SLOT=0
-_eclasses_=patches	23d57edd5dd5cdd3d3d129ba159cf3af	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=patches	a3f8b9a16731fb4e6a4f25dbacc35ddc	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=06c2eb2fb4ea0d1dcc79ae319ea69005

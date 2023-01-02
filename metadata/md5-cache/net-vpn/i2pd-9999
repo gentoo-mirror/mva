@@ -1,15 +1,14 @@
 BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst prepare test unpack
-DEPEND=acct-user/i2pd acct-group/i2pd !static? ( >=dev-libs/boost-1.49[threads(+)] !libressl? ( dev-libs/openssl:0[-bindist] ) libressl? ( dev-libs/libressl ) upnp? ( net-libs/miniupnpc ) ) gui? ( net-libs/miniupnpc dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 ) websockets? ( dev-cpp/websocketpp ) static? ( >=dev-libs/boost-1.49[static-libs,threads] !libressl? ( dev-libs/openssl:0[static-libs] ) libressl? ( dev-libs/libressl[static-libs] ) upnp? ( net-libs/miniupnpc[static-libs] ) ) i2p-hardening? ( >=sys-devel/gcc-4.7 ) || ( >=sys-devel/gcc-4.7 >=sys-devel/clang-3.3 )
+DEPEND=acct-user/i2pd acct-group/i2pd dev-libs/boost[threads(+)] dev-libs/openssl upnp? ( net-libs/miniupnpc )
 DESCRIPTION=A C++ daemon for accessing the I2P anonymous network
 EAPI=8
 HOMEPAGE=https://github.com/PurpleI2P/i2pd
-INHERIT=pax-utils systemd git-r3 qmake-utils cmake
-IUSE=cpu_flags_x86_aes cpu_flags_x86_avx cjdns i2lua i2p-hardening libressl pch thread-sanitizer addr-sanitizer static +upnp websockets gui
+INHERIT=pax-utils systemd git-r3 cmake
+IUSE=cpu_flags_x86_aes i2p-hardening thread-sanitizer addr-sanitizer +upnp
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=acct-user/i2pd acct-group/i2pd !static? ( >=dev-libs/boost-1.49[threads(+)] !libressl? ( dev-libs/openssl:0[-bindist] ) libressl? ( dev-libs/libressl ) upnp? ( net-libs/miniupnpc ) ) gui? ( net-libs/miniupnpc dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtxml:5 ) websockets? ( dev-cpp/websocketpp )
-REQUIRED_USE=gui? ( !cjdns !i2lua !i2p-hardening !thread-sanitizer !addr-sanitizer !static !pch upnp websockets )
+RDEPEND=acct-user/i2pd acct-group/i2pd dev-libs/boost[threads(+)] dev-libs/openssl upnp? ( net-libs/miniupnpc )
 SLOT=0
-_eclasses_=pax-utils	91d47e5d20627c717aa878b9167c62a8	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	git-r3	2347f8fe2d392b2a091191f94be37e6f	qmake-utils	59420c906278d16deaaa629f9d115707	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
-_md5_=09ae0fe6deb2b7544057b5ef7d3ffe40
+_eclasses_=pax-utils	91d47e5d20627c717aa878b9167c62a8	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	git-r3	2347f8fe2d392b2a091191f94be37e6f	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
+_md5_=e67b31a282072c261c110d7316c45347

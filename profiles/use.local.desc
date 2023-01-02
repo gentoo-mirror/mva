@@ -33,6 +33,7 @@ app-portage/eix:strong-security - Add many checks to prevent exploits if eix cod
 app-portage/eix:swap-remote - Swap role of remote addresses in eix-remote, making the data from gpo.zugaina.org the first choice.
 app-portage/eix:tools - Create separate binary for script helper tools; useful if they are called extremely often
 dev-db/pgcli:keyring - Add support for keyrings feature
+dev-db/pgcli:ssh - Use dev-python/sshtunnel for remote connections through ssh
 dev-db/tora:experimental - Add experimental features
 dev-lang/luajit:lua52compat - Enable some Lua:5.2+ features
 dev-lang/luajit:openresty - Build OpenResty's fork
@@ -42,10 +43,8 @@ dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
 dev-libs/mongo-cxx-driver:static-mongoc - Build mongoc statically
-dev-libs/msgpack:boost - 
-dev-libs/msgpack:cxx - 
-dev-libs/msgpack:cxx11 - 
-dev-libs/msgpack:test - 
+dev-libs/msgpack:boost - Build dev-libs/boost bindings
+dev-libs/msgpack:cxx - Also install CXX version
 dev-lua/iluajit:completion - Add support for completions
 dev-lua/lapis:moonscript - Also compile to moonscript, to use with dev-lua/moonscript
 dev-lua/ltn12ce:system-bzip - Use app-arch/bzip2 instead of bundled version
@@ -99,20 +98,36 @@ media-libs/rlottie:module - Build Image module
 media-libs/rlottie:threads - Support threading
 media-libs/tg_owt:X - Support functionality that requires Xorg server (like screen recording)
 media-libs/tg_owt:pipewire - Add media-video/pipewire support
-media-libs/vips:fits - Enable support for the FITS image format through sci-libs/cfitsio
+media-libs/vips:analyze - Enable support for analyze feature
+media-libs/vips:cfitsio - Enable support for reading FITS images with sci-libs/cfitsio
+media-libs/vips:cgif - Enable support for media-libs/cgif
+media-libs/vips:deprecated - Build deprecated components
+media-libs/vips:doxygen - Build C++ documentation
+media-libs/vips:gsf - Enable support for gnome-extra/libgsf
+media-libs/vips:heif - Enable support for media-libs/libheif
+media-libs/vips:imagequant - Enable support for media-gfx/libimagequant
+media-libs/vips:jpeg-xl - Enable support for JPEG XL files with media-libs/libjxl
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
+media-libs/vips:nifti - Enable support for media-libs/nifti
+media-libs/vips:nsgif - Enable support for media-libs/libnsgif
+media-libs/vips:openjpeg - Enable support for media-libs/openjpeg
 media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide (currently conflicts with jpeg-turbo)
+media-libs/vips:pandoc - Rebuild GTK documentation templates from markdown sources using pandoc
+media-libs/vips:pangocairo - Enable support for x11-libs/pango and x11-libs/cairo
+media-libs/vips:poppler - Enable support for app-text/poppler
+media-libs/vips:ppm - Enable support for PPM files
+media-libs/vips:radiance - Enable support for radiance feature
+media-libs/vips:rsvg - Enable support for gnome-base/librsvg
+media-libs/vips:spng - Enable support for media-libs/libspng
 media-sound/mellowplayer:widevine - Install the Widevine DRM library
-media-sound/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
-media-sound/mumble:speech - Enable text-to-speech support in Mumble.
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:ipq - Support for IPQ
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
 net-firewall/iptables:nftables - Support nftables kernel interface
 net-firewall/iptables:pcap - Build against net-libs/libpcap which enables the nfbpf_compile util
+net-im/jitsi-meet-electron-bin:system-ffmpeg - Use system media-video/ffmpeg instead of bundled
 net-im/prosody:libevent - Use dev-libs/libevent
 net-im/prosody:migration - Build and install migrator tool that could help with migration from/to another XMPP servers
-net-im/prosody-modules:misc - Install misc modules (not in the root of repo, may be broken, outdated and so on)
 net-im/spectrum2:frotz - Enables the Z-Engine backend.
 net-im/spectrum2:irc - Enables the IRC backend, based on net-im/libcommuni.
 net-im/spectrum2:purple - Enables the libpurple backend, based on net-im/pidgin.
@@ -149,24 +164,32 @@ net-im/toxic:video - Enables video calling
 net-irc/weechat:alias - Enable plugin for alias control.
 net-irc/weechat:buflist - Enable buffer list plugin.
 net-irc/weechat:charset - Enable encoding conversions.
+net-irc/weechat:enchant - Enable app-text/enchant spelling engine.
 net-irc/weechat:exec - Enable exec plugin.
 net-irc/weechat:fifo - Enable FIFO support (sh pipes).
+net-irc/weechat:fset - Enable fast set plugin
 net-irc/weechat:headless - Enable headless binary
 net-irc/weechat:irc - Enable IRC protocol support.
 net-irc/weechat:logger - Enable support for logging.
-net-irc/weechat:luajit - Enable LuaJIT support.
 net-irc/weechat:relay - Enable relay plugin (experimental)
 net-irc/weechat:scripts - Build infrastructure for scripting.
 net-irc/weechat:trigger - Enable trigger plugin.
+net-irc/weechat:typing - Enable typing plugin
 net-irc/weechat:xfer - Enable xfer plugin support.
-net-libs/libringclient:dbus - If disable, direct linking to daemon without D-Bus. Enable if unsure.
-net-libs/libringclient:video - Support video call in Ring
 net-libs/libvncserver:24bpp - enable 24bpp support
 net-libs/libvncserver:filetransfer - enable tightvnc-filetransfer support
 net-libs/libvncserver:gcrypt - enable support for gcrypt
 net-libs/libvncserver:websockets - enable websockets support
+net-libs/opendht:dht-index - Build DHT indexation feature
+net-libs/opendht:http-client - Build embedded http(s) client (conflicts with "proxy" options)
+net-libs/opendht:proxy-client - Enable DHT proxy client, use Restinio and jsoncpp
+net-libs/opendht:proxy-openssl - Build DHT proxy with OpenSSL
+net-libs/opendht:proxy-server - Enable DHT proxy server, use Restinio and jsoncpp
+net-libs/opendht:proxy-server-identity - Allow clients to use the node identity
+net-libs/opendht:push-notifications - Enable push notifications support
 net-libs/opendht:python - Install Python bindings. Requires dev-python/cython.
 net-libs/opendht:tools - Install extra opendht tools (dhtchat, dhtnode and dhtscanner).
+net-libs/restbed:ipc - Build unix domain socket layer support
 net-libs/tdlib:cli - Build CLI tools
 net-libs/tdlib:low-ram - Split build to many files, which adds possibility to build on machines with low RAM values by price of longer compilation time
 net-libs/tdlib:lto - Enable Link Time Optimizations
@@ -193,19 +216,28 @@ net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
 net-p2p/syncthing:new-gui - Install new GUI.
 net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
+net-voip/mumble:g15 - Enable support for the Logitech G15 LCD (and compatible devices).
+net-voip/mumble:g15-emulator - Emulate Logitech G15 things
+net-voip/mumble:lto - Build with Link Time Optimization
+net-voip/mumble:optimization - Use some build optimizations
+net-voip/mumble:overlay - Enable overlay feature
+net-voip/mumble:pipewire - media-video/pipewire support
+net-voip/mumble:plugins - Plugins support
+net-voip/mumble:qtspeech - Use dev-qt/qtspeech TTS engine
+net-voip/mumble:speech-dispatcher - Use app-accessibility/speech-dispatcher TTS engine
+net-voip/mumble:system-opus - Use installed media-libs/opus instead of bundled
+net-voip/mumble:system-rnnoise - Use installed media-libs/rnnoise instead of bundled
+net-voip/mumble:system-speex - Use installed media-libs/speex instead of bundled
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
-net-vpn/i2pd:cjdns - Compile I2PD for use with CJDNS ("test") network
-net-vpn/i2pd:gui - Compile GUI I2PD version (trayicon + window with 2 quit buttons) *instead* of daemon
-net-vpn/i2pd:i2lua - Compile for i2lua support
 net-vpn/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
 net-vpn/i2pd:thread-sanitizer - Compile with Thread Sanitizer Feature
-net-vpn/i2pd:websockets - Compile with Websocket UI
 net-vpn/onioncat:http - enable handling of accidental HTTP requests
 net-vpn/onioncat:i2p - install GarliCat (I2P-version)
 net-vpn/onioncat:log - enable packet logging
 net-vpn/onioncat:queue - enable queueuing of packets while connecting setup
 net-vpn/onioncat:relay - disable source ip checking before forwarding
 net-vpn/onioncat:rtt - enable inband RTT measurement
+net-vpn/tinc:gcrypt - Use dev-libs/libgcrypt as crypto provider when building in legacy crypto mode
 net-vpn/tinc:gui - Add GUI support, using dev-python/wxpython
 net-vpn/tinc:legacy - Enable legacy (tinc 1.0) protocol support
 net-vpn/tinc:tools - Build some testing tools
@@ -214,14 +246,12 @@ net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 net-vpn/toxvpn:zeromq - Use net-libs/zeromq for queues management
 sys-fs/diod:rdma - RDMA support
 sys-kernel/ath10k-firmware:savedconfig - Allows individual selection of firmware files
-sys-process/htop:openvz - Enable openvz support
-sys-process/htop:vserver - Enable vserver support
 sys-process/systemd-cron:cron-boot - Include support for the boot timer.
 sys-process/systemd-cron:etc-crontab-systemd - Use dedicated /etc/crontab-systemd instead of parsing /etc/crontab
 sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
-www-apps/ctpp2:md5 - 
+www-apps/ctpp2:md5 - Add support for md5 hashing function
 www-apps/redmine:commonmark - Adds support for CommonMark markdown spec
 www-apps/redmine:markdown - Adds markdown support
 www-apps/redmine:minimagick - Use minimagick

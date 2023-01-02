@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.19.0[static-libs?] dev-python/sphinx sys-libs/zlib:= icu? ( dev-libs/icu:= ) sasl? ( dev-libs/cyrus-sasl:= ) ssl? ( dev-libs/openssl:0= ) test? ( dev-db/mongodb dev-libs/libbson[static-libs] )
+DEPEND=app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.22.2[static-libs?] dev-python/sphinx sys-libs/zlib:= icu? ( dev-libs/icu:= ) sasl? ( dev-libs/cyrus-sasl:= ) ssl? ( dev-libs/openssl:0= ) test? ( dev-db/mongodb dev-libs/libbson[static-libs] )
 DESCRIPTION=Client library written in C for MongoDB
 EAPI=8
 HOMEPAGE=https://github.com/mongodb/mongo-c-driver
@@ -8,10 +8,10 @@ INHERIT=cmake
 IUSE=debug examples icu sasl ssl static-libs test
 KEYWORDS=~amd64 ~hppa ~riscv ~x86
 LICENSE=Apache-2.0
-RDEPEND=app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.19.0[static-libs?] dev-python/sphinx sys-libs/zlib:= icu? ( dev-libs/icu:= ) sasl? ( dev-libs/cyrus-sasl:= ) ssl? ( dev-libs/openssl:0= )
+RDEPEND=app-arch/snappy:= app-arch/zstd:= >=dev-libs/libbson-1.22.2[static-libs?] dev-python/sphinx sys-libs/zlib:= icu? ( dev-libs/icu:= ) sasl? ( dev-libs/cyrus-sasl:= ) ssl? ( dev-libs/openssl:0= )
 REQUIRED_USE=test? ( static-libs )
 RESTRICT=x86? ( test ) !test? ( test )
 SLOT=0
-SRC_URI=https://github.com/mongodb/mongo-c-driver/releases/download/1.19.0/mongo-c-driver-1.19.0.tar.gz
+SRC_URI=https://github.com/mongodb/mongo-c-driver/releases/download/1.22.2/mongo-c-driver-1.22.2.tar.gz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057
 _md5_=b5d75465e1aead87bd27b43b8a98dabf

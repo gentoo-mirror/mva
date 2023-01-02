@@ -4,11 +4,11 @@ DEPEND=legacy? ( gcrypt? ( dev-libs/libgcrypt:0= ) !gcrypt? ( dev-libs/openssl:0
 DESCRIPTION=tinc is an easy to configure VPN implementation
 EAPI=8
 HOMEPAGE=https://tinc-vpn.org/
-INHERIT=meson systemd multilib git-r3 patches
+INHERIT=meson systemd git-r3 patches
 IUSE=gcrypt gui +legacy +lzo +lz4 +ncurses +readline systemd tools uml vde upnp +zlib
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=legacy? ( gcrypt? ( dev-libs/libgcrypt:0= ) !gcrypt? ( dev-libs/openssl:0= ) ) lzo? ( dev-libs/lzo:2 ) lz4? ( app-arch/lz4:0 ) ncurses? ( sys-libs/ncurses:0 ) readline? ( sys-libs/readline:0 ) upnp? ( net-libs/miniupnpc ) zlib? ( sys-libs/zlib ) vde? ( net-misc/vde )
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	1d1b325c00c1d24c564a1b49327ec3c5	meson	1994a5aef5d4f5798b92f64d6f9a6003	systemd	5f4bb0758df2e483babf68cd517078ca	git-r3	2347f8fe2d392b2a091191f94be37e6f	patches	23d57edd5dd5cdd3d3d129ba159cf3af
-_md5_=96162ec17cd03a2b54717b76a7cc0299
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	1d1b325c00c1d24c564a1b49327ec3c5	meson	1994a5aef5d4f5798b92f64d6f9a6003	systemd	5f4bb0758df2e483babf68cd517078ca	git-r3	2347f8fe2d392b2a091191f94be37e6f	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_md5_=c66e1ffcbf238ff8920076c4004d9d9d

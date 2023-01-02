@@ -10,4 +10,4 @@ PROPERTIES=live
 RESTRICT=binchecks strip network-sandbox
 SLOT=0
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=a41dc3a02ce007bb2b9daf7aa4192aaf
+_md5_=2c748972349b9f797075dd4348a10877
