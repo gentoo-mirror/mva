@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=gui? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwebsockets:5 dev-qt/qtwidgets:5 ) !static? ( net-libs/libnatpmp net-libs/miniupnpc dev-db/sqlite:3 dev-cpp/websocketpp dev-python/docopt ) static? ( dev-libs/boost[static-libs(+)] ) >=dev-libs/boost-1.58.0 >=dev-libs/crypto++-5.6.2 >=dev-libs/openssl-1.0.1:0 >=dev-libs/protobuf-3.0 || ( >=sys-devel/gcc-4.9:* >=sys-devel/clang-3.4:* ) virtual/libc
 REQUIRED_USE=|| ( cli daemon gui )
 SLOT=0
-_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=1cdeb3118c8170f80ed659a5fc9b73a7
