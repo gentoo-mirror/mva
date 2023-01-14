@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~mips ~ppc64 ~riscv ~x86
 LICENSE=LGPL-2.1 FTL MIT
 SLOT=0
 SRC_URI=https://github.com/Samsung/rlottie/archive/875626965959d8e269ca22175c8e1ad190696c43.tar.gz -> rlottie-0.2_p20220107.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	7870d60e8b98856ef02d33397fd5ec0f	meson	1994a5aef5d4f5798b92f64d6f9a6003	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	meson	1994a5aef5d4f5798b92f64d6f9a6003	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=c3fc2f356e2076610c9fa91066b244ab
