@@ -90,7 +90,7 @@ HTTP_RDNS_MODULE_WD="${WORKDIR}/${HTTP_RDNS_MODULE_P}"
 # http_passenger (https://github.com/phusion/passenger/tags, MIT)
 HTTP_PASSENGER_MODULE_A="phusion"
 HTTP_PASSENGER_MODULE_PN="passenger"
-HTTP_PASSENGER_MODULE_PV="6.0.15"
+HTTP_PASSENGER_MODULE_PV="6.0.16"
 #HTTP_PASSENGER_MODULE_SHA=""
 HTTP_PASSENGER_MODULE_P="${HTTP_PASSENGER_MODULE_PN}-${HTTP_PASSENGER_MODULE_SHA:-release-${HTTP_PASSENGER_MODULE_PV}}"
 HTTP_PASSENGER_MODULE_URI="https://github.com/${HTTP_PASSENGER_MODULE_A}/${HTTP_PASSENGER_MODULE_PN}/archive/${HTTP_PASSENGER_MODULE_SHA:-release-${HTTP_PASSENGER_MODULE_PV}}.tar.gz"
@@ -163,7 +163,7 @@ HTTP_UPLOAD_PROGRESS_MODULE_WD="${WORKDIR}/${HTTP_UPLOAD_PROGRESS_MODULE_P}"
 # http_nchan (https://github.com/slact/nchan/tags, BSD-2)
 HTTP_NCHAN_MODULE_A="slact"
 HTTP_NCHAN_MODULE_PN="nchan"
-HTTP_NCHAN_MODULE_PV="1.3.4"
+HTTP_NCHAN_MODULE_PV="1.3.6"
 HTTP_NCHAN_MODULE_P="${HTTP_NCHAN_MODULE_PN}-${HTTP_NCHAN_MODULE_SHA:-${HTTP_NCHAN_MODULE_PV}}"
 HTTP_NCHAN_MODULE_URI="https://github.com/${HTTP_NCHAN_MODULE_A}/${HTTP_NCHAN_MODULE_PN}/archive/${HTTP_NCHAN_MODULE_SHA:-v${HTTP_NCHAN_MODULE_PV}}.tar.gz"
 HTTP_NCHAN_MODULE_WD="${WORKDIR}/${HTTP_NCHAN_MODULE_P}"
@@ -237,8 +237,8 @@ HTTP_REDIS_MODULE_WD="${WORKDIR}/${HTTP_REDIS_MODULE_P}"
 # http_lua, NginX Lua module (https://github.com/openresty/lua-nginx-module/tags, BSD)
 HTTP_LUA_MODULE_A="openresty"
 HTTP_LUA_MODULE_PN="lua-nginx-module"
-# HTTP_LUA_MODULE_PV="0.10.21"
-HTTP_LUA_MODULE_SHA="eb6d6cbf00bc4891ad2d8af0d42ec722ce8bec30"
+# HTTP_LUA_MODULE_PV="0.10.23"
+HTTP_LUA_MODULE_SHA="f488965b89238e0bba11c13fdb9b11b4a0f20d67"
 HTTP_LUA_MODULE_P="${HTTP_LUA_MODULE_PN}-${HTTP_LUA_MODULE_SHA:-${HTTP_LUA_MODULE_PV}}"
 HTTP_LUA_MODULE_URI="https://github.com/${HTTP_LUA_MODULE_A}/${HTTP_LUA_MODULE_PN}/archive/${HTTP_LUA_MODULE_SHA:-v${HTTP_LUA_MODULE_PV}}.tar.gz"
 HTTP_LUA_MODULE_WD="${WORKDIR}/${HTTP_LUA_MODULE_P}"
@@ -246,8 +246,8 @@ HTTP_LUA_MODULE_WD="${WORKDIR}/${HTTP_LUA_MODULE_P}"
 # stream_lua, NginX Lua module (https://github.com/openresty/stream-lua-nginx-module/tags, BSD)
 STREAM_LUA_MODULE_A="openresty"
 STREAM_LUA_MODULE_PN="stream-lua-nginx-module"
-STREAM_LUA_MODULE_PV="0.0.11"
-#STREAM_LUA_MODULE_SHA="c7ac2234ec7a26bdcd3b17cbb5314f17344f9f5c"
+# STREAM_LUA_MODULE_PV="0.0.11"
+STREAM_LUA_MODULE_SHA="ae02d9ac1f1dda4aeb36184dc2a5d2436c23ecd0"
 STREAM_LUA_MODULE_P="${STREAM_LUA_MODULE_PN}-${STREAM_LUA_MODULE_SHA:-${STREAM_LUA_MODULE_PV}}"
 STREAM_LUA_MODULE_URI="https://github.com/${STREAM_LUA_MODULE_A}/${STREAM_LUA_MODULE_PN}/archive/${STREAM_LUA_MODULE_SHA:-v${STREAM_LUA_MODULE_PV}}.tar.gz"
 STREAM_LUA_MODULE_WD="${WORKDIR}/${STREAM_LUA_MODULE_P}"
@@ -524,7 +524,7 @@ HOMEPAGE="
 #	nginx_modules_stream_dtls? ( https://nginx.org/patches/dtls/${PN}-${DTLS_COMPAT_VERSION}-dtls-experimental.diff )
 #	nginx_modules_http_supervisord? ( ${HTTP_SUPERVISORD_MODULE_URI} -> ${HTTP_SUPERVISORD_MODULE_P}.tar.gz )
 SRC_URI="
-	https://nginx.org/download/${P}.tar.gz -> ${P}.tar.gz
+	https://nginx.org/download/${P}.tar.gz
 	nginx_modules_http_pagespeed? (
 		${HTTP_PAGESPEED_MODULE_URI} -> ${HTTP_PAGESPEED_MODULE_P}.tar.gz
 		x86? ( ${HTTP_PAGESPEED_PSOL_URI/__ARCH__/ia32} -> ${HTTP_PAGESPEED_PSOL_P}.x86.tar.gz )
@@ -534,9 +534,11 @@ SRC_URI="
 	nginx_modules_http_rdns? ( ${HTTP_RDNS_MODULE_URI} -> ${HTTP_RDNS_MODULE_P}.tar.gz )
 	nginx_modules_http_headers_more? ( ${HTTP_HEADERS_MORE_MODULE_URI} -> ${HTTP_HEADERS_MORE_MODULE_P}.tar.gz )
 	nginx_modules_http_hls_audio? ( ${HTTP_HLS_AUDIO_MODULE_URI} -> ${HTTP_HLS_AUDIO_MODULE_P}.tar.gz )
-	nginx_modules_http_encrypted_session? ( ${HTTP_ENCRYPTED_SESSION_MODULE_URI} -> ${HTTP_ENCRYPTED_SESSION_MODULE_P}.tar.gz )
+	nginx_modules_http_encrypted_session? (
+		${HTTP_ENCRYPTED_SESSION_MODULE_URI} -> ${HTTP_ENCRYPTED_SESSION_MODULE_P}.tar.gz
+	)
 	nginx_modules_http_push_stream? ( ${HTTP_PUSH_STREAM_MODULE_URI} -> ${HTTP_PUSH_STREAM_MODULE_P}.tar.gz )
-	nginx_modules_http_ctpp? ( ${HTTP_CTPP_MODULE_URI} -> ${HTTP_CTPP_MODULE_P}.tar.gz )
+	nginx_modules_http_ctpp? ( ${HTTP_CTPP_MODULE_URI} )
 	nginx_modules_http_cache_purge? ( ${HTTP_CACHE_PURGE_MODULE_URI} -> ${HTTP_CACHE_PURGE_MODULE_P}.tar.gz )
 	nginx_modules_http_ey_balancer? ( ${HTTP_EY_BALANCER_MODULE_URI} -> ${HTTP_EY_BALANCER_MODULE_P}.tar.gz )
 	nginx_modules_http_ndk? ( ${HTTP_NDK_MODULE_URI} -> ${HTTP_NDK_MODULE_P}.tar.gz )
@@ -585,9 +587,15 @@ SRC_URI="
 	nginx_modules_http_auth_ldap? ( ${HTTP_AUTH_LDAP_MODULE_URI} -> ${HTTP_AUTH_LDAP_MODULE_P}.tar.gz )
 	nginx_modules_stream_lua? ( ${STREAM_LUA_MODULE_URI} -> ${STREAM_LUA_MODULE_P}.tar.gz )
 	nginx_modules_core_rtmp? ( ${CORE_RTMP_MODULE_URI} -> ${CORE_RTMP_MODULE_P}.tar.gz )
-	nginx_modules_http_vhost_traffic_status? ( ${HTTP_VHOST_TRAFFIC_STATUS_MODULE_URI} -> ${HTTP_VHOST_TRAFFIC_STATUS_MODULE_P}.tar.gz )
-	nginx_modules_stream_traffic_status? ( ${STREAM_TRAFFIC_STATUS_MODULE_URI} -> ${STREAM_TRAFFIC_STATUS_MODULE_P}.tar.gz )
-	nginx_modules_core_stream_traffic_status? ( ${CORE_STREAM_SERVER_TRAFFIC_STATUS_MODULE_URI} -> ${CORE_STREAM_SERVER_TRAFFIC_STATUS_MODULE_P}.tar.gz )
+	nginx_modules_http_vhost_traffic_status? (
+		${HTTP_VHOST_TRAFFIC_STATUS_MODULE_URI} -> ${HTTP_VHOST_TRAFFIC_STATUS_MODULE_P}.tar.gz
+	)
+	nginx_modules_stream_traffic_status? (
+		${STREAM_TRAFFIC_STATUS_MODULE_URI} -> ${STREAM_TRAFFIC_STATUS_MODULE_P}.tar.gz
+	)
+	nginx_modules_core_stream_traffic_status? (
+		${CORE_STREAM_SERVER_TRAFFIC_STATUS_MODULE_URI} -> ${CORE_STREAM_SERVER_TRAFFIC_STATUS_MODULE_P}.tar.gz
+	)
 	nginx_modules_http_geoip2? ( ${HTTP_GEOIP2_MODULE_URI} -> ${HTTP_GEOIP2_MODULE_P}.tar.gz )
 	nginx_modules_stream_geoip2? ( ${HTTP_GEOIP2_MODULE_URI} -> ${HTTP_GEOIP2_MODULE_P}.tar.gz )
 	nginx_modules_http_brotli? ( ${HTTP_BROTLI_MODULE_URI} -> ${HTTP_BROTLI_MODULE_P}.tar.gz )
@@ -1019,10 +1027,14 @@ src_prepare() {
 	sed -i -e '/koi-/d' -e '/win-/d' auto/install || die
 
 	# Increasing error string (to have possibility to get all modules in nginx -V output)
-	sed -i -e "/^#define NGX_MAX_ERROR_STR/s|\(NGX_MAX_ERROR_STR\).*|\1 ${NGINX_MAX_ERROR_LENGTH:-4096}|" "${S}"/src/core/ngx_log.h
+	sed -i \
+		-e "/^#define NGX_MAX_ERROR_STR/s|\(NGX_MAX_ERROR_STR\).*|\1 ${NGINX_MAX_ERROR_LENGTH:-4096}|" \
+		"${S}"/src/core/ngx_log.h
 
 	# Increasing maximum dyn modules amount
-	sed -i -e "/^#define NGX_MAX_DYNAMIC_MODULES/s|\(NGX_MAX_DYNAMIC_MODULES\).*|\1 ${NGINX_MAX_DYNAMIC_MODULES:-256}|" "${S}"/src/core/ngx_module.c
+	sed -i \
+		-e "/^#define NGX_MAX_DYNAMIC_MODULES/s|\(NGX_MAX_DYNAMIC_MODULES\).*|\1 ${NGINX_MAX_DYNAMIC_MODULES:-256}|" \
+		"${S}"/src/core/ngx_module.c
 
 	# don't install to /etc/nginx/ if not in use
 	local module
@@ -1081,7 +1093,8 @@ src_prepare() {
 
 		sed \
 			-e 's#local/include#include#' \
-			-i "${HTTP_PASSENGER_SRC_WD}"/src/ruby_supportlib/phusion_passenger/platform_info/cxx_portability.rb || die "cxx_portability.rb"
+			-i "${HTTP_PASSENGER_SRC_WD}"/src/ruby_supportlib/phusion_passenger/platform_info/cxx_portability.rb ||
+				die "cxx_portability.rb"
 
 		sed -r \
 			-e '/is_nan_helper/s@(return) (::isnan)@\1 std\2@' \
@@ -1807,7 +1820,8 @@ pkg_postinst() {
 				# We are updating an installation where we already informed
 				# that we are mitigating HTTPoxy per default
 				_has_to_show_httpoxy_mitigation_notice=0
-				debug-print "No need to inform about HTTPoxy mitigation ... information was already shown for existing installation!"
+				debug-print "No need to inform about HTTPoxy mitigation."
+				debug-print "Information was already shown for existing installation!"
 			else
 				_has_to_show_httpoxy_mitigation_notice=1
 				debug-print "Need to inform about HTTPoxy mitigation!"
