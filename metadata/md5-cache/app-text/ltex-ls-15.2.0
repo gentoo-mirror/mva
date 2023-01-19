@@ -10,4 +10,4 @@ RDEPEND=>=virtual/jre-1.8 dev-java/slf4j-api:0 dev-java/slf4j-nop:0 dev-java/gua
 SLOT=0
 SRC_URI=https://github.com/valentjn/ltex-ls/releases/download/15.2.0/ltex-ls-15.2.0.tar.gz
 _eclasses_=java-utils-2	c79d65661a9f4f72b60376c9e4b3dfa1	java-pkg-2	3b09e051fc2045a0f0b9471b87d4f8bd
-_md5_=30e5c4456347ffb995b7a702e154a590
+_md5_=96524596b5ff719c4c3d810905bd71b2

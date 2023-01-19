@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DESCRIPTION=Unofficial desktop application for linux
+EAPI=8
+HOMEPAGE=https://github.com/Figma-Linux/figma-linux
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=unpacker xdg
+IUSE=appindicator doc libnotify
+KEYWORDS=-* ~amd64
+LICENSE=MIT
+RDEPEND=app-accessibility/at-spi2-core app-crypt/libsecret dev-libs/expat dev-libs/libbsd dev-libs/nss media-libs/freetype media-libs/libpng sys-apps/dbus sys-apps/keyutils sys-apps/util-linux sys-fs/e2fsprogs sys-libs/zlib x11-libs/gtk+:3 x11-libs/libXScrnSaver x11-libs/libXtst x11-misc/xdg-utils appindicator? ( dev-libs/libappindicator ) libnotify? ( x11-libs/libnotify )
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=amd64? ( https://github.com/Figma-Linux/figma-linux/releases/download/v0.10.0/figma-linux_0.10.0_linux_amd64.deb -> figma-linux-bin-0.10.0-amd64.deb )
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	fdd15d854bf5e84f82d35524ab8ca6ba	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
+_md5_=e2d4094edc0e30167ecce706aae83efb

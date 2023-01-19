@@ -11,4 +11,4 @@ RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=mirror://gentoo/monoid-0.61.tar.gz monoisome? ( https://github.com/larsenwork/monoid/raw/f99f8de71dfd77b11fd1247e551ab6e33915f1e0/Monoisome/Monoisome-Regular.ttf -> Monoisome-Regular-f99f8de71dfd77b11fd1247e551ab6e33915f1e0.ttf )
 _eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
-_md5_=d11b141ed4bf53531aa90ca877f6991a
+_md5_=eb2544ae4c2caac0cc021ae69edda87d
