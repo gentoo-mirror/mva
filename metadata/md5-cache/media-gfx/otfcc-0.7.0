@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~mips ~x86
 LICENSE=Apache-2.0
 SLOT=0
 SRC_URI=https://github.com/caryll/otfcc/archive/v0.7.0.tar.gz -> otfcc-0.7.0.tar.gz
-_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157
 _md5_=40bd3bbebf581f631899dee5915ab16b
