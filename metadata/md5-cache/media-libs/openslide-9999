@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=media-libs/libjpeg-turbo media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
+DESCRIPTION=C library with simple interface to read virtual slides
+EAPI=8
+HOMEPAGE=http://openslide.org/
+INHERIT=git-r3 meson
+LICENSE=LGPL-2.1
+PROPERTIES=live
+RDEPEND=media-libs/libjpeg-turbo media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	8d5c1c4ecef47fa1b4576a718c620d1d	meson	1994a5aef5d4f5798b92f64d6f9a6003
+_md5_=85b05291eca94a7e254a42ff689f95f9
