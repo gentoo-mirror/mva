@@ -57,13 +57,14 @@ COMMON_DEPEND="
 	>=dev-qt/qtnetwork-5.15:5[ssl]
 	>=dev-qt/qtsvg-5.15:5
 	>=dev-qt/qtwidgets-5.15:5[png,X?]
+	kde-frameworks/kcoreaddons:=
 	media-fonts/open-sans:*
 	media-libs/fontconfig:=
 	media-libs/rnnoise:=
 	media-libs/libyuv:=
 	media-libs/openal:=[pipewire=]
 	media-libs/opus:=
-	media-video/ffmpeg:=[opus]
+	media-video/ffmpeg:=[opus,vpx]
 	dbus? (
 		dev-qt/qtdbus:5
 		dev-libs/libdbusmenu-qt[qt5(+)]
