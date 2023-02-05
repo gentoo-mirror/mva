@@ -6,13 +6,13 @@ EAPI=8
 HOMEPAGE=https://desktop.telegram.org
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=cmake flag-o-matic toolchain-funcs xdg git-r3 patches
-IUSE=custom-api-id +dbus debug enchant +hunspell lto +pipewire pulseaudio +spell +system-gsl +system-expected +system-libtgvoip system-rlottie +system-variant test +wayland +webkit +webrtc +X tdesktop_patches_hide-banned tdesktop_patches_hide-sponsored-messages tdesktop_patches_wide-baloons tdesktop_patches_chat-ids tdesktop_patches_increase-limits
+IUSE=custom-api-id +dbus debug enchant +hunspell lto +pipewire pulseaudio +system-gsl +system-expected +system-libtgvoip system-rlottie +system-variant test +wayland +webkit +webrtc +X tdesktop_patches_hide-banned tdesktop_patches_hide-sponsored-messages tdesktop_patches_wide-baloons tdesktop_patches_chat-ids tdesktop_patches_increase-limits
 KEYWORDS=~amd64 ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=GPL-3-with-openssl-exception
 PROPERTIES=live
 RDEPEND=!net-im/telegram-desktop-bin app-arch/lz4:= dev-libs/jemalloc:=[-lazy-lock] dev-libs/openssl:= dev-libs/xxhash:= >=dev-qt/qtcore-5.15:5 >=dev-qt/qtgui-5.15:5[dbus?,jpeg,png,wayland?,X?] >=dev-qt/qtimageformats-5.15:5 >=dev-qt/qtnetwork-5.15:5[ssl] >=dev-qt/qtsvg-5.15:5 >=dev-qt/qtwidgets-5.15:5[png,X?] kde-frameworks/kcoreaddons:= media-fonts/open-sans:* media-libs/fontconfig:= media-libs/rnnoise:= media-libs/libyuv:= media-libs/openal:=[pipewire=] media-libs/opus:= media-video/ffmpeg:=[opus,vpx] dbus? ( dev-qt/qtdbus:5 dev-libs/libdbusmenu-qt[qt5(+)] dev-cpp/glibmm:2.68= ) pulseaudio? ( !pipewire? ( media-sound/pulseaudio[daemon(+)] ) ) pipewire? ( media-video/pipewire[sound-server(+)] media-sound/pulseaudio[-daemon(+)] ) system-libtgvoip? ( >media-libs/libtgvoip-2.4.4:=[pulseaudio(-)=,pipewire(-)=] ) system-rlottie? ( >=media-libs/rlottie-0_pre20190818:=[threads(-),-cache(-)] ) enchant? ( app-text/enchant:= ) hunspell? ( >=app-text/hunspell-1.7:= ) sys-libs/zlib:=[minizip] webrtc? ( dev-cpp/abseil-cpp:= media-libs/libjpeg-turbo:= media-libs/libyuv:= <dev-libs/openssl-3.0 >=media-libs/tg_owt-0_pre20221215[pipewire(-)=] ) wayland? ( kde-frameworks/kwayland:= ) webkit? ( net-libs/webkit-gtk:= ) X? ( x11-libs/libxcb:= )
-REQUIRED_USE=spell? ( ^^ ( enchant hunspell ) ) webkit? ( dbus )
+REQUIRED_USE=^^ ( enchant hunspell ) webkit? ( dbus )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	xdg	6024fbc93167fad782e2032933654857	git-r3	2347f8fe2d392b2a091191f94be37e6f	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=db7a1b19235c821560af0ab5a053d57d
+_md5_=0959253f865f5236118ff79e8c735121
