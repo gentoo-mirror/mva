@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=>=virtual/jre-1.6:*
 RESTRICT=network-sandbox
 SLOT=0
-_eclasses_=gradle	2d31b772e6d226355d010b2d777af00b	java-utils-2	a1aaea49eac8b420d567ba197e9322b7	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=gradle	2d31b772e6d226355d010b2d777af00b	java-utils-2	eefed04ac580a259ecda1fbd966640b7	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=1be339487c9649a1a3211a5736f07bba
