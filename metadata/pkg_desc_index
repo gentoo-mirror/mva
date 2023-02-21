@@ -316,7 +316,7 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 4.6.1 9999: Official desktop client for Telegram
+net-im/telegram-desktop 4.6.4 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -373,7 +373,7 @@ www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian
 www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin for SKB Kontur services
 www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur services
 www-servers/apache-headers 2.4.54: Header files from the Apache Web Server
-www-servers/nginx 1.23.2-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.23.3-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.29.0-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
