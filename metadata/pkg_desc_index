@@ -45,7 +45,7 @@ app-text/highlight 4.4: Converts source code to formatted text (HTML, LaTeX, etc
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 15.2.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.23.2: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.23.3: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
@@ -60,7 +60,9 @@ dev-db/proxysql 2.4.5: A high performance, high availability, protocol aware pro
 dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-embedded/lm4tools 9999: Provides lm4flash and lmicdiusb for developing on the TI Stellaris Launchpad
 dev-go/gopls 9999: official go language server
+dev-java/commons-text 1.10.0: Apache Commons Text is a library focused on algorithms working on strings
 dev-java/gradle 7.6: A project automation and build tool with a Groovy based DSL
+dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
 dev-lang/luajit 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
