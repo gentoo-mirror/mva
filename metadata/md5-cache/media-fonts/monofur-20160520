@@ -10,5 +10,5 @@ LICENSE=OFL
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=http://img.dafont.com/dl/?f=monofur -> monofur-20160520.zip
-_eclasses_=font	5e03cb70902daa9ff8967c61130f0f60
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
 _md5_=a9d1dcd6e40ce59ff4e8941d1970c83d
