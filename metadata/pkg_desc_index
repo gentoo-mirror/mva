@@ -11,6 +11,7 @@ app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-crypt/argon2 20190702-r10 99999999: The password hash Argon2, winner of PHC
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
+app-crypt/cprocsp 5.0.12000: CryptoPro Crypto Provider
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/keybase 9999: Client for keybase.io
@@ -318,7 +319,7 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 4.6.7 9999: Official desktop client for Telegram
+net-im/telegram-desktop 4.6.12 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -371,9 +372,11 @@ www-apps/gitprep 9999: Github clone. you can install Github system into your uni
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
 www-apps/redmine 5.0.3 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
+www-plugins/cprocsp-plugin 2.0.14660: CryptoPro Browser Plugin (with additional bundled stuff)
 www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
-www-plugins/kontur-diagnostic-plugin 000866: System diagnostic browser plugin for SKB Kontur services
-www-plugins/kontur-plugin 001130: Cryptographic browser plugin for SKB Kontur services
+www-plugins/kontur-diagnostic-plugin 001353: System diagnostic browser plugin for SKB Kontur services
+www-plugins/kontur-plugin 4.0.6.244: Cryptographic browser plugin for SKB Kontur services
+www-plugins/rutoken-plugin 4.7.0: Browser plugin to work with USB smartcards made under RuToken brand
 www-servers/apache-headers 2.4.54: Header files from the Apache Web Server
 www-servers/nginx 1.23.3-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.29.0-r10 9999: Dynamic web and application server

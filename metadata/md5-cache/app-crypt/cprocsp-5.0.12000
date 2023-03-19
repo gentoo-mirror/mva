@@ -1,0 +1,15 @@
+BDEPEND=app-arch/rpm2targz app-arch/rpm2targz virtual/pkgconfig
+DEFINED_PHASES=install nofetch postinst unpack
+DEPEND=>=sys-apps/pcsc-lite-1.4.99 virtual/libusb:0 sys-apps/dbus media-libs/libpng:0 media-libs/fontconfig >=dev-libs/libp11-0.4.0 media-libs/hal-flash virtual/libcrypt:= dev-libs/opensc app-crypt/ccid sys-apps/lsb-release sys-apps/pcsc-tools
+DESCRIPTION=CryptoPro Crypto Provider
+EAPI=8
+HOMEPAGE=https://cryptopro.ru/products/csp/downloads
+INHERIT=rpm systemd
+KEYWORDS=~amd64 ~x86 ~arm ~arm64
+LICENSE=Crypto-Pro
+RDEPEND=>=sys-apps/pcsc-lite-1.4.99 virtual/libusb:0 sys-apps/dbus media-libs/libpng:0 media-libs/fontconfig >=dev-libs/libp11-0.4.0 media-libs/hal-flash virtual/libcrypt:= dev-libs/opensc app-crypt/ccid sys-apps/lsb-release sys-apps/pcsc-tools
+RESTRICT=fetch mirror strip
+SLOT=0
+SRC_URI=cprocsp-5.0.12000_.tgz
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	rpm	f73e907469f65e52192f110dec72dce0	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=f7ac5a0d2f3811b13190ff20028afb5f

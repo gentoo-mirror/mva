@@ -1,0 +1,14 @@
+DEFINED_PHASES=install nofetch prepare unpack
+DEPEND=sys-apps/pcsc-lite
+DESCRIPTION=Browser plugin to work with USB smartcards made under RuToken brand
+EAPI=8
+HOMEPAGE=https://www.rutoken.ru/support/download/rutoken-plugin/
+INHERIT=unpacker patches
+KEYWORDS=~amd64 ~x86 ~arm ~arm64
+LICENSE=all-rights-reserved
+RDEPEND=sys-apps/pcsc-lite
+RESTRICT=fetch mirror strip
+SLOT=0
+SRC_URI=amd64? ( libnpRutokenPlugin_4.7.0-1_amd64.deb ) x86? ( libnpRutokenPlugin_4.7.0-1_i386.deb ) arm? ( libnpRutokenPlugin_4.7.0-1_armhf.deb ) arm64? ( libnpRutokenPlugin_4.7.0-1_arm64.deb )
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	65735fed9c1c30cb461c90db600ac990	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_md5_=f750d09f8402a5b7cb2a8c059c2f5711
