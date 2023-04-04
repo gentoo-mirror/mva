@@ -253,7 +253,7 @@ dev-qt/qhotkey 1.4.2 9999: A global shortcut/hotkey library for desktop Qt appli
 dev-qt/qmltermwidget 0.2.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.4: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.4.4: A Ruby script that colorizes the ls output with color and icons
-dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
+dev-ruby/fcgi 0.9.2.2-r1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.17.2: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
 dev-ruby/mustache 1.1.1-r1: Mustache is a framework-agnostic way to render logic-free views
@@ -306,7 +306,7 @@ media-libs/libyuv 1854_p20221228: Open source project that includes YUV scaling 
 media-libs/nifti 3.0.1 9999: C libraries for NIFTI support
 media-libs/openslide 3.4.1 9999: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
-media-libs/tg_owt 0_pre20221215 9999: WebRTC (video) library (fork) for Telegram clients
+media-libs/tg_owt 0_pre20230401 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 8.13.3 9999: VIPS Image Processing Library
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
