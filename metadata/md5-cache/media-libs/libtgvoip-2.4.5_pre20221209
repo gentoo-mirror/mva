@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
 DEFINED_PHASES=configure install prepare
-DEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20221215:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( media-sound/pulseaudio[daemon(-)] ) pipewire? ( media-sound/pulseaudio[-daemon(+)] media-video/pipewire[sound-server(-)] )
+DEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20221215:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( !pipewire? ( media-sound/pulseaudio[daemon(-)] ) ) pipewire? ( media-sound/pulseaudio[-daemon(+)] media-video/pipewire[sound-server(-)] )
 DESCRIPTION=VoIP library for Telegram clients
 EAPI=8
 HOMEPAGE=https://github.com/telegramdesktop/libtgvoip
@@ -8,9 +8,9 @@ INHERIT=autotools flag-o-matic patches
 IUSE=+alsa +dsp pulseaudio pipewire static-libs
 KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=Unlicense
-RDEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20221215:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( media-sound/pulseaudio[daemon(-)] ) pipewire? ( media-sound/pulseaudio[-daemon(+)] media-video/pipewire[sound-server(-)] )
+RDEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20221215:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( !pipewire? ( media-sound/pulseaudio[daemon(-)] ) ) pipewire? ( media-sound/pulseaudio[-daemon(+)] media-video/pipewire[sound-server(-)] )
 REQUIRED_USE=|| ( dsp alsa pulseaudio pipewire )
 SLOT=0
 SRC_URI=https://github.com/telegramdesktop/libtgvoip/archive/532b4970752ec2bf90e2003e0779bebd8f01500d.tar.gz -> libtgvoip-2.4.5_pre20221209.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	f0d3196128225dee3220e65f3371bc7a	flag-o-matic	514815b1cc0dd4aeac177c2e812b3b1a	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=e480113d79e02e3eb4d670c7fa9fecff
+_md5_=854e87dd5250a8bcc16c72f60b939974

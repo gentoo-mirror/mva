@@ -15,8 +15,8 @@ app-crypt/cprocsp 5.0.12000: CryptoPro Crypto Provider
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/keybase 9999: Client for keybase.io
-app-crypt/rarcrack 9999: Bruteforce algorithm to find correct password of zip, rar and 7z archives
 app-crypt/tcplay 3.3: Free and simple TrueCrypt Implementation based on dm-crypt
+app-editors/neovim 9999: Vim-fork focused on extensibility and agility
 app-emulation/qt-virt-manager 9999: A GUI application for managing virtual machines
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
@@ -45,10 +45,12 @@ app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX s
 app-text/highlight 4.4: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 15.2.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
+app-text/ronn-ng 0.9.1-r2: Builds manuals in HTML and Unix man page format from Markdown
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.23.3: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.23.4: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
+dev-cpp/abseil-cpp 20230125.2: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-cpp/nlohmann_json 9999: C++ class library of cryptographic schemes
@@ -254,6 +256,7 @@ dev-ruby/colorls 1.4.4: A Ruby script that colorizes the ls output with color an
 dev-ruby/fcgi 0.9.2.1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.17.2: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
+dev-ruby/mustache 1.1.1-r1: Mustache is a framework-agnostic way to render logic-free views
 dev-util/android-ndk 25b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.6.1: A tool for reverse engineering 3rd party, closed, binary Android apps
@@ -319,7 +322,7 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 4.6.12 9999: Official desktop client for Telegram
+net-im/telegram-desktop 4.7.1 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -328,6 +331,7 @@ net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 3
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
+net-libs/grpc 1.52.1-r1: Modern open source high performance RPC framework
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/opendht 2.1.10 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/restbed 4.8 9999: brings asynchronous RESTful functionality to C++14 applications
@@ -378,8 +382,8 @@ www-plugins/kontur-diagnostic-plugin 001353: System diagnostic browser plugin fo
 www-plugins/kontur-plugin 4.0.6.244: Cryptographic browser plugin for SKB Kontur services
 www-plugins/rutoken-plugin 4.7.0: Browser plugin to work with USB smartcards made under RuToken brand
 www-servers/apache-headers 2.4.54: Header files from the Apache Web Server
-www-servers/nginx 1.23.3-r10: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.29.0-r10 9999: Dynamic web and application server
+www-servers/nginx 1.23.4-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx-unit 1.29.1-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
