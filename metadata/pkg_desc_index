@@ -44,7 +44,7 @@ app-shells/push 3.1-r5: A POSIX shell function to treat a variable like an array
 app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
 app-text/highlight 4.4: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
-app-text/ltex-ls 15.2.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
+app-text/ltex-ls 16.0.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/ronn-ng 0.9.1-r2: Builds manuals in HTML and Unix man page format from Markdown
 app-text/unicode 9999: A tool displaying unicode character properties
 app-vim/nginx-syntax 1.23.4: vim plugin: Nginx configuration files syntax
