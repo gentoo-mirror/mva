@@ -269,7 +269,7 @@ dev-util/dex2jar 2.2_pre0 9999: Tools to work with android .dex and java .class 
 dev-util/dex2jar-bin 2.2_pre0: Tools to work with android .dex and java .class files
 dev-util/jadx 1.4.5 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 1.4.5: Android Dex to Java Decompiler
-dev-util/qml-lsp 0.2.0 0.2.0_p20220610: Collection of QML tools, including qml-lsp, qml-dap, and qml-refactor-fairy
+dev-util/qml-lsp 9999: Collection of QML tools, including qml-lsp, qml-dap, and qml-refactor-fairy
 dev-util/scanmem 9999: Locate and modify variables in executing processes
 dev-vcs/git-annex 9999: manage files with git, without checking their contents into git
 dev-vcs/hub 9999: Command-line wrapper for git that makes you better at GitHub
