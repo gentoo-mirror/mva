@@ -144,12 +144,13 @@ net-im/sydent:gammu - Use app-mobilephone/gammu to send SMS
 net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
-net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or `/etc/portage/env/{CAT}/{PN}`)
+net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or in "/etc/portage/env/${CAT}/${PN}")
 net-im/telegram-desktop:dbus - Enable D-Bus integration
 net-im/telegram-desktop:enchant - Use app-text/enchant for spell checking
 net-im/telegram-desktop:hunspell - Use app-text/enchant for spell checking
 net-im/telegram-desktop:lto - Enable Link Time Optimizations (build will take 20+G RAM and binary will be about 2G)
 net-im/telegram-desktop:pipewire - Use media-video/pipewire as sound server
+net-im/telegram-desktop:qt6-imageformats - Use bundled kde-frameworks/kimageformats patched for Qt6 instead of system one
 net-im/telegram-desktop:system-expected - Use system-wide installed dev-cpp/tl-expected instead of bundled one
 net-im/telegram-desktop:system-gsl - Use system-wide installed dev-cpp/ms-gsl instead of bundled one
 net-im/telegram-desktop:system-libtgvoip - Use system-wide installed media-libs/libtgvoip instead of bundled one
