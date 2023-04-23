@@ -1,15 +1,15 @@
 BDEPEND=app-arch/rpm app-arch/rpm2targz
 DEFINED_PHASES=install nofetch unpack
-DEPEND=>=sys-apps/pcsc-lite-1.4.99 virtual/libusb:0 sys-apps/dbus media-libs/libpng:0 media-libs/fontconfig >=dev-libs/libp11-0.4.0 media-libs/hal-flash
+DEPEND=app-crypt/cprocsp
 DESCRIPTION=CryptoPro Browser Plugin (with additional bundled stuff)
 EAPI=8
 HOMEPAGE=https://cryptopro.ru/products/csp/downloads
 INHERIT=rpm
-KEYWORDS=~amd64 ~x86 ~arm ~arm64
+KEYWORDS=~amd64 ~arm64 ~x86
 LICENSE=Crypto-Pro
-RDEPEND=>=sys-apps/pcsc-lite-1.4.99 virtual/libusb:0 sys-apps/dbus media-libs/libpng:0 media-libs/fontconfig >=dev-libs/libp11-0.4.0 media-libs/hal-flash
-RESTRICT=fetch mirror strip
+RDEPEND=app-crypt/cprocsp
+RESTRICT=bindist fetch mirror strip
 SLOT=0
-SRC_URI=cprocsp-plugin-2.0.14660_.tar.gz
+SRC_URI=x86? ( cprocsp-plugin-2.0.14660_x86.tar.gz ) amd64? ( cprocsp-plugin-2.0.14660_amd64.tar.gz ) arm64? ( cprocsp-plugin-2.0.14660_arm64.tar.gz )
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	rpm	f73e907469f65e52192f110dec72dce0
-_md5_=793372789cedc1570d9f9693c1c08495
+_md5_=4d242520fa2569db2987ea2c4f172517
