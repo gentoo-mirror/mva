@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) >=www-servers/nginx-1.24.0-r10:*[nginx_modules_http_lua,lua_single_target_luajit]
-DESCRIPTION=A simple LRU cache for OpenResty and the ngx_lua module (based on LuaJIT FFI)
+DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) >=www-servers/nginx-1.24.0-r10[nginx_modules_http_lua,lua_single_target_luajit,ssl] dev-libs/openssl:0
+DESCRIPTION=FFI-based OpenSSL binding for OpenResty
 EAPI=8
-HOMEPAGE=https://github.com/openresty/lua-resty-lrucache
+HOMEPAGE=https://github.com/fffonion/lua-resty-openssl
 INHERIT=lua git-r3
-IUSE=+lua_targets_luajit lua_targets_luajit
+IUSE=lua_targets_luajit
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) >=www-servers/nginx-1.24.0-r10:*[nginx_modules_http_lua,lua_single_target_luajit]
+RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) >=www-servers/nginx-1.24.0-r10[nginx_modules_http_lua,lua_single_target_luajit,ssl] dev-libs/openssl:0
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua	8f9406bfff123a92ad04e4ace3e7f89b	git-r3	27e13c09a4c7e4c78ac812f74727e676
-_md5_=ef703b2e4f2b01f9c9b4c541db75e7e0
+_md5_=33cc39365d846aee30327e8e5b944c82

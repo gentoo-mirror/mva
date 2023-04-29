@@ -61,6 +61,8 @@ dev-lua/lua-utf8:system-unicode-data - Use app-i18n/unicode-data to regenerate k
 dev-lua/luacrypto:gcrypt - Use libgcrypt as crypto backend
 dev-lua/luacrypto:openssl - Use OpenSSL as crypto backend
 dev-lua/lulpeg:lpeg-replace - Install this package as replace of dev-lua/lpeg
+dev-lua/pgmoon:moonscript - Install moonscript source files
+dev-lua/pgmoon:openresty - Install additional tooling to work with OpenResty
 dev-lua/resty-msgpack:messagepack-compat - Install MessagePack wrapper
 dev-lua/resty-string:naive-random - Enable Naive random implementation
 dev-lua/tekui:cache - Enable "cache" feature
@@ -269,6 +271,7 @@ www-servers/nginx:http2 - Enable HTTP2 support
 www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
 www-servers/nginx:mail - Enable Mail NginX core module
 www-servers/nginx:pcre-jit - Add support to PCRE JIT
+www-servers/nginx:pcre2 - Build with dev-libs/libpcre2
 www-servers/nginx:perftools - Use dev-util/google-perftools for performance tuning
 www-servers/nginx:rrd - Enadle 3rd party rrd module
 www-servers/nginx:rtmp - RTMP module
