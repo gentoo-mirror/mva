@@ -46,7 +46,6 @@ app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX s
 app-text/highlight 4.4: Converts source code to formatted text (HTML, LaTeX, etc.) with syntax highlight
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 16.0.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
-app-text/ronn-ng 0.9.1-r2: Builds manuals in HTML and Unix man page format from Markdown
 app-text/unicode 9999: A tool displaying unicode character properties
 app-vim/nginx-syntax 1.24.0: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
@@ -261,7 +260,6 @@ dev-ruby/colorls 1.4.4: A Ruby script that colorizes the ls output with color an
 dev-ruby/fcgi 0.9.2.2-r1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.17.2: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
-dev-ruby/mustache 1.1.1-r1: Mustache is a framework-agnostic way to render logic-free views
 dev-util/android-ndk 25b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.6.1: A tool for reverse engineering 3rd party, closed, binary Android apps
