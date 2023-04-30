@@ -33,6 +33,7 @@ app-misc/2gis-data 20221227: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-misc/amazfitbip-font-tool 1.1: Amazfit Bip Font Parser (& Packer)
 app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware cooking)
+app-misc/asciinema 9999: Command line recorder for asciinema.org service
 app-misc/evemu 2.7.0: tools and bindings for kernel evdev device emulation, data capture, and replay
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jq 9999: Command-line JSON processor
@@ -247,7 +248,7 @@ dev-python/lsprotocol 2023.0.0_alpha1: Python implementation of the Language Ser
 dev-python/matrix-synapse-ldap3 0.2.2: An LDAP3 auth provider for Synapse
 dev-python/pfp 9999: 010 Template interpretter for python
 dev-python/py010parser 9999: 010 template library for python
-dev-python/pygls 0.13.1 1.0.1: A pythonic generic language server
+dev-python/pygls 1.0.1: A pythonic generic language server
 dev-python/python-axolotl 9999-r1: Python port of libaxolotl
 dev-python/python-axolotl-curve25519 9999-r1: Python wrapper for the curve25519 library
 dev-python/pytox 9999: Python bindings for the Tox library
@@ -264,7 +265,7 @@ dev-ruby/mustache 1.1.1-r1: Mustache is a framework-agnostic way to render logic
 dev-util/android-ndk 25b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/apktool-bin 2.6.1: A tool for reverse engineering 3rd party, closed, binary Android apps
-dev-util/cmake-language-server 0.1.6 0.1.7: CMake LSP Implementation
+dev-util/cmake-language-server 0.1.7: CMake LSP Implementation
 dev-util/cmakelang 0.6.13: Quality Assurance (QA) tools for cmake (formerly cmake_format)
 dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
 dev-util/dex2jar 2.2_pre0 9999: Tools to work with android .dex and java .class files

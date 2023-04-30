@@ -1,4 +1,4 @@
-BDEPEND=app-arch/rpm2targz app-arch/rpm2targz virtual/pkgconfig
+BDEPEND=app-arch/rpm2targz app-alternatives/bzip2 app-arch/rpm2targz virtual/pkgconfig
 DEFINED_PHASES=install nofetch postinst unpack
 DEPEND=app-accessibility/at-spi2-core dev-libs/glib dev-libs/libusb-compat media-libs/fontconfig media-libs/freetype sys-libs/pam sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libSM x11-libs/libX11 x11-libs/libXxf86vm x11-libs/pango
 DESCRIPTION=CryptoPro Crypto Provider
@@ -12,4 +12,4 @@ RESTRICT=bindist fetch mirror strip
 SLOT=0
 SRC_URI=x86? ( cprocsp-5.0.12000_x86.tgz ) amd64? ( cprocsp-5.0.12000_amd64.tgz ) arm? ( cprocsp-5.0.12000_arm.tgz ) arm64? ( cprocsp-5.0.12000_arm64.tgz )
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	rpm	f73e907469f65e52192f110dec72dce0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=2aaab48ce69f362a9da724d425af2778
+_md5_=9f0a98ba7c2c2d2d2906c6e72daad1a7

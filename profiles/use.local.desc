@@ -35,7 +35,6 @@ app-portage/eix:strong-optimization - Adds several more agressive CXXFLAGS/LDFLA
 app-portage/eix:strong-security - Add many checks to prevent exploits if eix code has a bug. This will slow down eix considerably. Use only if you are paranoid or have reasons to suspect a bug.
 app-portage/eix:swap-remote - Swap role of remote addresses in eix-remote, making the data from gpo.zugaina.org the first choice.
 app-portage/eix:tools - Create separate binary for script helper tools; useful if they are called extremely often
-dev-cpp/abseil-cpp:cxx17 - Build with -DCMAKE_CXX_STANDARD=17 (required by some revdeps)
 dev-db/pgcli:keyring - Add support for keyrings feature
 dev-db/pgcli:ssh - Use dev-python/sshtunnel for remote connections through ssh
 dev-db/tora:experimental - Add experimental features
@@ -158,7 +157,6 @@ net-im/telegram-desktop:system-gsl - Use system-wide installed dev-cpp/ms-gsl in
 net-im/telegram-desktop:system-libtgvoip - Use system-wide installed media-libs/libtgvoip instead of bundled one
 net-im/telegram-desktop:system-rlottie - Use system-wide installed media-libs/rlottie instead of bundled one
 net-im/telegram-desktop:system-variant - Use system-wide installed dev-cpp/variant instead of bundled one
-net-im/telegram-desktop:webrtc - Enable WebRTC integration
 net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
 net-im/toxic:audio-notify - Enables native sound notifications
