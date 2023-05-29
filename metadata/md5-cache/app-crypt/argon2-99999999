@@ -8,5 +8,5 @@ IUSE=static-libs
 LICENSE=|| ( Apache-2.0 CC0-1.0 )
 PROPERTIES=live
 SLOT=0/1
-_eclasses_=patches	a3f8b9a16731fb4e6a4f25dbacc35ddc	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=patches	a3f8b9a16731fb4e6a4f25dbacc35ddc	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=f72587afe0ae46d657f3b2a595c9477d
