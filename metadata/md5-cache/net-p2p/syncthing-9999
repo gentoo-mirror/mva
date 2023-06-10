@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=acct-group/syncthing acct-user/syncthing tools? ( >=acct-user/stdiscosrv-1 >=acct-user/strelaysrv-1 ) selinux? ( sec-policy/selinux-syncthing )
 RESTRICT=new-gui? ( network-sandbox ) strip
 SLOT=0
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	9c75e51a48520b2f01471c1f91762882	user-info	83547b4df3e1ba5a6bf91a0837eaa664	git-r3	27e13c09a4c7e4c78ac812f74727e676	systemd	5f4bb0758df2e483babf68cd517078ca	xdg-utils	baea6080dd821f5562d715887954c9d3
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	9c75e51a48520b2f01471c1f91762882	user-info	83547b4df3e1ba5a6bf91a0837eaa664	git-r3	27e13c09a4c7e4c78ac812f74727e676	systemd	5f4bb0758df2e483babf68cd517078ca	xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=52a5db5aec2f1209e4bde224bd2bb403
