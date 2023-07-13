@@ -1,0 +1,14 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm setup unpack
+DESCRIPTION=Google Noto Emoji Fonts replaced with Apple branded emoji
+EAPI=8
+HOMEPAGE=https://gitlab.com/timescam/noto-fonts-emoji-apple https://forum.xda-developers.com/apps/magisk/magisk-ios-13-2-emoji-t3993487
+INHERIT=font git-r3
+IUSE=X
+LICENSE=Apache-2.0 OFL-1.1
+PROPERTIES=live
+RDEPEND=!!media-fonts/noto-emoji
+RESTRICT=binchecks strip
+SLOT=0
+_eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=5ae9fe035e66b80fe5e0d994d201dbd7
