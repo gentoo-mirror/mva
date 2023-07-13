@@ -67,6 +67,7 @@ COMMON_DEPEND="
 	dev-libs/xxhash:=
 	dev-libs/libdispatch
 	dev-libs/libsigc++:2
+	dev-libs/libfmt:=
 	media-fonts/open-sans:*
 	media-libs/fontconfig:=
 	media-libs/rnnoise:=
@@ -116,7 +117,6 @@ COMMON_DEPEND="
 	dev-cpp/abseil-cpp:=
 	media-libs/libjpeg-turbo:=
 	media-libs/libyuv:=
-	dev-libs/openssl:=
 	>=media-libs/tg_owt-0_pre20230401[pipewire(-)=,screencast=,X=]
 	wayland? (
 		kde-frameworks/kwayland:=
