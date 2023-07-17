@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install setup test
-DEPEND=app-arch/xz-utils python? ( python_single_target_python3_10? ( >=dev-lang/python-3.10.12:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.4:3.11 ) ) >=dev-libs/libevdev-1.2.99.902
+DEPEND=app-arch/xz-utils python? ( python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) ) >=dev-libs/libevdev-1.2.99.902
 DESCRIPTION=tools and bindings for kernel evdev device emulation, data capture, and replay
 EAPI=8
 HOMEPAGE=https://www.freedesktop.org/wiki/Evemu/
@@ -7,9 +7,9 @@ INHERIT=python-single-r1
 IUSE=python static-libs python_single_target_python3_10 python_single_target_python3_11
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3 GPL-3
-RDEPEND=python? ( python_single_target_python3_10? ( >=dev-lang/python-3.10.12:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.4:3.11 ) ) >=dev-libs/libevdev-1.2.99.902
+RDEPEND=python? ( python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) ) >=dev-libs/libevdev-1.2.99.902
 REQUIRED_USE=python? ( ^^ ( python_single_target_python3_10 python_single_target_python3_11 ) )
 SLOT=0
 SRC_URI=https://www.freedesktop.org/software/evemu/evemu-2.7.0.tar.xz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a013e16d5d896b3d8be68dd2a0e846ea	python-single-r1	75118e916668a74c660a13b0ecb22562
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	7661dc585f75dd1f81eccefe37bef093	python-single-r1	75118e916668a74c660a13b0ecb22562
 _md5_=3082acb1e8b6b7bf8a282f5eb1c540bf
