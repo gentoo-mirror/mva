@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-misc/asterisk dev-libs/libxml2 sys-libs/ncurses:0
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=git-r3	97f7f638070d17e4c2b6542589bb4575	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=0453e45af4ba7637b344abf4fd70f196

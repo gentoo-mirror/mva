@@ -9,5 +9,5 @@ LICENSE=ISC
 PROPERTIES=live
 RDEPEND=net-libs/tox[av] media-libs/libv4l media-libs/libvpx media-libs/openal
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=git-r3	97f7f638070d17e4c2b6542589bb4575
 _md5_=05e1a42e1385f01e308e5e0b59b4ae01
