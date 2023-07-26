@@ -42,6 +42,12 @@ dev-lang/luajit:lua52compat - Enable some Lua:5.2+ features
 dev-lang/luajit:openresty - Build OpenResty's fork
 dev-lang/luajit:optimization - Use "Amalgamation" compilation mode
 dev-lang/luajit:valgrind - Enable support for debugging under Valgrind
+dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
+dev-libs/glib:elf - Enable support for listing and extracting from ELF resource files with gresource tool
+dev-libs/glib:mime - Pull in shared MIME database that many glib-based applications require at runtime to detect or open files. Warning: do not disable this flag unless installing on a headless server.
+dev-libs/glib:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
+dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
+dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
 dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
@@ -79,6 +85,8 @@ dev-vcs/git-annex:magicmime - Use libmagic to determine file MIME types
 dev-vcs/git-annex:pairing - Enable pairing
 dev-vcs/git-annex:torrentparser - Use haskell torrent library to parse torrent files
 dev-vcs/git-annex:webapp - Enable git-annex webapp
+gnustep-apps/sogo:activesync - Build the ActiveSync support code
+gnustep-apps/sogo:sodium - Enable support for Argon2 password schemes using dev-libs/libsodium
 media-fonts/devicon:icons - Install "icons" version of the font (svgs)
 media-fonts/devicon:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/fira-code:webfonts - Install so called "web" fonts (woff{,2}, eot)
@@ -152,11 +160,7 @@ net-im/telegram-desktop:hunspell - Use app-text/enchant for spell checking
 net-im/telegram-desktop:lto - Enable Link Time Optimizations (build will take 20+G RAM and binary will be about 2G)
 net-im/telegram-desktop:pipewire - Use media-video/pipewire as sound server
 net-im/telegram-desktop:qt6-imageformats - Use bundled kde-frameworks/kimageformats patched for Qt6 instead of system one
-net-im/telegram-desktop:system-expected - Use system-wide installed dev-cpp/tl-expected instead of bundled one
-net-im/telegram-desktop:system-gsl - Use system-wide installed dev-cpp/ms-gsl instead of bundled one
 net-im/telegram-desktop:system-libtgvoip - Use system-wide installed media-libs/libtgvoip instead of bundled one
-net-im/telegram-desktop:system-rlottie - Use system-wide installed media-libs/rlottie instead of bundled one
-net-im/telegram-desktop:system-variant - Use system-wide installed dev-cpp/variant instead of bundled one
 net-im/tgl:gcrypt - Use dev-libs/libgcrypt instead of dev-libs/openssl for crypto operations
 net-im/tgl:libevent - Enable LibEvent support
 net-im/toxic:audio-notify - Enables native sound notifications
@@ -266,6 +270,8 @@ www-servers/nginx:debug - Enable the debugging logging
 www-servers/nginx:http - Enable HTTP NginX core module
 www-servers/nginx:http-cache - Enable HTTP cache support
 www-servers/nginx:http2 - Enable HTTP2 support
+www-servers/nginx:http3 - Enable HTTP3 support
+www-servers/nginx:ktls - Enable Kernel TLS offload (kTLS)
 www-servers/nginx:libatomic - Force libatomic_ops library usage:atomic memory update operations
 www-servers/nginx:mail - Enable Mail NginX core module
 www-servers/nginx:pcre-jit - Add support to PCRE JIT

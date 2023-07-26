@@ -33,7 +33,7 @@ app-misc/2gis-data 20221227: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-misc/amazfitbip-font-tool 1.1: Amazfit Bip Font Parser (& Packer)
 app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware cooking)
-app-misc/asciinema 9999: Command line recorder for asciinema.org service
+app-misc/asciinema 2.3.0 9999: Command line recorder for asciinema.org service
 app-misc/evemu 2.7.0: tools and bindings for kernel evdev device emulation, data capture, and replay
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jq 9999: Command-line JSON processor
@@ -47,11 +47,12 @@ app-text/highlight 4.4: Converts source code to formatted text (HTML, LaTeX, etc
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 16.0.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.24.0: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.25.1: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
 dev-cpp/abseil-cpp 20230125.2: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/asio 9999: Asynchronous Network Library
+dev-cpp/glibmm 2.77.0: C++ interface for glib2
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-cpp/nlohmann_json 9999: C++ class library of cryptographic schemes
 dev-cpp/range-v3 9999: Range library for C++14/17/20, basis for C++20's std::ranges
@@ -70,6 +71,7 @@ dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Prot
 dev-lang/luajit 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
+dev-libs/glib 2.77.0: The GLib library of C routines
 dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libbson 1.22.2: Library routines related to building,parsing and iterating BSON documents
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
@@ -262,13 +264,12 @@ dev-ruby/fcgi 0.9.2.2-r1: FastCGI library for Ruby
 dev-ruby/git-version-bump 0.17.2: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
 dev-util/android-ndk 25b: Open Handset Alliance's Android NDK (Native Dev Kit)
-dev-util/apktool 2.4.0 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
-dev-util/apktool-bin 2.6.1: A tool for reverse engineering 3rd party, closed, binary Android apps
+dev-util/apktool 2.8.1 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/cmake-language-server 0.1.7: CMake LSP Implementation
 dev-util/cmakelang 0.6.13: Quality Assurance (QA) tools for cmake (formerly cmake_format)
 dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
-dev-util/dex2jar 2.2_pre0 9999: Tools to work with android .dex and java .class files
-dev-util/dex2jar-bin 2.2_pre0: Tools to work with android .dex and java .class files
+dev-util/dex2jar 64 9999: Tools to work with android .dex and java .class files
+dev-util/gdbus-codegen 2.77.0: GDBus code and documentation generator
 dev-util/jadx 1.4.5 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 1.4.5: Android Dex to Java Decompiler
 dev-util/qml-lsp 9999: Collection of QML tools, including qml-lsp, qml-dap, and qml-refactor-fairy
@@ -284,6 +285,8 @@ games-arcade/shoothookers 0: A game prototype by Maurice (mari0 author)
 games-arcade/supermeatboy 2013.11.11: A platformer where you play as an animated cube of meat
 games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
 games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
+gnustep-apps/sogo 5.8.4: Groupware server built around OpenGroupware.org and the SOPE application server
+gnustep-libs/sope 5.8.4: A set of frameworks forming a complete Web application server environment
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode (at time of its creation)
 media-fonts/consolamono 20130127: Open Font by Wojciech Kalinowski
@@ -330,7 +333,7 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/telegram-cli 9999: Command line interface client for Telegram
-net-im/telegram-desktop 4.8.4 9999: Official desktop client for Telegram
+net-im/telegram-desktop 4.8.7 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -385,7 +388,7 @@ www-apps/gitprep 9999: Github clone. you can install Github system into your uni
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
 www-apps/redmine 5.0.3 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
-www-plugins/cprocsp-plugin 2.0.14660: CryptoPro Browser Plugin (with additional bundled stuff)
+www-plugins/cprocsp-plugin 2.0.14815: CryptoPro Browser Plugin (with additional bundled stuff)
 www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
 www-plugins/kontur-diagnostic-plugin 001353: System diagnostic browser plugin for SKB Kontur services
 www-plugins/kontur-plugin 4.0.6.244: Cryptographic browser plugin for SKB Kontur services

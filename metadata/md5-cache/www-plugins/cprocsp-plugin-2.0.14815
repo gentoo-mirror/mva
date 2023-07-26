@@ -10,6 +10,6 @@ LICENSE=Crypto-Pro
 RDEPEND=app-crypt/cprocsp
 RESTRICT=bindist fetch mirror strip
 SLOT=0
-SRC_URI=x86? ( cprocsp-plugin-2.0.14660_x86.tar.gz ) amd64? ( cprocsp-plugin-2.0.14660_amd64.tar.gz ) arm64? ( cprocsp-plugin-2.0.14660_arm64.tar.gz )
+SRC_URI=x86? ( cprocsp-plugin-2.0.14815_x86.tar.gz ) amd64? ( cprocsp-plugin-2.0.14815_amd64.tar.gz ) arm64? ( cprocsp-plugin-2.0.14815_arm64.tar.gz )
 _eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	745ef34afb8c31915d9d42a6aca23a35
 _md5_=4d242520fa2569db2987ea2c4f172517
