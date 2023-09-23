@@ -261,7 +261,6 @@ dev-qt/qmltermwidget 0.2.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.4: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.4.4: A Ruby script that colorizes the ls output with color and icons
 dev-ruby/fcgi 0.9.2.2-r1: FastCGI library for Ruby
-dev-ruby/git-version-bump 0.17.2: Manage your app version entirely via git tags
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
 dev-util/android-ndk 25b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.8.1 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
@@ -386,7 +385,6 @@ virtual/gradle 0: Virtual for gradle
 www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from data presentation
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
-www-apps/redmine 5.0.3 9999: Flexible project management webapp written using Ruby on Rails framework
 www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
 www-plugins/cprocsp-plugin 2.0.14815: CryptoPro Browser Plugin (with additional bundled stuff)
 www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
