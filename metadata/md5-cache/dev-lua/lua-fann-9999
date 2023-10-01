@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) sci-mathematics/fann
 REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
 SLOT=0
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua	8f9406bfff123a92ad04e4ace3e7f89b	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua	8f9406bfff123a92ad04e4ace3e7f89b	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=0463408cc4d970e81b881cb11867c3de
