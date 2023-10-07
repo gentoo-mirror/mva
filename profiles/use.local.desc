@@ -15,7 +15,6 @@ app-crypt/keybase:system-libglvnd - Use system libglvnd instead of bundled with 
 app-crypt/keybase:system-vulkan - Use system vulkan libraries instead of bundled with Electron
 app-editors/neovim:lto - Build with Link Time Optimization (LTO)
 app-editors/neovim:nvimpager - Install nvimpager symlink to less.sh macro
-app-editors/neovim:tui - Build the neovim unix tui
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-plugins:area - Install "Area" Plugin
 app-misc/2gis-plugins:goto - Install "Goto" Plugin
@@ -154,7 +153,6 @@ net-im/telegram-cli:json - Enable JSON support
 net-im/telegram-cli:lua - Enable Lua scripting
 net-im/telegram-cli:python - Enable Python support
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or in "/etc/portage/env/${CAT}/${PN}")
-net-im/telegram-desktop:dbus - Enable D-Bus integration
 net-im/telegram-desktop:enchant - Use app-text/enchant for spell checking
 net-im/telegram-desktop:hunspell - Use app-text/enchant for spell checking
 net-im/telegram-desktop:lto - Enable Link Time Optimizations (build will take 20+G RAM and binary will be about 2G)
@@ -261,9 +259,6 @@ sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 www-apps/ctpp2:md5 - Add support for md5 hashing function
-www-apps/redmine:commonmark - Adds support for CommonMark markdown spec
-www-apps/redmine:markdown - Adds markdown support
-www-apps/redmine:minimagick - Use minimagick
 www-servers/nginx:aio - Enable aio support
 www-servers/nginx:busy-upstream - Apply the "Busy Upstream" Patch (required for some modules)
 www-servers/nginx:debug - Enable the debugging logging
