@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=>=dev-vcs/git-1.7.3
 RESTRICT=strip
 SLOT=0
-_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	go-module	8624eede24936fd7666e5298e5332f22	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	go-module	8624eede24936fd7666e5298e5332f22	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=923c203636ddc15a50d479a458b11560
