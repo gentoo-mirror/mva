@@ -304,13 +304,13 @@ media-gfx/figma-linux-bin 0.10.0: Unofficial desktop application for linux
 media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
-media-gfx/sweethome3d-bin 7.0: Sweet Home 3D is a free interior design application.
+media-gfx/sweethome3d-bin 7.2: Sweet Home 3D is a free interior design application.
 media-gfx/ttfautohint 1.8.3: A library to autohint TrueType fonts
 media-libs/cgif 0.3.0 9999: GIF encoder written in C
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
 media-libs/libspng 0.7.2 9999: Simple PNG library
-media-libs/libtgvoip 2.4.5_pre20221209 9999: VoIP library for Telegram clients
+media-libs/libtgvoip 2.4.5_pre20231016 9999: VoIP library for Telegram clients
 media-libs/libyuv 1854_p20221228: Open source project that includes YUV scaling and conversion functionality
 media-libs/nifti 3.0.1 9999: C libraries for NIFTI support
 media-libs/openslide 3.4.1 9999: C library with simple interface to read virtual slides
@@ -340,7 +340,7 @@ net-im/toxic 9999: A curses-based client for Tox.
 net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 3
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
-net-libs/grpc 1.52.1-r1: Modern open source high performance RPC framework
+net-libs/grpc 1.57.0-r10: Modern open source high performance RPC framework
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/opendht 2.1.10 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/restbed 4.8 9999: brings asynchronous RESTful functionality to C++14 applications
