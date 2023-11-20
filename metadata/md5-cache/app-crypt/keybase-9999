@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=app-crypt/gnupg gui? ( !system-vulkan? ( media-libs/vulkan-loader ) !system-ffmpeg? ( media-video/ffmpeg ) !system-libglvnd? ( media-libs/libglvnd ) )
 RESTRICT=gui? ( network-sandbox ) strip
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22	systemd	c8b03e8df84486aa991d4396686e8942	git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-env	8e2d827579ae355b3dd556d44a79d4a6	go-module	9e5a8f7b134fd3ed3785755097fe8ef0	systemd	c8b03e8df84486aa991d4396686e8942	git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=0e43806b1cfd3dae21f0c01c93a3d583
