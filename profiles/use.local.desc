@@ -149,9 +149,6 @@ net-im/spectrum2:twitter - Enables the Twitter backend.
 net-im/spectrum2:whatsapp - Enables the WhatsApp backend, based on net-im/transwhat.
 net-im/swift:client - Build the full graphical XMPP client
 net-im/sydent:gammu - Use app-mobilephone/gammu to send SMS
-net-im/telegram-cli:json - Enable JSON support
-net-im/telegram-cli:lua - Enable Lua scripting
-net-im/telegram-cli:python - Enable Python support
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or in "/etc/portage/env/${CAT}/${PN}")
 net-im/telegram-desktop:enchant - Use app-text/enchant for spell checking
 net-im/telegram-desktop:hunspell - Use app-text/enchant for spell checking
