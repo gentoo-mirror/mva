@@ -10,5 +10,5 @@ RDEPEND=dev-libs/libxml2:2 sys-apps/pcsc-lite:0 virtual/libusb:0
 RESTRICT=fetch mirror strip
 SLOT=0
 SRC_URI=amd64? ( gosuslugi-plugin-3.1.1.0_amd64.deb ) x86? ( gosuslugi-plugin-3.1.1.0_x86.deb )
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	aa6a4e924009232d8b78b31e932c30b5	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=8a975176958409da1dffa0035868c394
