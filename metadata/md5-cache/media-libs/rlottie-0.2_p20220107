@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/meson-0.50.1 >=dev-util/meson-1.2.1 app-alternatives/ninja dev-util/meson-format-array
+BDEPEND=>=dev-util/meson-0.50.1 >=dev-build/meson-1.2.1 app-alternatives/ninja dev-build/meson-format-array
 DEFINED_PHASES=compile configure install prepare test
 DESCRIPTION=A platform independent standalone library that plays Lottie Animation
 EAPI=8
@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~mips ~ppc64 ~riscv ~x86
 LICENSE=LGPL-2.1 FTL MIT
 SLOT=0
 SRC_URI=https://github.com/Samsung/rlottie/archive/875626965959d8e269ca22175c8e1ad190696c43.tar.gz -> rlottie-0.2_p20220107.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	meson	0e160eeba59c15ec333bd675cecdfdc9	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	meson	e322276188f86eacb29ae081ba5485c8	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=c3fc2f356e2076610c9fa91066b244ab
