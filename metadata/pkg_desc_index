@@ -234,7 +234,7 @@ dev-perl/Mojolicious-Plugin-INIConfig 0.06: Mojolicious plugin to load INI forma
 dev-perl/Object-Simple 3.19: Simplest class builder, Mojo::Base porting, fast and less memory
 dev-perl/Text-Markdown-Hoedown 1.03: Binding library for hoedown
 dev-perl/Validator-Custom 1.0201: HTML form Validation, simple and good flexibility
-dev-php/msgpack-php 2.2.0_rc2 9999: API for communicating with MessagePack serialization
+dev-php/msgpack-php 2.2.0 9999: API for communicating with MessagePack serialization
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/lsprotocol 2023.0.0_alpha1: Python implementation of the Language Server Protocol
 dev-python/matrix-synapse-ldap3 0.2.2: An LDAP3 auth provider for Synapse
