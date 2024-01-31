@@ -1,0 +1,15 @@
+BDEPEND=app-arch/rpm app-arch/rpm2targz
+DEFINED_PHASES=install setup unpack
+DEPEND=app-crypt/cprocsp !>=app-crypt/cprocsp-5.0.12900
+DESCRIPTION=CryptoPro Browser Plugin (with additional bundled stuff)
+EAPI=8
+HOMEPAGE=https://cryptopro.ru/products/csp/downloads
+INHERIT=rpm
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~x86
+LICENSE=Crypto-Pro
+RDEPEND=app-crypt/cprocsp !>=app-crypt/cprocsp-5.0.12900
+RESTRICT=bindist mirror strip
+SLOT=0
+SRC_URI=x86? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-ia32.tar.gz -> cprocsp-plugin-2.0.14892_x86.tar.gz ) amd64? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-amd64.tar.gz -> cprocsp-plugin-2.0.14892_amd64.tar.gz ) arm64? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-arm64.tar.gz -> cprocsp-plugin-2.0.14892_arm64.tar.gz ) arm? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-armhf.tar.gz -> cprocsp-plugin-2.0.14892_arm.tar.gz ) mips? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-mipsel.tar.gz -> cprocsp-plugin-2.0.14892_mipsel.tar.gz )
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	528663355249513309c74d7775936940
+_md5_=85a5260af702872ec92910bb2a1f83f0

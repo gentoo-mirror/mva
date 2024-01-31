@@ -11,12 +11,10 @@ app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-crypt/argon2 20190702-r10 99999999: The password hash Argon2, winner of PHC
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
-app-crypt/cprocsp 5.0.12000: CryptoPro Crypto Provider
+app-crypt/cprocsp 5.0.12900: CryptoPro Crypto Provider
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
-app-crypt/gnupg 9999: The GNU Privacy Guard, a GPL pgp replacement
 app-crypt/keybase 9999: Client for keybase.io
 app-crypt/tcplay 3.3: Free and simple TrueCrypt Implementation based on dm-crypt
-app-editors/neovim 9999: Vim-fork focused on extensibility and agility
 app-emulation/qt-virt-manager 9999: A GUI application for managing virtual machines
 app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
 app-eselect/eselect-lua 2: Lua eselect module
@@ -47,10 +45,9 @@ app-text/highlight 4.4: Converts source code to formatted text (HTML, LaTeX, etc
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 16.0.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.25.1: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.25.3: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
-dev-cpp/abseil-cpp 20230125.2: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/glibmm 2.77.0: C++ interface for glib2
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
@@ -64,7 +61,7 @@ dev-db/proxysql 2.4.5: A high performance, high availability, protocol aware pro
 dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-embedded/lm4tools 9999: Provides lm4flash and lmicdiusb for developing on the TI Stellaris Launchpad
 dev-go/gopls 9999: official go language server
-dev-java/commons-text 1.10.0 1.11.0: Apache Commons Text is a library focused on algorithms working on strings
+dev-java/commons-text 1.11.0: Apache Commons Text is a library focused on algorithms working on strings
 dev-java/gradle 7.6: A project automation and build tool with a Groovy based DSL
 dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
@@ -72,19 +69,14 @@ dev-lang/luajit 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/glib 2.77.0: The GLib library of C routines
-dev-libs/libassuan 9999: IPC library used by GnuPG and GPGME
 dev-libs/libbson 1.22.2: Library routines related to building,parsing and iterating BSON documents
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
 dev-libs/libdwarf 0.5.0: Library for extracting DWARF data from code objects
-dev-libs/libgcrypt 9999: General purpose crypto library based on the code used in GnuPG
-dev-libs/libgpg-error 9999: Contains error handling functions used by GnuPG software
 dev-libs/libiio 9999: Library for interfacing with IIO devices
-dev-libs/libksba 9999: X.509 and CMS (PKCS#7) library
 dev-libs/libsodium 9999: A portable fork of NaCl, a higher-level cryptographic library
 dev-libs/mongo-c-driver 1.22.2: Client library written in C for MongoDB
 dev-libs/mongo-cxx-driver 3.7.0: C++ Driver for MongoDB
 dev-libs/msgpack 9999: MessagePack is a binary-based efficient data interchange format
-dev-libs/npth 9999: GnuPG's New Portable Threads Library (nPth)
 dev-libs/olm 3.2.12 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-lua/alt-getopt 0.8.0: Lua API for getopt similar to getopt_long(3)
@@ -184,7 +176,6 @@ dev-lua/lulpeg 9999: A pure Lua port of dev-lua/lpeg
 dev-lua/lunit 9999: A unit testing framework for Lua
 dev-lua/lunix 99999999: Lua Unix Module
 dev-lua/lustache 9999: Markdown engine
-dev-lua/luv 1.44.2.0-r1: Bare libuv bindings for lua
 dev-lua/lvk 9999: Lua wrapper-functions for REST API methods of vk.com
 dev-lua/lyaml 9999: LibYAML binding for Lua.
 dev-lua/messagepack 9999: Lua coxpcall Library
@@ -384,7 +375,7 @@ www-apps/ctpp2 2.8.3: Tool, separating data processing (business logic) from dat
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
 www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
-www-plugins/cprocsp-plugin 2.0.14815: CryptoPro Browser Plugin (with additional bundled stuff)
+www-plugins/cprocsp-plugin 2.0.14892: CryptoPro Browser Plugin (with additional bundled stuff)
 www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
 www-plugins/kontur-diagnostic-plugin 001353: System diagnostic browser plugin for SKB Kontur services
 www-plugins/kontur-plugin 4.0.6.244: Cryptographic browser plugin for SKB Kontur services

@@ -5,16 +5,12 @@
 acct-user/git:gitea - Set home directory for git hosting via www-apps/gitea.
 acct-user/git:gitolite - Set home directory for git hosting via dev-vcs/gitolite or dev-vcs/gitolite-gentoo.
 acct-user/git:gitprep - Set home directory for git hosting via www-apps/gitprep.
-app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd.
-app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
 app-crypt/keybase:browser - Build browser native-messaging helper
 app-crypt/keybase:gui - Build Electron-based GUI app
 app-crypt/keybase:kbfs - Build KBFS FUSE mount-helper
 app-crypt/keybase:system-ffmpeg - Use system ffmpeg libs instead of bundled with Electron
 app-crypt/keybase:system-libglvnd - Use system libglvnd instead of bundled with Electron
 app-crypt/keybase:system-vulkan - Use system vulkan libraries instead of bundled with Electron
-app-editors/neovim:lto - Build with Link Time Optimization (LTO)
-app-editors/neovim:nvimpager - Install nvimpager symlink to less.sh macro
 app-misc/2gis:data - Use maps and other data from app-misc/2gis-data
 app-misc/2gis-plugins:area - Install "Area" Plugin
 app-misc/2gis-plugins:goto - Install "Goto" Plugin
@@ -47,7 +43,6 @@ dev-libs/glib:mime - Pull in shared MIME database that many glib-based applicati
 dev-libs/glib:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
 dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
 dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
-dev-libs/libgpg-error:common-lisp - Install common-lisp files
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
 dev-libs/mongo-cxx-driver:static-mongoc - Build mongoc statically
