@@ -11,6 +11,6 @@ LICENSE=Crypto-Pro
 RDEPEND=app-crypt/ccid >=dev-libs/libp11-0.4.0 dev-libs/libxml2 x86? ( dev-libs/opensc ) amd64? ( dev-libs/opensc ) media-libs/libpng:0 media-libs/fontconfig sys-apps/dbus sys-apps/lsb-release >=sys-apps/pcsc-lite-1.4.99 sys-apps/pcsc-tools virtual/libcrypt:= virtual/libusb:0 app-accessibility/at-spi2-core dev-libs/glib dev-libs/libusb-compat media-libs/fontconfig media-libs/freetype sys-libs/pam sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libSM x11-libs/libX11 x11-libs/libXxf86vm x11-libs/pango
 RESTRICT=bindist fetch mirror strip
 SLOT=0
-SRC_URI=x86? ( cprocsp-5.0.12900_x86.tgz ) amd64? ( cprocsp-5.0.12900_amd64.tgz ) arm? ( cprocsp-5.0.12900_arm.tgz ) arm64? ( cprocsp-5.0.12900_arm64.tgz )
+SRC_URI=x86? ( cprocsp-5.0.12000_x86.tgz ) amd64? ( cprocsp-5.0.12000_amd64.tgz ) arm? ( cprocsp-5.0.12000_arm.tgz ) arm64? ( cprocsp-5.0.12000_arm64.tgz )
 _eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	528663355249513309c74d7775936940	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	udev	eec0bbab06977f1cfc5597269c1fa152
-_md5_=18f5bb6a7d82ebc4a54eea759ce73544
+_md5_=88184ec828753b6eaa1e2cb419f6a9d7

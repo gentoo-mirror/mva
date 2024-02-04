@@ -37,12 +37,6 @@ dev-lang/luajit:lua52compat - Enable some Lua:5.2+ features
 dev-lang/luajit:openresty - Build OpenResty's fork
 dev-lang/luajit:optimization - Use "Amalgamation" compilation mode
 dev-lang/luajit:valgrind - Enable support for debugging under Valgrind
-dev-libs/glib:dbus - Enable dependencies required by glib libraries using dbus service to manage settings saving
-dev-libs/glib:elf - Enable support for listing and extracting from ELF resource files with gresource tool
-dev-libs/glib:mime - Pull in shared MIME database that many glib-based applications require at runtime to detect or open files. Warning: do not disable this flag unless installing on a headless server.
-dev-libs/glib:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
-dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util/systemtap
-dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
 dev-libs/libsodium:asm - Enables assembly implementations
 dev-libs/libsodium:urandom - Use /dev/urandom instead of /dev/random
 dev-libs/mongo-cxx-driver:static-mongoc - Build mongoc statically
@@ -146,6 +140,7 @@ net-im/swift:client - Build the full graphical XMPP client
 net-im/sydent:gammu - Use app-mobilephone/gammu to send SMS
 net-im/telegram-desktop:custom-api-id - Use custom API ID and API HASH (you must set it either in make.conf or in "/etc/portage/env/${CAT}/${PN}")
 net-im/telegram-desktop:enchant - Use app-text/enchant for spell checking
+net-im/telegram-desktop:fonts - Whether to use bundled fonts, or look for correspondig fonts in user's system
 net-im/telegram-desktop:hunspell - Use app-text/enchant for spell checking
 net-im/telegram-desktop:lto - Enable Link Time Optimizations (build will take 20+G RAM and binary will be about 2G)
 net-im/telegram-desktop:pipewire - Use media-video/pipewire as sound server

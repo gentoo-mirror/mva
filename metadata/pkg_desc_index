@@ -11,7 +11,7 @@ app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-crypt/argon2 20190702-r10 99999999: The password hash Argon2, winner of PHC
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
-app-crypt/cprocsp 5.0.12900: CryptoPro Crypto Provider
+app-crypt/cprocsp 5.0.12000 5.0.12900: CryptoPro Crypto Provider
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-crypt/keybase 9999: Client for keybase.io
 app-crypt/tcplay 3.3: Free and simple TrueCrypt Implementation based on dm-crypt
@@ -49,7 +49,6 @@ app-vim/nginx-syntax 1.25.3: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
-dev-cpp/glibmm 2.77.0: C++ interface for glib2
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-cpp/nlohmann_json 9999: C++ class library of cryptographic schemes
 dev-cpp/range-v3 9999: Range library for C++14/17/20, basis for C++20's std::ranges
@@ -68,7 +67,6 @@ dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Prot
 dev-lang/luajit 2.1.9999: Just-In-Time Compiler for the Lua programming language
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
-dev-libs/glib 2.77.0: The GLib library of C routines
 dev-libs/libbson 1.22.2: Library routines related to building,parsing and iterating BSON documents
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
 dev-libs/libdwarf 0.5.0: Library for extracting DWARF data from code objects
@@ -252,13 +250,12 @@ dev-qt/qmltermwidget 0.2.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.4: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.4.6: A Ruby script that colorizes the ls output with color and icons
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
-dev-util/android-ndk 25b: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-ndk 26b: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.8.1 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/cmake-language-server 0.1.7: CMake LSP Implementation
 dev-util/cmakelang 0.6.13: Quality Assurance (QA) tools for cmake (formerly cmake_format)
 dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
 dev-util/dex2jar 64 9999: Tools to work with android .dex and java .class files
-dev-util/gdbus-codegen 2.77.0: GDBus code and documentation generator
 dev-util/jadx 1.4.5 9999: Android Dex to Java Decompiler
 dev-util/jadx-bin 1.4.5: Android Dex to Java Decompiler
 dev-util/qml-lsp 9999: Collection of QML tools, including qml-lsp, qml-dap, and qml-refactor-fairy
@@ -313,7 +310,7 @@ media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara"
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-im/clix 9999: XMPP client library written in Lua.
-net-im/jitsi-meet-electron-bin 2022.10.1: Desktop application for Jitsi Meet built with Electron
+net-im/jitsi-meet-electron-bin 2024.1.0: Desktop application for Jitsi Meet built with Electron
 net-im/keywee 9999: WeeChat plugin for Keybase chat
 net-im/matterbridge 9999: Bridge between multiple chat networks
 net-im/prosody 9999: Prosody is a modern XMPP communication server
@@ -332,7 +329,7 @@ net-im/yowsup 9999: A library that enables you to build applications which use t
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-libs/grpc 1.57.0-r10: Modern open source high performance RPC framework
 net-libs/libvncserver 9999: library for creating vnc servers
-net-libs/opendht 2.1.10 9999: A lightweight C++11 Distributed Hash Table implementation
+net-libs/opendht 3.1.7 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/restbed 4.8 9999: brings asynchronous RESTful functionality to C++14 applications
 net-libs/tdlib 9999: Cross-platform library for building Telegram clients
 net-libs/telegram-qt 9999: Telegram binding for Qt
