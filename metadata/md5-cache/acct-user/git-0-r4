@@ -8,4 +8,4 @@ RDEPEND=acct-group/git
 REQUIRED_USE=?? ( git gitea gitolite gitprep )
 SLOT=0
 _eclasses_=user-info	9951b1a0e4f026d16c33a001fd2d5cdf	acct-user	485d9a6aa1311a8ca9da380d8a8c6c76
-_md5_=81c402015aca33705609599072c115ad
+_md5_=e8b50b366e8352e8ec8e2d8d95f4ac2b

@@ -11,4 +11,4 @@ RESTRICT=mirror strip
 SLOT=0
 SRC_URI=amd64? ( https://api.kontur.ru/drive/v1/public/diag/files/diag.plugin_amd64.001353.deb -> kontur-diagnostic-plugin-001353.deb )
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=529128b7991a7ae460fd4826729504c5
+_md5_=dbbb4954a310e727cfcabe48235d5d42

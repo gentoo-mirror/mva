@@ -13,4 +13,4 @@ REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_t
 RESTRICT=network-sandbox
 SLOT=0
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua	8f9406bfff123a92ad04e4ace3e7f89b	mercurial	e6a56a378cb9241482284b8b897c7a39
-_md5_=95cfdd0a08ba315574f9c043c970ee90
+_md5_=a66a44c7e52f94e211877247115cd6b3

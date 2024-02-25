@@ -3,11 +3,11 @@ DEFINED_PHASES=compile configure install test unpack
 DEPEND=media-libs/libjpeg-turbo media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
 DESCRIPTION=C library with simple interface to read virtual slides
 EAPI=8
-HOMEPAGE=http://openslide.org/
+HOMEPAGE=https://openslide.org/
 INHERIT=git-r3 meson
 LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=media-libs/libjpeg-turbo media-libs/openjpeg:2 media-libs/tiff:0 virtual/libc sys-libs/zlib >=x11-libs/cairo-1.2 >=dev-libs/glib-2.12
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	meson	e322276188f86eacb29ae081ba5485c8
-_md5_=85b05291eca94a7e254a42ff689f95f9
+_md5_=ccce16b349b8bb12837e6f3b288c1525

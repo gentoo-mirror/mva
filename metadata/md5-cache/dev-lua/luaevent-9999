@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install prepare unpack
 DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) dev-libs/libevent:0=
 DESCRIPTION=Binding of libevent for Lua
 EAPI=8
-HOMEPAGE=http://luaforge.net/projects/luaevent
+HOMEPAGE=https://github.com/harningt/luaevent
 INHERIT=lua git-r3 toolchain-funcs
 IUSE=lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4
 LICENSE=LGPL-2.1
@@ -12,4 +12,4 @@ RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang
 REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
 SLOT=0
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua	8f9406bfff123a92ad04e4ace3e7f89b	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=be74fe97b3352c3da8a0176368412c61
+_md5_=0721802831b9c66b9af60c8c1de28f16

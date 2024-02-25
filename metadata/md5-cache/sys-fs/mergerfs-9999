@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=sys-apps/attr:= >=sys-apps/util-linux-2.18 sys-devel/gettext:=
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=0010a06f7930bb7d3d5bb3fc1e4781b1
+_md5_=f73ce535e047a60430fadbb1fb1f3fa3

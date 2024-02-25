@@ -11,4 +11,4 @@ RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/ThexXTURBOXx/dex2jar/archive/v64.tar.gz -> dex2jar-64.tar.gz
 _eclasses_=gradle	2d31b772e6d226355d010b2d777af00b
-_md5_=d129d69af76ebaa3dde75eab6ff23eb6
+_md5_=74a1e98bd523702fc544b1280d05afb7

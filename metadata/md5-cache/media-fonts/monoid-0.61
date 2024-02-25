@@ -1,14 +1,14 @@
-BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+BDEPEND=app-arch/unzip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
 DEFINED_PHASES=install postinst postrm setup unpack
 DESCRIPTION=Open source coding font
 EAPI=8
 HOMEPAGE=https://larsenwork.com/monoid https://github.com/larsenwork/monoid
 INHERIT=font
-IUSE=+monoisome X
+IUSE=monoisome X
 KEYWORDS=~alpha ~amd64 ~arm ~hppa ~loong ~ppc ~ppc64 ~s390 ~sparc ~x86
 LICENSE=MIT OFL-1.1
 RESTRICT=binchecks strip
 SLOT=0
-SRC_URI=mirror://gentoo/monoid-0.61.tar.gz monoisome? ( https://github.com/larsenwork/monoid/raw/f99f8de71dfd77b11fd1247e551ab6e33915f1e0/Monoisome/Monoisome-Regular.ttf -> Monoisome-Regular-f99f8de71dfd77b11fd1247e551ab6e33915f1e0.ttf )
+SRC_URI=https://cdn.rawgit.com/larsenwork/monoid/2db2d289f4e61010dd3f44e09918d9bb32fb96fd/Monoid.zip monoisome? ( https://github.com/larsenwork/monoid/raw/0673c8d6728df093faee9f183b6dfa62939df8c0/Monoisome/Monoisome-Regular.ttf -> Monoisome-Regular-0673c8d6728df093faee9f183b6dfa62939df8c0.ttf )
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=eb2544ae4c2caac0cc021ae69edda87d
+_md5_=af17f001a12ffe7a0d97901adb26398f

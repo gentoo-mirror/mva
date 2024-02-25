@@ -2,7 +2,7 @@ BDEPEND=sys-apps/groff >=dev-lang/go-1.20:= app-arch/unzip >=dev-vcs/git-1.8.2.1
 DEFINED_PHASES=compile install unpack
 DESCRIPTION=Command-line wrapper for git that makes you better at GitHub
 EAPI=8
-HOMEPAGE=https://github.com/github/hub
+HOMEPAGE=https://github.com/mislav/hub
 INHERIT=bash-completion-r1 go-module git-r3
 LICENSE=MIT
 PROPERTIES=live
@@ -10,4 +10,4 @@ RDEPEND=>=dev-vcs/git-1.7.3
 RESTRICT=strip
 SLOT=0
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	go-env	96e1747610bbb2f5c5d3fb16f0f3a83a	go-module	09ccb1fdea4f1f3f718e27b756636097	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=923c203636ddc15a50d479a458b11560
+_md5_=8b8f93767dea0432cac7fc4add24a03f

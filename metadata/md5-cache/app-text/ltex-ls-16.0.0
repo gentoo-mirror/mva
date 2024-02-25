@@ -2,7 +2,7 @@ DEFINED_PHASES=compile install preinst prepare setup
 DEPEND=>=dev-java/java-config-2.2.0-r3
 DESCRIPTION=LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 EAPI=8
-HOMEPAGE=https://valentjn.github.io/ltex
+HOMEPAGE=https://valentjn.github.io/ltex/
 INHERIT=java-pkg-2
 KEYWORDS=~amd64 ~x86
 LICENSE=MPL-2.0
@@ -10,4 +10,4 @@ RDEPEND=>=virtual/jre-1.8 dev-java/slf4j-api:0 dev-java/slf4j-nop:0 dev-java/gua
 SLOT=0
 SRC_URI=https://github.com/valentjn/ltex-ls/releases/download/16.0.0/ltex-ls-16.0.0.tar.gz
 _eclasses_=java-utils-2	b346c3901e71ba37137bae0b25b00221	java-pkg-2	b6d755b4f6afabfd933932be28b46368
-_md5_=96524596b5ff719c4c3d810905bd71b2
+_md5_=1c31e813d5598feac4db05237b61ed18

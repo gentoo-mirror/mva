@@ -8,4 +8,4 @@ LICENSE=GPL-3
 PROPERTIES=live
 SLOT=0
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=41a2880846b4d2f83ede92314019d765
+_md5_=52988a412e481d9b5d70bff9cd97bf21

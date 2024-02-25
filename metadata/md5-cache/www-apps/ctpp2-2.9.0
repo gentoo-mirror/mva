@@ -1,15 +1,15 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=geoip? ( dev-libs/geoip )
-DESCRIPTION=An IPv4/IPv6 Subnet Calculator
+DEPEND=iconv? ( virtual/libiconv ) md5? ( dev-libs/openssl:* )
+DESCRIPTION=Tool, separating data processing (business logic) from data presentation
 EAPI=8
-HOMEPAGE=https://www.uni-due.de/~be0001/subnetcalc/
+HOMEPAGE=https://ctpp.havoc.ru/ https://ctpp.havoc.ru/en/
 INHERIT=cmake
-IUSE=geoip
-KEYWORDS=~amd64 ~x86
-LICENSE=GPL-3
-RDEPEND=geoip? ( dev-libs/geoip )
-SLOT=0
-SRC_URI=https://github.com/dreibh/subnetcalc/archive/refs/tags/subnetcalc-2.4.19.tar.gz
+IUSE=debug md5 iconv
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=BSD
+RDEPEND=iconv? ( virtual/libiconv ) md5? ( dev-libs/openssl:* )
+SLOT=2
+SRC_URI=https://ctpp.havoc.ru/download/ctpp2-2.9.0.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c
-_md5_=b2ba5407b14ac47ed0db783b3f7092b1
+_md5_=09e21746447d669fb3ddc7d1b78ff50b
