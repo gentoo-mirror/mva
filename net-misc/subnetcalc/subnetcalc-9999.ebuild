@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,7 +15,7 @@ else
 fi
 
 DESCRIPTION="An IPv4/IPv6 Subnet Calculator"
-HOMEPAGE="https://www.uni-due.de/~be0001/subnetcalc/"
+HOMEPAGE="https://www.nntb.no/~dreibh/subnetcalc/"
 
 LICENSE="GPL-3"
 SLOT="0"

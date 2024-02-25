@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,8 +9,8 @@ MY_PN="SweetHome3D"
 DESCRIPTION="Sweet Home 3D is a free interior design application."
 HOMEPAGE="https://sweethome3d.com/"
 SRC_URI="
-	amd64? ( mirror://sourceforge/sweethome3d/${MY_PN}-${PV}-linux-x64.tgz )
-	x86? ( mirror://sourceforge/sweethome3d/${MY_PN}-${PV}-linux-x86.tgz )
+	amd64? ( mirror://sourceforge/project/${PN//-bin}/${MY_PN}/${MY_PN}-${PV}/${MY_PN}-${PV}-linux-x64.tgz )
+	x86? ( mirror://sourceforge/project/${PN//-bin}/${MY_PN}/${MY_PN}-${PV}/${MY_PN}-${PV}-linux-x86.tgz )
 "
 LICENSE="GPL-3"
 IUSE="gtk3"

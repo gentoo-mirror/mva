@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,11 +10,8 @@ MY_P="${PN}-${EGIT_COMMIT}"
 inherit lua toolchain-funcs git-r3
 
 DESCRIPTION="Networking support library for the Lua language"
-HOMEPAGE="
-	http://www.tecgraf.puc-rio.br/~diego/professional/luasocket/
-	https://github.com/diegonehab/luasocket
-"
-EGIT_REPO_URI="https://github.com/diegonehab/luasocket"
+HOMEPAGE="https://github.com/lunarmodules/luasocket"
+EGIT_REPO_URI="https://github.com/lunarmodules/luasocket"
 
 LICENSE="MIT"
 SLOT="0"

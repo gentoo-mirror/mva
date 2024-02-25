@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -12,7 +12,7 @@ else
 	SRC_URI="https://github.com/lib${PN}/lib${PN}/archive/v${PV//_rc/-rc}.tar.gz -> lib${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
-HOMEPAGE="https://libvips.github.io/libvips/"
+HOMEPAGE="https://www.libvips.org/"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

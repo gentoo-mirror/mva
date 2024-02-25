@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,8 +7,8 @@ inherit go-module systemd git-r3
 
 DESCRIPTION="Prometheus exporter for PHP-FPM metrics"
 #GH_A="blablacar"
-HOMEPAGE="https://github.com/vmercierfr/phpfpm-prometheus-exporter"
-EGIT_REPO_URI="https://github.com/vmercierfr/phpfpm-prometheus-exporter"
+HOMEPAGE="https://github.com/blablacar/phpfpm-prometheus-exporter"
+EGIT_REPO_URI="https://github.com/blablacar/phpfpm-prometheus-exporter"
 LICENSE="Apache-2.0"
 SLOT="0"
 

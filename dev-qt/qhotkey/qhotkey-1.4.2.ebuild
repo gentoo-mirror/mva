@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,7 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="A global shortcut/hotkey library for desktop Qt applications"
-HOMEPAGE="https://skycoder42.github.io/QHotkey"
+HOMEPAGE="https://github.com/skycoder42/QHotkey"
 
 MY_PN="QHotkey"
 

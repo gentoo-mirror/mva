@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -14,7 +14,6 @@ EGIT_MIN_CLONE_TYPE="single"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS=""
 
 IUSE="gcrypt gui +legacy +lzo +lz4 +ncurses +readline systemd tools uml vde upnp +zlib"
 

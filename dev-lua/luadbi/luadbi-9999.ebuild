@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,7 @@ LUA_COMPAT=( lua{5-{1..4},jit} )
 inherit lua git-r3 toolchain-funcs
 
 DESCRIPTION="DBI module for Lua"
-HOMEPAGE="https://code.google.com/p/luadbi"
+HOMEPAGE="https://code.google.com/archive/p/luadbi"
 EGIT_REPO_URI="https://github.com/mwild1/luadbi"
 
 LICENSE="MIT"

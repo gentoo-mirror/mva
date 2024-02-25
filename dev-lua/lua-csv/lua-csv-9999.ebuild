@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,7 +15,6 @@ LICENSE="MIT"
 SLOT="0"
 REQUIRED_USE="${LUA_REQUIRED_USE}"
 RDEPEND="${LUA_DEPS}"
-DEPEND="${DEPEND}"
 
 each_lua_install() {
 	insinto "$(lua_get_lmod_dir)"

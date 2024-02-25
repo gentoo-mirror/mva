@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{8..12} )
 inherit wrapper git-r3 python-r1
 
 DESCRIPTION="Chromium scripts to manage interaction with dependencies"
-HOMEPAGE="https://dev.chromium.org/developers/how-tos/install-depot-tools"
+HOMEPAGE="https://www.chromium.org/developers/how-tos/install-depot-tools/"
 EGIT_REPO_URI="https://chromium.googlesource.com/chromium/tools/depot_tools.git"
 LICENSE="GPL-2"
 SLOT="0"

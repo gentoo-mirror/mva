@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,8 +6,7 @@ EAPI=8
 inherit autotools multilib-minimal git-r3
 
 DESCRIPTION="Barcode data matrix reading and writing library"
-HOMEPAGE="http://www.libdmtx.org/"
-SRC_URI=""
+HOMEPAGE="https://github.com/dmtx/libdmtx/"
 
 EGIT_REPO_URI="https://github.com/dmtx/libdmtx"
 

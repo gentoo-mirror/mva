@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,8 +8,8 @@ LUA_COMPAT=( luajit )
 inherit lua git-r3
 
 DESCRIPTION="fast, low-memory-use image processing for luajit"
-HOMEPAGE="https://github.com/jcupitt/lua-vips"
-EGIT_REPO_URI="https://github.com/jcupitt/lua-vips"
+HOMEPAGE="https://github.com/libvips/lua-vips"
+EGIT_REPO_URI="https://github.com/libvips/lua-vips"
 
 LICENSE="MIT"
 SLOT="0"

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,8 +11,6 @@ EGIT_REPO_URI="https://github.com/Kaffeine/telegram-qt.git"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
-KEYWORDS=""
-IUSE=""
 
 RDEPEND="
 		dev-qt/qtcore:5

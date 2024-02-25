@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,8 +9,8 @@ AUTOTOOLS_AUTO_DEPEND=no
 inherit systemd autotools toolchain-funcs flag-o-matic git-r3
 
 DESCRIPTION="Linux kernel (2.4+) firewall, NAT and packet mangling tools"
-HOMEPAGE="http://www.netfilter.org/projects/iptables/"
-EGIT_REPO_URI="git://git.netfilter.org/iptables"
+HOMEPAGE="https://netfilter.org/projects/iptables/"
+EGIT_REPO_URI="https://git.netfilter.org/iptables"
 
 LICENSE="GPL-2"
 # Subslot tracks libxtables as that's the one other packages generally link

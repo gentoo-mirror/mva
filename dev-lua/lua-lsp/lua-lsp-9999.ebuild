@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -13,10 +13,11 @@ EGIT_REPO_URI="https://github.com/Alloyed/lua-lsp"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
 IUSE="+lint +format"
 
-RDEPEND="${RDEPEND}
+RDEPEND="
+	${LUA_DEPS}
+	${RDEPEND}
 	lint? ( dev-lua/luacheck )
 	format? ( dev-lua/luaformatter )
 	dev-lua/dkjson

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,7 @@ EAPI=8
 inherit git-r3
 
 DESCRIPTION="Whatsapp plugin for libpurple (Pidgin)"
-HOMEPAGE="https://davidgf.net/page/39/"
+HOMEPAGE="https://www.davidgf.net/2013/09/15/whatsapp_purple/index.html"
 
 LICENSE="GPL-2"
 SLOT="0"

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,8 +8,8 @@ LUA_COMPAT=( lua{5-{1..4},jit} )
 inherit lua git-r3
 
 DESCRIPTION="Libraries for input handling, functional programming and OS path management."
-HOMEPAGE="https://github.com/stevedonovan/Penlight"
-EGIT_REPO_URI="https://github.com/stevedonovan/Penlight"
+HOMEPAGE="https://github.com/lunarmodules/Penlight"
+EGIT_REPO_URI="https://github.com/lunarmodules/Penlight"
 
 LICENSE="MIT"
 SLOT="0"

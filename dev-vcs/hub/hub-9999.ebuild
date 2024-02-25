@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,13 +6,13 @@ EAPI=8
 inherit bash-completion-r1 go-module git-r3
 
 DESCRIPTION="Command-line wrapper for git that makes you better at GitHub"
-HOMEPAGE="https://github.com/github/hub"
+HOMEPAGE="https://github.com/mislav/hub"
 
 LICENSE="MIT"
 SLOT="0"
 
 SRC_URI="${EGO_SUM_SRC_URI}"
-EGIT_REPO_URI="https://github.com/github/hub"
+EGIT_REPO_URI="https://github.com/mislav/hub"
 
 BDEPEND="sys-apps/groff"
 RDEPEND=">=dev-vcs/git-1.7.3"

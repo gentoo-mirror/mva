@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,7 +15,6 @@ LICENSE="MIT"
 SLOT="0"
 IUSE="jpeg png examples"
 
-REQUIRED_USE="${LUA_REQUIRED_USE}"
 RDEPEND="
 	${LUA_DEPS}
 	dev-lua/lua-gd[${LUA_USEDEP}]
@@ -23,7 +22,10 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 
-REQUIRED_USE="|| ( jpeg png )"
+REQUIRED_USE="
+	${LUA_REQUIRED_USE}
+	|| ( jpeg png )
+"
 
 src_compile() { :; }
 
