@@ -12,5 +12,5 @@ RDEPEND=virtual/jre:* >=dev-java/java-config-2.2.0-r3
 RESTRICT=network-sandbox
 SLOT=8.6.0
 SRC_URI=https://github.com/gradle/gradle/archive/refs/tags/v8.6.0.tar.gz -> gradle-8.6.0.tar.gz
-_eclasses_=java-utils-2	78c5b72c402cd1341461475b24a7c1f4	java-pkg-2	b6d755b4f6afabfd933932be28b46368	gradle	2d31b772e6d226355d010b2d777af00b
+_eclasses_=java-utils-2	09d793abe112f655cd781e4467a6fc10	java-pkg-2	b6d755b4f6afabfd933932be28b46368	gradle	2d31b772e6d226355d010b2d777af00b
 _md5_=181037b28a09cb7f3bce01747d050466
