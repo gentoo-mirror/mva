@@ -1,6 +1,6 @@
-BDEPEND=|| ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 ) test? ( >=virtual/perl-Test-Simple-1 ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] test? ( >=virtual/perl-Test-Simple-1 ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=acct-user/git-0-r4[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page dev-perl/Config-Tiny dev-perl/Time-Moment virtual/perl-Module-CoreList || ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 )
+DEPEND=>=acct-user/git-0-r4[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page dev-perl/Config-Tiny dev-perl/Time-Moment virtual/perl-Module-CoreList >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=]
 DESCRIPTION=Github clone. you can install Github system into your unix/linux machine.
 EAPI=8
 HOMEPAGE=https://github.com/yuki-kimoto/gitprep/
@@ -8,8 +8,8 @@ INHERIT=perl-module git-r3
 IUSE=perl_features_debug perl_features_ithreads perl_features_quadmath test
 LICENSE=|| ( Artistic GPL-1+ )
 PROPERTIES=live
-RDEPEND=>=acct-user/git-0-r4[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page dev-perl/Config-Tiny dev-perl/Time-Moment virtual/perl-Module-CoreList || ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 ) dev-lang/perl:=
+RDEPEND=>=acct-user/git-0-r4[gitprep] acct-group/git dev-perl/Mojolicious-Plugin-INIConfig dev-perl/Mojolicious dev-perl/Mojolicious-Plugin-AutoRoute dev-perl/Mojolicious-Plugin-BasicAuth dev-perl/Mojolicious-Plugin-DBViewer dev-perl/DBIx-Connector dev-perl/DBIx-Custom dev-perl/Text-Markdown-Hoedown dev-perl/Data-Page dev-perl/Config-Tiny dev-perl/Time-Moment virtual/perl-Module-CoreList >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] dev-lang/perl:=
 RESTRICT=test !test? ( test )
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	07f7f317d867e5d5aa30fdeb6e873138	git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	25ca2ff8e7971cb7f817f0bda4be696d	git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=4cd8dee37b95604aba339d886d318b7a
