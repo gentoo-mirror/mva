@@ -283,7 +283,7 @@ media-fonts/fontawesome-extension 0.0.3 9999: Set of icons representing programm
 media-fonts/iosevka 9999: Open source coding font
 media-fonts/monofur 20160520: Monofur, a good fixed width font for development
 media-fonts/monoid 0.61: Open source coding font
-media-fonts/noto-emoji-apple 9999: Google Noto Emoji Fonts replaced with Apple branded emoji
+media-fonts/noto-emoji 9999: Google Noto Emoji Fonts replaced with Apple branded emoji
 media-fonts/twemoji-color-font 14.0.2: A color and B&W emoji SVG-in-OT font with ZWJ, skin tone mods and country flags
 media-gfx/dmtx-utils 9999: Tools for reading and writing Data Matrix barcodes
 media-gfx/figma-linux-bin 0.10.0: Unofficial desktop application for linux
@@ -315,7 +315,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 4.12.2 9999: Official desktop client for Telegram
+net-im/telegram-desktop 9999: Official desktop client for Telegram
 net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
 net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
@@ -364,6 +364,7 @@ sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/ctop 9999: Top-like interface for container-metrics
 sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
+virtual/noto-emoji-apple 0: Noto Emoji (patched for Apple emojis) virtual package
 www-apps/ctpp2 2.9.0: Tool, separating data processing (business logic) from data presentation
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
@@ -374,8 +375,8 @@ www-plugins/kontur-diagnostic-plugin 001353: System diagnostic browser plugin fo
 www-plugins/kontur-plugin 4.0.6.244: Cryptographic browser plugin for SKB Kontur services
 www-plugins/rutoken-plugin 4.7.0: Browser plugin to work with USB smartcards made under RuToken brand
 www-servers/apache-headers 2.4.58: Header files from the Apache Web Server
-www-servers/nginx 1.25.4-r10: Robust, small and high performance http and reverse proxy server
-www-servers/nginx-unit 1.31.1-r10 9999: Dynamic web and application server
+www-servers/nginx 1.27.0-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx-unit 1.32.1-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
 x11-plugins/purple-facebook 99999999: Facebook plugin for libpurple (Pidgin)
