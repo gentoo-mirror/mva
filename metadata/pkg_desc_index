@@ -60,6 +60,7 @@ dev-db/tora 9999: TOra - Toolkit For Oracle
 dev-embedded/lm4tools 9999: Provides lm4flash and lmicdiusb for developing on the TI Stellaris Launchpad
 dev-go/gopls 9999: official go language server
 dev-java/commons-text 1.11.0: Apache Commons Text is a library focused on algorithms working on strings
+dev-java/failureaccess 32.1.3: Guava's InternalFutureFailureAccess and InternalFutures classes.
 dev-java/gradle 8.6.0: A project automation and build tool with a Groovy based DSL
 dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
