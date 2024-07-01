@@ -1,8 +1,8 @@
+# broken (at least for me. Use at your own risk)
+=www-plugins/kontur-plugin-4.2.2.488
+
 # Not ready (broken buildsystem)
 dev-db/proxysql
 
 # Not ready yet
 net-im/keywee
-
-# deprecated buildsystem
-dev-util/cmake-language-server
