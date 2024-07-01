@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Noto Emoji (patched for Apple emojis) virtual package
-EAPI=8
-KEYWORDS=amd64 x86
-RDEPEND=media-fonts/noto-emoji[apple-icons]
-SLOT=0
-_md5_=374940484a58dd6cf59ce49ce329892a

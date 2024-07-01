@@ -44,7 +44,7 @@ app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX s
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 16.0.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties
-app-vim/nginx-syntax 1.25.4: vim plugin: Nginx configuration files syntax
+app-vim/nginx-syntax 1.27.0: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
 dev-cpp/asio 9999: Asynchronous Network Library
@@ -250,7 +250,7 @@ dev-qt/qmltermwidget 0.2.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.4: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.4.6: A Ruby script that colorizes the ls output with color and icons
 dev-ruby/manpages 0.6.1: Manpages wrapper for rubygems
-dev-util/android-ndk 26b: Open Handset Alliance's Android NDK (Native Dev Kit)
+dev-util/android-ndk 26d: Open Handset Alliance's Android NDK (Native Dev Kit)
 dev-util/apktool 2.8.1 9999: A tool for reverse engineering 3rd party, closed, binary Android apps
 dev-util/cmakelang 0.6.13: Quality Assurance (QA) tools for cmake (formerly cmake_format)
 dev-util/depot_tools 9999: Chromium scripts to manage interaction with dependencies
@@ -291,7 +291,7 @@ media-gfx/figma-linux-bin 0.10.0: Unofficial desktop application for linux
 media-gfx/inkscape-table 1.0: Table support for inkscape
 media-gfx/otfcc 0.7.0 9999: Parses & writes SFNT structures.
 media-gfx/sfnt2woff 1.0: Very small utility to convert font files to WOFF
-media-gfx/sweethome3d-bin 7.2: Sweet Home 3D is a free interior design application.
+media-gfx/sweethome3d-bin 7.4: Sweet Home 3D is a free interior design application.
 media-libs/cgif 0.3.0 9999: GIF encoder written in C
 media-libs/hal-flash 0.3.3: A libhal stub for flashplayer/adobecp, forwarding specific API parts to UDisks
 media-libs/libdmtx 9999: Barcode data matrix reading and writing library
@@ -317,8 +317,6 @@ net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
 net-im/telegram-desktop 9999: Official desktop client for Telegram
-net-im/telepathy-haze 0.8.1: Telepathy connection manager providing libpurple supported protocols
-net-im/telepathy-morse 9999: Telegram connection manager for Telepathy.
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
@@ -361,11 +359,10 @@ sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
 sys-fs/mergerfs 9999: Another (FUSE based) union filesystem
 sys-fs/x11fs 9999: Self-syncing tree-merging file system based on FUSE
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
-sys-kernel/ath10k-firmware 99999999: Atheros ath10k firmware files
 sys-process/ctop 9999: Top-like interface for container-metrics
 sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
-virtual/noto-emoji-apple 0: Noto Emoji (patched for Apple emojis) virtual package
+virtual/noto-emoji-apple 9999: Noto Emoji (patched for Apple emojis) virtual package
 www-apps/ctpp2 2.9.0: Tool, separating data processing (business logic) from data presentation
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
@@ -373,9 +370,9 @@ www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
 www-plugins/cprocsp-plugin 2.0.14892: CryptoPro Browser Plugin (with additional bundled stuff)
 www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
 www-plugins/kontur-diagnostic-plugin 001353: System diagnostic browser plugin for SKB Kontur services
-www-plugins/kontur-plugin 4.0.6.244: Cryptographic browser plugin for SKB Kontur services
+www-plugins/kontur-plugin 4.0.6.244 4.2.2.488: Cryptographic browser plugin for SKB Kontur services
 www-plugins/rutoken-plugin 4.7.0: Browser plugin to work with USB smartcards made under RuToken brand
-www-servers/apache-headers 2.4.58: Header files from the Apache Web Server
+www-servers/apache-headers 2.4.59: Header files from the Apache Web Server
 www-servers/nginx 1.27.0-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.32.1-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder

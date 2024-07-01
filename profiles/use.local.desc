@@ -82,6 +82,7 @@ media-fonts/font-logos:webfonts - Build web versions (woff) of the font (and it'
 media-fonts/fontawesome-extension:webfonts - Install so called "web" fonts (woff{,2}, eot)
 media-fonts/iosevka:web - Build (9999) or install (non-live) web versions (woff) of the font (and it's variants)
 media-fonts/monoid:monoisome - Enable Monoisome font
+media-fonts/noto-emoji:apple-icons - Install patched version with emoji glyphs replaced by Apple Emojis
 media-gfx/sweethome3d-bin:gtk3 - Use GTK3 interface bindings
 media-libs/libspng:miniz - Use dev-libs/miniz as compression library
 media-libs/libspng:optimizations - Various optimizations
@@ -237,7 +238,6 @@ net-vpn/tinc:uml - Enable support for User Mode Linux Sockets
 net-vpn/tinc:vde - Enable Virtual Distributed Ethernet (VDE) based networking
 net-vpn/toxvpn:zeromq - Use net-libs/zeromq for queues management
 sys-fs/diod:rdma - RDMA support
-sys-kernel/ath10k-firmware:savedconfig - Allows individual selection of firmware files
 sys-process/systemd-cron:cron-boot - Include support for the boot timer.
 sys-process/systemd-cron:etc-crontab-systemd - Use dedicated /etc/crontab-systemd instead of parsing /etc/crontab
 sys-process/systemd-cron:minutely - Support /etc/cron.minutely
