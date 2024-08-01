@@ -11,6 +11,6 @@ LICENSE=Unlicense
 RDEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/tg_owt-0_pre20230401:= ) dev-libs/openssl:= media-libs/opus pulseaudio? ( !pipewire? ( media-sound/pulseaudio-daemon ) ) pipewire? ( !media-sound/pulseaudio-daemon media-video/pipewire[sound-server(-)] )
 REQUIRED_USE=|| ( dsp alsa pulseaudio pipewire )
 SLOT=0
-SRC_URI=https://github.com/telegramdesktop/libtgvoip/archive/06983098037603a4b2e5f7a8ba665da32857a631.tar.gz -> libtgvoip-2.4.5_pre20231016.tar.gz
+SRC_URI=https://github.com/telegramdesktop/libtgvoip/archive/2d2592860478e60d972b96e67ee034b8a71bb57a.tar.gz -> libtgvoip-2.4.5_pre20240706.tar.gz
 _eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	d12ccbad07b44642a75ac97a3334d8e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=61789c89b72085de17c946ede8d65c9e
+_md5_=0faa4d8374954475d058543fa162a723

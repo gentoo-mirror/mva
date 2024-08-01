@@ -244,6 +244,7 @@ sys-process/systemd-cron:minutely - Support /etc/cron.minutely
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 www-apps/ctpp2:md5 - Add support for md5 hashing function
+www-client/chromium-gost:ffmpeg-codecs - Use media-video/ffmpeg-chromium for multi-threaded ffmpeg codecs for the HTML5 <audio> and <video> tags
 www-servers/nginx:aio - Enable aio support
 www-servers/nginx:busy-upstream - Apply the "Busy Upstream" Patch (required for some modules)
 www-servers/nginx:debug - Enable the debugging logging
