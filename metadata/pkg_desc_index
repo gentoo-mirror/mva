@@ -316,7 +316,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 5.2.6 9999: Official desktop client for Telegram
+net-im/telegram-desktop 5.3.0 9999: Official desktop client for Telegram
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
