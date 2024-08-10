@@ -12,5 +12,5 @@ RDEPEND=acct-group/prosody acct-user/prosody lua_single_target_luajit? ( dev-lua
 REQUIRED_USE=^^ ( icu idn ) ^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua-single	86d497a20c93c7ce83af442f627515c1	systemd	c8b03e8df84486aa991d4396686e8942	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f	mercurial	e6a56a378cb9241482284b8b897c7a39
+_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua-single	86d497a20c93c7ce83af442f627515c1	systemd	c8b03e8df84486aa991d4396686e8942	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f	mercurial	e6a56a378cb9241482284b8b897c7a39
 _md5_=cc4ad9e332b79985dd01d7bfbd492508
