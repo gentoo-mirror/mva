@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=>=games-engines/love-0.8.0:*
 SLOT=0
 SRC_URI=https://stabyourself.net/dl.php?file=orthorobot/orthorobot-source.zip -> orthorobot-0.zip
-_eclasses_=wrapper	4a1902f969e5718126434fc35f3a0d9c	desktop	021728fdc1b03b36357dbc89489e0f0d
-_md5_=37faf0af84a09272601d2d91ba4b0bf5
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	wrapper	4a1902f969e5718126434fc35f3a0d9c
+_md5_=0ec00c6cad20d39013216718ca6e84d3

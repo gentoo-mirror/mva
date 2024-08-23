@@ -58,6 +58,9 @@ dev-lua/pgmoon:moonscript - Install moonscript source files
 dev-lua/pgmoon:openresty - Install additional tooling to work with OpenResty
 dev-lua/resty-msgpack:messagepack-compat - Install MessagePack wrapper
 dev-lua/resty-string:naive-random - Enable Naive random implementation
+dev-lua/tdlua:system-libtgvoip - Link against media-libs/libtgvoip instead of compiling bundled version
+dev-lua/tdlua:system-tdlib - Link against net-libs/tdlib instead of compiling bundled version
+dev-lua/tdlua:voip - Enable VoIP functionality (calls)
 dev-lua/tekui:cache - Enable "cache" feature
 dev-lua/tekui:fileno - Enable "fileno" feature
 dev-lua/tekui:gradient - Enable "gradient" feature
@@ -100,26 +103,27 @@ media-libs/rlottie:threads - Support threading
 media-libs/tg_owt:X - Support functionality that requires Xorg server (like screen recording)
 media-libs/tg_owt:pipewire - Add media-video/pipewire support
 media-libs/vips:analyze - Enable support for analyze feature
-media-libs/vips:cfitsio - Enable support for reading FITS images with sci-libs/cfitsio
+media-libs/vips:archive - Enable support for app-arch/libarchive
 media-libs/vips:cgif - Enable support for media-libs/cgif
 media-libs/vips:deprecated - Build deprecated components
-media-libs/vips:doxygen - Build C++ documentation
-media-libs/vips:gsf - Enable support for gnome-extra/libgsf
+media-libs/vips:doc - Build C++ documentation
+media-libs/vips:fits - Enable support for reading FITS images with sci-libs/cfitsio
 media-libs/vips:heif - Enable support for media-libs/libheif
+media-libs/vips:highway - Enable support for dev-cpp/highway
 media-libs/vips:imagequant - Enable support for media-gfx/libimagequant
 media-libs/vips:jpeg-xl - Enable support for JPEG XL files with media-libs/libjxl
+media-libs/vips:jpeg2k - Enable support for jpeg2k using media-libs/openjpeg
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
 media-libs/vips:nifti - Enable support for media-libs/nifti
 media-libs/vips:nsgif - Enable support for media-libs/libnsgif
-media-libs/vips:openjpeg - Enable support for media-libs/openjpeg
 media-libs/vips:openslide - Enable support for reading images from OpenSlide files through media-libs/openslide (currently conflicts with jpeg-turbo)
 media-libs/vips:pandoc - Rebuild GTK documentation templates from markdown sources using pandoc
-media-libs/vips:pangocairo - Enable support for x11-libs/pango and x11-libs/cairo
-media-libs/vips:poppler - Enable support for app-text/poppler
+media-libs/vips:pango - Enable support for x11-libs/pango and x11-libs/cairo
+media-libs/vips:pdf - Enable support for PDF using app-text/poppler
 media-libs/vips:ppm - Enable support for PPM files
 media-libs/vips:radiance - Enable support for radiance feature
-media-libs/vips:rsvg - Enable support for gnome-base/librsvg
 media-libs/vips:spng - Enable support for media-libs/libspng
+media-libs/vips:svg - Enable support for SVG using gnome-base/librsvg
 media-sound/mellowplayer:widevine - Install the Widevine DRM library
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:ipq - Support for IPQ
@@ -241,6 +245,7 @@ sys-fs/diod:rdma - RDMA support
 sys-process/systemd-cron:cron-boot - Include support for the boot timer.
 sys-process/systemd-cron:etc-crontab-systemd - Use dedicated /etc/crontab-systemd instead of parsing /etc/crontab
 sys-process/systemd-cron:minutely - Support /etc/cron.minutely
+sys-process/systemd-cron:runparts - Use traditional run-parts instead of creating jobs for each cron.* entry
 sys-process/systemd-cron:setgid - Compile setgid C helper for crontab. Needs GCC or Clang.
 sys-process/systemd-cron:yearly - Support /etc/cron.yearly
 www-apps/ctpp2:md5 - Add support for md5 hashing function

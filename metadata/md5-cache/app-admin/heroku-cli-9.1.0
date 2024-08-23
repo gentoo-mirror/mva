@@ -8,5 +8,5 @@ LICENSE=ISC
 RDEPEND=dev-vcs/git
 RESTRICT=network-sandbox strip
 SLOT=0
-SRC_URI=https://registry.npmjs.org/heroku/-/heroku-7.67.1.tgz -> heroku-cli-7.67.1.tar.gz
-_md5_=511770bb777c02aca0191f3a6c1b9799
+SRC_URI=https://registry.npmjs.org/heroku/-/heroku-9.1.0.tgz -> heroku-cli-9.1.0.tar.gz
+_md5_=bcd285874c074e0cc9eb101d98078c70

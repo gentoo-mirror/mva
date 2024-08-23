@@ -11,4 +11,4 @@ RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=https://cdn.rawgit.com/larsenwork/monoid/2db2d289f4e61010dd3f44e09918d9bb32fb96fd/Monoid.zip monoisome? ( https://github.com/larsenwork/monoid/raw/0673c8d6728df093faee9f183b6dfa62939df8c0/Monoisome/Monoisome-Regular.ttf -> Monoisome-Regular-0673c8d6728df093faee9f183b6dfa62939df8c0.ttf )
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=045d9284c412241c616002ecb6024f01
+_md5_=990a121fc36e3929acee638915850c86

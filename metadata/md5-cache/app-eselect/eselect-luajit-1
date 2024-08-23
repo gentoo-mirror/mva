@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=Manages LuaJIT symlinks
-EAPI=8
-HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
-KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux
-LICENSE=GPL-2
-RDEPEND=>=app-admin/eselect-1.2.3
-SLOT=0
-_md5_=1a73de9bb4cfd59bf86b00cf2d00fa7a

@@ -1,4 +1,4 @@
-DEFINED_PHASES=install nofetch postinst prepare unpack
+DEFINED_PHASES=install postinst prepare setup unpack
 DEPEND=dev-libs/libxml2:2 sys-apps/pcsc-lite:0 virtual/libusb:0
 DESCRIPTION=Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
 EAPI=8
@@ -7,8 +7,8 @@ INHERIT=unpacker patches
 KEYWORDS=~amd64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-libs/libxml2:2 sys-apps/pcsc-lite:0 virtual/libusb:0
-RESTRICT=fetch mirror strip
+RESTRICT=mirror strip
 SLOT=0
-SRC_URI=amd64? ( gosuslugi-plugin-3.1.1.0_amd64.deb ) x86? ( gosuslugi-plugin-3.1.1.0_x86.deb )
+SRC_URI=amd64? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-x86_64.deb -> gosuslugi-plugin-3.1.1.0_amd64.deb ) x86? ( https://ds-plugin.gosuslugi.ru/plugin/upload/assets/distrib/IFCPlugin-i386.deb -> gosuslugi-plugin-3.1.1.0_x86.deb )
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	fb4b84181244b3b9990fa0bf40232dd2	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=978ea40a75240ec68c5b3dd882cd1c65
+_md5_=93eb3d7e0652dee22e50f285d3fa835d

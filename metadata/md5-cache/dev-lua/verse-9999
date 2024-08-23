@@ -1,4 +1,4 @@
-BDEPEND=dev-lua/squish dev-vcs/mercurial
+BDEPEND=dev-vcs/mercurial
 DEFINED_PHASES=compile configure install prepare unpack
 DEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) dev-lua/luasocket[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?] dev-lua/luaexpat[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?] dev-lua/luafilesystem[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?] dev-lua/LuaBitOp[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?]
 DESCRIPTION=XMPP client library written in Lua.
@@ -13,4 +13,4 @@ REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_t
 RESTRICT=network-sandbox
 SLOT=0
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	1f91de68f9a26642216e45d7765fd4fb	lua	f888faf7a77304e3e6c5c386ae0c34d7	mercurial	e6a56a378cb9241482284b8b897c7a39
-_md5_=a66a44c7e52f94e211877247115cd6b3
+_md5_=b81d5a53c77ebab8234fd1c3b75357ac

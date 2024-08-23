@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://web.archive.org/web/20220517220033/https://myamazfit.ru/threads/parser-shriftov-amazfit-bip.96/
 INHERIT=python-r1
 IUSE=python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 python_targets_python3_13
-KEYWORDS=~amd64 ~arm ~x86
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=python_targets_pypy3? ( dev-python/pypy3:= ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) dev-python/pillow
 REQUIRED_USE=|| ( python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 )
 SLOT=0
 SRC_URI=https://gist.githubusercontent.com/raw/7ffbab5b23b35207525a7a05295cf67e -> bip_font_tool-1.1.py
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	6881b056477c23167d9a6b33e146374e	python-r1	c1fc393cd1e72f093b4838e29d27918c
-_md5_=63059e3a4ed2990336948192a816acdd
+_md5_=93c520b92dc0b5fca1212f4ae0a34436

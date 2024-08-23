@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://help.kontur.ru/plugin/dist/kontur.plugin_amd64.deb -> kontur-plugin-4.0.6.244.deb )
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	fb4b84181244b3b9990fa0bf40232dd2	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
-_md5_=1df18d7469381685f43abf3e1a8a903b
+_md5_=c088af4a983c5c343046f6f945736996

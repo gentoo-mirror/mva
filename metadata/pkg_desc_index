@@ -5,8 +5,8 @@ acct-user/sydent 0: User for net-im/sydent
 acct-user/uhub 0: System user: uhub
 app-admin/awscli 9999: CLI interface for AWS
 app-admin/cpulimit 9999: Limits the CPU usage of a process
-app-admin/heroku-cli 7.67.1: A tool for creating and managing Heroku apps from the command line
-app-admin/wp-cli 2.7.1: The command line interface for WordPress
+app-admin/heroku-cli 9.1.0: A tool for creating and managing Heroku apps from the command line
+app-admin/wp-cli 2.11.0: The command line interface for WordPress
 app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-crypt/argon2 20190702-r10 99999999: The password hash Argon2, winner of PHC
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
@@ -16,9 +16,6 @@ app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP
 app-crypt/keybase 9999: Client for keybase.io
 app-crypt/tcplay 3.3: Free and simple TrueCrypt Implementation based on dm-crypt
 app-emulation/qt-virt-manager 9999: A GUI application for managing virtual machines
-app-eselect/eselect-gradle 0.1: Manage multiple Gradle versions on one system
-app-eselect/eselect-lua 2: Lua eselect module
-app-eselect/eselect-luajit 1: Manages LuaJIT symlinks
 app-forensics/fatback 1.3: Tool to undelete files from FAT file systems
 app-forensics/tcpxtract 1.0.1: Extracts files from network packet captures
 app-metrics/haproxy_exporter 9999: Prometheus exporter for HAProxy metrics
@@ -31,8 +28,8 @@ app-misc/2gis-data 20221227: Data-files for ~app-misc/2gis-3 (wine-version)
 app-misc/2gis-plugins 0-r9999: Plugins for 2gis
 app-misc/amazfitbip-font-tool 1.1: Amazfit Bip Font Parser (& Packer)
 app-misc/amazfitbiptools-bin 1.0.3.1: Amazfit Bip Tools (for watchface/firmware cooking)
-app-misc/asciinema 2.3.0 9999: Command line recorder for asciinema.org service
-app-misc/evemu 2.7.0: tools and bindings for kernel evdev device emulation, data capture, and replay
+app-misc/asciinema 9999: Command line recorder for asciinema.org service
+app-misc/evemu 2.7.0_p20230829: tools and bindings for kernel evdev device emulation, data capture, and replay
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jq 9999: Command-line JSON processor
 app-misc/psvimgtools 9999: Tools that let you decrypt, extract, and repack PS Vita CMA backup images
@@ -61,10 +58,10 @@ dev-embedded/lm4tools 9999: Provides lm4flash and lmicdiusb for developing on th
 dev-go/gopls 9999: official go language server
 dev-java/commons-text 1.11.0: Apache Commons Text is a library focused on algorithms working on strings
 dev-java/failureaccess 32.1.3: Guava's InternalFutureFailureAccess and InternalFutures classes.
-dev-java/gradle 8.6.0: A project automation and build tool with a Groovy based DSL
+dev-java/gradle 8.10.0: A project automation and build tool with a Groovy based DSL
 dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
-dev-lang/luajit 2.1.9999: Just-In-Time Compiler for the Lua programming language
+dev-lang/luajit 2.1.9999999999: Just-In-Time Compiler for the Lua programming language
 dev-libs/ada 9999: WHATWG-compliant and fast URL parser written in modern C++
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
@@ -234,6 +231,7 @@ dev-perl/Object-Simple 3.19: Simplest class builder, Mojo::Base porting, fast an
 dev-perl/Text-Markdown-Hoedown 1.03: Binding library for hoedown
 dev-perl/Validator-Custom 1.0201: HTML form Validation, simple and good flexibility
 dev-php/msgpack-php 2.2.0 9999: API for communicating with MessagePack serialization
+dev-python/debugpy 1.8.1: An implementation of the Debug Adapter Protocol for Python
 dev-python/intervaltree 9999: Editable interval tree data structure for Python 2 and 3
 dev-python/lsprotocol 2023.0.0_alpha1: Python implementation of the Language Server Protocol
 dev-python/matrix-synapse-ldap3 0.2.2: An LDAP3 auth provider for Synapse
@@ -303,7 +301,7 @@ media-libs/nifti 3.0.1 9999: C libraries for NIFTI support
 media-libs/openslide 3.4.1 9999: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/tg_owt 0_pre20240731 9999: WebRTC (video) library (fork) for Telegram clients
-media-libs/vips 8.13.3 9999: VIPS Image Processing Library
+media-libs/vips 9999: VIPS Image Processing Library
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop

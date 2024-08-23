@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install setup unpack
 DESCRIPTION=A LuaDoc-compatible documentation generation system
 EAPI=8
 HOMEPAGE=https://github.com/lunarmodules/ldoc
-INHERIT=lua git-r3
-IUSE=doc lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4
+INHERIT=lua-single git-r3
+IUSE=doc lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) lua_targets_lua5-1? ( dev-lang/lua:5.1 ) lua_targets_lua5-3? ( dev-lang/lua:5.3 ) lua_targets_lua5-4? ( dev-lang/lua:5.4 ) dev-lua/penlight[lua_targets_luajit(-)?,lua_targets_lua5-1(-)?,lua_targets_lua5-3(-)?,lua_targets_lua5-4(-)?]
-REQUIRED_USE=|| ( lua_targets_luajit lua_targets_lua5-1 lua_targets_lua5-3 lua_targets_lua5-4 )
+RDEPEND=lua_single_target_luajit? ( dev-lang/luajit:= ) lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) lua_single_target_lua5-4? ( dev-lang/lua:5.4 ) lua_single_target_luajit? ( dev-lua/penlight[lua_targets_luajit(-)] ) lua_single_target_lua5-1? ( dev-lua/penlight[lua_targets_lua5-1(-)] ) lua_single_target_lua5-3? ( dev-lua/penlight[lua_targets_lua5-3(-)] ) lua_single_target_lua5-4? ( dev-lua/penlight[lua_targets_lua5-4(-)] )
+REQUIRED_USE=^^ ( lua_single_target_luajit lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4 )
 SLOT=0
-_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	1f91de68f9a26642216e45d7765fd4fb	lua	f888faf7a77304e3e6c5c386ae0c34d7	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=486cb4e51991058fb317e84ed72bad51
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	1f91de68f9a26642216e45d7765fd4fb	lua-single	3ae43cac1bf8275a847245b9a475a54e	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=df21ce2ae1ca491f932e8d0a71b94d4d

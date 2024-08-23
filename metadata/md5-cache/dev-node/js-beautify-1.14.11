@@ -10,4 +10,4 @@ RESTRICT=network-sandbox mirror
 SLOT=0
 SRC_URI=https://registry.npmjs.org/js-beautify/-/js-beautify-1.14.11.tgz
 _eclasses_=npmv1	c20a6f75e26097d83edc801b485cf78a
-_md5_=98f113765f2a57a7edacbf29aaa2f491
+_md5_=c45f21472e16b8fb8a73c5aa26324fce

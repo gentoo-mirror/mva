@@ -11,4 +11,4 @@ RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=https://img.dafont.com/dl/?f=eurofurence -> eurofurence-20160520.zip
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=5da399cccc7bccc379bec51878ba0520
+_md5_=d8ce0df061f7baf4fe54a21cc29bdb05
