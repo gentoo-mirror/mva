@@ -1,14 +1,14 @@
 BDEPEND=gui? ( sys-apps/yarn net-libs/nodejs ) kbfs? ( sys-fs/fuse ) >=dev-lang/go-1.20:= app-arch/unzip virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install postinst unpack
-DESCRIPTION=Client for keybase.io
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Keybase client
 EAPI=8
 HOMEPAGE=https://keybase.io/
 INHERIT=go-module systemd git-r3
 IUSE=browser gui +kbfs +system-libglvnd system-ffmpeg +system-vulkan
-LICENSE=BSD
+LICENSE=Apache-2.0 BSD BSD-2 LGPL-3 MIT MPL-2.0
 PROPERTIES=live
 RDEPEND=app-crypt/gnupg gui? ( !system-vulkan? ( media-libs/vulkan-loader ) !system-ffmpeg? ( media-video/ffmpeg ) !system-libglvnd? ( media-libs/libglvnd ) )
 RESTRICT=gui? ( network-sandbox ) strip
 SLOT=0
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	go-env	90efbc8636d2f02d9654183330e84cf7	go-module	83fd3ed1657cfc316c93d6a37018290d	systemd	c8b03e8df84486aa991d4396686e8942	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=a36b1309d14bb593536381f86f3f7228
+_md5_=421bd3c0c4fe82c82f2e55e734980a5c
