@@ -271,8 +271,8 @@ games-arcade/shoothookers 0: A game prototype by Maurice (mari0 author)
 games-arcade/supermeatboy 2013.11.11: A platformer where you play as an animated cube of meat
 games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzard games
 games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
-gnustep-apps/sogo 5.8.4: Groupware server built around OpenGroupware.org and the SOPE application server
-gnustep-libs/sope 5.9.1: A set of frameworks forming a complete Web application server environment
+gnustep-apps/sogo 5.11.0: Groupware server built around OpenGroupware.org and the SOPE application server
+gnustep-libs/sope 5.11.0: A set of frameworks forming a complete Web application server environment
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode (at time of its creation)
 media-fonts/consolamono 20130127: Open Font by Wojciech Kalinowski

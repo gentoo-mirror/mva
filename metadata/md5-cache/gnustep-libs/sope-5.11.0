@@ -2,7 +2,7 @@ BDEPEND=>=gnustep-base/gnustep-make-2.0
 DEFINED_PHASES=compile configure install postinst prepare setup unpack
 DEPEND=sys-libs/zlib ldap? ( net-nds/openldap:= ) gnutls? ( net-libs/gnutls:= ) !gnutls? ( dev-libs/openssl:0= ) mysql? ( dev-db/mysql-connector-c:= ) postgres? ( dev-db/postgresql:= ) xml? ( dev-libs/libxml2:2 ) virtual/gnustep-back
 DESCRIPTION=A set of frameworks forming a complete Web application server environment
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.sogo.nu/
 INHERIT=gnustep-2 vcs-snapshot
 IUSE=gnutls ldap mysql postgres +ssl +xml debug doc
@@ -10,6 +10,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2
 RDEPEND=sys-libs/zlib ldap? ( net-nds/openldap:= ) gnutls? ( net-libs/gnutls:= ) !gnutls? ( dev-libs/openssl:0= ) mysql? ( dev-db/mysql-connector-c:= ) postgres? ( dev-db/postgresql:= ) xml? ( dev-libs/libxml2:2 ) virtual/gnustep-back
 SLOT=0
-SRC_URI=https://github.com/Alinto/sope/archive/SOPE-5.9.1.tar.gz -> sope-5.9.1.tar.gz
+SRC_URI=https://github.com/Alinto/sope/archive/SOPE-5.11.0.tar.gz -> sope-5.11.0.tar.gz
 _eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	gnustep-base	2b9571bc4b56a107f4efee592fa2f2a8	gnustep-2	cfafeebb1111f944995a3bb7ae64ce8b	vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
-_md5_=7866ce09fde25d7b3f357611f8e14eb0
+_md5_=5dddebbe582698b768d7e21873623e04
