@@ -1,15 +1,16 @@
-BDEPEND=virtual/pkgconfig X? ( x11-base/xorg-proto ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=virtual/pkgconfig X? ( x11-base/xorg-proto ) app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=>=dev-cpp/abseil-cpp-20240116.2:= dev-libs/openssl:= media-libs/libjpeg-turbo:= >=media-libs/libvpx-1.10.0:= media-libs/openh264:= media-libs/opus media-video/ffmpeg:=[opus,vpx,openh264] pipewire? ( dev-libs/glib:2 media-video/pipewire:= ) dev-libs/crc32c screencast? ( media-libs/libglvnd[X=] media-libs/mesa x11-libs/libdrm ) X? ( x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrender x11-libs/libXrandr x11-libs/libXtst )
 DESCRIPTION=WebRTC (video) library (fork) for Telegram clients
 EAPI=8
 HOMEPAGE=https://github.com/desktop-app/tg_owt
-INHERIT=cmake flag-o-matic git-r3
+INHERIT=cmake flag-o-matic
 IUSE=pipewire screencast +X
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86
 LICENSE=BSD
-PROPERTIES=live
 RDEPEND=>=dev-cpp/abseil-cpp-20240116.2:= dev-libs/openssl:= media-libs/libjpeg-turbo:= >=media-libs/libvpx-1.10.0:= media-libs/openh264:= media-libs/opus media-video/ffmpeg:=[opus,vpx,openh264] pipewire? ( dev-libs/glib:2 media-video/pipewire:= ) dev-libs/crc32c screencast? ( media-libs/libglvnd[X=] media-libs/mesa x11-libs/libdrm ) X? ( x11-libs/libX11 x11-libs/libXcomposite x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXrender x11-libs/libXrandr x11-libs/libXtst )
 REQUIRED_USE=screencast? ( pipewire )
-SLOT=0/9999
-_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	cmake	10a50dfaf728b802fcfd37f8d0da9056	git-r3	875eb471682d3e1f18da124be97dcc81
+SLOT=0/20240804
+SRC_URI=https://github.com/desktop-app/tg_owt/archive/dc17143230b5519f3c1a8da0079e00566bd4c5a8.tar.gz -> tg_owt-0_pre20240804.tar.gz https://github.com/cisco/libsrtp/archive/a566a9cfcd619e8327784aa7cff4a1276dc1e895.tar.gz -> libsrtp-a566a9cfcd619e8327784aa7cff4a1276dc1e895.tar.gz https://gitlab.com/chromiumsrc/libyuv/-/archive/04821d1e7d60845525e8db55c7bcd41ef5be9406/libyuv-04821d1e7d60845525e8db55c7bcd41ef5be9406.tar.bz2
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	cmake	10a50dfaf728b802fcfd37f8d0da9056
 _md5_=aa214381662ef4473e6d92f5f0fccee4
