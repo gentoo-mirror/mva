@@ -75,6 +75,7 @@ dev-libs/mongo-c-driver 1.22.2: Client library written in C for MongoDB
 dev-libs/mongo-cxx-driver 3.7.0: C++ Driver for MongoDB
 dev-libs/msgpack 9999: MessagePack is a binary-based efficient data interchange format
 dev-libs/olm 3.2.12 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/qhotkey 9999: A global shortcut/hotkey library for desktop Qt applications
 dev-libs/sregex 0.0.1_rc1 9999: A non-backtracking regex engine matching on data streams
 dev-lua/alt-getopt 0.8.0: Lua API for getopt similar to getopt_long(3)
 dev-lua/ansicolors 9999: A simple Lua function for printing to the console in color.
@@ -245,7 +246,6 @@ dev-python/pytox 9999: Python bindings for the Tox library
 dev-python/sortedcontainers 9999: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 dev-python/sshtunnel 0.4.0: Pure Python SSH tunnels
 dev-python/typeguard 3.0.2: Run-time type checker for Python
-dev-qt/qhotkey 1.4.2 9999: A global shortcut/hotkey library for desktop Qt applications
 dev-qt/qmltermwidget 0.2.0 9999: QML port of x11-libs/qtermwidget
 dev-ruby/clocale 0.0.4: A Ruby gem that wraps C locale functions
 dev-ruby/colorls 1.4.6: A Ruby script that colorizes the ls output with color and icons
@@ -317,7 +317,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 5.5.4 9999: Official desktop client for Telegram
+net-im/telegram-desktop 5.5.5 9999: Official desktop client for Telegram
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
