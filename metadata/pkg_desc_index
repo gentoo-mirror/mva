@@ -39,6 +39,8 @@ app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
 app-portage/eix 99999999: Search and query ebuilds
 app-shells/push 3.1-r5: A POSIX shell function to treat a variable like an array, quoting args
 app-shells/quoter 4.1-r1: Quote arguments or standard input for usage in POSIX shell by eval
+app-shells/tgpt 2.8.1 9999: AI Chatbots in terminal without needing API keys
+app-shells/tgpt-bin 2.8.1: AI Chatbots in terminal without needing API keys
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/ltex-ls 16.0.0: LSP language server for LanguageTool supporting LaTeX, Markdown, and others
 app-text/unicode 9999: A tool displaying unicode character properties

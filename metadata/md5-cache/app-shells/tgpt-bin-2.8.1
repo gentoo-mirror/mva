@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=AI Chatbots in terminal without needing API keys
+EAPI=8
+HOMEPAGE=https://github.com/aandrew-me/tgpt
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-3
+RDEPEND=!app-shells/tgpt
+SLOT=0
+SRC_URI=amd64? ( https://github.com/aandrew-me/tgpt/releases/download/v2.8.1/tgpt-linux-amd64 -> tgpt-bin-2.8.1.amd64 ) arm64? ( https://github.com/aandrew-me/tgpt/releases/download/v2.8.1/tgpt-linux-arm64 -> tgpt-bin-2.8.1.arm64 ) arm? ( https://github.com/aandrew-me/tgpt/releases/download/v2.8.1/tgpt-linux-arm -> tgpt-bin-2.8.1.arm ) x86? ( https://github.com/aandrew-me/tgpt/releases/download/v2.8.1/tgpt-linux-i386 -> tgpt-bin-2.8.1.x86 )
+_md5_=3f3318557a823f18da0cc4f43a391645
