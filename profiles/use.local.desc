@@ -5,6 +5,7 @@
 acct-user/git:gitea - Set home directory for git hosting via www-apps/gitea.
 acct-user/git:gitolite - Set home directory for git hosting via dev-vcs/gitolite or dev-vcs/gitolite-gentoo.
 acct-user/git:gitprep - Set home directory for git hosting via www-apps/gitprep.
+app-crypt/cprocsp:kc2 - Install KC2
 app-crypt/keybase:browser - Build browser native-messaging helper
 app-crypt/keybase:gui - Build Electron-based GUI app
 app-crypt/keybase:kbfs - Build KBFS FUSE mount-helper
