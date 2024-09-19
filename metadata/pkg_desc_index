@@ -12,7 +12,7 @@ app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-crypt/argon2 20190702-r10 99999999: The password hash Argon2, winner of PHC
 app-crypt/asedriveiiie-serial 3.7: ASEDriveIIIe Serial Card Reader
 app-crypt/asedriveiiie-usb 3.7: ASEDriveIIIe USB Card Reader
-app-crypt/cprocsp 5.0.12000 5.0.12900: CryptoPro Crypto Provider
+app-crypt/cprocsp 5.0.12000 5.0.12900 5.0.13000: CryptoPro Crypto Provider
 app-crypt/etoken-sac 9.1.7_p0: SafeNet (Aladdin) eTokens Middleware (PRO, NG OTP, Flash, Java)
 app-crypt/keybase 9999: Keybase client
 app-crypt/tcplay 3.3: Free and simple TrueCrypt Implementation based on dm-crypt

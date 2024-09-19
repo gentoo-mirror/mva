@@ -1,0 +1,16 @@
+BDEPEND=app-arch/rpm2targz app-alternatives/bzip2 app-arch/rpm2targz virtual/pkgconfig virtual/pkgconfig
+DEFINED_PHASES=install nofetch postinst postrm preinst pretend unpack
+DEPEND=app-accessibility/at-spi2-core dev-libs/glib dev-libs/libusb-compat media-libs/fontconfig media-libs/freetype sys-libs/pam sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libSM x11-libs/libX11 x11-libs/libXxf86vm x11-libs/pango
+DESCRIPTION=CryptoPro Crypto Provider
+EAPI=8
+HOMEPAGE=https://cryptopro.ru/products/csp/downloads
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=rpm systemd xdg udev
+IUSE=kc2
+LICENSE=Crypto-Pro
+RDEPEND=app-crypt/ccid >=dev-libs/libp11-0.4.0 dev-libs/libxml2 x86? ( dev-libs/opensc ) amd64? ( dev-libs/opensc ) media-libs/libpng:0 media-libs/fontconfig sys-apps/dbus sys-apps/lsb-release >=sys-apps/pcsc-lite-1.4.99 sys-apps/pcsc-tools virtual/libcrypt:= virtual/libusb:0 app-accessibility/at-spi2-core dev-libs/glib dev-libs/libusb-compat media-libs/fontconfig media-libs/freetype sys-libs/pam sys-libs/zlib x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:2 x11-libs/libSM x11-libs/libX11 x11-libs/libXxf86vm x11-libs/pango
+RESTRICT=bindist fetch mirror strip
+SLOT=0/5.0.13000
+SRC_URI=x86? ( cprocsp-5.0.13000_x86.tgz ) amd64? ( cprocsp-5.0.13000_amd64.tgz ) arm? ( cprocsp-5.0.13000_arm.tgz ) arm64? ( cprocsp-5.0.13000_arm64.tgz )
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	systemd	0f241b5c9f3758c3d3423df59a7f655a	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	xdg	8d7d90c01b1b1c2602dab6fc6b177097	udev	3b4170e9c327a8ed17097484a016c0c8
+_md5_=cd2585c9ace722f43830f9f5f31239dd
