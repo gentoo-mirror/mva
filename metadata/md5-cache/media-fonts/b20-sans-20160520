@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://www.dafont.com/b20-sans.font
 INHERIT=font
 IUSE=X
-KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~s390 ~sparc ~x86
 LICENSE=OFL-1.1
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=https://img.dafont.com/dl/?f=b20_sans -> b20-sans-20160520.zip
 _eclasses_=font	aa113a3df9cd0a9693a1c1ee7c34a6eb
-_md5_=d9a497d60fe43260e2ec37bd39436af9
+_md5_=ec996b3b4d5b3ba064fad8592c464ad7
