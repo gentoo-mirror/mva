@@ -10,5 +10,5 @@ RDEPEND=dev-build/make sys-libs/ncurses-compat:5[tinfo] virtual/libcrypt
 RESTRICT=bindist mirror strip installsources test
 SLOT=0
 SRC_URI=https://dl.google.com/android/repository/android-ndk-r26d-linux.zip
-_eclasses_=check-reqs	f5db0b1ec36d0899adc2b41f8c447823
+_eclasses_=check-reqs	2a9731073c152554078a9a8df8fc0f1b
 _md5_=3e1d49d91fc2101af999578f5a2c9dd4
