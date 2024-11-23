@@ -34,6 +34,7 @@ app-misc/evemu 2.7.0_p20230829: tools and bindings for kernel evdev device emula
 app-misc/iio-sensor-proxy 9999: IIO accelerometer sensor to input device proxy
 app-misc/jq 9999: Command-line JSON processor
 app-misc/psvimgtools 9999: Tools that let you decrypt, extract, and repack PS Vita CMA backup images
+app-misc/tmux 9999: Terminal multiplexer
 app-misc/yubikey-personalization 9999: YubiKey Personalization cross-platform library and tool
 app-portage/ebuild-bisect 9999: Tool for bisecting live ebuilds
 app-portage/eix 99999999: Search and query ebuilds
@@ -68,6 +69,7 @@ dev-lang/luajit 2.1.9999999999: Just-In-Time Compiler for the Lua programming la
 dev-libs/ada 9999: WHATWG-compliant and fast URL parser written in modern C++
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
+dev-libs/kunifiedpush 1.0.0 9999: UnifiedPush client components
 dev-libs/libbson 1.22.2: Library routines related to building,parsing and iterating BSON documents
 dev-libs/libdrizzle 7: Snapshot of dev-db/drizzle sources which can be built as shared library
 dev-libs/libdwarf 0.5.0: Library for extracting DWARF data from code objects
@@ -320,7 +322,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.5.2: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 5.6.0 9999: Official desktop client for Telegram
+net-im/telegram-desktop 5.8.2 9999: Official desktop client for Telegram
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.

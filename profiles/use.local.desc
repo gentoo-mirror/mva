@@ -17,6 +17,7 @@ app-misc/2gis-plugins:area - Install "Area" Plugin
 app-misc/2gis-plugins:goto - Install "Goto" Plugin
 app-misc/2gis-plugins:mapnotes - Install "Map Notes" Plugin
 app-misc/jq:oniguruma - Use dev-libs/oniguruma for regular expression support
+app-misc/tmux:utempter - Include libutempter support
 app-portage/eix:debug - Build with upstream's CXXFLAGS/LDFLAGS for debugging support; not recommended for normal use.
 app-portage/eix:dep - Make DEP=true the default which enables support for {,R,P,B}DEPEND but requires roughly double disk and memory.
 app-portage/eix:doc - Create description of the eix cache file additionally in html format
