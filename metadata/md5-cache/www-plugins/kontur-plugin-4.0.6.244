@@ -10,5 +10,5 @@ RDEPEND=app-accessibility/at-spi2-core dev-libs/glib media-libs/fontconfig sys-a
 RESTRICT=mirror
 SLOT=0
 SRC_URI=amd64? ( https://help.kontur.ru/plugin/dist/kontur.plugin_amd64.deb -> kontur-plugin-4.0.6.244.deb )
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=c088af4a983c5c343046f6f945736996
