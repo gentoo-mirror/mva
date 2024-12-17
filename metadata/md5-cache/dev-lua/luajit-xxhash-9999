@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=lua_targets_luajit? ( dev-lang/luajit:= ) dev-libs/xxhash
 REQUIRED_USE=|| ( lua_targets_luajit )
 SLOT=0
-_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	lua-utils	7c89927eda6f21c4c48136247077ab37	lua	3414f66fe14a8c3ffdb5a894097068c6	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	lua-utils	7c89927eda6f21c4c48136247077ab37	lua	3414f66fe14a8c3ffdb5a894097068c6	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=a921d04b2550e224b8be4364c4bd73a9
