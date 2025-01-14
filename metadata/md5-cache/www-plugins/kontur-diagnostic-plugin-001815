@@ -9,6 +9,6 @@ LICENSE=EULA
 RDEPEND=app-accessibility/at-spi2-core dev-libs/glib x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:3 x11-libs/pango
 RESTRICT=mirror strip
 SLOT=0
-SRC_URI=amd64? ( https://api.kontur.ru/drive/v1/public/diag/files/diag.plugin_amd64.001353.deb -> kontur-diagnostic-plugin-001353.deb )
+SRC_URI=amd64? ( https://api.kontur.ru/drive/v1/public/diag/files/diag.plugin_amd64.001815.deb -> kontur-diagnostic-plugin-001815.deb )
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=0dcf646f681a6e60dbf56398e6508468
