@@ -12,5 +12,5 @@ RDEPEND=alsa? ( media-libs/alsa-lib ) dsp? ( dev-cpp/abseil-cpp:= >=media-libs/t
 REQUIRED_USE=|| ( dsp alsa pulseaudio pipewire )
 SLOT=0
 SRC_URI=https://github.com/telegramdesktop/libtgvoip/archive/2d2592860478e60d972b96e67ee034b8a71bb57a.tar.gz -> libtgvoip-2.4.5_pre20240706.tar.gz
-_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	libtool	6b28392a775f807c8be5fc7ec9a605b9	autotools	7d91cc798a8afd8f4e0c6e9587296ebe	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	libtool	6b28392a775f807c8be5fc7ec9a605b9	autotools	7d91cc798a8afd8f4e0c6e9587296ebe	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=0faa4d8374954475d058543fa162a723
