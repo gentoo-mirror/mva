@@ -218,16 +218,6 @@ net-p2p/librevault:gui - Build GUIs (currently Qt5 only)
 net-p2p/syncthing:new-gui - Install new GUI.
 net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 net-p2p/uhub:tools - Build and install additional tools (currently, ADCrush (ADC stress tester))
-net-voip/mumble:lto - Build with Link Time Optimization
-net-voip/mumble:optimization - Use some build optimizations
-net-voip/mumble:overlay - Enable overlay feature
-net-voip/mumble:pipewire - media-video/pipewire support
-net-voip/mumble:plugins - Plugins support
-net-voip/mumble:qtspeech - Use dev-qt/qtspeech TTS engine
-net-voip/mumble:speech-dispatcher - Use app-accessibility/speech-dispatcher TTS engine
-net-voip/mumble:system-opus - Use installed media-libs/opus instead of bundled
-net-voip/mumble:system-rnnoise - Use installed media-libs/rnnoise instead of bundled
-net-voip/mumble:system-speex - Use installed media-libs/speex instead of bundled
 net-vpn/i2pd:addr-sanitizer - Compile with Address Sanitizer Feature
 net-vpn/i2pd:i2p-hardening - Compile with hardening on vanilla compilers/linkers
 net-vpn/i2pd:thread-sanitizer - Compile with Thread Sanitizer Feature

@@ -48,6 +48,7 @@ app-text/unicode 9999: A tool displaying unicode character properties
 app-vim/nginx-syntax 1.27.3: vim plugin: Nginx configuration files syntax
 app-vim/pfp-vim 9999: vim plugin: 010 Editor template interpreter
 app-vim/vim-tmux 3.0.1_pre20211004: vim plugin: tmux support for vim
+dev-cpp/ada 9999: WHATWG-compliant and fast URL parser written in modern C++
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-cpp/nlohmann_json 9999: C++ class library of cryptographic schemes
@@ -66,7 +67,6 @@ dev-java/gradle 8.10.2: A project automation and build tool with a Groovy based 
 dev-java/picocli 4.6.3-r1: Java command line parser with both an annotations API and a programmatic API
 dev-lang/lal 9999: Session library for OpenResty implementing Secure Cookie Protocol
 dev-lang/luajit 2.1.9999999999: Just-In-Time Compiler for the Lua programming language
-dev-libs/ada 9999: WHATWG-compliant and fast URL parser written in modern C++
 dev-libs/boost-di 1.2.0 9999: C++14 Dependency Injection Library
 dev-libs/flatbuffers 9999: Memory Efficient Serialization Library
 dev-libs/kunifiedpush 24.12.1 9999: UnifiedPush client components
@@ -273,6 +273,7 @@ games-util/libmpq 9999: a library for manipulating MPQ archives, used in Blizzar
 games-util/mpq-tools 9999: utilities for manipulating MPQ archives used in Blizzard games
 gnustep-apps/sogo 5.11.0: Groupware server built around OpenGroupware.org and the SOPE application server
 gnustep-libs/sope 5.11.0: A set of frameworks forming a complete Web application server environment
+gui-apps/wev 1.0.0_p20230128: Wayland event viewer
 media-fonts/b20-sans 20160520: B20 Sans, a sans-serif font
 media-fonts/code2000 1.17.1: TrueType font covering big piece of Unicode (at time of its creation)
 media-fonts/consolamono 20130127: Open Font by Wojciech Kalinowski
@@ -302,7 +303,7 @@ media-libs/libyuv 1854_p20221228: Open source project that includes YUV scaling 
 media-libs/nifti 3.0.1 9999: C libraries for NIFTI support
 media-libs/openslide 3.4.1 9999: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
-media-libs/tg_owt 0_pre20240804-r10 9999: WebRTC (video) library (fork) for Telegram clients
+media-libs/tg_owt 0_pre20241202-r10 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 9999: VIPS Image Processing Library
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
@@ -318,7 +319,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.6.1: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 5.10.3 9999: Official desktop client for Telegram
+net-im/telegram-desktop 5.11.1 9999: Official desktop client for Telegram
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
@@ -343,7 +344,6 @@ net-p2p/etherwall 3.0.5 9999: Qt5 Etherium Wallet
 net-p2p/librevault 9999: Peer-to-peer, decentralized and open source file sync.
 net-p2p/syncthing 9999: Open Source Continuous File Synchronization
 net-p2p/uhub 9999: High performance peer-to-peer hub for the ADC network
-net-voip/mumble 9999: Mumble is an open source, low-latency, high quality voice chat software
 net-vpn/i2pd 9999: A C++ daemon for accessing the I2P anonymous network
 net-vpn/onioncat 4.11.0 9999: An IP-Transparent Tor Hidden Service Connector
 net-vpn/tinc 1.1.9999: tinc is an easy to configure VPN implementation
