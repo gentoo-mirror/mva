@@ -311,7 +311,7 @@ media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
 media-video/haruna 1.2.1 9999: Video player built with Qt/QML on top of libmpv
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-im/clix 9999: XMPP client library written in Lua.
-net-im/jitsi-meet-electron-bin 2025.1.0: Desktop application for Jitsi Meet built with Electron
+net-im/jitsi-meet-electron-bin 2025.2.0: Desktop application for Jitsi Meet built with Electron
 net-im/keywee 9999: WeeChat plugin for Keybase chat
 net-im/matterbridge 9999: Bridge between multiple chat networks
 net-im/prosody 9999: Prosody is a modern XMPP communication server
@@ -369,7 +369,7 @@ www-apps/ctpp2 2.9.0: Tool, separating data processing (business logic) from dat
 www-apps/gitprep 9999: Github clone. you can install Github system into your unix/linux machine.
 www-apps/privatebin 1.5.1: A minimalist pastebin where the server has zero knowledge of pasted data
 www-apps/synapse-admin 0.8.5: Admin UI for Matrix Synapse homeserver
-www-client/chromium-gost 132.0.6834.83-r1: The web browser from Yandex
+www-client/chromium-gost 133.0.6943.98: The web browser from Yandex
 www-plugins/cprocsp-plugin 2.0.14892: CryptoPro Browser Plugin (with additional bundled stuff)
 www-plugins/gosuslugi-plugin 3.1.1.0: Crypto-provider browser plugin for russian e-gov site https://gosuslugi.ru/
 www-plugins/kontur-diagnostic-plugin 001815: System diagnostic browser plugin for SKB Kontur services
