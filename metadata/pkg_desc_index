@@ -376,7 +376,7 @@ www-plugins/kontur-diagnostic-plugin 001815: System diagnostic browser plugin fo
 www-plugins/kontur-plugin 4.0.6.244 4.7.1.1274: Cryptographic browser plugin for SKB Kontur services
 www-plugins/rutoken-plugin 4.7.0: Browser plugin to work with USB smartcards made under RuToken brand
 www-servers/apache-headers 2.4.59: Header files from the Apache Web Server
-www-servers/nginx 1.27.3-r10: Robust, small and high performance http and reverse proxy server
+www-servers/nginx 1.27.4-r10: Robust, small and high performance http and reverse proxy server
 www-servers/nginx-unit 1.34.1-r10 9999: Dynamic web and application server
 x11-apps/edid-decode 9999: Edid decoder
 x11-apps/screenrotator 9999: Automatic screen rotation daemon for X11
