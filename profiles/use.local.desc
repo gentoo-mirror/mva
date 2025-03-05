@@ -46,6 +46,7 @@ dev-libs/mongo-cxx-driver:static-mongoc - Build mongoc statically
 dev-libs/msgpack:boost - Build dev-libs/boost bindings
 dev-libs/msgpack:cxx - Also install CXX version
 dev-lua/iluajit:completion - Add support for completions
+dev-lua/lapis:lua-http - Prefer lua-http SAPI over NginX (actually, dep-only flag)
 dev-lua/lapis:moonscript - Also compile to moonscript, to use with dev-lua/moonscript
 dev-lua/ltn12ce:system-bzip - Use app-arch/bzip2 instead of bundled version
 dev-lua/ltn12ce:system-lzma - Use app-arch/lzma instead of bundled version
