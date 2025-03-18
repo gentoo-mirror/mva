@@ -311,6 +311,7 @@ media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
 media-video/haruna 1.2.1 9999: Video player built with Qt/QML on top of libmpv
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-im/clix 9999: XMPP client library written in Lua.
+net-im/franz-bin 5.10.0: Free messaging app for services like WhatsApp, Slack, Messenger and many more
 net-im/jitsi-meet-electron-bin 2025.2.0: Desktop application for Jitsi Meet built with Electron
 net-im/keywee 9999: WeeChat plugin for Keybase chat
 net-im/matterbridge 9999: Bridge between multiple chat networks
