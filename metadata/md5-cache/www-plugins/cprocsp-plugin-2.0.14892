@@ -11,5 +11,5 @@ RDEPEND=app-crypt/cprocsp !>=app-crypt/cprocsp-5.0.12900
 RESTRICT=bindist mirror strip
 SLOT=0
 SRC_URI=x86? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-ia32.tar.gz -> cprocsp-plugin-2.0.14892_x86.tar.gz ) amd64? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-amd64.tar.gz -> cprocsp-plugin-2.0.14892_amd64.tar.gz ) arm64? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-arm64.tar.gz -> cprocsp-plugin-2.0.14892_arm64.tar.gz ) arm? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-armhf.tar.gz -> cprocsp-plugin-2.0.14892_arm.tar.gz ) mips? ( https://cryptopro.ru/sites/default/files/products/cades/current_release_2_0/cades-linux-mipsel.tar.gz -> cprocsp-plugin-2.0.14892_mipsel.tar.gz )
-_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832
 _md5_=11b4c985f8b7c7c0592a3e1e8ba2f8cd
