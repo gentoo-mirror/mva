@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig nftables? ( app-alternatives/lex app-alternatives/yacc ) virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst prepare prerm unpack
-DEPEND=conntrack? ( net-libs/libnetfilter_conntrack ) netlink? ( net-libs/libnfnetlink ) nftables? ( >=net-libs/libmnl-1.0 >=net-libs/libnftnl-1.0.5 ) pcap? ( net-libs/libpcap ) virtual/os-headers
+DEPEND=conntrack? ( >=net-libs/libnetfilter_conntrack-1.0.6 ) netlink? ( net-libs/libnfnetlink ) nftables? ( >=net-libs/libmnl-1.0:= >=net-libs/libnftnl-1.2.6:= ) pcap? ( net-libs/libpcap ) virtual/os-headers >=sys-kernel/linux-headers-4.4:0
 DESCRIPTION=Linux kernel (2.4+) firewall, NAT and packet mangling tools
 EAPI=8
 HOMEPAGE=https://netfilter.org/projects/iptables/
@@ -9,7 +9,7 @@ INHERIT=systemd autotools toolchain-funcs flag-o-matic git-r3
 IUSE=conntrack ipq ipv6 netlink nftables pcap static-libs
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=conntrack? ( net-libs/libnetfilter_conntrack ) netlink? ( net-libs/libnfnetlink ) nftables? ( >=net-libs/libmnl-1.0 >=net-libs/libnftnl-1.0.5 ) pcap? ( net-libs/libpcap ) nftables? ( net-misc/ethertypes )
+RDEPEND=conntrack? ( >=net-libs/libnetfilter_conntrack-1.0.6 ) netlink? ( net-libs/libnfnetlink ) nftables? ( >=net-libs/libmnl-1.0:= >=net-libs/libnftnl-1.2.6:= ) pcap? ( net-libs/libpcap ) nftables? ( net-misc/ethertypes )
 SLOT=0/11
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	a964c0cbe818b5729da1dbfcee5be861	gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	35f9bf6198bb538e28dcdea5fda274f2	flag-o-matic	e8de74bac929ba17427e740e95707d00	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=01f2437e10ef5acae25f143c6447dff8
+_md5_=4074d1c6f77c779958a477552e2f516a
