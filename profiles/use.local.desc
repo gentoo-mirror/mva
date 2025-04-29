@@ -109,13 +109,13 @@ media-libs/tg_owt:pipewire - Add media-video/pipewire support
 media-libs/vips:analyze - Enable support for analyze feature
 media-libs/vips:archive - Enable support for app-arch/libarchive
 media-libs/vips:cgif - Enable support for media-libs/cgif
+media-libs/vips:cpp-docs - Build C++ documentation (requires dev-util/gi-docgen)
 media-libs/vips:deprecated - Build deprecated components
-media-libs/vips:doc - Build C++ documentation
+media-libs/vips:doc - Build C++ documentation (requires app-text/doxygen)
 media-libs/vips:fits - Enable support for reading FITS images with sci-libs/cfitsio
 media-libs/vips:heif - Enable support for media-libs/libheif
 media-libs/vips:highway - Enable support for dev-cpp/highway
 media-libs/vips:imagequant - Enable support for media-gfx/libimagequant
-media-libs/vips:jpeg-xl - Enable support for JPEG XL files with media-libs/libjxl
 media-libs/vips:jpeg2k - Enable support for jpeg2k using media-libs/openjpeg
 media-libs/vips:matio - Enable support for reading images from Matlab files through sci-libs/matio
 media-libs/vips:nifti - Enable support for media-libs/nifti
