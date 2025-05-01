@@ -371,7 +371,7 @@ sys-fs/mergerfs 9999: Another (FUSE based) union filesystem
 sys-fs/x11fs 9999: Self-syncing tree-merging file system based on FUSE
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
 sys-process/ctop 9999: Top-like interface for container-metrics
-sys-process/systemd-cron 1.5.14 9999: systemd units to create timers for cron directories and crontab
+sys-process/systemd-cron 2.5.1 9999: systemd units to create timers for cron directories and crontab
 virtual/gradle 0: Virtual for gradle
 virtual/noto-emoji-apple 9999: Noto Emoji (patched for Apple emojis) virtual package
 www-apps/ctpp2 2.9.0: Tool, separating data processing (business logic) from data presentation
