@@ -6,7 +6,6 @@ acct-user/uhub 0: System user: uhub
 app-admin/awscli 9999: CLI interface for AWS
 app-admin/cpulimit 9999: Limits the CPU usage of a process
 app-admin/heroku-cli 9.1.0: A tool for creating and managing Heroku apps from the command line
-app-admin/winbox 4.0_beta1: Standalone client for Mikrotik routers
 app-admin/wp-cli 2.11.0: The command line interface for WordPress
 app-arch/jefferson 9999: JFFS2 filesystem extraction tool
 app-crypt/argon2 20190702-r10 99999999: The password hash Argon2, winner of PHC
@@ -309,6 +308,14 @@ media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
 media-sound/mellowplayer 3.5.5 9999: Cloud music integration for your desktop
 media-video/haruna 1.2.1 9999: Video player built with Qt/QML on top of libmpv
+mpv-plugin/kde-do-not-disturb 20230110: Disable the notifications while mpv is running
+mpv-plugin/kde-night-color 20230110 20240910: Disable Night Color while mpv is running
+mpv-plugin/kdialog-open-files 20221016: Use KDialog to add files to playlist, subtitles to playing video or open URLs
+mpv-plugin/mpv-autosub 20210629: Fully automatic subtitle downloading for the MPV media player
+mpv-plugin/mpv-kscreen-doctor 0.2.1 0.2.2: Set the display refresh rate that best approximates the content fps
+mpv-plugin/mpv-mpris 1.2_pre20231027 9999: MPRIS plugin for mpv
+mpv-plugin/mpv-plugin-xrandr 2023.06.19: Automatically invoke the xrandr to set the parameters for the display output
+mpv-plugin/thumbfast 2025.02.05: High-performance on-the-fly thumbnailer script for mpv
 net-firewall/iptables 9999: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-im/clix 9999: XMPP client library written in Lua.
 net-im/franz-bin 5.10.0: Free messaging app for services like WhatsApp, Slack, Messenger and many more

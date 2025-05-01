@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-libs/glib:2 media-video/ffmpeg:=
+DESCRIPTION=MPRIS plugin for mpv
+EAPI=8
+HOMEPAGE=https://github.com/hoyon/mpv-mpris
+INHERIT=mpv-plugin toolchain-funcs git-r3
+IUSE=+autoload
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-libs/glib:2 media-video/ffmpeg:= media-video/mpv:=[cplugins(+),libmpv]
+SLOT=0
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=15fa34e06c055b8fb0a62d931f81b30c

@@ -129,6 +129,7 @@ media-libs/vips:radiance - Enable support for radiance feature
 media-libs/vips:spng - Enable support for media-libs/libspng
 media-libs/vips:svg - Enable support for SVG using gnome-base/librsvg
 media-sound/mellowplayer:widevine - Install the Widevine DRM library
+mpv-plugin/mpv-mpris:autoload - Load plugin automatically
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:ipq - Support for IPQ
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
