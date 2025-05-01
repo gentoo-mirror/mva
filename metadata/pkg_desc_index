@@ -366,6 +366,7 @@ sys-apps/ledmon 0.94: Enclosure LED Utilities
 sys-apps/rkflashtool 6.1 9999: Tool for flashing Rockchip devices
 sys-block/zram-init 11.1 9999: Scripts to support compressed swap devices or ramdisks with zram
 sys-fs/diod 1.0.24 9999: Distributed I/O Daemon - a 9P file server
+sys-fs/gdu 5.30.1-r10: Disk usage analyzer with console interface written in Go
 sys-fs/mergerfs 9999: Another (FUSE based) union filesystem
 sys-fs/x11fs 9999: Self-syncing tree-merging file system based on FUSE
 sys-kernel/acpi-stuff 9999: Few modules for ACPI debugging
