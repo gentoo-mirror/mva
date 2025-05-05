@@ -12,4 +12,4 @@ RDEPEND=dev-libs/glib:2 media-video/ffmpeg:= media-video/mpv:=[cplugins(+),libmp
 SLOT=0
 SRC_URI=https://github.com/hoyon/mpv-mpris/archive/16fee38988bb0f4a0865b6e8c3b332df2d6d8f14.tar.gz -> mpv-mpris-1.2_pre20231027.tar.gz
 _eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
-_md5_=15fa34e06c055b8fb0a62d931f81b30c
+_md5_=a427104864b36e049ee7789ae92ac93b
