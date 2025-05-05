@@ -195,6 +195,7 @@ net-libs/opendht:python - Install Python bindings. Requires dev-python/cython.
 net-libs/opendht:tools - Install extra opendht tools (dhtchat, dhtnode and dhtscanner).
 net-libs/restbed:ipc - Build unix domain socket layer support
 net-libs/tdlib:cli - Build CLI tools
+net-libs/tdlib:e2e-includes - Install includes for td-e2e (needed for net-im/telegram-desktop but doesn't happen by default)
 net-libs/tdlib:low-ram - Split build to many files, which adds possibility to build on machines with low RAM values by price of longer compilation time
 net-libs/tdlib:lto - Enable Link Time Optimizations
 net-mail/dovecot:argon2 - Add support for ARGON2 password schemes
