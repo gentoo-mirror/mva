@@ -12,5 +12,5 @@ RDEPEND=>=dev-cpp/abseil-cpp-20240116.2:= dev-libs/openssl:= media-libs/libjpeg-
 REQUIRED_USE=screencast? ( pipewire )
 SLOT=0/20250501
 SRC_URI=https://github.com/desktop-app/tg_owt/archive/c4192e8e2e10ccb72704daa79fa108becfa57b01.tar.gz -> tg_owt-0_pre20250501.tar.gz https://github.com/cisco/libsrtp/archive/a566a9cfcd619e8327784aa7cff4a1276dc1e895.tar.gz -> libsrtp-a566a9cfcd619e8327784aa7cff4a1276dc1e895.tar.gz https://gitlab.com/chromiumsrc/libyuv/-/archive/04821d1e7d60845525e8db55c7bcd41ef5be9406/libyuv-04821d1e7d60845525e8db55c7bcd41ef5be9406.tar.bz2
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f
 _md5_=6e6571e33ee860b6bc9c843f1293543a
