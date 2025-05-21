@@ -327,7 +327,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.6.1: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 5.14.1 9999: Official desktop client for Telegram
+net-im/telegram-desktop 5.14.3 9999: Official desktop client for Telegram
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
@@ -337,7 +337,7 @@ net-irc/weechat 9999: Portable and multi-interface IRC client
 net-libs/libvncserver 9999: library for creating vnc servers
 net-libs/opendht 3.1.7 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/restbed 4.8 9999: brings asynchronous RESTful functionality to C++14 applications
-net-libs/tdlib 9999: Cross-platform library for building Telegram clients
+net-libs/tdlib 1.9.0_pre20250512 9999: Cross-platform library for building Telegram clients
 net-libs/telegram-qt 9999: Telegram binding for Qt
 net-mail/dovecot 2.3.21.1-r10: An IMAP and POP3 server written with security primarily in mind
 net-misc/android-file-transfer 3.0: Reliable MTP client with minimalistic UI
