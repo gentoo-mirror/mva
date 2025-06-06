@@ -335,7 +335,7 @@ net-im/transwhat 9999: A WhatsApp XMPP Gateway based on Spectrum 2 and Yowsup 3
 net-im/yowsup 9999: A library that enables you to build applications which use the WhatsApp service
 net-irc/weechat 9999: Portable and multi-interface IRC client
 net-libs/libvncserver 9999: library for creating vnc servers
-net-libs/opendht 3.1.7 9999: A lightweight C++11 Distributed Hash Table implementation
+net-libs/opendht 3.4.0 9999: A lightweight C++11 Distributed Hash Table implementation
 net-libs/restbed 4.8 9999: brings asynchronous RESTful functionality to C++14 applications
 net-libs/tdlib 1.9.0_pre20250512 9999: Cross-platform library for building Telegram clients
 net-libs/telegram-qt 9999: Telegram binding for Qt
