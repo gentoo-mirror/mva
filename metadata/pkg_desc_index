@@ -302,7 +302,7 @@ media-libs/libyuv 1854_p20221228: Open source project that includes YUV scaling 
 media-libs/nifti 3.0.1 9999: C libraries for NIFTI support
 media-libs/openslide 3.4.1 9999: C library with simple interface to read virtual slides
 media-libs/rlottie 0.2_p20220107 9999: A platform independent standalone library that plays Lottie Animation
-media-libs/tg_owt 0_pre20250501-r10 9999: WebRTC (video) library (fork) for Telegram clients
+media-libs/tg_owt 0_pre20250515-r10 9999: WebRTC (video) library (fork) for Telegram clients
 media-libs/vips 9999: VIPS Image Processing Library
 media-libs/woff2 9999: font compression reference code
 media-sound/asterisk-sounds-ru-tamara 2.0.2: Asterisk's russian sounds. "Tamara" pack.
@@ -327,7 +327,7 @@ net-im/ratox 9999: A minimal FIFO based client for Tox
 net-im/spectrum2 9999: An open source instant messaging transport
 net-im/swift 9999: An elegant, secure, adaptable and intuitive XMPP Client
 net-im/sydent 2.6.1: Reference Matrix Identity Verification and Lookup Server
-net-im/telegram-desktop 5.15.4 9999: Official desktop client for Telegram
+net-im/telegram-desktop 5.16.3 9999: Official desktop client for Telegram
 net-im/tgl 9999: Telegram library
 net-im/tox-weechat 9999: Tox plugin for WeeChat
 net-im/toxic 9999: A curses-based client for Tox.
