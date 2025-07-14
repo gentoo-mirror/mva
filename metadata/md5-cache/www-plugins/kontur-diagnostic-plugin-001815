@@ -10,5 +10,5 @@ RDEPEND=app-accessibility/at-spi2-core dev-libs/glib x11-libs/cairo x11-libs/gdk
 RESTRICT=mirror strip
 SLOT=0
 SRC_URI=amd64? ( https://api.kontur.ru/drive/v1/public/diag/files/diag.plugin_amd64.001815.deb -> kontur-diagnostic-plugin-001815.deb )
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=0dcf646f681a6e60dbf56398e6508468
