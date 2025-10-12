@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=dev-libs/glib:2 media-video/ffmpeg:= media-video/mpv:=[cplugins(+),libmpv]
 SLOT=0
 SRC_URI=https://github.com/hoyon/mpv-mpris/archive/16fee38988bb0f4a0865b6e8c3b332df2d6d8f14.tar.gz -> mpv-mpris-1.2_pre20231027.tar.gz
-_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
+_eclasses_=mpv-plugin	d5b74b0d4b9aa2b088badc969f11de7a	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
 _md5_=a427104864b36e049ee7789ae92ac93b

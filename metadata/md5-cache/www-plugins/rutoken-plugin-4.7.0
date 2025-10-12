@@ -10,5 +10,5 @@ RDEPEND=sys-apps/pcsc-lite
 RESTRICT=fetch mirror strip
 SLOT=0
 SRC_URI=amd64? ( libnpRutokenPlugin_4.7.0-1_amd64.deb ) x86? ( libnpRutokenPlugin_4.7.0-1_i386.deb ) arm? ( libnpRutokenPlugin_4.7.0-1_armhf.deb ) arm64? ( libnpRutokenPlugin_4.7.0-1_arm64.deb )
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	patches	a3f8b9a16731fb4e6a4f25dbacc35ddc
 _md5_=7acc01beebcfd180e4591d04029f9f25

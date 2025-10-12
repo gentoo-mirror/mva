@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=!sys-process/cronie[anacron] acct-user/_cron-failure acct-group/_cron-failure app-crypt/libmd:= sys-process/cronbase >=sys-apps/systemd-255[-split-usr(-)] !etc-crontab-systemd? ( !sys-process/dcron ) runparts? ( sys-apps/debianutils )
 RESTRICT=test
 SLOT=0
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	systemd	a964c0cbe818b5729da1dbfcee5be861	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=cffeb56cc55dda6ae739a67831cf8d9f
